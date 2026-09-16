@@ -1,0 +1,12 @@
+{
+  "status": "frozen_before_scoring",
+  "model1_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "control_sha256": "e162397f95ac833c2b7e9595ebee54b3fc8d349097abec17b5c718e3a9e9ab9b",
+  "candidate_sha256": "c1bec62fe6360576cf29c038b1d77d48c5da284565606c69a1a4f20bb846904e",
+  "build_source_sha256": "bf92006fe4abebd655fd6faa9954c31595c93d3b3774266b120c37b40db3e99e",
+  "changed_cells_vs_model107": [
+    4
+  ],
+  "single_change": "ILP disappearance cost 2.0 -> 1.0",
+  "kaggle_submitted": false
+}

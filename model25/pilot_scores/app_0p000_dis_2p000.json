@@ -1,0 +1,85 @@
+{
+  "datasets": [
+    {
+      "adj_edge_jaccard": 0.8716211456799315,
+      "dataset": "44b6_87bba6c4",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 13,
+      "edge_fp": 7,
+      "edge_jaccard": 0.8717948717948718,
+      "edge_tp": 136,
+      "node_recall": 0.9607843137254902,
+      "num_pred_nodes": 28158,
+      "total_node_ratio": 0.001992740730197139
+    },
+    {
+      "adj_edge_jaccard": 1.0063747335787638,
+      "dataset": "44b6_95029e92",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 0,
+      "edge_fp": 0,
+      "edge_jaccard": 1.0,
+      "edge_tp": 198,
+      "node_recall": 1.0,
+      "num_pred_nodes": 4832,
+      "total_node_ratio": -0.06374733578763805
+    },
+    {
+      "adj_edge_jaccard": 1.0088818398096748,
+      "dataset": "6bba_2540cd90",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 0,
+      "edge_fp": 0,
+      "edge_jaccard": 1.0,
+      "edge_tp": 523,
+      "node_recall": 1.0,
+      "num_pred_nodes": 3447,
+      "total_node_ratio": -0.08881839809674862
+    },
+    {
+      "adj_edge_jaccard": 0.887459117213714,
+      "dataset": "6bba_d1acb6ff",
+      "division_fn": 1,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 42,
+      "edge_fp": 27,
+      "edge_jaccard": 0.8970149253731343,
+      "edge_tp": 601,
+      "node_recall": 0.9779735682819384,
+      "num_pred_nodes": 16287,
+      "total_node_ratio": 0.10652897615327128
+    }
+  ],
+  "max_distance_um": 7.0,
+  "skipped": [],
+  "status": "valid_and_scored",
+  "structural_totals": {
+    "divisions": 0,
+    "edges": 48799,
+    "nodes": 52724,
+    "tracks": 3925
+  },
+  "submission": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model25/pilot_submissions/app_0p000_dis_2p000.csv",
+  "submission_sha256": "e1c8541eac003282956366543bfa1baccf180f2620f7660dc2b03c0d391d2ede",
+  "summary": {
+    "adj_edge_jaccard": 0.942131807839892,
+    "division_fn": 1,
+    "division_fp": 0,
+    "division_jaccard": 0.0,
+    "division_tp": 0,
+    "edge_jaccard": 0.9424692954104719,
+    "n": 4,
+    "n_adj": 4,
+    "node_recall": 0.9846894705018572,
+    "score": 0.942131807839892
+  },
+  "torch_import_shimmed_for_metadata_only_io": false,
+  "train_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/data/raw/train"
+}

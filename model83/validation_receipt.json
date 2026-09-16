@@ -1,0 +1,49 @@
+{
+  "datasets": {
+    "44b6_0113de3b": {
+      "divisions": 0,
+      "edges": 24345,
+      "frames": 100,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 25322,
+      "tracks": 977
+    },
+    "44b6_0b24845f": {
+      "divisions": 0,
+      "edges": 19769,
+      "frames": 100,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 22345,
+      "tracks": 2576
+    },
+    "6bba_05b6850b": {
+      "divisions": 0,
+      "edges": 5811,
+      "frames": 100,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 6123,
+      "tracks": 312
+    },
+    "6bba_05db0fb1": {
+      "divisions": 0,
+      "edges": 63651,
+      "frames": 100,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 67684,
+      "tracks": 4033
+    }
+  },
+  "path": "/workspace/biohub/model83/submission.csv",
+  "rows": 235050,
+  "status": "valid",
+  "totals": {
+    "divisions": 0,
+    "edges": 113576,
+    "nodes": 121474,
+    "tracks": 7898
+  }
+}

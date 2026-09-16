@@ -1,0 +1,569 @@
+{
+  "status": "valid",
+  "cohort": "confirmation",
+  "source_model130_sha256": "1d0752bbdad4f43f1ea50aaad07ac7d8e5e9a3c07484301592f55898cc8df3d5",
+  "prior_model137_report_sha256": "1237f2a234ccffb9ad8746963b728659475b7b618c1a6a45c29c2d1903906768",
+  "classifier_sha256": "a5227ff5707db1b059f0fc14d99c90cd48bd727abd7d654eb8a4919ea9ddcea8",
+  "candidate_sha256": "c55b3d7bc5f9d55c92259e7d19de71fc9948db5645d61ac5b657cd5f4bac37b1",
+  "source_code_sha256": "6a2a7e8479c76b95371024b04da05b4134b853e3c9033bd79aaf6316d8dc7937",
+  "cutoff": 0.8,
+  "totals": {
+    "evaluated": 1349,
+    "prior_accepted": 7,
+    "accepted": 54,
+    "newly_accepted": 47
+  },
+  "movies": [
+    {
+      "movie": "44b6_0c582fdc",
+      "evaluated": 46,
+      "prior_accepted": 1,
+      "accepted": 6,
+      "newly_accepted": 5,
+      "selected_edges": [
+        [
+          5939,
+          6305
+        ],
+        [
+          12739,
+          13081
+        ],
+        [
+          13331,
+          13658
+        ],
+        [
+          18849,
+          19158
+        ],
+        [
+          22884,
+          23160
+        ],
+        [
+          28173,
+          28419
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_12dfb391",
+      "evaluated": 99,
+      "prior_accepted": 0,
+      "accepted": 5,
+      "newly_accepted": 5,
+      "selected_edges": [
+        [
+          3833,
+          4282
+        ],
+        [
+          22187,
+          22675
+        ],
+        [
+          27685,
+          28185
+        ],
+        [
+          44006,
+          44575
+        ],
+        [
+          44075,
+          44686
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_144b256d",
+      "evaluated": 11,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_40c45f5a",
+      "evaluated": 63,
+      "prior_accepted": 0,
+      "accepted": 3,
+      "newly_accepted": 3,
+      "selected_edges": [
+        [
+          922,
+          1176
+        ],
+        [
+          15542,
+          15920
+        ],
+        [
+          15742,
+          16080
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_5f15d135",
+      "evaluated": 36,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_7a302da0",
+      "evaluated": 85,
+      "prior_accepted": 1,
+      "accepted": 3,
+      "newly_accepted": 2,
+      "selected_edges": [
+        [
+          11708,
+          12312
+        ],
+        [
+          20197,
+          20789
+        ],
+        [
+          48131,
+          48641
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_7e557709",
+      "evaluated": 82,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          43495,
+          44044
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_87bba6c4",
+      "evaluated": 59,
+      "prior_accepted": 0,
+      "accepted": 2,
+      "newly_accepted": 2,
+      "selected_edges": [
+        [
+          14645,
+          15098
+        ],
+        [
+          21708,
+          22157
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_8cc6506c",
+      "evaluated": 23,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_8f9ecab4",
+      "evaluated": 43,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_949adeb1",
+      "evaluated": 78,
+      "prior_accepted": 0,
+      "accepted": 4,
+      "newly_accepted": 4,
+      "selected_edges": [
+        [
+          3657,
+          4009
+        ],
+        [
+          3826,
+          4166
+        ],
+        [
+          9814,
+          10167
+        ],
+        [
+          40885,
+          41495
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_97725144",
+      "evaluated": 22,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_996155de",
+      "evaluated": 7,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_a2bb48bb",
+      "evaluated": 97,
+      "prior_accepted": 3,
+      "accepted": 7,
+      "newly_accepted": 4,
+      "selected_edges": [
+        [
+          33770,
+          34462
+        ],
+        [
+          34339,
+          34971
+        ],
+        [
+          43123,
+          43774
+        ],
+        [
+          47371,
+          48039
+        ],
+        [
+          49398,
+          50027
+        ],
+        [
+          55289,
+          56011
+        ],
+        [
+          60519,
+          61119
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_aaf8b0ea",
+      "evaluated": 13,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_cf8fed6b",
+      "evaluated": 65,
+      "prior_accepted": 0,
+      "accepted": 2,
+      "newly_accepted": 2,
+      "selected_edges": [
+        [
+          3153,
+          3468
+        ],
+        [
+          39244,
+          39740
+        ]
+      ]
+    },
+    {
+      "movie": "44b6_d29c9ab2",
+      "evaluated": 47,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_d78e09d9",
+      "evaluated": 41,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "44b6_e28840c6",
+      "evaluated": 29,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_12665c0e",
+      "evaluated": 13,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          7603,
+          7663
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_1ebfb80d",
+      "evaluated": 19,
+      "prior_accepted": 0,
+      "accepted": 2,
+      "newly_accepted": 2,
+      "selected_edges": [
+        [
+          1955,
+          2172
+        ],
+        [
+          4159,
+          4345
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_20852818",
+      "evaluated": 13,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          7551,
+          7675
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_2540cd90",
+      "evaluated": 2,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          2525,
+          2560
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_268e1230",
+      "evaluated": 6,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_372c8cb8",
+      "evaluated": 7,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          6792,
+          6864
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_3a1849c2",
+      "evaluated": 5,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_3c5691b6",
+      "evaluated": 3,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          3438,
+          3514
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_474be664",
+      "evaluated": 26,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          3751,
+          4081
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_5b28472a",
+      "evaluated": 4,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_6db0e9b4",
+      "evaluated": 34,
+      "prior_accepted": 1,
+      "accepted": 2,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          1076,
+          1384
+        ],
+        [
+          1666,
+          1987
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_74686d6a",
+      "evaluated": 40,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_7f87b3d8",
+      "evaluated": 12,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_9a41d029",
+      "evaluated": 37,
+      "prior_accepted": 0,
+      "accepted": 3,
+      "newly_accepted": 3,
+      "selected_edges": [
+        [
+          1135,
+          1269
+        ],
+        [
+          15873,
+          16120
+        ],
+        [
+          17819,
+          18060
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_ae82a791",
+      "evaluated": 12,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_ed9377fd",
+      "evaluated": 2,
+      "prior_accepted": 0,
+      "accepted": 0,
+      "newly_accepted": 0,
+      "selected_edges": []
+    },
+    {
+      "movie": "6bba_edf14583",
+      "evaluated": 72,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          13428,
+          14133
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_f17befbc",
+      "evaluated": 40,
+      "prior_accepted": 1,
+      "accepted": 3,
+      "newly_accepted": 2,
+      "selected_edges": [
+        [
+          13080,
+          13506
+        ],
+        [
+          19579,
+          19989
+        ],
+        [
+          19837,
+          20230
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_f1fde7e0",
+      "evaluated": 14,
+      "prior_accepted": 0,
+      "accepted": 1,
+      "newly_accepted": 1,
+      "selected_edges": [
+        [
+          3085,
+          3239
+        ]
+      ]
+    },
+    {
+      "movie": "6bba_f8ffd5e7",
+      "evaluated": 42,
+      "prior_accepted": 0,
+      "accepted": 3,
+      "newly_accepted": 3,
+      "selected_edges": [
+        [
+          7943,
+          8261
+        ],
+        [
+          26673,
+          27019
+        ],
+        [
+          28004,
+          28413
+        ]
+      ]
+    }
+  ],
+  "caveat": "One inference-only cutoff change; exact scorer required."
+}

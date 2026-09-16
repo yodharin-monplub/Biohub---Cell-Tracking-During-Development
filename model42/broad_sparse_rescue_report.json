@@ -1,0 +1,43 @@
+{
+  "candidate_csv": "model37/broad_real_division_candidates.csv",
+  "candidate_sha256": "36be1230a09ea7470d926dc0050a6ff5d2f5a882a75702ca1cc3b3ec029a8d79",
+  "candidates_passing_gate": 17,
+  "datasets_skipped_for_existing_forks": [
+    "44b6_18ced818",
+    "44b6_808952d6",
+    "44b6_87bba6c4",
+    "44b6_95029e92",
+    "44b6_b2c44266",
+    "44b6_c771cb04",
+    "44b6_d29c9ab2",
+    "44b6_d78e09d9",
+    "6bba_13f19531",
+    "6bba_2540cd90",
+    "6bba_283bf9f1",
+    "6bba_57b7cc1e",
+    "6bba_789f8168",
+    "6bba_a90a0b9c",
+    "6bba_ae82a791",
+    "6bba_af149c94",
+    "6bba_d0fc38b5",
+    "6bba_d1acb6ff",
+    "6bba_d82a4fc6"
+  ],
+  "edges_added": 1,
+  "input_csv": "model38/broad_real_division_p80.csv",
+  "input_sha256": "b643d857b377fead9b0ae96db4fe54b0f23e122fd1fbb6bb2517ecfa68d5c616",
+  "output_csv": "model42/broad_sparse_rescue.csv",
+  "output_sha256": "2e7256918b2757abf1de54ba25dd67d8b29da1cc2ab04c4bcf595d35f31db1c6",
+  "probability_interval": [
+    0.45,
+    0.5668243328192077
+  ],
+  "selected": {
+    "6bba_aeee7805": {
+      "probability": 0.47941171830240736,
+      "source_id": 826,
+      "target_id": 884
+    }
+  },
+  "status": "complete"
+}

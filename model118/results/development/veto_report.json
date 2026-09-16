@@ -1,0 +1,3940 @@
+{
+  "status": "valid",
+  "cohort": "development",
+  "threshold": 0.4,
+  "source_sha256": "e18ca4d45dfe4d3722b4c4e1029374caf84d7de729235ef04605ac4b76160645",
+  "candidate_sha256": "f2adc579b4ba4829f4a97c6439f8dae7ecf1a6d4b2162ddf8f08cc2001a24dbf",
+  "config_sha256": "14db36c2f05c78e159d54f57a4db4d6803a11722d138734674e268efa406b167",
+  "source_code_sha256": "8e768210700c291e06203704023358ee1caad69ed28ec9dfed7543b6ab799f40",
+  "totals": {
+    "forks": 1834,
+    "forks_without_exactly_one_post_ilp_edge": 49,
+    "removed_division_edges": 707,
+    "repair_probability_missing": 34
+  },
+  "movies": [
+    {
+      "movie": "44b6_1d530831",
+      "stats": {
+        "forks": 126,
+        "forks_without_exactly_one_post_ilp_edge": 2,
+        "removed_division_edges": 47
+      },
+      "edits": [
+        {
+          "source_id": 780,
+          "target_id": 1117,
+          "probability": 0.053267475217580795
+        },
+        {
+          "source_id": 933,
+          "target_id": 1266,
+          "probability": 0.39009392261505127
+        },
+        {
+          "source_id": 1869,
+          "target_id": 2227,
+          "probability": 0.22467923164367676
+        },
+        {
+          "source_id": 3463,
+          "target_id": 3797,
+          "probability": 0.2550307810306549
+        },
+        {
+          "source_id": 3792,
+          "target_id": 4138,
+          "probability": 0.19638898968696594
+        },
+        {
+          "source_id": 4605,
+          "target_id": 4993,
+          "probability": 0.19272245466709137
+        },
+        {
+          "source_id": 4671,
+          "target_id": 5052,
+          "probability": 0.2453611195087433
+        },
+        {
+          "source_id": 6464,
+          "target_id": 6813,
+          "probability": 0.25158873200416565
+        },
+        {
+          "source_id": 8755,
+          "target_id": 9109,
+          "probability": 0.36427244544029236
+        },
+        {
+          "source_id": 10012,
+          "target_id": 10372,
+          "probability": 0.16029728949069977
+        },
+        {
+          "source_id": 11194,
+          "target_id": 11554,
+          "probability": 0.29596179723739624
+        },
+        {
+          "source_id": 11561,
+          "target_id": 11924,
+          "probability": 0.08361215144395828
+        },
+        {
+          "source_id": 11959,
+          "target_id": 12304,
+          "probability": 0.2721128463745117
+        },
+        {
+          "source_id": 12474,
+          "target_id": 12822,
+          "probability": 0.12471886724233627
+        },
+        {
+          "source_id": 12878,
+          "target_id": 13266,
+          "probability": 0.033058103173971176
+        },
+        {
+          "source_id": 13097,
+          "target_id": 13458,
+          "probability": 0.1426991969347
+        },
+        {
+          "source_id": 14055,
+          "target_id": 14378,
+          "probability": 0.38032618165016174
+        },
+        {
+          "source_id": 14680,
+          "target_id": 15039,
+          "probability": 0.34240370988845825
+        },
+        {
+          "source_id": 15121,
+          "target_id": 15489,
+          "probability": 0.17358435690402985
+        },
+        {
+          "source_id": 17215,
+          "target_id": 17569,
+          "probability": 0.08492258936166763
+        },
+        {
+          "source_id": 17793,
+          "target_id": 18202,
+          "probability": 0.1948590725660324
+        },
+        {
+          "source_id": 17819,
+          "target_id": 18205,
+          "probability": 0.2546521723270416
+        },
+        {
+          "source_id": 18268,
+          "target_id": 18632,
+          "probability": 0.38067564368247986
+        },
+        {
+          "source_id": 19147,
+          "target_id": 19545,
+          "probability": 0.2087251991033554
+        },
+        {
+          "source_id": 19472,
+          "target_id": 19874,
+          "probability": 0.20897801220417023
+        },
+        {
+          "source_id": 19797,
+          "target_id": 20172,
+          "probability": 0.3410561680793762
+        },
+        {
+          "source_id": 21593,
+          "target_id": 21961,
+          "probability": 0.33390721678733826
+        },
+        {
+          "source_id": 22260,
+          "target_id": 22691,
+          "probability": 0.20963738858699799
+        },
+        {
+          "source_id": 22488,
+          "target_id": 22889,
+          "probability": 0.34469035267829895
+        },
+        {
+          "source_id": 23398,
+          "target_id": 23772,
+          "probability": 0.27306661009788513
+        },
+        {
+          "source_id": 23840,
+          "target_id": 24230,
+          "probability": 0.34182846546173096
+        },
+        {
+          "source_id": 24077,
+          "target_id": 24492,
+          "probability": 0.34132564067840576
+        },
+        {
+          "source_id": 24567,
+          "target_id": 25023,
+          "probability": 0.33365514874458313
+        },
+        {
+          "source_id": 26379,
+          "target_id": 26853,
+          "probability": 0.30672526359558105
+        },
+        {
+          "source_id": 26940,
+          "target_id": 27389,
+          "probability": 0.12907886505126953
+        },
+        {
+          "source_id": 28400,
+          "target_id": 28887,
+          "probability": 0.3450094759464264
+        },
+        {
+          "source_id": 28520,
+          "target_id": 28960,
+          "probability": 0.28887155652046204
+        },
+        {
+          "source_id": 28938,
+          "target_id": 29411,
+          "probability": 0.35400938987731934
+        },
+        {
+          "source_id": 29213,
+          "target_id": 29701,
+          "probability": 0.0963854119181633
+        },
+        {
+          "source_id": 29694,
+          "target_id": 30193,
+          "probability": 0.0895097628235817
+        },
+        {
+          "source_id": 30159,
+          "target_id": 30675,
+          "probability": 0.15929490327835083
+        },
+        {
+          "source_id": 30380,
+          "target_id": 30907,
+          "probability": 0.3961142897605896
+        },
+        {
+          "source_id": 31345,
+          "target_id": 31879,
+          "probability": 0.07741208374500275
+        },
+        {
+          "source_id": 32177,
+          "target_id": 32660,
+          "probability": 0.16082124412059784
+        },
+        {
+          "source_id": 32396,
+          "target_id": 32972,
+          "probability": 0.3768140375614166
+        },
+        {
+          "source_id": 32465,
+          "target_id": 32921,
+          "probability": 0.3117496967315674
+        },
+        {
+          "source_id": 33252,
+          "target_id": 33753,
+          "probability": 0.26204851269721985
+        }
+      ]
+    },
+    {
+      "movie": "44b6_2a2eff9f",
+      "stats": {
+        "forks": 134,
+        "forks_without_exactly_one_post_ilp_edge": 7,
+        "repair_probability_missing": 2,
+        "removed_division_edges": 49
+      },
+      "edits": [
+        {
+          "source_id": 701,
+          "target_id": 1235,
+          "probability": 0.30481502413749695
+        },
+        {
+          "source_id": 781,
+          "target_id": 1335,
+          "probability": 0.32905080914497375
+        },
+        {
+          "source_id": 3822,
+          "target_id": 4372,
+          "probability": 0.39090025424957275
+        },
+        {
+          "source_id": 5693,
+          "target_id": 6245,
+          "probability": 0.1285766363143921
+        },
+        {
+          "source_id": 6231,
+          "target_id": 6734,
+          "probability": 0.3272371292114258
+        },
+        {
+          "source_id": 6861,
+          "target_id": 7393,
+          "probability": 0.18553870916366577
+        },
+        {
+          "source_id": 7378,
+          "target_id": 7851,
+          "probability": 0.34598100185394287
+        },
+        {
+          "source_id": 8020,
+          "target_id": 8508,
+          "probability": 0.295096755027771
+        },
+        {
+          "source_id": 9231,
+          "target_id": 9722,
+          "probability": 0.35960206389427185
+        },
+        {
+          "source_id": 9503,
+          "target_id": 10022,
+          "probability": 0.03846985846757889
+        },
+        {
+          "source_id": 10280,
+          "target_id": 10785,
+          "probability": 0.04017803072929382
+        },
+        {
+          "source_id": 10499,
+          "target_id": 10987,
+          "probability": 0.1895548403263092
+        },
+        {
+          "source_id": 11488,
+          "target_id": 11957,
+          "probability": 0.17583850026130676
+        },
+        {
+          "source_id": 12482,
+          "target_id": 12945,
+          "probability": 0.023486217483878136
+        },
+        {
+          "source_id": 13534,
+          "target_id": 14040,
+          "probability": 0.3552968204021454
+        },
+        {
+          "source_id": 16132,
+          "target_id": 16579,
+          "probability": 0.3203040361404419
+        },
+        {
+          "source_id": 16166,
+          "target_id": 16600,
+          "probability": 0.15103232860565186
+        },
+        {
+          "source_id": 16773,
+          "target_id": 17262,
+          "probability": 0.2570990324020386
+        },
+        {
+          "source_id": 17021,
+          "target_id": 17499,
+          "probability": 0.2758500874042511
+        },
+        {
+          "source_id": 18117,
+          "target_id": 18539,
+          "probability": 0.33056965470314026
+        },
+        {
+          "source_id": 18157,
+          "target_id": 18610,
+          "probability": 0.37924203276634216
+        },
+        {
+          "source_id": 18372,
+          "target_id": 18805,
+          "probability": 0.36294713616371155
+        },
+        {
+          "source_id": 18532,
+          "target_id": 18954,
+          "probability": 0.1902897208929062
+        },
+        {
+          "source_id": 19821,
+          "target_id": 20288,
+          "probability": 0.36453819274902344
+        },
+        {
+          "source_id": 20697,
+          "target_id": 21120,
+          "probability": 0.12389639765024185
+        },
+        {
+          "source_id": 21611,
+          "target_id": 22011,
+          "probability": 0.3911536633968353
+        },
+        {
+          "source_id": 21816,
+          "target_id": 22264,
+          "probability": 0.15031473338603973
+        },
+        {
+          "source_id": 22121,
+          "target_id": 22563,
+          "probability": 0.2545247972011566
+        },
+        {
+          "source_id": 22211,
+          "target_id": 22685,
+          "probability": 0.2189280092716217
+        },
+        {
+          "source_id": 22773,
+          "target_id": 23227,
+          "probability": 0.27341583371162415
+        },
+        {
+          "source_id": 23562,
+          "target_id": 23965,
+          "probability": 0.3230145573616028
+        },
+        {
+          "source_id": 24616,
+          "target_id": 25022,
+          "probability": 0.39917251467704773
+        },
+        {
+          "source_id": 24735,
+          "target_id": 25143,
+          "probability": 0.31687498092651367
+        },
+        {
+          "source_id": 26160,
+          "target_id": 26564,
+          "probability": 0.35730502009391785
+        },
+        {
+          "source_id": 28423,
+          "target_id": 28908,
+          "probability": 0.08872957527637482
+        },
+        {
+          "source_id": 28428,
+          "target_id": 28870,
+          "probability": 0.20762570202350616
+        },
+        {
+          "source_id": 28889,
+          "target_id": 29395,
+          "probability": 0.3524860143661499
+        },
+        {
+          "source_id": 29842,
+          "target_id": 30334,
+          "probability": 0.2426852136850357
+        },
+        {
+          "source_id": 30674,
+          "target_id": 31126,
+          "probability": 0.2876370847225189
+        },
+        {
+          "source_id": 30771,
+          "target_id": 31240,
+          "probability": 0.17363205552101135
+        },
+        {
+          "source_id": 31270,
+          "target_id": 31746,
+          "probability": 0.27364152669906616
+        },
+        {
+          "source_id": 31686,
+          "target_id": 32170,
+          "probability": 0.2076469361782074
+        },
+        {
+          "source_id": 32612,
+          "target_id": 33136,
+          "probability": 0.20636872947216034
+        },
+        {
+          "source_id": 32824,
+          "target_id": 33306,
+          "probability": 0.3062971234321594
+        },
+        {
+          "source_id": 33204,
+          "target_id": 33674,
+          "probability": 0.3408757448196411
+        },
+        {
+          "source_id": 34931,
+          "target_id": 35392,
+          "probability": 0.17041173577308655
+        },
+        {
+          "source_id": 35468,
+          "target_id": 35930,
+          "probability": 0.017869988456368446
+        },
+        {
+          "source_id": 36249,
+          "target_id": 36723,
+          "probability": 0.336574912071228
+        },
+        {
+          "source_id": 36785,
+          "target_id": 37307,
+          "probability": 0.31419533491134644
+        }
+      ]
+    },
+    {
+      "movie": "44b6_3bb3690f",
+      "stats": {
+        "forks": 37,
+        "forks_without_exactly_one_post_ilp_edge": 2,
+        "removed_division_edges": 14
+      },
+      "edits": [
+        {
+          "source_id": 781,
+          "target_id": 988,
+          "probability": 0.19994071125984192
+        },
+        {
+          "source_id": 1707,
+          "target_id": 1903,
+          "probability": 0.30301788449287415
+        },
+        {
+          "source_id": 2342,
+          "target_id": 2544,
+          "probability": 0.28732407093048096
+        },
+        {
+          "source_id": 2531,
+          "target_id": 2744,
+          "probability": 0.3179374039173126
+        },
+        {
+          "source_id": 3846,
+          "target_id": 4084,
+          "probability": 0.36178407073020935
+        },
+        {
+          "source_id": 5761,
+          "target_id": 5965,
+          "probability": 0.30565980076789856
+        },
+        {
+          "source_id": 7863,
+          "target_id": 8051,
+          "probability": 0.05472230166196823
+        },
+        {
+          "source_id": 8618,
+          "target_id": 8822,
+          "probability": 0.3084750473499298
+        },
+        {
+          "source_id": 9909,
+          "target_id": 10091,
+          "probability": 0.18549102544784546
+        },
+        {
+          "source_id": 10708,
+          "target_id": 10881,
+          "probability": 0.21640846133232117
+        },
+        {
+          "source_id": 11207,
+          "target_id": 11393,
+          "probability": 0.38979679346084595
+        },
+        {
+          "source_id": 12327,
+          "target_id": 12531,
+          "probability": 0.09237702190876007
+        },
+        {
+          "source_id": 13738,
+          "target_id": 13927,
+          "probability": 0.1889541894197464
+        },
+        {
+          "source_id": 16133,
+          "target_id": 16344,
+          "probability": 0.14716754853725433
+        }
+      ]
+    },
+    {
+      "movie": "44b6_668e0cc7",
+      "stats": {
+        "forks": 65,
+        "repair_probability_missing": 2,
+        "forks_without_exactly_one_post_ilp_edge": 4,
+        "removed_division_edges": 25
+      },
+      "edits": [
+        {
+          "source_id": 439,
+          "target_id": 589,
+          "probability": 0.29509592056274414
+        },
+        {
+          "source_id": 2043,
+          "target_id": 2289,
+          "probability": 0.24501977860927582
+        },
+        {
+          "source_id": 4080,
+          "target_id": 4275,
+          "probability": 0.2626029849052429
+        },
+        {
+          "source_id": 4453,
+          "target_id": 4712,
+          "probability": 0.31921225786209106
+        },
+        {
+          "source_id": 4517,
+          "target_id": 4752,
+          "probability": 0.24350488185882568
+        },
+        {
+          "source_id": 5242,
+          "target_id": 5575,
+          "probability": 0.302575021982193
+        },
+        {
+          "source_id": 8936,
+          "target_id": 9319,
+          "probability": 0.04850170761346817
+        },
+        {
+          "source_id": 9836,
+          "target_id": 10216,
+          "probability": 0.36308249831199646
+        },
+        {
+          "source_id": 10109,
+          "target_id": 10465,
+          "probability": 0.32716307044029236
+        },
+        {
+          "source_id": 11715,
+          "target_id": 12118,
+          "probability": 0.06178717315196991
+        },
+        {
+          "source_id": 11863,
+          "target_id": 12277,
+          "probability": 0.3663065731525421
+        },
+        {
+          "source_id": 12579,
+          "target_id": 12984,
+          "probability": 0.28485822677612305
+        },
+        {
+          "source_id": 14232,
+          "target_id": 14618,
+          "probability": 0.2754991948604584
+        },
+        {
+          "source_id": 14979,
+          "target_id": 15374,
+          "probability": 0.38659945130348206
+        },
+        {
+          "source_id": 15354,
+          "target_id": 15833,
+          "probability": 0.28645697236061096
+        },
+        {
+          "source_id": 16685,
+          "target_id": 17189,
+          "probability": 0.29255133867263794
+        },
+        {
+          "source_id": 17151,
+          "target_id": 17627,
+          "probability": 0.38315704464912415
+        },
+        {
+          "source_id": 21549,
+          "target_id": 21967,
+          "probability": 0.27507248520851135
+        },
+        {
+          "source_id": 23686,
+          "target_id": 24129,
+          "probability": 0.27338549494743347
+        },
+        {
+          "source_id": 23695,
+          "target_id": 24138,
+          "probability": 0.2647372782230377
+        },
+        {
+          "source_id": 23796,
+          "target_id": 24257,
+          "probability": 0.18875466287136078
+        },
+        {
+          "source_id": 26449,
+          "target_id": 26904,
+          "probability": 0.031595878303050995
+        },
+        {
+          "source_id": 27444,
+          "target_id": 27933,
+          "probability": 0.32873907685279846
+        },
+        {
+          "source_id": 30588,
+          "target_id": 31052,
+          "probability": 0.3554720878601074
+        },
+        {
+          "source_id": 31530,
+          "target_id": 31967,
+          "probability": 0.33195945620536804
+        }
+      ]
+    },
+    {
+      "movie": "44b6_706092f0",
+      "stats": {
+        "forks": 28,
+        "removed_division_edges": 14
+      },
+      "edits": [
+        {
+          "source_id": 1873,
+          "target_id": 2241,
+          "probability": 0.35594767332077026
+        },
+        {
+          "source_id": 5080,
+          "target_id": 5441,
+          "probability": 0.10966234654188156
+        },
+        {
+          "source_id": 5204,
+          "target_id": 5513,
+          "probability": 0.29006674885749817
+        },
+        {
+          "source_id": 9017,
+          "target_id": 9358,
+          "probability": 0.3532087206840515
+        },
+        {
+          "source_id": 13698,
+          "target_id": 14139,
+          "probability": 0.18913184106349945
+        },
+        {
+          "source_id": 19105,
+          "target_id": 19481,
+          "probability": 0.18146364390850067
+        },
+        {
+          "source_id": 20272,
+          "target_id": 20657,
+          "probability": 0.27392497658729553
+        },
+        {
+          "source_id": 20799,
+          "target_id": 21171,
+          "probability": 0.38927435874938965
+        },
+        {
+          "source_id": 24976,
+          "target_id": 25347,
+          "probability": 0.38703787326812744
+        },
+        {
+          "source_id": 25966,
+          "target_id": 26358,
+          "probability": 0.22302114963531494
+        },
+        {
+          "source_id": 26001,
+          "target_id": 26347,
+          "probability": 0.2585299015045166
+        },
+        {
+          "source_id": 27197,
+          "target_id": 27601,
+          "probability": 0.22561480104923248
+        },
+        {
+          "source_id": 33352,
+          "target_id": 33741,
+          "probability": 0.06645449995994568
+        },
+        {
+          "source_id": 35416,
+          "target_id": 35748,
+          "probability": 0.34456387162208557
+        }
+      ]
+    },
+    {
+      "movie": "44b6_71a4179f",
+      "stats": {
+        "forks": 41,
+        "forks_without_exactly_one_post_ilp_edge": 2,
+        "removed_division_edges": 20
+      },
+      "edits": [
+        {
+          "source_id": 1953,
+          "target_id": 2403,
+          "probability": 0.28843438625335693
+        },
+        {
+          "source_id": 3275,
+          "target_id": 3685,
+          "probability": 0.24421165883541107
+        },
+        {
+          "source_id": 3481,
+          "target_id": 3934,
+          "probability": 0.22190016508102417
+        },
+        {
+          "source_id": 4862,
+          "target_id": 5265,
+          "probability": 0.04378993436694145
+        },
+        {
+          "source_id": 8594,
+          "target_id": 9018,
+          "probability": 0.37007373571395874
+        },
+        {
+          "source_id": 8656,
+          "target_id": 9042,
+          "probability": 0.1138000637292862
+        },
+        {
+          "source_id": 13142,
+          "target_id": 13550,
+          "probability": 0.23357512056827545
+        },
+        {
+          "source_id": 13480,
+          "target_id": 13874,
+          "probability": 0.2904970347881317
+        },
+        {
+          "source_id": 13736,
+          "target_id": 14169,
+          "probability": 0.3971429467201233
+        },
+        {
+          "source_id": 14439,
+          "target_id": 14791,
+          "probability": 0.17948119342327118
+        },
+        {
+          "source_id": 17230,
+          "target_id": 17581,
+          "probability": 0.11879784613847733
+        },
+        {
+          "source_id": 18457,
+          "target_id": 18846,
+          "probability": 0.20319832861423492
+        },
+        {
+          "source_id": 27538,
+          "target_id": 27931,
+          "probability": 0.16165517270565033
+        },
+        {
+          "source_id": 27770,
+          "target_id": 28142,
+          "probability": 0.25100472569465637
+        },
+        {
+          "source_id": 28587,
+          "target_id": 28978,
+          "probability": 0.11989288032054901
+        },
+        {
+          "source_id": 30730,
+          "target_id": 31131,
+          "probability": 0.3082256317138672
+        },
+        {
+          "source_id": 32107,
+          "target_id": 32549,
+          "probability": 0.1624113917350769
+        },
+        {
+          "source_id": 32548,
+          "target_id": 33009,
+          "probability": 0.16763807833194733
+        },
+        {
+          "source_id": 35739,
+          "target_id": 36092,
+          "probability": 0.09219592809677124
+        },
+        {
+          "source_id": 36995,
+          "target_id": 37363,
+          "probability": 0.33438676595687866
+        }
+      ]
+    },
+    {
+      "movie": "44b6_74d0c52e",
+      "stats": {
+        "forks": 24,
+        "repair_probability_missing": 1,
+        "removed_division_edges": 6
+      },
+      "edits": [
+        {
+          "source_id": 926,
+          "target_id": 1015,
+          "probability": 0.13339343667030334
+        },
+        {
+          "source_id": 3853,
+          "target_id": 3973,
+          "probability": 0.25755003094673157
+        },
+        {
+          "source_id": 3972,
+          "target_id": 4085,
+          "probability": 0.2977750301361084
+        },
+        {
+          "source_id": 5362,
+          "target_id": 5481,
+          "probability": 0.1336955577135086
+        },
+        {
+          "source_id": 5884,
+          "target_id": 6001,
+          "probability": 0.27647021412849426
+        },
+        {
+          "source_id": 9403,
+          "target_id": 9488,
+          "probability": 0.38212186098098755
+        }
+      ]
+    },
+    {
+      "movie": "44b6_808952d6",
+      "stats": {
+        "forks": 37,
+        "removed_division_edges": 10
+      },
+      "edits": [
+        {
+          "source_id": 2722,
+          "target_id": 2900,
+          "probability": 0.3234197497367859
+        },
+        {
+          "source_id": 2844,
+          "target_id": 3030,
+          "probability": 0.36511993408203125
+        },
+        {
+          "source_id": 4843,
+          "target_id": 5031,
+          "probability": 0.2825118899345398
+        },
+        {
+          "source_id": 6809,
+          "target_id": 6993,
+          "probability": 0.25222769379615784
+        },
+        {
+          "source_id": 7198,
+          "target_id": 7384,
+          "probability": 0.12849269807338715
+        },
+        {
+          "source_id": 8878,
+          "target_id": 9060,
+          "probability": 0.15477627515792847
+        },
+        {
+          "source_id": 9736,
+          "target_id": 9901,
+          "probability": 0.2798158526420593
+        },
+        {
+          "source_id": 10096,
+          "target_id": 10254,
+          "probability": 0.3444826900959015
+        },
+        {
+          "source_id": 10752,
+          "target_id": 10920,
+          "probability": 0.15465904772281647
+        },
+        {
+          "source_id": 10951,
+          "target_id": 11116,
+          "probability": 0.07683134078979492
+        }
+      ]
+    },
+    {
+      "movie": "44b6_90724892",
+      "stats": {
+        "forks": 52,
+        "removed_division_edges": 20
+      },
+      "edits": [
+        {
+          "source_id": 431,
+          "target_id": 694,
+          "probability": 0.24730777740478516
+        },
+        {
+          "source_id": 2427,
+          "target_id": 2691,
+          "probability": 0.341170996427536
+        },
+        {
+          "source_id": 2506,
+          "target_id": 2764,
+          "probability": 0.08291688561439514
+        },
+        {
+          "source_id": 3422,
+          "target_id": 3698,
+          "probability": 0.25423336029052734
+        },
+        {
+          "source_id": 3594,
+          "target_id": 3893,
+          "probability": 0.11506958305835724
+        },
+        {
+          "source_id": 4839,
+          "target_id": 5143,
+          "probability": 0.06278951466083527
+        },
+        {
+          "source_id": 5822,
+          "target_id": 6066,
+          "probability": 0.39522379636764526
+        },
+        {
+          "source_id": 6826,
+          "target_id": 7108,
+          "probability": 0.03375771641731262
+        },
+        {
+          "source_id": 7770,
+          "target_id": 8063,
+          "probability": 0.16742490231990814
+        },
+        {
+          "source_id": 8796,
+          "target_id": 9052,
+          "probability": 0.3369017541408539
+        },
+        {
+          "source_id": 9458,
+          "target_id": 9725,
+          "probability": 0.16051527857780457
+        },
+        {
+          "source_id": 9522,
+          "target_id": 9798,
+          "probability": 0.36585885286331177
+        },
+        {
+          "source_id": 10278,
+          "target_id": 10559,
+          "probability": 0.03308575227856636
+        },
+        {
+          "source_id": 10909,
+          "target_id": 11198,
+          "probability": 0.20164892077445984
+        },
+        {
+          "source_id": 14819,
+          "target_id": 15077,
+          "probability": 0.07110346853733063
+        },
+        {
+          "source_id": 15804,
+          "target_id": 16059,
+          "probability": 0.15890400111675262
+        },
+        {
+          "source_id": 16393,
+          "target_id": 16663,
+          "probability": 0.2147136926651001
+        },
+        {
+          "source_id": 17596,
+          "target_id": 17842,
+          "probability": 0.2126704305410385
+        },
+        {
+          "source_id": 18255,
+          "target_id": 18523,
+          "probability": 0.3969082832336426
+        },
+        {
+          "source_id": 23098,
+          "target_id": 23316,
+          "probability": 0.31620264053344727
+        }
+      ]
+    },
+    {
+      "movie": "44b6_a21120c2",
+      "stats": {
+        "forks": 53,
+        "forks_without_exactly_one_post_ilp_edge": 1,
+        "repair_probability_missing": 2,
+        "removed_division_edges": 22
+      },
+      "edits": [
+        {
+          "source_id": 717,
+          "target_id": 944,
+          "probability": 0.3981727063655853
+        },
+        {
+          "source_id": 877,
+          "target_id": 1112,
+          "probability": 0.26959583163261414
+        },
+        {
+          "source_id": 1225,
+          "target_id": 1464,
+          "probability": 0.17029795050621033
+        },
+        {
+          "source_id": 3031,
+          "target_id": 3267,
+          "probability": 0.32394012808799744
+        },
+        {
+          "source_id": 3377,
+          "target_id": 3612,
+          "probability": 0.23909759521484375
+        },
+        {
+          "source_id": 3838,
+          "target_id": 4079,
+          "probability": 0.2921374440193176
+        },
+        {
+          "source_id": 4832,
+          "target_id": 5064,
+          "probability": 0.12201733887195587
+        },
+        {
+          "source_id": 5324,
+          "target_id": 5568,
+          "probability": 0.3191494941711426
+        },
+        {
+          "source_id": 5592,
+          "target_id": 5838,
+          "probability": 0.3568476140499115
+        },
+        {
+          "source_id": 6056,
+          "target_id": 6296,
+          "probability": 0.3899401128292084
+        },
+        {
+          "source_id": 8039,
+          "target_id": 8277,
+          "probability": 0.3699558973312378
+        },
+        {
+          "source_id": 9273,
+          "target_id": 9514,
+          "probability": 0.386680543422699
+        },
+        {
+          "source_id": 9519,
+          "target_id": 9767,
+          "probability": 0.08471279591321945
+        },
+        {
+          "source_id": 11887,
+          "target_id": 12144,
+          "probability": 0.3639864921569824
+        },
+        {
+          "source_id": 12738,
+          "target_id": 12969,
+          "probability": 0.09387466311454773
+        },
+        {
+          "source_id": 12758,
+          "target_id": 13014,
+          "probability": 0.22654174268245697
+        },
+        {
+          "source_id": 13158,
+          "target_id": 13401,
+          "probability": 0.2680312395095825
+        },
+        {
+          "source_id": 13922,
+          "target_id": 14168,
+          "probability": 0.28307586908340454
+        },
+        {
+          "source_id": 14782,
+          "target_id": 15030,
+          "probability": 0.09028975665569305
+        },
+        {
+          "source_id": 17995,
+          "target_id": 18197,
+          "probability": 0.13393087685108185
+        },
+        {
+          "source_id": 18427,
+          "target_id": 18615,
+          "probability": 0.2894378900527954
+        },
+        {
+          "source_id": 21029,
+          "target_id": 21200,
+          "probability": 0.156875878572464
+        }
+      ]
+    },
+    {
+      "movie": "44b6_b2c44266",
+      "stats": {
+        "forks": 70,
+        "repair_probability_missing": 1,
+        "forks_without_exactly_one_post_ilp_edge": 2,
+        "removed_division_edges": 23
+      },
+      "edits": [
+        {
+          "source_id": 5476,
+          "target_id": 5889,
+          "probability": 0.3756709396839142
+        },
+        {
+          "source_id": 5528,
+          "target_id": 5922,
+          "probability": 0.39283323287963867
+        },
+        {
+          "source_id": 7438,
+          "target_id": 7889,
+          "probability": 0.01792270503938198
+        },
+        {
+          "source_id": 11615,
+          "target_id": 12137,
+          "probability": 0.18197491765022278
+        },
+        {
+          "source_id": 12841,
+          "target_id": 13313,
+          "probability": 0.14518111944198608
+        },
+        {
+          "source_id": 14725,
+          "target_id": 15177,
+          "probability": 0.047156017273664474
+        },
+        {
+          "source_id": 15371,
+          "target_id": 15851,
+          "probability": 0.04765523225069046
+        },
+        {
+          "source_id": 15692,
+          "target_id": 16194,
+          "probability": 0.3873896300792694
+        },
+        {
+          "source_id": 16058,
+          "target_id": 16531,
+          "probability": 0.051128700375556946
+        },
+        {
+          "source_id": 16696,
+          "target_id": 17124,
+          "probability": 0.15920042991638184
+        },
+        {
+          "source_id": 17485,
+          "target_id": 17921,
+          "probability": 0.3883356750011444
+        },
+        {
+          "source_id": 18502,
+          "target_id": 18933,
+          "probability": 0.3986680209636688
+        },
+        {
+          "source_id": 19700,
+          "target_id": 20106,
+          "probability": 0.012604444287717342
+        },
+        {
+          "source_id": 23065,
+          "target_id": 23500,
+          "probability": 0.18567600846290588
+        },
+        {
+          "source_id": 24769,
+          "target_id": 25217,
+          "probability": 0.3647322654724121
+        },
+        {
+          "source_id": 26045,
+          "target_id": 26511,
+          "probability": 0.07567097991704941
+        },
+        {
+          "source_id": 35259,
+          "target_id": 35739,
+          "probability": 0.3350929617881775
+        },
+        {
+          "source_id": 35315,
+          "target_id": 35761,
+          "probability": 0.2317764014005661
+        },
+        {
+          "source_id": 36994,
+          "target_id": 37445,
+          "probability": 0.26656225323677063
+        },
+        {
+          "source_id": 37490,
+          "target_id": 37955,
+          "probability": 0.2266315072774887
+        },
+        {
+          "source_id": 39685,
+          "target_id": 40122,
+          "probability": 0.23122002184391022
+        },
+        {
+          "source_id": 40991,
+          "target_id": 41493,
+          "probability": 0.38662612438201904
+        },
+        {
+          "source_id": 42149,
+          "target_id": 42652,
+          "probability": 0.13335701823234558
+        }
+      ]
+    },
+    {
+      "movie": "44b6_c15fded2",
+      "stats": {
+        "forks": 60,
+        "forks_without_exactly_one_post_ilp_edge": 2,
+        "repair_probability_missing": 1,
+        "removed_division_edges": 20
+      },
+      "edits": [
+        {
+          "source_id": 1492,
+          "target_id": 1696,
+          "probability": 0.05850014090538025
+        },
+        {
+          "source_id": 2892,
+          "target_id": 3103,
+          "probability": 0.13487276434898376
+        },
+        {
+          "source_id": 3491,
+          "target_id": 3705,
+          "probability": 0.3953188359737396
+        },
+        {
+          "source_id": 3740,
+          "target_id": 3964,
+          "probability": 0.06202275678515434
+        },
+        {
+          "source_id": 3915,
+          "target_id": 4130,
+          "probability": 0.38849613070487976
+        },
+        {
+          "source_id": 4021,
+          "target_id": 4221,
+          "probability": 0.2065657377243042
+        },
+        {
+          "source_id": 5277,
+          "target_id": 5490,
+          "probability": 0.34062230587005615
+        },
+        {
+          "source_id": 6736,
+          "target_id": 6983,
+          "probability": 0.33760905265808105
+        },
+        {
+          "source_id": 7422,
+          "target_id": 7676,
+          "probability": 0.07546138763427734
+        },
+        {
+          "source_id": 8282,
+          "target_id": 8522,
+          "probability": 0.046587664633989334
+        },
+        {
+          "source_id": 8425,
+          "target_id": 8671,
+          "probability": 0.3975248336791992
+        },
+        {
+          "source_id": 9542,
+          "target_id": 9789,
+          "probability": 0.3179873526096344
+        },
+        {
+          "source_id": 9725,
+          "target_id": 9958,
+          "probability": 0.08659628033638
+        },
+        {
+          "source_id": 11308,
+          "target_id": 11559,
+          "probability": 0.23904965817928314
+        },
+        {
+          "source_id": 12974,
+          "target_id": 13191,
+          "probability": 0.313750296831131
+        },
+        {
+          "source_id": 14304,
+          "target_id": 14534,
+          "probability": 0.18867747485637665
+        },
+        {
+          "source_id": 15918,
+          "target_id": 16115,
+          "probability": 0.06017737090587616
+        },
+        {
+          "source_id": 17973,
+          "target_id": 18170,
+          "probability": 0.21509027481079102
+        },
+        {
+          "source_id": 18841,
+          "target_id": 19012,
+          "probability": 0.3732120394706726
+        },
+        {
+          "source_id": 19687,
+          "target_id": 19870,
+          "probability": 0.37084394693374634
+        }
+      ]
+    },
+    {
+      "movie": "44b6_c96cfa10",
+      "stats": {
+        "forks": 124,
+        "forks_without_exactly_one_post_ilp_edge": 3,
+        "repair_probability_missing": 1,
+        "removed_division_edges": 41
+      },
+      "edits": [
+        {
+          "source_id": 1194,
+          "target_id": 1540,
+          "probability": 0.0754898339509964
+        },
+        {
+          "source_id": 2832,
+          "target_id": 3151,
+          "probability": 0.1294454038143158
+        },
+        {
+          "source_id": 4647,
+          "target_id": 4993,
+          "probability": 0.36325499415397644
+        },
+        {
+          "source_id": 5889,
+          "target_id": 6197,
+          "probability": 0.3387483060359955
+        },
+        {
+          "source_id": 7029,
+          "target_id": 7422,
+          "probability": 0.07645298540592194
+        },
+        {
+          "source_id": 8679,
+          "target_id": 9014,
+          "probability": 0.25681331753730774
+        },
+        {
+          "source_id": 9445,
+          "target_id": 9824,
+          "probability": 0.07645493745803833
+        },
+        {
+          "source_id": 12109,
+          "target_id": 12484,
+          "probability": 0.32798171043395996
+        },
+        {
+          "source_id": 12583,
+          "target_id": 12962,
+          "probability": 0.272353857755661
+        },
+        {
+          "source_id": 13158,
+          "target_id": 13582,
+          "probability": 0.36105018854141235
+        },
+        {
+          "source_id": 13503,
+          "target_id": 13901,
+          "probability": 0.28607943654060364
+        },
+        {
+          "source_id": 13506,
+          "target_id": 13927,
+          "probability": 0.35428154468536377
+        },
+        {
+          "source_id": 15188,
+          "target_id": 15562,
+          "probability": 0.0805930346250534
+        },
+        {
+          "source_id": 16140,
+          "target_id": 16556,
+          "probability": 0.13112112879753113
+        },
+        {
+          "source_id": 16617,
+          "target_id": 16992,
+          "probability": 0.3755939304828644
+        },
+        {
+          "source_id": 19597,
+          "target_id": 20026,
+          "probability": 0.14490097761154175
+        },
+        {
+          "source_id": 19684,
+          "target_id": 20160,
+          "probability": 0.308374285697937
+        },
+        {
+          "source_id": 19999,
+          "target_id": 20422,
+          "probability": 0.21212075650691986
+        },
+        {
+          "source_id": 20533,
+          "target_id": 21021,
+          "probability": 0.3165428638458252
+        },
+        {
+          "source_id": 21164,
+          "target_id": 21600,
+          "probability": 0.33600616455078125
+        },
+        {
+          "source_id": 25186,
+          "target_id": 25656,
+          "probability": 0.13587623834609985
+        },
+        {
+          "source_id": 25193,
+          "target_id": 25647,
+          "probability": 0.2331598848104477
+        },
+        {
+          "source_id": 25526,
+          "target_id": 25997,
+          "probability": 0.12946921586990356
+        },
+        {
+          "source_id": 25630,
+          "target_id": 26160,
+          "probability": 0.0724310502409935
+        },
+        {
+          "source_id": 26394,
+          "target_id": 26935,
+          "probability": 0.2812176048755646
+        },
+        {
+          "source_id": 27637,
+          "target_id": 28130,
+          "probability": 0.2704179883003235
+        },
+        {
+          "source_id": 28547,
+          "target_id": 29051,
+          "probability": 0.39810711145401
+        },
+        {
+          "source_id": 28894,
+          "target_id": 29455,
+          "probability": 0.26476070284843445
+        },
+        {
+          "source_id": 29373,
+          "target_id": 29875,
+          "probability": 0.10737083107233047
+        },
+        {
+          "source_id": 29547,
+          "target_id": 30074,
+          "probability": 0.049121107906103134
+        },
+        {
+          "source_id": 29737,
+          "target_id": 30216,
+          "probability": 0.23120318353176117
+        },
+        {
+          "source_id": 30247,
+          "target_id": 30757,
+          "probability": 0.13487370312213898
+        },
+        {
+          "source_id": 31033,
+          "target_id": 31582,
+          "probability": 0.1583155393600464
+        },
+        {
+          "source_id": 32112,
+          "target_id": 32609,
+          "probability": 0.39851295948028564
+        },
+        {
+          "source_id": 36263,
+          "target_id": 36736,
+          "probability": 0.07664484530687332
+        },
+        {
+          "source_id": 36973,
+          "target_id": 37521,
+          "probability": 0.26012441515922546
+        },
+        {
+          "source_id": 38288,
+          "target_id": 38903,
+          "probability": 0.16817206144332886
+        },
+        {
+          "source_id": 39566,
+          "target_id": 40070,
+          "probability": 0.11794612556695938
+        },
+        {
+          "source_id": 40294,
+          "target_id": 40821,
+          "probability": 0.1626395732164383
+        },
+        {
+          "source_id": 41214,
+          "target_id": 41709,
+          "probability": 0.3229368031024933
+        },
+        {
+          "source_id": 41227,
+          "target_id": 41752,
+          "probability": 0.14876657724380493
+        }
+      ]
+    },
+    {
+      "movie": "44b6_d754aa59",
+      "stats": {
+        "forks": 16,
+        "repair_probability_missing": 1,
+        "removed_division_edges": 5
+      },
+      "edits": [
+        {
+          "source_id": 1401,
+          "target_id": 1461,
+          "probability": 0.3954511284828186
+        },
+        {
+          "source_id": 2402,
+          "target_id": 2461,
+          "probability": 0.28320565819740295
+        },
+        {
+          "source_id": 4511,
+          "target_id": 4584,
+          "probability": 0.11314578354358673
+        },
+        {
+          "source_id": 5326,
+          "target_id": 5410,
+          "probability": 0.2458590567111969
+        },
+        {
+          "source_id": 5416,
+          "target_id": 5493,
+          "probability": 0.3997083902359009
+        }
+      ]
+    },
+    {
+      "movie": "6bba_09961292",
+      "stats": {
+        "forks": 48,
+        "forks_without_exactly_one_post_ilp_edge": 3,
+        "removed_division_edges": 11
+      },
+      "edits": [
+        {
+          "source_id": 1252,
+          "target_id": 1627,
+          "probability": 0.1612383872270584
+        },
+        {
+          "source_id": 1828,
+          "target_id": 2184,
+          "probability": 0.3670719265937805
+        },
+        {
+          "source_id": 3496,
+          "target_id": 3832,
+          "probability": 0.16813217103481293
+        },
+        {
+          "source_id": 6520,
+          "target_id": 6916,
+          "probability": 0.3929523527622223
+        },
+        {
+          "source_id": 12852,
+          "target_id": 13167,
+          "probability": 0.3331771492958069
+        },
+        {
+          "source_id": 13122,
+          "target_id": 13421,
+          "probability": 0.288897842168808
+        },
+        {
+          "source_id": 13555,
+          "target_id": 13842,
+          "probability": 0.14017590880393982
+        },
+        {
+          "source_id": 16926,
+          "target_id": 17250,
+          "probability": 0.13201069831848145
+        },
+        {
+          "source_id": 25334,
+          "target_id": 25650,
+          "probability": 0.04627607762813568
+        },
+        {
+          "source_id": 28097,
+          "target_id": 28404,
+          "probability": 0.23656609654426575
+        },
+        {
+          "source_id": 28225,
+          "target_id": 28512,
+          "probability": 0.38077571988105774
+        }
+      ]
+    },
+    {
+      "movie": "6bba_1d0d8384",
+      "stats": {
+        "forks": 40,
+        "forks_without_exactly_one_post_ilp_edge": 2,
+        "repair_probability_missing": 1,
+        "removed_division_edges": 18
+      },
+      "edits": [
+        {
+          "source_id": 603,
+          "target_id": 933,
+          "probability": 0.3411315977573395
+        },
+        {
+          "source_id": 1679,
+          "target_id": 1989,
+          "probability": 0.04536839574575424
+        },
+        {
+          "source_id": 2871,
+          "target_id": 3196,
+          "probability": 0.11175855994224548
+        },
+        {
+          "source_id": 3091,
+          "target_id": 3433,
+          "probability": 0.10049723088741302
+        },
+        {
+          "source_id": 3217,
+          "target_id": 3520,
+          "probability": 0.25305405259132385
+        },
+        {
+          "source_id": 3864,
+          "target_id": 4195,
+          "probability": 0.21903817355632782
+        },
+        {
+          "source_id": 6705,
+          "target_id": 6978,
+          "probability": 0.10586283355951309
+        },
+        {
+          "source_id": 6873,
+          "target_id": 7158,
+          "probability": 0.1037793830037117
+        },
+        {
+          "source_id": 7560,
+          "target_id": 7844,
+          "probability": 0.24163204431533813
+        },
+        {
+          "source_id": 8805,
+          "target_id": 9068,
+          "probability": 0.062155093997716904
+        },
+        {
+          "source_id": 9701,
+          "target_id": 9990,
+          "probability": 0.31941717863082886
+        },
+        {
+          "source_id": 9762,
+          "target_id": 10023,
+          "probability": 0.27534955739974976
+        },
+        {
+          "source_id": 10944,
+          "target_id": 11202,
+          "probability": 0.09906940162181854
+        },
+        {
+          "source_id": 11721,
+          "target_id": 11934,
+          "probability": 0.3760760426521301
+        },
+        {
+          "source_id": 12351,
+          "target_id": 12578,
+          "probability": 0.37777647376060486
+        },
+        {
+          "source_id": 14022,
+          "target_id": 14196,
+          "probability": 0.33242231607437134
+        },
+        {
+          "source_id": 14981,
+          "target_id": 15144,
+          "probability": 0.09216901659965515
+        },
+        {
+          "source_id": 16125,
+          "target_id": 16288,
+          "probability": 0.2965225577354431
+        }
+      ]
+    },
+    {
+      "movie": "6bba_1f58c2f6",
+      "stats": {
+        "forks": 111,
+        "forks_without_exactly_one_post_ilp_edge": 1,
+        "repair_probability_missing": 5,
+        "removed_division_edges": 55
+      },
+      "edits": [
+        {
+          "source_id": 1095,
+          "target_id": 1525,
+          "probability": 0.16395267844200134
+        },
+        {
+          "source_id": 1467,
+          "target_id": 1892,
+          "probability": 0.3319416344165802
+        },
+        {
+          "source_id": 1626,
+          "target_id": 2045,
+          "probability": 0.24432708323001862
+        },
+        {
+          "source_id": 1860,
+          "target_id": 2247,
+          "probability": 0.2890450656414032
+        },
+        {
+          "source_id": 2044,
+          "target_id": 2442,
+          "probability": 0.3656807839870453
+        },
+        {
+          "source_id": 2206,
+          "target_id": 2610,
+          "probability": 0.22430163621902466
+        },
+        {
+          "source_id": 2380,
+          "target_id": 2807,
+          "probability": 0.3796674609184265
+        },
+        {
+          "source_id": 3667,
+          "target_id": 4118,
+          "probability": 0.2171458601951599
+        },
+        {
+          "source_id": 3787,
+          "target_id": 4186,
+          "probability": 0.3385476768016815
+        },
+        {
+          "source_id": 4098,
+          "target_id": 4553,
+          "probability": 0.2558828890323639
+        },
+        {
+          "source_id": 6591,
+          "target_id": 7039,
+          "probability": 0.24991920590400696
+        },
+        {
+          "source_id": 6614,
+          "target_id": 7029,
+          "probability": 0.08691922575235367
+        },
+        {
+          "source_id": 6866,
+          "target_id": 7306,
+          "probability": 0.3041607439517975
+        },
+        {
+          "source_id": 7353,
+          "target_id": 7793,
+          "probability": 0.3328624963760376
+        },
+        {
+          "source_id": 8886,
+          "target_id": 9313,
+          "probability": 0.20012642443180084
+        },
+        {
+          "source_id": 9092,
+          "target_id": 9534,
+          "probability": 0.37064075469970703
+        },
+        {
+          "source_id": 9104,
+          "target_id": 9559,
+          "probability": 0.3421928584575653
+        },
+        {
+          "source_id": 9530,
+          "target_id": 9987,
+          "probability": 0.34359219670295715
+        },
+        {
+          "source_id": 9980,
+          "target_id": 10429,
+          "probability": 0.34488973021507263
+        },
+        {
+          "source_id": 10392,
+          "target_id": 10846,
+          "probability": 0.06432172656059265
+        },
+        {
+          "source_id": 10827,
+          "target_id": 11288,
+          "probability": 0.28842705488204956
+        },
+        {
+          "source_id": 10980,
+          "target_id": 11445,
+          "probability": 0.21423526108264923
+        },
+        {
+          "source_id": 11249,
+          "target_id": 11716,
+          "probability": 0.2677021324634552
+        },
+        {
+          "source_id": 11938,
+          "target_id": 12370,
+          "probability": 0.11453818529844284
+        },
+        {
+          "source_id": 12558,
+          "target_id": 13025,
+          "probability": 0.393568217754364
+        },
+        {
+          "source_id": 12563,
+          "target_id": 13035,
+          "probability": 0.37089359760284424
+        },
+        {
+          "source_id": 13009,
+          "target_id": 13490,
+          "probability": 0.3788975179195404
+        },
+        {
+          "source_id": 13039,
+          "target_id": 13491,
+          "probability": 0.3202179968357086
+        },
+        {
+          "source_id": 13893,
+          "target_id": 14360,
+          "probability": 0.2472371757030487
+        },
+        {
+          "source_id": 14350,
+          "target_id": 14817,
+          "probability": 0.3238992989063263
+        },
+        {
+          "source_id": 15731,
+          "target_id": 16224,
+          "probability": 0.3346921503543854
+        },
+        {
+          "source_id": 17057,
+          "target_id": 17533,
+          "probability": 0.2615630030632019
+        },
+        {
+          "source_id": 17157,
+          "target_id": 17673,
+          "probability": 0.2586856186389923
+        },
+        {
+          "source_id": 20905,
+          "target_id": 21401,
+          "probability": 0.3556864559650421
+        },
+        {
+          "source_id": 20933,
+          "target_id": 21418,
+          "probability": 0.04576161876320839
+        },
+        {
+          "source_id": 22252,
+          "target_id": 22744,
+          "probability": 0.1924033761024475
+        },
+        {
+          "source_id": 22736,
+          "target_id": 23214,
+          "probability": 0.1715572029352188
+        },
+        {
+          "source_id": 22756,
+          "target_id": 23218,
+          "probability": 0.3880022466182709
+        },
+        {
+          "source_id": 23059,
+          "target_id": 23518,
+          "probability": 0.21995308995246887
+        },
+        {
+          "source_id": 23199,
+          "target_id": 23654,
+          "probability": 0.336052805185318
+        },
+        {
+          "source_id": 23355,
+          "target_id": 23811,
+          "probability": 0.3312716782093048
+        },
+        {
+          "source_id": 23643,
+          "target_id": 24114,
+          "probability": 0.27319779992103577
+        },
+        {
+          "source_id": 24260,
+          "target_id": 24693,
+          "probability": 0.12348520755767822
+        },
+        {
+          "source_id": 25464,
+          "target_id": 25863,
+          "probability": 0.21191352605819702
+        },
+        {
+          "source_id": 26043,
+          "target_id": 26470,
+          "probability": 0.35208627581596375
+        },
+        {
+          "source_id": 26277,
+          "target_id": 26723,
+          "probability": 0.3214949369430542
+        },
+        {
+          "source_id": 27384,
+          "target_id": 27808,
+          "probability": 0.37425854802131653
+        },
+        {
+          "source_id": 27640,
+          "target_id": 28103,
+          "probability": 0.20393669605255127
+        },
+        {
+          "source_id": 27735,
+          "target_id": 28179,
+          "probability": 0.35889822244644165
+        },
+        {
+          "source_id": 28353,
+          "target_id": 28745,
+          "probability": 0.24093718826770782
+        },
+        {
+          "source_id": 30004,
+          "target_id": 30330,
+          "probability": 0.36001116037368774
+        },
+        {
+          "source_id": 31745,
+          "target_id": 32037,
+          "probability": 0.3492838144302368
+        },
+        {
+          "source_id": 32885,
+          "target_id": 33166,
+          "probability": 0.20524290204048157
+        },
+        {
+          "source_id": 33216,
+          "target_id": 33491,
+          "probability": 0.09512615948915482
+        },
+        {
+          "source_id": 36525,
+          "target_id": 36729,
+          "probability": 0.37092360854148865
+        }
+      ]
+    },
+    {
+      "movie": "6bba_312f0dc3",
+      "stats": {
+        "forks": 20,
+        "repair_probability_missing": 1,
+        "forks_without_exactly_one_post_ilp_edge": 1,
+        "removed_division_edges": 9
+      },
+      "edits": [
+        {
+          "source_id": 254,
+          "target_id": 393,
+          "probability": 0.2354029268026352
+        },
+        {
+          "source_id": 2270,
+          "target_id": 2370,
+          "probability": 0.08161051571369171
+        },
+        {
+          "source_id": 3215,
+          "target_id": 3292,
+          "probability": 0.15441596508026123
+        },
+        {
+          "source_id": 3714,
+          "target_id": 3783,
+          "probability": 0.06987392902374268
+        },
+        {
+          "source_id": 7396,
+          "target_id": 7572,
+          "probability": 0.10021179914474487
+        },
+        {
+          "source_id": 7501,
+          "target_id": 7674,
+          "probability": 0.30632033944129944
+        },
+        {
+          "source_id": 8833,
+          "target_id": 9102,
+          "probability": 0.056172218173742294
+        },
+        {
+          "source_id": 9439,
+          "target_id": 9720,
+          "probability": 0.08054086565971375
+        },
+        {
+          "source_id": 9708,
+          "target_id": 10017,
+          "probability": 0.19971120357513428
+        }
+      ]
+    },
+    {
+      "movie": "6bba_3abfe10a",
+      "stats": {
+        "forks": 195,
+        "forks_without_exactly_one_post_ilp_edge": 6,
+        "repair_probability_missing": 2,
+        "removed_division_edges": 84
+      },
+      "edits": [
+        {
+          "source_id": 730,
+          "target_id": 1028,
+          "probability": 0.09690001606941223
+        },
+        {
+          "source_id": 748,
+          "target_id": 979,
+          "probability": 0.2276136875152588
+        },
+        {
+          "source_id": 851,
+          "target_id": 1121,
+          "probability": 0.2622317373752594
+        },
+        {
+          "source_id": 1752,
+          "target_id": 2039,
+          "probability": 0.1425165981054306
+        },
+        {
+          "source_id": 2148,
+          "target_id": 2416,
+          "probability": 0.04581480473279953
+        },
+        {
+          "source_id": 2499,
+          "target_id": 2810,
+          "probability": 0.1460568755865097
+        },
+        {
+          "source_id": 2731,
+          "target_id": 3045,
+          "probability": 0.3260144889354706
+        },
+        {
+          "source_id": 3201,
+          "target_id": 3515,
+          "probability": 0.350619375705719
+        },
+        {
+          "source_id": 4058,
+          "target_id": 4408,
+          "probability": 0.28420230746269226
+        },
+        {
+          "source_id": 4438,
+          "target_id": 4806,
+          "probability": 0.3087066411972046
+        },
+        {
+          "source_id": 4797,
+          "target_id": 5174,
+          "probability": 0.35455790162086487
+        },
+        {
+          "source_id": 5909,
+          "target_id": 6307,
+          "probability": 0.37655752897262573
+        },
+        {
+          "source_id": 6818,
+          "target_id": 7224,
+          "probability": 0.23712097108364105
+        },
+        {
+          "source_id": 7475,
+          "target_id": 7897,
+          "probability": 0.02570449933409691
+        },
+        {
+          "source_id": 8100,
+          "target_id": 8581,
+          "probability": 0.2612825036048889
+        },
+        {
+          "source_id": 9324,
+          "target_id": 9806,
+          "probability": 0.12810997664928436
+        },
+        {
+          "source_id": 9620,
+          "target_id": 10130,
+          "probability": 0.2670527696609497
+        },
+        {
+          "source_id": 10635,
+          "target_id": 11141,
+          "probability": 0.3426494598388672
+        },
+        {
+          "source_id": 10859,
+          "target_id": 11421,
+          "probability": 0.1959836781024933
+        },
+        {
+          "source_id": 10934,
+          "target_id": 11497,
+          "probability": 0.08182267844676971
+        },
+        {
+          "source_id": 11183,
+          "target_id": 11771,
+          "probability": 0.19232754409313202
+        },
+        {
+          "source_id": 11538,
+          "target_id": 12131,
+          "probability": 0.3710279166698456
+        },
+        {
+          "source_id": 11913,
+          "target_id": 12472,
+          "probability": 0.23990373313426971
+        },
+        {
+          "source_id": 12477,
+          "target_id": 13094,
+          "probability": 0.39620572328567505
+        },
+        {
+          "source_id": 13122,
+          "target_id": 13713,
+          "probability": 0.22043737769126892
+        },
+        {
+          "source_id": 14991,
+          "target_id": 15660,
+          "probability": 0.16217511892318726
+        },
+        {
+          "source_id": 16679,
+          "target_id": 17347,
+          "probability": 0.3298298418521881
+        },
+        {
+          "source_id": 16786,
+          "target_id": 17450,
+          "probability": 0.06834442168474197
+        },
+        {
+          "source_id": 16801,
+          "target_id": 17476,
+          "probability": 0.33354300260543823
+        },
+        {
+          "source_id": 16805,
+          "target_id": 17461,
+          "probability": 0.03484330326318741
+        },
+        {
+          "source_id": 17188,
+          "target_id": 17925,
+          "probability": 0.3924526274204254
+        },
+        {
+          "source_id": 17993,
+          "target_id": 18770,
+          "probability": 0.09524957835674286
+        },
+        {
+          "source_id": 18018,
+          "target_id": 18738,
+          "probability": 0.3125174045562744
+        },
+        {
+          "source_id": 18116,
+          "target_id": 18915,
+          "probability": 0.3212454915046692
+        },
+        {
+          "source_id": 18121,
+          "target_id": 18845,
+          "probability": 0.006780260242521763
+        },
+        {
+          "source_id": 18355,
+          "target_id": 19113,
+          "probability": 0.23111052811145782
+        },
+        {
+          "source_id": 18644,
+          "target_id": 19384,
+          "probability": 0.08129014819860458
+        },
+        {
+          "source_id": 20500,
+          "target_id": 21259,
+          "probability": 0.038257401436567307
+        },
+        {
+          "source_id": 20767,
+          "target_id": 21529,
+          "probability": 0.26227059960365295
+        },
+        {
+          "source_id": 21013,
+          "target_id": 21776,
+          "probability": 0.18512453138828278
+        },
+        {
+          "source_id": 21184,
+          "target_id": 21895,
+          "probability": 0.1982494294643402
+        },
+        {
+          "source_id": 21837,
+          "target_id": 22621,
+          "probability": 0.2760293781757355
+        },
+        {
+          "source_id": 24805,
+          "target_id": 25539,
+          "probability": 0.23712794482707977
+        },
+        {
+          "source_id": 25510,
+          "target_id": 26284,
+          "probability": 0.07346116751432419
+        },
+        {
+          "source_id": 25513,
+          "target_id": 26302,
+          "probability": 0.1491384506225586
+        },
+        {
+          "source_id": 27568,
+          "target_id": 28372,
+          "probability": 0.1780882626771927
+        },
+        {
+          "source_id": 28644,
+          "target_id": 29493,
+          "probability": 0.25036031007766724
+        },
+        {
+          "source_id": 29714,
+          "target_id": 30545,
+          "probability": 0.33005064725875854
+        },
+        {
+          "source_id": 29738,
+          "target_id": 30519,
+          "probability": 0.2353057712316513
+        },
+        {
+          "source_id": 30250,
+          "target_id": 31051,
+          "probability": 0.30306217074394226
+        },
+        {
+          "source_id": 30597,
+          "target_id": 31396,
+          "probability": 0.34566932916641235
+        },
+        {
+          "source_id": 31278,
+          "target_id": 32104,
+          "probability": 0.34926915168762207
+        },
+        {
+          "source_id": 31750,
+          "target_id": 32547,
+          "probability": 0.23063525557518005
+        },
+        {
+          "source_id": 31976,
+          "target_id": 32793,
+          "probability": 0.30776965618133545
+        },
+        {
+          "source_id": 34310,
+          "target_id": 35163,
+          "probability": 0.3032279908657074
+        },
+        {
+          "source_id": 34660,
+          "target_id": 35462,
+          "probability": 0.15989069640636444
+        },
+        {
+          "source_id": 38035,
+          "target_id": 38848,
+          "probability": 0.27847540378570557
+        },
+        {
+          "source_id": 38108,
+          "target_id": 38933,
+          "probability": 0.07612939924001694
+        },
+        {
+          "source_id": 38465,
+          "target_id": 39248,
+          "probability": 0.32712802290916443
+        },
+        {
+          "source_id": 39217,
+          "target_id": 40119,
+          "probability": 0.36532285809516907
+        },
+        {
+          "source_id": 42208,
+          "target_id": 43022,
+          "probability": 0.19452616572380066
+        },
+        {
+          "source_id": 43343,
+          "target_id": 44161,
+          "probability": 0.29957079887390137
+        },
+        {
+          "source_id": 43436,
+          "target_id": 44239,
+          "probability": 0.04293070361018181
+        },
+        {
+          "source_id": 43619,
+          "target_id": 44389,
+          "probability": 0.1027367040514946
+        },
+        {
+          "source_id": 44560,
+          "target_id": 45357,
+          "probability": 0.06837867200374603
+        },
+        {
+          "source_id": 45220,
+          "target_id": 46033,
+          "probability": 0.35268694162368774
+        },
+        {
+          "source_id": 45299,
+          "target_id": 46119,
+          "probability": 0.36948859691619873
+        },
+        {
+          "source_id": 47419,
+          "target_id": 48236,
+          "probability": 0.3448290228843689
+        },
+        {
+          "source_id": 47440,
+          "target_id": 48253,
+          "probability": 0.3372528553009033
+        },
+        {
+          "source_id": 48310,
+          "target_id": 49037,
+          "probability": 0.3688097894191742
+        },
+        {
+          "source_id": 48717,
+          "target_id": 49534,
+          "probability": 0.23690922558307648
+        },
+        {
+          "source_id": 49010,
+          "target_id": 49790,
+          "probability": 0.346124529838562
+        },
+        {
+          "source_id": 49765,
+          "target_id": 50492,
+          "probability": 0.15006008744239807
+        },
+        {
+          "source_id": 50145,
+          "target_id": 50901,
+          "probability": 0.192323237657547
+        },
+        {
+          "source_id": 50502,
+          "target_id": 51216,
+          "probability": 0.2681986689567566
+        },
+        {
+          "source_id": 51329,
+          "target_id": 52146,
+          "probability": 0.33482977747917175
+        },
+        {
+          "source_id": 51888,
+          "target_id": 52720,
+          "probability": 0.2673163115978241
+        },
+        {
+          "source_id": 52784,
+          "target_id": 53584,
+          "probability": 0.061973266303539276
+        },
+        {
+          "source_id": 54095,
+          "target_id": 54854,
+          "probability": 0.1878439038991928
+        },
+        {
+          "source_id": 54438,
+          "target_id": 55192,
+          "probability": 0.03342882916331291
+        },
+        {
+          "source_id": 54902,
+          "target_id": 55706,
+          "probability": 0.1879754215478897
+        },
+        {
+          "source_id": 55052,
+          "target_id": 55816,
+          "probability": 0.09577354043722153
+        },
+        {
+          "source_id": 55222,
+          "target_id": 56023,
+          "probability": 0.3273161053657532
+        },
+        {
+          "source_id": 55659,
+          "target_id": 56359,
+          "probability": 0.22836823761463165
+        }
+      ]
+    },
+    {
+      "movie": "6bba_48816121",
+      "stats": {
+        "forks": 64,
+        "repair_probability_missing": 1,
+        "removed_division_edges": 20
+      },
+      "edits": [
+        {
+          "source_id": 3161,
+          "target_id": 3495,
+          "probability": 0.23267798125743866
+        },
+        {
+          "source_id": 3439,
+          "target_id": 3753,
+          "probability": 0.1365552693605423
+        },
+        {
+          "source_id": 3846,
+          "target_id": 4181,
+          "probability": 0.328193336725235
+        },
+        {
+          "source_id": 4401,
+          "target_id": 4727,
+          "probability": 0.097220279276371
+        },
+        {
+          "source_id": 10210,
+          "target_id": 10484,
+          "probability": 0.3600395619869232
+        },
+        {
+          "source_id": 10929,
+          "target_id": 11197,
+          "probability": 0.31549203395843506
+        },
+        {
+          "source_id": 11322,
+          "target_id": 11581,
+          "probability": 0.32754528522491455
+        },
+        {
+          "source_id": 12675,
+          "target_id": 12958,
+          "probability": 0.2776857614517212
+        },
+        {
+          "source_id": 18032,
+          "target_id": 18282,
+          "probability": 0.25731703639030457
+        },
+        {
+          "source_id": 18623,
+          "target_id": 18881,
+          "probability": 0.09636278450489044
+        },
+        {
+          "source_id": 18876,
+          "target_id": 19119,
+          "probability": 0.2930874526500702
+        },
+        {
+          "source_id": 19229,
+          "target_id": 19467,
+          "probability": 0.2974683344364166
+        },
+        {
+          "source_id": 19780,
+          "target_id": 20034,
+          "probability": 0.29802602529525757
+        },
+        {
+          "source_id": 20286,
+          "target_id": 20535,
+          "probability": 0.1828589290380478
+        },
+        {
+          "source_id": 21338,
+          "target_id": 21585,
+          "probability": 0.252668559551239
+        },
+        {
+          "source_id": 22423,
+          "target_id": 22653,
+          "probability": 0.12619931995868683
+        },
+        {
+          "source_id": 22798,
+          "target_id": 23025,
+          "probability": 0.0783766657114029
+        },
+        {
+          "source_id": 22871,
+          "target_id": 23097,
+          "probability": 0.21689625084400177
+        },
+        {
+          "source_id": 23948,
+          "target_id": 24175,
+          "probability": 0.20966055989265442
+        },
+        {
+          "source_id": 24700,
+          "target_id": 24930,
+          "probability": 0.316681444644928
+        }
+      ]
+    },
+    {
+      "movie": "6bba_4f99ce20",
+      "stats": {
+        "forks": 12,
+        "removed_division_edges": 3
+      },
+      "edits": [
+        {
+          "source_id": 749,
+          "target_id": 804,
+          "probability": 0.29968106746673584
+        },
+        {
+          "source_id": 2363,
+          "target_id": 2421,
+          "probability": 0.05856890603899956
+        },
+        {
+          "source_id": 5126,
+          "target_id": 5180,
+          "probability": 0.09309142082929611
+        }
+      ]
+    },
+    {
+      "movie": "6bba_4ffd3da3",
+      "stats": {
+        "forks": 72,
+        "forks_without_exactly_one_post_ilp_edge": 3,
+        "removed_division_edges": 24
+      },
+      "edits": [
+        {
+          "source_id": 5113,
+          "target_id": 5334,
+          "probability": 0.3882434368133545
+        },
+        {
+          "source_id": 5301,
+          "target_id": 5561,
+          "probability": 0.3593871295452118
+        },
+        {
+          "source_id": 5893,
+          "target_id": 6139,
+          "probability": 0.31102854013442993
+        },
+        {
+          "source_id": 6631,
+          "target_id": 6863,
+          "probability": 0.32217341661453247
+        },
+        {
+          "source_id": 6883,
+          "target_id": 7117,
+          "probability": 0.3025789260864258
+        },
+        {
+          "source_id": 7243,
+          "target_id": 7493,
+          "probability": 0.027365146204829216
+        },
+        {
+          "source_id": 7419,
+          "target_id": 7671,
+          "probability": 0.3748207092285156
+        },
+        {
+          "source_id": 10963,
+          "target_id": 11208,
+          "probability": 0.322377473115921
+        },
+        {
+          "source_id": 11194,
+          "target_id": 11446,
+          "probability": 0.39332911372184753
+        },
+        {
+          "source_id": 11766,
+          "target_id": 12017,
+          "probability": 0.3975954055786133
+        },
+        {
+          "source_id": 11964,
+          "target_id": 12192,
+          "probability": 0.2607792913913727
+        },
+        {
+          "source_id": 12889,
+          "target_id": 13140,
+          "probability": 0.19434043765068054
+        },
+        {
+          "source_id": 14972,
+          "target_id": 15219,
+          "probability": 0.20480976998806
+        },
+        {
+          "source_id": 15071,
+          "target_id": 15309,
+          "probability": 0.3451337218284607
+        },
+        {
+          "source_id": 15303,
+          "target_id": 15549,
+          "probability": 0.08235178887844086
+        },
+        {
+          "source_id": 15370,
+          "target_id": 15611,
+          "probability": 0.39667224884033203
+        },
+        {
+          "source_id": 15806,
+          "target_id": 16021,
+          "probability": 0.27702832221984863
+        },
+        {
+          "source_id": 15899,
+          "target_id": 16132,
+          "probability": 0.378208726644516
+        },
+        {
+          "source_id": 18425,
+          "target_id": 18626,
+          "probability": 0.3374192416667938
+        },
+        {
+          "source_id": 18857,
+          "target_id": 19083,
+          "probability": 0.05336085706949234
+        },
+        {
+          "source_id": 18988,
+          "target_id": 19206,
+          "probability": 0.3245270550251007
+        },
+        {
+          "source_id": 19353,
+          "target_id": 19576,
+          "probability": 0.25740721821784973
+        },
+        {
+          "source_id": 21562,
+          "target_id": 21778,
+          "probability": 0.1457722783088684
+        },
+        {
+          "source_id": 22159,
+          "target_id": 22363,
+          "probability": 0.26570355892181396
+        }
+      ]
+    },
+    {
+      "movie": "6bba_6ca87370",
+      "stats": {
+        "forks": 10,
+        "removed_division_edges": 4
+      },
+      "edits": [
+        {
+          "source_id": 1719,
+          "target_id": 1783,
+          "probability": 0.3122463822364807
+        },
+        {
+          "source_id": 1926,
+          "target_id": 1996,
+          "probability": 0.21922633051872253
+        },
+        {
+          "source_id": 6455,
+          "target_id": 6539,
+          "probability": 0.08257026225328445
+        },
+        {
+          "source_id": 6925,
+          "target_id": 7010,
+          "probability": 0.2804558575153351
+        }
+      ]
+    },
+    {
+      "movie": "6bba_705ec2c9",
+      "stats": {
+        "forks": 23,
+        "forks_without_exactly_one_post_ilp_edge": 1,
+        "removed_division_edges": 10
+      },
+      "edits": [
+        {
+          "source_id": 681,
+          "target_id": 792,
+          "probability": 0.10322541743516922
+        },
+        {
+          "source_id": 745,
+          "target_id": 846,
+          "probability": 0.1314762830734253
+        },
+        {
+          "source_id": 973,
+          "target_id": 1064,
+          "probability": 0.28430643677711487
+        },
+        {
+          "source_id": 1061,
+          "target_id": 1149,
+          "probability": 0.21322885155677795
+        },
+        {
+          "source_id": 1201,
+          "target_id": 1295,
+          "probability": 0.1339927315711975
+        },
+        {
+          "source_id": 1303,
+          "target_id": 1392,
+          "probability": 0.2472795844078064
+        },
+        {
+          "source_id": 2442,
+          "target_id": 2543,
+          "probability": 0.09259974211454391
+        },
+        {
+          "source_id": 3539,
+          "target_id": 3615,
+          "probability": 0.3989922106266022
+        },
+        {
+          "source_id": 4723,
+          "target_id": 4814,
+          "probability": 0.29416170716285706
+        },
+        {
+          "source_id": 5375,
+          "target_id": 5454,
+          "probability": 0.12502740323543549
+        }
+      ]
+    },
+    {
+      "movie": "6bba_76db78c1",
+      "stats": {
+        "forks": 4,
+        "removed_division_edges": 1
+      },
+      "edits": [
+        {
+          "source_id": 3038,
+          "target_id": 3094,
+          "probability": 0.3295060396194458
+        }
+      ]
+    },
+    {
+      "movie": "6bba_784a78c9",
+      "stats": {
+        "forks": 23,
+        "removed_division_edges": 6
+      },
+      "edits": [
+        {
+          "source_id": 362,
+          "target_id": 543,
+          "probability": 0.040685031563043594
+        },
+        {
+          "source_id": 6326,
+          "target_id": 6480,
+          "probability": 0.04933002591133118
+        },
+        {
+          "source_id": 7653,
+          "target_id": 7793,
+          "probability": 0.14989696443080902
+        },
+        {
+          "source_id": 9794,
+          "target_id": 9932,
+          "probability": 0.3088272213935852
+        },
+        {
+          "source_id": 10982,
+          "target_id": 11098,
+          "probability": 0.28394749760627747
+        },
+        {
+          "source_id": 12469,
+          "target_id": 12558,
+          "probability": 0.050206031650304794
+        }
+      ]
+    },
+    {
+      "movie": "6bba_789f8168",
+      "stats": {
+        "forks": 21,
+        "repair_probability_missing": 2,
+        "removed_division_edges": 9
+      },
+      "edits": [
+        {
+          "source_id": 387,
+          "target_id": 706,
+          "probability": 0.23930723965168
+        },
+        {
+          "source_id": 1769,
+          "target_id": 2056,
+          "probability": 0.25182658433914185
+        },
+        {
+          "source_id": 2293,
+          "target_id": 2574,
+          "probability": 0.39988651871681213
+        },
+        {
+          "source_id": 3369,
+          "target_id": 3634,
+          "probability": 0.2562125027179718
+        },
+        {
+          "source_id": 4155,
+          "target_id": 4383,
+          "probability": 0.3033994734287262
+        },
+        {
+          "source_id": 9492,
+          "target_id": 9553,
+          "probability": 0.14288991689682007
+        },
+        {
+          "source_id": 10145,
+          "target_id": 10207,
+          "probability": 0.15253786742687225
+        },
+        {
+          "source_id": 10513,
+          "target_id": 10568,
+          "probability": 0.3936597406864166
+        },
+        {
+          "source_id": 11509,
+          "target_id": 11566,
+          "probability": 0.06612329930067062
+        }
+      ]
+    },
+    {
+      "movie": "6bba_80d12824",
+      "stats": {
+        "forks": 17,
+        "repair_probability_missing": 1,
+        "forks_without_exactly_one_post_ilp_edge": 1,
+        "removed_division_edges": 8
+      },
+      "edits": [
+        {
+          "source_id": 684,
+          "target_id": 922,
+          "probability": 0.05767719820141792
+        },
+        {
+          "source_id": 2282,
+          "target_id": 2457,
+          "probability": 0.14494839310646057
+        },
+        {
+          "source_id": 3095,
+          "target_id": 3261,
+          "probability": 0.1753840297460556
+        },
+        {
+          "source_id": 5245,
+          "target_id": 5321,
+          "probability": 0.30059921741485596
+        },
+        {
+          "source_id": 5383,
+          "target_id": 5475,
+          "probability": 0.16293202340602875
+        },
+        {
+          "source_id": 7218,
+          "target_id": 7291,
+          "probability": 0.19853036105632782
+        },
+        {
+          "source_id": 8852,
+          "target_id": 8930,
+          "probability": 0.3924446105957031
+        },
+        {
+          "source_id": 9662,
+          "target_id": 9745,
+          "probability": 0.1565524786710739
+        }
+      ]
+    },
+    {
+      "movie": "6bba_91951b3a",
+      "stats": {
+        "forks": 19,
+        "removed_division_edges": 6
+      },
+      "edits": [
+        {
+          "source_id": 2275,
+          "target_id": 2462,
+          "probability": 0.3124909996986389
+        },
+        {
+          "source_id": 3909,
+          "target_id": 4070,
+          "probability": 0.13045616447925568
+        },
+        {
+          "source_id": 5411,
+          "target_id": 5571,
+          "probability": 0.05979876592755318
+        },
+        {
+          "source_id": 6828,
+          "target_id": 6968,
+          "probability": 0.35054147243499756
+        },
+        {
+          "source_id": 8286,
+          "target_id": 8408,
+          "probability": 0.3560353219509125
+        },
+        {
+          "source_id": 9348,
+          "target_id": 9456,
+          "probability": 0.1270737200975418
+        }
+      ]
+    },
+    {
+      "movie": "6bba_9e23430b",
+      "stats": {
+        "forks": 17,
+        "removed_division_edges": 7
+      },
+      "edits": [
+        {
+          "source_id": 655,
+          "target_id": 698,
+          "probability": 0.14890992641448975
+        },
+        {
+          "source_id": 1614,
+          "target_id": 1677,
+          "probability": 0.12039770185947418
+        },
+        {
+          "source_id": 2824,
+          "target_id": 2914,
+          "probability": 0.3351128101348877
+        },
+        {
+          "source_id": 4142,
+          "target_id": 4247,
+          "probability": 0.2385311722755432
+        },
+        {
+          "source_id": 4538,
+          "target_id": 4657,
+          "probability": 0.2580168545246124
+        },
+        {
+          "source_id": 5415,
+          "target_id": 5547,
+          "probability": 0.13268594443798065
+        },
+        {
+          "source_id": 7874,
+          "target_id": 8043,
+          "probability": 0.14743572473526
+        }
+      ]
+    },
+    {
+      "movie": "6bba_a5e926bb",
+      "stats": {
+        "forks": 12,
+        "removed_division_edges": 6
+      },
+      "edits": [
+        {
+          "source_id": 3126,
+          "target_id": 3251,
+          "probability": 0.14032237231731415
+        },
+        {
+          "source_id": 3239,
+          "target_id": 3365,
+          "probability": 0.09148954600095749
+        },
+        {
+          "source_id": 3492,
+          "target_id": 3611,
+          "probability": 0.12007376551628113
+        },
+        {
+          "source_id": 4858,
+          "target_id": 4957,
+          "probability": 0.019777756184339523
+        },
+        {
+          "source_id": 5215,
+          "target_id": 5300,
+          "probability": 0.06978537142276764
+        },
+        {
+          "source_id": 5939,
+          "target_id": 6022,
+          "probability": 0.0765666738152504
+        }
+      ]
+    },
+    {
+      "movie": "6bba_afb141ff",
+      "stats": {
+        "forks": 15,
+        "repair_probability_missing": 2,
+        "forks_without_exactly_one_post_ilp_edge": 1,
+        "removed_division_edges": 7
+      },
+      "edits": [
+        {
+          "source_id": 675,
+          "target_id": 784,
+          "probability": 0.06751617789268494
+        },
+        {
+          "source_id": 861,
+          "target_id": 961,
+          "probability": 0.033748429268598557
+        },
+        {
+          "source_id": 1388,
+          "target_id": 1481,
+          "probability": 0.18485619127750397
+        },
+        {
+          "source_id": 1514,
+          "target_id": 1598,
+          "probability": 0.05949743464589119
+        },
+        {
+          "source_id": 3203,
+          "target_id": 3262,
+          "probability": 0.2245180308818817
+        },
+        {
+          "source_id": 5588,
+          "target_id": 5651,
+          "probability": 0.2740023732185364
+        },
+        {
+          "source_id": 5847,
+          "target_id": 5911,
+          "probability": 0.10665521025657654
+        }
+      ]
+    },
+    {
+      "movie": "6bba_b204cac7",
+      "stats": {
+        "forks": 2,
+        "removed_division_edges": 0
+      },
+      "edits": []
+    },
+    {
+      "movie": "6bba_bb9f20c3",
+      "stats": {
+        "forks": 34,
+        "forks_without_exactly_one_post_ilp_edge": 1,
+        "removed_division_edges": 14
+      },
+      "edits": [
+        {
+          "source_id": 1759,
+          "target_id": 2035,
+          "probability": 0.39953339099884033
+        },
+        {
+          "source_id": 8761,
+          "target_id": 9073,
+          "probability": 0.03799321502447128
+        },
+        {
+          "source_id": 11201,
+          "target_id": 11493,
+          "probability": 0.3491828441619873
+        },
+        {
+          "source_id": 11467,
+          "target_id": 11749,
+          "probability": 0.3466440737247467
+        },
+        {
+          "source_id": 14434,
+          "target_id": 14693,
+          "probability": 0.171478733420372
+        },
+        {
+          "source_id": 14914,
+          "target_id": 15172,
+          "probability": 0.2657955586910248
+        },
+        {
+          "source_id": 17290,
+          "target_id": 17523,
+          "probability": 0.2862136960029602
+        },
+        {
+          "source_id": 18516,
+          "target_id": 18746,
+          "probability": 0.1009526476264
+        },
+        {
+          "source_id": 19580,
+          "target_id": 19802,
+          "probability": 0.37565720081329346
+        },
+        {
+          "source_id": 21664,
+          "target_id": 21869,
+          "probability": 0.396919846534729
+        },
+        {
+          "source_id": 21803,
+          "target_id": 21997,
+          "probability": 0.1557900756597519
+        },
+        {
+          "source_id": 22672,
+          "target_id": 22871,
+          "probability": 0.03550398349761963
+        },
+        {
+          "source_id": 23215,
+          "target_id": 23409,
+          "probability": 0.14618296921253204
+        },
+        {
+          "source_id": 24221,
+          "target_id": 24415,
+          "probability": 0.3842754364013672
+        }
+      ]
+    },
+    {
+      "movie": "6bba_bbb708ca",
+      "stats": {
+        "forks": 17,
+        "removed_division_edges": 7
+      },
+      "edits": [
+        {
+          "source_id": 1950,
+          "target_id": 2028,
+          "probability": 0.3426162004470825
+        },
+        {
+          "source_id": 2072,
+          "target_id": 2170,
+          "probability": 0.06650781631469727
+        },
+        {
+          "source_id": 2431,
+          "target_id": 2519,
+          "probability": 0.30764445662498474
+        },
+        {
+          "source_id": 2917,
+          "target_id": 3009,
+          "probability": 0.07407964020967484
+        },
+        {
+          "source_id": 3605,
+          "target_id": 3694,
+          "probability": 0.1980040967464447
+        },
+        {
+          "source_id": 3941,
+          "target_id": 4032,
+          "probability": 0.35817408561706543
+        },
+        {
+          "source_id": 6171,
+          "target_id": 6238,
+          "probability": 0.06924069672822952
+        }
+      ]
+    },
+    {
+      "movie": "6bba_c328f2fd",
+      "stats": {
+        "forks": 38,
+        "repair_probability_missing": 1,
+        "removed_division_edges": 13
+      },
+      "edits": [
+        {
+          "source_id": 385,
+          "target_id": 768,
+          "probability": 0.343008816242218
+        },
+        {
+          "source_id": 2511,
+          "target_id": 2862,
+          "probability": 0.3595772683620453
+        },
+        {
+          "source_id": 3907,
+          "target_id": 4279,
+          "probability": 0.20360973477363586
+        },
+        {
+          "source_id": 4152,
+          "target_id": 4532,
+          "probability": 0.11665058881044388
+        },
+        {
+          "source_id": 4703,
+          "target_id": 5084,
+          "probability": 0.21810291707515717
+        },
+        {
+          "source_id": 6400,
+          "target_id": 6779,
+          "probability": 0.2960834205150604
+        },
+        {
+          "source_id": 7286,
+          "target_id": 7672,
+          "probability": 0.228111132979393
+        },
+        {
+          "source_id": 10281,
+          "target_id": 10614,
+          "probability": 0.3635897934436798
+        },
+        {
+          "source_id": 14862,
+          "target_id": 15176,
+          "probability": 0.33476150035858154
+        },
+        {
+          "source_id": 18923,
+          "target_id": 19392,
+          "probability": 0.22479388117790222
+        },
+        {
+          "source_id": 25048,
+          "target_id": 25415,
+          "probability": 0.1671319305896759
+        },
+        {
+          "source_id": 27718,
+          "target_id": 28099,
+          "probability": 0.24893084168434143
+        },
+        {
+          "source_id": 32817,
+          "target_id": 33132,
+          "probability": 0.3814273178577423
+        }
+      ]
+    },
+    {
+      "movie": "6bba_d5eae175",
+      "stats": {
+        "forks": 0,
+        "removed_division_edges": 0
+      },
+      "edits": []
+    },
+    {
+      "movie": "6bba_e5e44988",
+      "stats": {
+        "forks": 8,
+        "removed_division_edges": 3
+      },
+      "edits": [
+        {
+          "source_id": 4609,
+          "target_id": 4697,
+          "probability": 0.14052608609199524
+        },
+        {
+          "source_id": 5124,
+          "target_id": 5229,
+          "probability": 0.11449327319860458
+        },
+        {
+          "source_id": 5256,
+          "target_id": 5369,
+          "probability": 0.05561546981334686
+        }
+      ]
+    },
+    {
+      "movie": "6bba_ebdf3b34",
+      "stats": {
+        "forks": 145,
+        "repair_probability_missing": 7,
+        "forks_without_exactly_one_post_ilp_edge": 4,
+        "removed_division_edges": 66
+      },
+      "edits": [
+        {
+          "source_id": 1252,
+          "target_id": 1892,
+          "probability": 0.22100359201431274
+        },
+        {
+          "source_id": 2512,
+          "target_id": 3202,
+          "probability": 0.15352466702461243
+        },
+        {
+          "source_id": 2524,
+          "target_id": 3201,
+          "probability": 0.171907439827919
+        },
+        {
+          "source_id": 6078,
+          "target_id": 6474,
+          "probability": 0.31931906938552856
+        },
+        {
+          "source_id": 6414,
+          "target_id": 7137,
+          "probability": 0.22063928842544556
+        },
+        {
+          "source_id": 8196,
+          "target_id": 8806,
+          "probability": 0.05596168711781502
+        },
+        {
+          "source_id": 8395,
+          "target_id": 9051,
+          "probability": 0.2683715522289276
+        },
+        {
+          "source_id": 9587,
+          "target_id": 10277,
+          "probability": 0.30433419346809387
+        },
+        {
+          "source_id": 10134,
+          "target_id": 10798,
+          "probability": 0.28561630845069885
+        },
+        {
+          "source_id": 10603,
+          "target_id": 11308,
+          "probability": 0.15347549319267273
+        },
+        {
+          "source_id": 10630,
+          "target_id": 11302,
+          "probability": 0.33674541115760803
+        },
+        {
+          "source_id": 11276,
+          "target_id": 11960,
+          "probability": 0.3923960328102112
+        },
+        {
+          "source_id": 11903,
+          "target_id": 12565,
+          "probability": 0.38926905393600464
+        },
+        {
+          "source_id": 13881,
+          "target_id": 14592,
+          "probability": 0.05796258524060249
+        },
+        {
+          "source_id": 14324,
+          "target_id": 15036,
+          "probability": 0.3028639554977417
+        },
+        {
+          "source_id": 16158,
+          "target_id": 16836,
+          "probability": 0.22714444994926453
+        },
+        {
+          "source_id": 16531,
+          "target_id": 17222,
+          "probability": 0.08878620713949203
+        },
+        {
+          "source_id": 17280,
+          "target_id": 17994,
+          "probability": 0.25508785247802734
+        },
+        {
+          "source_id": 17944,
+          "target_id": 18675,
+          "probability": 0.24034327268600464
+        },
+        {
+          "source_id": 17964,
+          "target_id": 18666,
+          "probability": 0.21764232218265533
+        },
+        {
+          "source_id": 19471,
+          "target_id": 20187,
+          "probability": 0.10464059561491013
+        },
+        {
+          "source_id": 19918,
+          "target_id": 20636,
+          "probability": 0.2939562499523163
+        },
+        {
+          "source_id": 20006,
+          "target_id": 20719,
+          "probability": 0.2130497246980667
+        },
+        {
+          "source_id": 21205,
+          "target_id": 21880,
+          "probability": 0.3717941343784332
+        },
+        {
+          "source_id": 21412,
+          "target_id": 22092,
+          "probability": 0.316758930683136
+        },
+        {
+          "source_id": 24701,
+          "target_id": 25419,
+          "probability": 0.04815332219004631
+        },
+        {
+          "source_id": 24879,
+          "target_id": 25629,
+          "probability": 0.19114474952220917
+        },
+        {
+          "source_id": 24894,
+          "target_id": 25632,
+          "probability": 0.18950234353542328
+        },
+        {
+          "source_id": 25025,
+          "target_id": 25752,
+          "probability": 0.37996572256088257
+        },
+        {
+          "source_id": 25030,
+          "target_id": 25733,
+          "probability": 0.3986387550830841
+        },
+        {
+          "source_id": 25564,
+          "target_id": 26281,
+          "probability": 0.37304991483688354
+        },
+        {
+          "source_id": 25753,
+          "target_id": 26434,
+          "probability": 0.16690102219581604
+        },
+        {
+          "source_id": 28024,
+          "target_id": 28757,
+          "probability": 0.34546053409576416
+        },
+        {
+          "source_id": 28142,
+          "target_id": 28878,
+          "probability": 0.32262030243873596
+        },
+        {
+          "source_id": 28515,
+          "target_id": 29219,
+          "probability": 0.26621025800704956
+        },
+        {
+          "source_id": 28746,
+          "target_id": 29423,
+          "probability": 0.2601791322231293
+        },
+        {
+          "source_id": 29141,
+          "target_id": 29832,
+          "probability": 0.04788161441683769
+        },
+        {
+          "source_id": 29241,
+          "target_id": 29905,
+          "probability": 0.28712812066078186
+        },
+        {
+          "source_id": 31144,
+          "target_id": 31826,
+          "probability": 0.17912696301937103
+        },
+        {
+          "source_id": 31891,
+          "target_id": 32595,
+          "probability": 0.025567052885890007
+        },
+        {
+          "source_id": 32108,
+          "target_id": 32840,
+          "probability": 0.3251030147075653
+        },
+        {
+          "source_id": 33552,
+          "target_id": 34248,
+          "probability": 0.24069204926490784
+        },
+        {
+          "source_id": 33726,
+          "target_id": 34484,
+          "probability": 0.3639450669288635
+        },
+        {
+          "source_id": 34402,
+          "target_id": 35086,
+          "probability": 0.21616646647453308
+        },
+        {
+          "source_id": 34459,
+          "target_id": 35205,
+          "probability": 0.06740162521600723
+        },
+        {
+          "source_id": 34712,
+          "target_id": 35436,
+          "probability": 0.33339765667915344
+        },
+        {
+          "source_id": 35508,
+          "target_id": 36204,
+          "probability": 0.02274702675640583
+        },
+        {
+          "source_id": 35917,
+          "target_id": 36612,
+          "probability": 0.3332347869873047
+        },
+        {
+          "source_id": 36022,
+          "target_id": 36740,
+          "probability": 0.14081774652004242
+        },
+        {
+          "source_id": 37672,
+          "target_id": 38392,
+          "probability": 0.2316938191652298
+        },
+        {
+          "source_id": 37952,
+          "target_id": 38688,
+          "probability": 0.03402270749211311
+        },
+        {
+          "source_id": 39621,
+          "target_id": 40326,
+          "probability": 0.36292529106140137
+        },
+        {
+          "source_id": 41609,
+          "target_id": 42309,
+          "probability": 0.2170017659664154
+        },
+        {
+          "source_id": 42396,
+          "target_id": 43078,
+          "probability": 0.05345798656344414
+        },
+        {
+          "source_id": 43765,
+          "target_id": 44442,
+          "probability": 0.2775573134422302
+        },
+        {
+          "source_id": 44059,
+          "target_id": 44742,
+          "probability": 0.06302648782730103
+        },
+        {
+          "source_id": 44763,
+          "target_id": 45492,
+          "probability": 0.06256722658872604
+        },
+        {
+          "source_id": 47677,
+          "target_id": 48363,
+          "probability": 0.3840153217315674
+        },
+        {
+          "source_id": 48392,
+          "target_id": 49033,
+          "probability": 0.24353255331516266
+        },
+        {
+          "source_id": 49835,
+          "target_id": 50482,
+          "probability": 0.39212724566459656
+        },
+        {
+          "source_id": 51294,
+          "target_id": 51906,
+          "probability": 0.22329258918762207
+        },
+        {
+          "source_id": 51958,
+          "target_id": 52609,
+          "probability": 0.3675238788127899
+        },
+        {
+          "source_id": 52632,
+          "target_id": 53266,
+          "probability": 0.378557026386261
+        },
+        {
+          "source_id": 56604,
+          "target_id": 57211,
+          "probability": 0.29605361819267273
+        },
+        {
+          "source_id": 57495,
+          "target_id": 58051,
+          "probability": 0.11446581035852432
+        },
+        {
+          "source_id": 58042,
+          "target_id": 58615,
+          "probability": 0.36014124751091003
+        }
+      ]
+    }
+  ],
+  "caveat": "Label-free final-graph ablation; full organizer score follows."
+}

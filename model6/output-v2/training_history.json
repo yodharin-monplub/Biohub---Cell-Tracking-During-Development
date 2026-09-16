@@ -1,0 +1,410 @@
+[
+  {
+    "epoch": 0,
+    "frames": 200,
+    "loss": 0.29303277341219097,
+    "threshold_0_965_mean_count_ratio": 0.8895821134444656,
+    "threshold_0_965_precision_7um": 0.9896068685042928,
+    "threshold_0_965_recall_7um": 0.8608490566037735,
+    "threshold_sweep": {
+      "0.9500": {
+        "mean_count_ratio": 0.8923250532116601,
+        "precision_7um": 0.9889264961947059,
+        "predictions": 51113,
+        "recall_7um": 0.8638740771123872
+      },
+      "0.9550": {
+        "mean_count_ratio": 0.8914278209109822,
+        "precision_7um": 0.9892645848842221,
+        "predictions": 51046,
+        "recall_7um": 0.8630366420563303
+      },
+      "0.9600": {
+        "mean_count_ratio": 0.8905695554080763,
+        "precision_7um": 0.9894261893084846,
+        "predictions": 50975,
+        "recall_7um": 0.8619770303527482
+      },
+      "0.9625": {
+        "mean_count_ratio": 0.8900937763259029,
+        "precision_7um": 0.98951728470191,
+        "predictions": 50941,
+        "recall_7um": 0.8614814055236533
+      },
+      "0.9650": {
+        "mean_count_ratio": 0.8895821134444656,
+        "precision_7um": 0.9896068685042928,
+        "predictions": 50899,
+        "recall_7um": 0.8608490566037735
+      },
+      "0.9675": {
+        "mean_count_ratio": 0.8889177649265487,
+        "precision_7um": 0.9897931088735054,
+        "predictions": 50848,
+        "recall_7um": 0.8601483456385015
+      },
+      "0.9700": {
+        "mean_count_ratio": 0.8882213338583179,
+        "precision_7um": 0.9899190769654846,
+        "predictions": 50789,
+        "recall_7um": 0.8592596390484003
+      },
+      "0.9750": {
+        "mean_count_ratio": 0.8867105895037903,
+        "precision_7um": 0.9904104183109708,
+        "predictions": 50680,
+        "recall_7um": 0.857841126606508
+      },
+      "0.9800": {
+        "mean_count_ratio": 0.8844739020327655,
+        "precision_7um": 0.9906945434386631,
+        "predictions": 50508,
+        "recall_7um": 0.8551750068362045
+      }
+    },
+    "topn_recall_3_5um": 0.8233866557287394,
+    "topn_recall_7um": 0.8460999453103637,
+    "train_loss": null,
+    "truth_nodes": 58512
+  },
+  {
+    "epoch": 1,
+    "frames": 200,
+    "loss": 0.15242308722092554,
+    "threshold_0_965_mean_count_ratio": 0.8144487200038956,
+    "threshold_0_965_precision_7um": 0.9930686272338729,
+    "threshold_0_965_recall_7um": 0.7664068908941756,
+    "threshold_sweep": {
+      "0.9500": {
+        "mean_count_ratio": 0.8444791192522274,
+        "precision_7um": 0.9927516324676148,
+        "predictions": 47321,
+        "recall_7um": 0.80287804211102
+      },
+      "0.9550": {
+        "mean_count_ratio": 0.8371453615456246,
+        "precision_7um": 0.9926888708367181,
+        "predictions": 46778,
+        "recall_7um": 0.79361498496035
+      },
+      "0.9600": {
+        "mean_count_ratio": 0.8272476197994344,
+        "precision_7um": 0.9927275095519278,
+        "predictions": 46064,
+        "recall_7um": 0.7815319934372437
+      },
+      "0.9625": {
+        "mean_count_ratio": 0.8208253423957964,
+        "precision_7um": 0.9929194616160287,
+        "predictions": 45618,
+        "recall_7um": 0.7741147115121685
+      },
+      "0.9650": {
+        "mean_count_ratio": 0.8144487200038956,
+        "precision_7um": 0.9930686272338729,
+        "predictions": 45157,
+        "recall_7um": 0.7664068908941756
+      },
+      "0.9675": {
+        "mean_count_ratio": 0.8060287117585638,
+        "precision_7um": 0.9935178539386327,
+        "predictions": 44584,
+        "recall_7um": 0.7570242001640689
+      },
+      "0.9700": {
+        "mean_count_ratio": 0.7940966897656095,
+        "precision_7um": 0.9938058558661517,
+        "predictions": 43751,
+        "recall_7um": 0.7430954334153678
+      },
+      "0.9750": {
+        "mean_count_ratio": 0.7613312438478274,
+        "precision_7um": 0.9945884842945789,
+        "predictions": 41578,
+        "recall_7um": 0.70674391577796
+      },
+      "0.9800": {
+        "mean_count_ratio": 0.7041886932815717,
+        "precision_7um": 0.9956321536639916,
+        "predictions": 38005,
+        "recall_7um": 0.6466878589007383
+      }
+    },
+    "topn_recall_3_5um": 0.8245146294777139,
+    "topn_recall_7um": 0.8468861088323762,
+    "train_loss": 0.2727780082821846,
+    "truth_nodes": 58512
+  },
+  {
+    "epoch": 2,
+    "frames": 200,
+    "loss": 0.11054231627629353,
+    "threshold_0_965_mean_count_ratio": 0.7824055125484989,
+    "threshold_0_965_precision_7um": 0.9949338848736957,
+    "threshold_0_965_recall_7um": 0.7316960623461854,
+    "threshold_sweep": {
+      "0.9500": {
+        "mean_count_ratio": 0.8339067923649975,
+        "precision_7um": 0.9934480462288673,
+        "predictions": 46551,
+        "recall_7um": 0.7903677878042111
+      },
+      "0.9550": {
+        "mean_count_ratio": 0.8221296089665505,
+        "precision_7um": 0.9937672221493242,
+        "predictions": 45726,
+        "recall_7um": 0.7766099261689909
+      },
+      "0.9600": {
+        "mean_count_ratio": 0.8067595124527901,
+        "precision_7um": 0.9941109294878971,
+        "predictions": 44659,
+        "recall_7um": 0.7587503418102269
+      },
+      "0.9625": {
+        "mean_count_ratio": 0.7963074653010671,
+        "precision_7um": 0.9946527714571767,
+        "predictions": 43948,
+        "recall_7um": 0.747077522559475
+      },
+      "0.9650": {
+        "mean_count_ratio": 0.7824055125484989,
+        "precision_7um": 0.9949338848736957,
+        "predictions": 43031,
+        "recall_7um": 0.7316960623461854
+      },
+      "0.9675": {
+        "mean_count_ratio": 0.7670435250079602,
+        "precision_7um": 0.9950267697798929,
+        "predictions": 42025,
+        "recall_7um": 0.7146568225321301
+      },
+      "0.9700": {
+        "mean_count_ratio": 0.741794159314908,
+        "precision_7um": 0.9954462208582884,
+        "predictions": 40406,
+        "recall_7um": 0.6874145474432595
+      },
+      "0.9750": {
+        "mean_count_ratio": 0.6772758913851016,
+        "precision_7um": 0.9960842301267833,
+        "predictions": 36519,
+        "recall_7um": 0.6216844407984687
+      },
+      "0.9800": {
+        "mean_count_ratio": 0.5709218034805101,
+        "precision_7um": 0.9967392378380159,
+        "predictions": 30361,
+        "recall_7um": 0.5171930544161881
+      }
+    },
+    "topn_recall_3_5um": 0.8301886792452831,
+    "topn_recall_7um": 0.8513467322942302,
+    "train_loss": 0.1576495176553726,
+    "truth_nodes": 58512
+  },
+  {
+    "epoch": 3,
+    "frames": 200,
+    "loss": 0.07966849723687539,
+    "threshold_0_965_mean_count_ratio": 0.8003010953218263,
+    "threshold_0_965_precision_7um": 0.994469525959368,
+    "threshold_0_965_recall_7um": 0.752922477440525,
+    "threshold_sweep": {
+      "0.9500": {
+        "mean_count_ratio": 0.8460887664627582,
+        "precision_7um": 0.9932574799831437,
+        "predictions": 47460,
+        "recall_7um": 0.805646704949412
+      },
+      "0.9550": {
+        "mean_count_ratio": 0.8347010633297733,
+        "precision_7um": 0.9934832472293083,
+        "predictions": 46649,
+        "recall_7um": 0.7920597484276729
+      },
+      "0.9600": {
+        "mean_count_ratio": 0.8213035921854608,
+        "precision_7um": 0.9939397917213617,
+        "predictions": 45708,
+        "recall_7um": 0.77643902105551
+      },
+      "0.9625": {
+        "mean_count_ratio": 0.812227332841136,
+        "precision_7um": 0.9942118335846714,
+        "predictions": 45092,
+        "recall_7um": 0.7661847142466502
+      },
+      "0.9650": {
+        "mean_count_ratio": 0.8003010953218263,
+        "precision_7um": 0.994469525959368,
+        "predictions": 44300,
+        "recall_7um": 0.752922477440525
+      },
+      "0.9675": {
+        "mean_count_ratio": 0.7854566214426696,
+        "precision_7um": 0.9947148561009947,
+        "predictions": 43329,
+        "recall_7um": 0.7366010391030899
+      },
+      "0.9700": {
+        "mean_count_ratio": 0.7642632430174219,
+        "precision_7um": 0.9950643776824034,
+        "predictions": 41940,
+        "recall_7um": 0.7132383100902379
+      },
+      "0.9750": {
+        "mean_count_ratio": 0.7098760264689515,
+        "precision_7um": 0.9954917608042284,
+        "predictions": 38596,
+        "recall_7um": 0.6566516270166803
+      },
+      "0.9800": {
+        "mean_count_ratio": 0.6198093737508029,
+        "precision_7um": 0.9958536145664323,
+        "predictions": 33282,
+        "recall_7um": 0.566447908121411
+      }
+    },
+    "topn_recall_3_5um": 0.8337776866283839,
+    "topn_recall_7um": 0.8537564943943122,
+    "train_loss": 0.11215983018279076,
+    "truth_nodes": 58512
+  },
+  {
+    "epoch": 4,
+    "frames": 200,
+    "loss": 0.059984216323265664,
+    "threshold_0_965_mean_count_ratio": 0.8253684171041971,
+    "threshold_0_965_precision_7um": 0.993805155849237,
+    "threshold_0_965_recall_7um": 0.7813952693464589,
+    "threshold_sweep": {
+      "0.9500": {
+        "mean_count_ratio": 0.8611259372909426,
+        "precision_7um": 0.9926317739312985,
+        "predictions": 48587,
+        "recall_7um": 0.8242582718074924
+      },
+      "0.9550": {
+        "mean_count_ratio": 0.8523613481832173,
+        "precision_7um": 0.9930332485086146,
+        "predictions": 47942,
+        "recall_7um": 0.8136450642603227
+      },
+      "0.9600": {
+        "mean_count_ratio": 0.8407290997797872,
+        "precision_7um": 0.9934386546056823,
+        "predictions": 47094,
+        "recall_7um": 0.7995795734208367
+      },
+      "0.9625": {
+        "mean_count_ratio": 0.8337624225873356,
+        "precision_7um": 0.9935627843103596,
+        "predictions": 46604,
+        "recall_7um": 0.7913590374624009
+      },
+      "0.9650": {
+        "mean_count_ratio": 0.8253684171041971,
+        "precision_7um": 0.993805155849237,
+        "predictions": 46006,
+        "recall_7um": 0.7813952693464589
+      },
+      "0.9675": {
+        "mean_count_ratio": 0.8146820030850778,
+        "precision_7um": 0.9939505000772746,
+        "predictions": 45293,
+        "recall_7um": 0.769397730380093
+      },
+      "0.9700": {
+        "mean_count_ratio": 0.7989706739936839,
+        "precision_7um": 0.9942615728712468,
+        "predictions": 44263,
+        "recall_7um": 0.7521363139185124
+      },
+      "0.9750": {
+        "mean_count_ratio": 0.7597344970667649,
+        "precision_7um": 0.9948226270373921,
+        "predictions": 41720,
+        "recall_7um": 0.7093245829915231
+      },
+      "0.9800": {
+        "mean_count_ratio": 0.6931635081685354,
+        "precision_7um": 0.9953278470931776,
+        "predictions": 37670,
+        "recall_7um": 0.640791632485644
+      }
+    },
+    "topn_recall_3_5um": 0.8346834837298331,
+    "topn_recall_7um": 0.8542692097347553,
+    "train_loss": 0.08141839571297169,
+    "truth_nodes": 58512
+  },
+  {
+    "epoch": 5,
+    "frames": 200,
+    "loss": 0.0472721102146002,
+    "threshold_0_965_mean_count_ratio": 0.8478588375402871,
+    "threshold_0_965_precision_7um": 0.9927794802905,
+    "threshold_0_965_recall_7um": 0.8083470057424118,
+    "threshold_sweep": {
+      "0.9500": {
+        "mean_count_ratio": 0.8756016676918974,
+        "precision_7um": 0.9920131973363913,
+        "predictions": 49707,
+        "recall_7um": 0.8427331145747881
+      },
+      "0.9550": {
+        "mean_count_ratio": 0.868959656621818,
+        "precision_7um": 0.9923153550590579,
+        "predictions": 49189,
+        "recall_7um": 0.8342049494120864
+      },
+      "0.9600": {
+        "mean_count_ratio": 0.859752331780071,
+        "precision_7um": 0.9925785437453616,
+        "predictions": 48508,
+        "recall_7um": 0.8228739403882964
+      },
+      "0.9625": {
+        "mean_count_ratio": 0.8542075101999614,
+        "precision_7um": 0.9925577914518543,
+        "predictions": 48104,
+        "recall_7um": 0.8160035548263604
+      },
+      "0.9650": {
+        "mean_count_ratio": 0.8478588375402871,
+        "precision_7um": 0.9927794802905,
+        "predictions": 47642,
+        "recall_7um": 0.8083470057424118
+      },
+      "0.9675": {
+        "mean_count_ratio": 0.840335821220321,
+        "precision_7um": 0.992781469607864,
+        "predictions": 47101,
+        "recall_7um": 0.7991694011484823
+      },
+      "0.9700": {
+        "mean_count_ratio": 0.8301127168714211,
+        "precision_7um": 0.9931211454694441,
+        "predictions": 46374,
+        "recall_7um": 0.7871035001367241
+      },
+      "0.9750": {
+        "mean_count_ratio": 0.8028432622255375,
+        "precision_7um": 0.9938961446972757,
+        "predictions": 44562,
+        "recall_7um": 0.7569387476073284
+      },
+      "0.9800": {
+        "mean_count_ratio": 0.7577024034380969,
+        "precision_7um": 0.9946942597171873,
+        "predictions": 41653,
+        "recall_7um": 0.7080940661744599
+      }
+    },
+    "topn_recall_3_5um": 0.834991112934099,
+    "topn_recall_7um": 0.854576838939021,
+    "train_loss": 0.06252644799649715,
+    "truth_nodes": 58512
+  }
+]

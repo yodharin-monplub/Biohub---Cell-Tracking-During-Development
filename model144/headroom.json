@@ -1,0 +1,211 @@
+{
+  "status": "diagnostic_only",
+  "cohorts": {
+    "development": {
+      "cohort": "development",
+      "model143": {
+        "score": 0.9632007558203073,
+        "adjusted_edge_jaccard": 0.9418892804104713,
+        "division_jaccard": 0.21311475409836064,
+        "edge_weight": 26474,
+        "node_recall": 0.9865221823168033
+      },
+      "oracle_best_local_search": {
+        "initial": "model130",
+        "result": {
+          "score": 0.9682075759946489,
+          "adjusted_edge_jaccard": 0.9422075759946489,
+          "division_jaccard": 0.26,
+          "edge_weight": 26464,
+          "node_recall": 0.9865221823168033
+        },
+        "source_counts": {
+          "model130": 21,
+          "model132": 3,
+          "model133": 1
+        },
+        "choices": {
+          "6bba_09961292": "model130",
+          "6bba_1d0d8384": "model130",
+          "6bba_1f58c2f6": "model130",
+          "6bba_312f0dc3": "model130",
+          "6bba_3abfe10a": "model130",
+          "6bba_48816121": "model132",
+          "6bba_4f99ce20": "model132",
+          "6bba_4ffd3da3": "model130",
+          "6bba_6ca87370": "model130",
+          "6bba_705ec2c9": "model130",
+          "6bba_76db78c1": "model130",
+          "6bba_784a78c9": "model130",
+          "6bba_789f8168": "model130",
+          "6bba_80d12824": "model130",
+          "6bba_91951b3a": "model130",
+          "6bba_9e23430b": "model130",
+          "6bba_a5e926bb": "model130",
+          "6bba_afb141ff": "model133",
+          "6bba_b204cac7": "model130",
+          "6bba_bb9f20c3": "model132",
+          "6bba_bbb708ca": "model130",
+          "6bba_c328f2fd": "model130",
+          "6bba_d5eae175": "model130",
+          "6bba_e5e44988": "model130",
+          "6bba_ebdf3b34": "model130"
+        }
+      },
+      "oracle_delta": 0.00500682017434162,
+      "source_score_hashes": {
+        "model130": "eed2f774b14c00bcd6d14544faea65efa6581c4c64fed1e1c012afec5ca2679b",
+        "model132": "90b6aef88f14e6460bf7be2df35f53cffe56716f4647a6e4ce586f7c768c57b4",
+        "model133": "b0893c0a8e3839d489c34d9079b046cc3364badf7ccf19587e3ac6ab254f995e"
+      },
+      "starts": [
+        {
+          "initial": "model130",
+          "result": {
+            "score": 0.9682075759946489,
+            "adjusted_edge_jaccard": 0.9422075759946489,
+            "division_jaccard": 0.26,
+            "edge_weight": 26464,
+            "node_recall": 0.9865221823168033
+          },
+          "source_counts": {
+            "model130": 21,
+            "model132": 3,
+            "model133": 1
+          }
+        },
+        {
+          "initial": "model132",
+          "result": {
+            "score": 0.9682075759946489,
+            "adjusted_edge_jaccard": 0.9422075759946489,
+            "division_jaccard": 0.26,
+            "edge_weight": 26464,
+            "node_recall": 0.9865221823168033
+          },
+          "source_counts": {
+            "model130": 21,
+            "model132": 3,
+            "model133": 1
+          }
+        },
+        {
+          "initial": "model133",
+          "result": {
+            "score": 0.9682075759946489,
+            "adjusted_edge_jaccard": 0.9422075759946489,
+            "division_jaccard": 0.26,
+            "edge_weight": 26464,
+            "node_recall": 0.9865221823168033
+          },
+          "source_counts": {
+            "model130": 21,
+            "model132": 3,
+            "model133": 1
+          }
+        }
+      ]
+    },
+    "confirmation": {
+      "cohort": "confirmation",
+      "model143": {
+        "score": 0.9658805018351528,
+        "adjusted_edge_jaccard": 0.9444519304065814,
+        "division_jaccard": 0.21428571428571427,
+        "edge_weight": 23558,
+        "node_recall": 0.9850835523319711
+      },
+      "oracle_best_local_search": {
+        "initial": "model130",
+        "result": {
+          "score": 0.97036069456506,
+          "adjusted_edge_jaccard": 0.9446464088507743,
+          "division_jaccard": 0.2571428571428571,
+          "edge_weight": 23551,
+          "node_recall": 0.9850835523319711
+        },
+        "source_counts": {
+          "model130": 15,
+          "model132": 0,
+          "model133": 5
+        },
+        "choices": {
+          "6bba_12665c0e": "model133",
+          "6bba_1ebfb80d": "model130",
+          "6bba_20852818": "model130",
+          "6bba_2540cd90": "model130",
+          "6bba_268e1230": "model130",
+          "6bba_372c8cb8": "model130",
+          "6bba_3a1849c2": "model130",
+          "6bba_3c5691b6": "model133",
+          "6bba_474be664": "model130",
+          "6bba_5b28472a": "model130",
+          "6bba_6db0e9b4": "model130",
+          "6bba_74686d6a": "model130",
+          "6bba_7f87b3d8": "model133",
+          "6bba_9a41d029": "model133",
+          "6bba_ae82a791": "model130",
+          "6bba_ed9377fd": "model130",
+          "6bba_edf14583": "model130",
+          "6bba_f17befbc": "model130",
+          "6bba_f1fde7e0": "model130",
+          "6bba_f8ffd5e7": "model133"
+        }
+      },
+      "oracle_delta": 0.004480192729907184,
+      "source_score_hashes": {
+        "model130": "0b187720fa50e44acb5640befb3c7d0e09ab80cacfbe4530cc1a58623c0481b8",
+        "model132": "5020d9196bcefbed133e8fa8405853f5bf6e6c8e790cf55a8eda5ee92c539764",
+        "model133": "efa81ca2ba8ea2906ea1d0d6de0a63851fd49e468bc1350226d49ae0e187f236"
+      },
+      "starts": [
+        {
+          "initial": "model130",
+          "result": {
+            "score": 0.97036069456506,
+            "adjusted_edge_jaccard": 0.9446464088507743,
+            "division_jaccard": 0.2571428571428571,
+            "edge_weight": 23551,
+            "node_recall": 0.9850835523319711
+          },
+          "source_counts": {
+            "model130": 15,
+            "model132": 0,
+            "model133": 5
+          }
+        },
+        {
+          "initial": "model132",
+          "result": {
+            "score": 0.97036069456506,
+            "adjusted_edge_jaccard": 0.9446464088507743,
+            "division_jaccard": 0.2571428571428571,
+            "edge_weight": 23551,
+            "node_recall": 0.9850835523319711
+          },
+          "source_counts": {
+            "model130": 15,
+            "model132": 0,
+            "model133": 5
+          }
+        },
+        {
+          "initial": "model133",
+          "result": {
+            "score": 0.97036069456506,
+            "adjusted_edge_jaccard": 0.9446464088507743,
+            "division_jaccard": 0.2571428571428571,
+            "edge_weight": 23551,
+            "node_recall": 0.9850835523319711
+          },
+          "source_counts": {
+            "model130": 15,
+            "model132": 0,
+            "model133": 5
+          }
+        }
+      ]
+    }
+  },
+  "caveat": "This movie selector uses organizer GT scores. It is not inference-visible, a CV candidate, an achievable bound, or a hidden-test result. Coordinate ascent gives a local oracle, not a proven global optimum."
+}

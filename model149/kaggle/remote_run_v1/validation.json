@@ -1,0 +1,59 @@
+{
+  "status": "valid",
+  "submission_sha256": "704532f2d842a1d6b951f88e7641ae9b8f39fb267c1eca2e5a54fd7bcabd05c6",
+  "validation": {
+    "status": "valid",
+    "path": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model149/kaggle/remote_run_v1/output/submission.csv",
+    "rows": 234080,
+    "datasets": {
+      "44b6_0113de3b": {
+        "nodes": 25536,
+        "edges": 24831,
+        "frames": 100,
+        "divisions": 21,
+        "tracks": 705,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_0b24845f": {
+        "nodes": 18399,
+        "edges": 17100,
+        "frames": 100,
+        "divisions": 9,
+        "tracks": 1299,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_05b6850b": {
+        "nodes": 6055,
+        "edges": 5856,
+        "frames": 100,
+        "divisions": 9,
+        "tracks": 199,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_05db0fb1": {
+        "nodes": 69320,
+        "edges": 66983,
+        "frames": 100,
+        "divisions": 72,
+        "tracks": 2337,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      }
+    },
+    "totals": {
+      "nodes": 119310,
+      "edges": 114770,
+      "divisions": 111,
+      "tracks": 4540
+    }
+  },
+  "recovery_totals": {
+    "model132_added": 7,
+    "model133_added": 34,
+    "model145_added": 0,
+    "model149_pruned": 14
+  }
+}

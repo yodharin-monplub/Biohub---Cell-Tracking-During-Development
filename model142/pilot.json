@@ -1,0 +1,173 @@
+{
+  "status": "train_only_stage_complete",
+  "config_sha256": "d2b6313c8d15ddbe4ebc30e07f9f18433cadedfbf936b8fa4a842497f18a97ad",
+  "model140_audit_sha256": "cedba5c9d3b34c4712b72bca5111c1ca5dd92705a9796286ff3d2ca4acf32d49",
+  "movies": [
+    {
+      "movie": "44b6_267148e4",
+      "family": "44b6",
+      "broad": 2672,
+      "eligible_parents": 17348,
+      "rule": 137,
+      "raw_verified": 137,
+      "selected": 76,
+      "global_cap": 76,
+      "rule_labels": {
+        "unknown": 135,
+        "explicit_division_positive": 1,
+        "positive_link_division_unverified": 1
+      },
+      "selected_labels": {
+        "unknown": 76
+      }
+    },
+    {
+      "movie": "44b6_c50204e0",
+      "family": "44b6",
+      "broad": 5512,
+      "eligible_parents": 26662,
+      "rule": 315,
+      "raw_verified": 315,
+      "selected": 123,
+      "global_cap": 123,
+      "rule_labels": {
+        "unknown": 314,
+        "positive_link_division_unverified": 1
+      },
+      "selected_labels": {
+        "unknown": 122,
+        "positive_link_division_unverified": 1
+      }
+    },
+    {
+      "movie": "44b6_d2f34f90",
+      "family": "44b6",
+      "broad": 1985,
+      "eligible_parents": 11268,
+      "rule": 151,
+      "raw_verified": 151,
+      "selected": 51,
+      "global_cap": 51,
+      "rule_labels": {
+        "unknown": 149,
+        "explicit_division_positive": 2
+      },
+      "selected_labels": {
+        "unknown": 51
+      }
+    },
+    {
+      "movie": "6bba_05db0fb1",
+      "family": "6bba",
+      "broad": 7999,
+      "eligible_parents": 59096,
+      "rule": 347,
+      "raw_verified": 347,
+      "selected": 248,
+      "global_cap": 248,
+      "rule_labels": {
+        "unknown": 345,
+        "positive_link_division_unverified": 2
+      },
+      "selected_labels": {
+        "unknown": 246,
+        "positive_link_division_unverified": 2
+      }
+    },
+    {
+      "movie": "6bba_07e24132",
+      "family": "6bba",
+      "broad": 2485,
+      "eligible_parents": 19531,
+      "rule": 79,
+      "raw_verified": 79,
+      "selected": 61,
+      "global_cap": 87,
+      "rule_labels": {
+        "unknown": 79
+      },
+      "selected_labels": {
+        "unknown": 61
+      }
+    },
+    {
+      "movie": "6bba_cdcfe533",
+      "family": "6bba",
+      "broad": 1837,
+      "eligible_parents": 24688,
+      "rule": 89,
+      "raw_verified": 89,
+      "selected": 75,
+      "global_cap": 102,
+      "rule_labels": {
+        "unknown": 85,
+        "explicit_division_positive": 3,
+        "positive_link_division_unverified": 1
+      },
+      "selected_labels": {
+        "unknown": 71,
+        "explicit_division_positive": 3,
+        "positive_link_division_unverified": 1
+      }
+    },
+    {
+      "movie": "6bba_debd7bfa",
+      "family": "6bba",
+      "broad": 895,
+      "eligible_parents": 9947,
+      "rule": 61,
+      "raw_verified": 61,
+      "selected": 37,
+      "global_cap": 43,
+      "rule_labels": {
+        "unknown": 59,
+        "explicit_division_positive": 2
+      },
+      "selected_labels": {
+        "unknown": 35,
+        "explicit_division_positive": 2
+      }
+    },
+    {
+      "movie": "6bba_df673a83",
+      "family": "6bba",
+      "broad": 1375,
+      "eligible_parents": 18976,
+      "rule": 91,
+      "raw_verified": 91,
+      "selected": 71,
+      "global_cap": 78,
+      "rule_labels": {
+        "unknown": 89,
+        "explicit_division_positive": 2
+      },
+      "selected_labels": {
+        "unknown": 69,
+        "explicit_division_positive": 2
+      }
+    }
+  ],
+  "pre_cap_labels": {
+    "unknown": 1255,
+    "explicit_division_positive": 10,
+    "positive_link_division_unverified": 5
+  },
+  "post_cap_labels": {
+    "unknown": 731,
+    "positive_link_division_unverified": 4,
+    "explicit_division_positive": 7
+  },
+  "post_cap_by_family": {
+    "44b6": {
+      "unknown": 249,
+      "positive_link_division_unverified": 1
+    },
+    "6bba": {
+      "unknown": 482,
+      "positive_link_division_unverified": 3,
+      "explicit_division_positive": 7
+    }
+  },
+  "selected_total": 742,
+  "caveat": "Train-only post-ILP cap pilot; final model130 repair topology and sparse-GT unknowns differ."
+}

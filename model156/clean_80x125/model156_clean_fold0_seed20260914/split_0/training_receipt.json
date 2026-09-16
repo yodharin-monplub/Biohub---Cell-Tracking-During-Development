@@ -1,0 +1,11 @@
+{
+  "status": "trained_not_scored",
+  "checkpoint": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model156/clean_80x125/model156_clean_fold0_seed20260914/split_0/edge_predictor_best.pth",
+  "checkpoint_sha256": "b862fc2fea1bb9bfa874648994d3a0c2ea64c2318c88fe6973f691afbfde3e79",
+  "elapsed_seconds": 8995.546278493013,
+  "fold": 0,
+  "outer_eval_sha256": "9a38aeec8ed9ac8433e480b854ef185b4886cb839a5dc1770e01cfc582113e42",
+  "initialization": "fresh_random_no_checkpoint",
+  "checkpoint_selection": "fixed_final_epoch",
+  "epochs": 80
+}

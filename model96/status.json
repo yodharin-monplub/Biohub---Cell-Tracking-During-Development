@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "pid": 3197015,
+  "supervisor_pid": 3197014,
+  "elapsed_seconds": 730.0443856716156,
+  "updated_unix": 1788735581.5135868,
+  "monitor_interval_seconds": 600,
+  "alarm_enabled": false,
+  "exit_code": 0,
+  "decision": "reject",
+  "score": 0.9213493099685267,
+  "delta": -0.008486422782016612
+}

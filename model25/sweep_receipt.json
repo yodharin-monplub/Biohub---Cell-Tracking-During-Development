@@ -1,0 +1,345 @@
+{
+  "candidate_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model22/candidates",
+  "cost_pairs": [
+    [
+      0.125,
+      2.0
+    ],
+    [
+      0.25,
+      2.0
+    ],
+    [
+      0.375,
+      2.0
+    ]
+  ],
+  "division_weight": 1.2,
+  "edge_weight": -1.0,
+  "elapsed_seconds": 789.3433485520072,
+  "num_threads": 1,
+  "results": [
+    {
+      "appearance_weight": 0.125,
+      "datasets": [
+        {
+          "dataset": "44b6_18ced818",
+          "edges": 63806,
+          "nodes": 70080
+        },
+        {
+          "dataset": "44b6_808952d6",
+          "edges": 14466,
+          "nodes": 15201
+        },
+        {
+          "dataset": "44b6_87bba6c4",
+          "edges": 25560,
+          "nodes": 27933
+        },
+        {
+          "dataset": "44b6_95029e92",
+          "edges": 4654,
+          "nodes": 4815
+        },
+        {
+          "dataset": "44b6_b2c44266",
+          "edges": 33766,
+          "nodes": 36431
+        },
+        {
+          "dataset": "44b6_c771cb04",
+          "edges": 26476,
+          "nodes": 28997
+        },
+        {
+          "dataset": "44b6_d29c9ab2",
+          "edges": 35358,
+          "nodes": 36619
+        },
+        {
+          "dataset": "44b6_d78e09d9",
+          "edges": 21195,
+          "nodes": 22547
+        },
+        {
+          "dataset": "6bba_13f19531",
+          "edges": 5413,
+          "nodes": 5693
+        },
+        {
+          "dataset": "6bba_2540cd90",
+          "edges": 3370,
+          "nodes": 3447
+        },
+        {
+          "dataset": "6bba_283bf9f1",
+          "edges": 20335,
+          "nodes": 21509
+        },
+        {
+          "dataset": "6bba_57b7cc1e",
+          "edges": 65042,
+          "nodes": 72163
+        },
+        {
+          "dataset": "6bba_789f8168",
+          "edges": 10112,
+          "nodes": 10738
+        },
+        {
+          "dataset": "6bba_a90a0b9c",
+          "edges": 29258,
+          "nodes": 31640
+        },
+        {
+          "dataset": "6bba_ae82a791",
+          "edges": 6798,
+          "nodes": 7069
+        },
+        {
+          "dataset": "6bba_aeee7805",
+          "edges": 4942,
+          "nodes": 5141
+        },
+        {
+          "dataset": "6bba_af149c94",
+          "edges": 7441,
+          "nodes": 7764
+        },
+        {
+          "dataset": "6bba_d0fc38b5",
+          "edges": 5596,
+          "nodes": 5828
+        },
+        {
+          "dataset": "6bba_d1acb6ff",
+          "edges": 14965,
+          "nodes": 16195
+        },
+        {
+          "dataset": "6bba_d82a4fc6",
+          "edges": 26871,
+          "nodes": 28435
+        }
+      ],
+      "disappearance_weight": 2.0,
+      "slug": "app_0p125_dis_2p000"
+    },
+    {
+      "appearance_weight": 0.25,
+      "datasets": [
+        {
+          "dataset": "44b6_18ced818",
+          "edges": 63233,
+          "nodes": 69317
+        },
+        {
+          "dataset": "44b6_808952d6",
+          "edges": 14421,
+          "nodes": 15141
+        },
+        {
+          "dataset": "44b6_87bba6c4",
+          "edges": 25428,
+          "nodes": 27757
+        },
+        {
+          "dataset": "44b6_95029e92",
+          "edges": 4654,
+          "nodes": 4815
+        },
+        {
+          "dataset": "44b6_b2c44266",
+          "edges": 33622,
+          "nodes": 36238
+        },
+        {
+          "dataset": "44b6_c771cb04",
+          "edges": 26235,
+          "nodes": 28675
+        },
+        {
+          "dataset": "44b6_d29c9ab2",
+          "edges": 35352,
+          "nodes": 36611
+        },
+        {
+          "dataset": "44b6_d78e09d9",
+          "edges": 21141,
+          "nodes": 22475
+        },
+        {
+          "dataset": "6bba_13f19531",
+          "edges": 5404,
+          "nodes": 5681
+        },
+        {
+          "dataset": "6bba_2540cd90",
+          "edges": 3370,
+          "nodes": 3447
+        },
+        {
+          "dataset": "6bba_283bf9f1",
+          "edges": 20299,
+          "nodes": 21461
+        },
+        {
+          "dataset": "6bba_57b7cc1e",
+          "edges": 64337,
+          "nodes": 71225
+        },
+        {
+          "dataset": "6bba_789f8168",
+          "edges": 10100,
+          "nodes": 10722
+        },
+        {
+          "dataset": "6bba_a90a0b9c",
+          "edges": 29036,
+          "nodes": 31345
+        },
+        {
+          "dataset": "6bba_ae82a791",
+          "edges": 6792,
+          "nodes": 7061
+        },
+        {
+          "dataset": "6bba_aeee7805",
+          "edges": 4924,
+          "nodes": 5117
+        },
+        {
+          "dataset": "6bba_af149c94",
+          "edges": 7429,
+          "nodes": 7748
+        },
+        {
+          "dataset": "6bba_d0fc38b5",
+          "edges": 5587,
+          "nodes": 5816
+        },
+        {
+          "dataset": "6bba_d1acb6ff",
+          "edges": 14887,
+          "nodes": 16091
+        },
+        {
+          "dataset": "6bba_d82a4fc6",
+          "edges": 26783,
+          "nodes": 28318
+        }
+      ],
+      "disappearance_weight": 2.0,
+      "slug": "app_0p250_dis_2p000"
+    },
+    {
+      "appearance_weight": 0.375,
+      "datasets": [
+        {
+          "dataset": "44b6_18ced818",
+          "edges": 62678,
+          "nodes": 68558
+        },
+        {
+          "dataset": "44b6_808952d6",
+          "edges": 14378,
+          "nodes": 15076
+        },
+        {
+          "dataset": "44b6_87bba6c4",
+          "edges": 25189,
+          "nodes": 27433
+        },
+        {
+          "dataset": "44b6_95029e92",
+          "edges": 4644,
+          "nodes": 4799
+        },
+        {
+          "dataset": "44b6_b2c44266",
+          "edges": 33399,
+          "nodes": 35933
+        },
+        {
+          "dataset": "44b6_c771cb04",
+          "edges": 25951,
+          "nodes": 28291
+        },
+        {
+          "dataset": "44b6_d29c9ab2",
+          "edges": 35324,
+          "nodes": 36558
+        },
+        {
+          "dataset": "44b6_d78e09d9",
+          "edges": 21057,
+          "nodes": 22350
+        },
+        {
+          "dataset": "6bba_13f19531",
+          "edges": 5385,
+          "nodes": 5654
+        },
+        {
+          "dataset": "6bba_2540cd90",
+          "edges": 3370,
+          "nodes": 3447
+        },
+        {
+          "dataset": "6bba_283bf9f1",
+          "edges": 20251,
+          "nodes": 21396
+        },
+        {
+          "dataset": "6bba_57b7cc1e",
+          "edges": 63605,
+          "nodes": 70235
+        },
+        {
+          "dataset": "6bba_789f8168",
+          "edges": 10064,
+          "nodes": 10673
+        },
+        {
+          "dataset": "6bba_a90a0b9c",
+          "edges": 28812,
+          "nodes": 31049
+        },
+        {
+          "dataset": "6bba_ae82a791",
+          "edges": 6785,
+          "nodes": 7049
+        },
+        {
+          "dataset": "6bba_aeee7805",
+          "edges": 4909,
+          "nodes": 5096
+        },
+        {
+          "dataset": "6bba_af149c94",
+          "edges": 7423,
+          "nodes": 7740
+        },
+        {
+          "dataset": "6bba_d0fc38b5",
+          "edges": 5575,
+          "nodes": 5800
+        },
+        {
+          "dataset": "6bba_d1acb6ff",
+          "edges": 14789,
+          "nodes": 15955
+        },
+        {
+          "dataset": "6bba_d82a4fc6",
+          "edges": 26698,
+          "nodes": 28198
+        }
+      ],
+      "disappearance_weight": 2.0,
+      "slug": "app_0p375_dis_2p000"
+    }
+  ],
+  "status": "complete"
+}

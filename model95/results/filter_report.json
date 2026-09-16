@@ -1,0 +1,558 @@
+{
+  "status": "valid",
+  "config": {
+    "max_short_daughter_nodes": 2,
+    "persistent_daughter_nodes": 4
+  },
+  "config_sha256": "19abdc536fd8ff192df30a19611c7eec3e05ef87713cd9fb91b20d143180a349",
+  "source_sha256": "9743b578959ff0a0a6e1e6844afad6418383b3c456050a8d1ab06cdebf43018b",
+  "input_sha256": "f25bf11f3437a3059c6d6820ff7092c21ac2adce8bc26a4d0f3d20c989c8ab29",
+  "output_sha256": "66034f5d9c746789ede994ce88325a0bd2a8595b5f73d63460d25c17df13319a",
+  "before": {
+    "nodes": 736711,
+    "edges": 709583,
+    "divisions": 1762,
+    "tracks": 27128
+  },
+  "after": {
+    "nodes": 736711,
+    "edges": 709538,
+    "divisions": 1717,
+    "tracks": 27173
+  },
+  "removed": 45,
+  "movies": [
+    {
+      "dataset": "44b6_1d530831",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 24165,
+          "removed_child_id": 24582,
+          "retained_child_id": 24568,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_2a2eff9f",
+      "removed": 6,
+      "links": [
+        {
+          "parent_id": 8902,
+          "removed_child_id": 9374,
+          "retained_child_id": 9364,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 9231,
+          "removed_child_id": 9707,
+          "retained_child_id": 9722,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 10499,
+          "removed_child_id": 10995,
+          "retained_child_id": 10987,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 25442,
+          "removed_child_id": 25833,
+          "retained_child_id": 25834,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 29311,
+          "removed_child_id": 29795,
+          "retained_child_id": 29784,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 32824,
+          "removed_child_id": 33305,
+          "retained_child_id": 33306,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_3bb3690f",
+      "removed": 2,
+      "links": [
+        {
+          "parent_id": 5761,
+          "removed_child_id": 5977,
+          "retained_child_id": 5965,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 7863,
+          "removed_child_id": 8045,
+          "retained_child_id": 8051,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_668e0cc7",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_706092f0",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 26001,
+          "removed_child_id": 26373,
+          "retained_child_id": 26347,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_71a4179f",
+      "removed": 5,
+      "links": [
+        {
+          "parent_id": 8656,
+          "removed_child_id": 9049,
+          "retained_child_id": 9042,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 13480,
+          "removed_child_id": 13884,
+          "retained_child_id": 13874,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 17230,
+          "removed_child_id": 17614,
+          "retained_child_id": 17581,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 27538,
+          "removed_child_id": 27915,
+          "retained_child_id": 27931,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 28587,
+          "removed_child_id": 28950,
+          "retained_child_id": 28978,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_74d0c52e",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 3853,
+          "removed_child_id": 3967,
+          "retained_child_id": 3973,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_808952d6",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_90724892",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_a21120c2",
+      "removed": 2,
+      "links": [
+        {
+          "parent_id": 9761,
+          "removed_child_id": 10045,
+          "retained_child_id": 10028,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 9908,
+          "removed_child_id": 10179,
+          "retained_child_id": 10169,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_b2c44266",
+      "removed": 2,
+      "links": [
+        {
+          "parent_id": 6274,
+          "removed_child_id": 6709,
+          "retained_child_id": 6724,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 10973,
+          "removed_child_id": 11484,
+          "retained_child_id": 11437,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c15fded2",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 3990,
+          "removed_child_id": 4220,
+          "retained_child_id": 4211,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "removed": 2,
+      "links": [
+        {
+          "parent_id": 1267,
+          "removed_child_id": 1585,
+          "retained_child_id": 1570,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 16617,
+          "removed_child_id": 16993,
+          "retained_child_id": 16992,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_d754aa59",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_09961292",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 29805,
+          "removed_child_id": 30084,
+          "retained_child_id": 30122,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_1d0d8384",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 12351,
+          "removed_child_id": 12566,
+          "retained_child_id": 12578,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_1f58c2f6",
+      "removed": 3,
+      "links": [
+        {
+          "parent_id": 2380,
+          "removed_child_id": 2780,
+          "retained_child_id": 2807,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 2417,
+          "removed_child_id": 2819,
+          "retained_child_id": 2856,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 22736,
+          "removed_child_id": 23183,
+          "retained_child_id": 23214,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_312f0dc3",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 1364,
+          "removed_child_id": 1469,
+          "retained_child_id": 1466,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_3abfe10a",
+      "removed": 5,
+      "links": [
+        {
+          "parent_id": 877,
+          "removed_child_id": 1154,
+          "retained_child_id": 1151,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 9620,
+          "removed_child_id": 10143,
+          "retained_child_id": 10130,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 30250,
+          "removed_child_id": 31107,
+          "retained_child_id": 31051,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 30381,
+          "removed_child_id": 31194,
+          "retained_child_id": 31231,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 48717,
+          "removed_child_id": 49481,
+          "retained_child_id": 49534,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_48816121",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_4f99ce20",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_4ffd3da3",
+      "removed": 2,
+      "links": [
+        {
+          "parent_id": 414,
+          "removed_child_id": 662,
+          "retained_child_id": 667,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 9020,
+          "removed_child_id": 9272,
+          "retained_child_id": 9291,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_6ca87370",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_705ec2c9",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_76db78c1",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_784a78c9",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_789f8168",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 7206,
+          "removed_child_id": 7373,
+          "retained_child_id": 7374,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_80d12824",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 5314,
+          "removed_child_id": 5397,
+          "retained_child_id": 5400,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_91951b3a",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 5732,
+          "removed_child_id": 5888,
+          "retained_child_id": 5901,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_9e23430b",
+      "removed": 3,
+      "links": [
+        {
+          "parent_id": 397,
+          "removed_child_id": 450,
+          "retained_child_id": 448,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 5565,
+          "removed_child_id": 5718,
+          "retained_child_id": 5721,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 7874,
+          "removed_child_id": 8044,
+          "retained_child_id": 8043,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_a5e926bb",
+      "removed": 1,
+      "links": [
+        {
+          "parent_id": 2660,
+          "removed_child_id": 2800,
+          "retained_child_id": 2793,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_afb141ff",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_b204cac7",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_bb9f20c3",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_bbb708ca",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_c328f2fd",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_d5eae175",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_e5e44988",
+      "removed": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_ebdf3b34",
+      "removed": 2,
+      "links": [
+        {
+          "parent_id": 49750,
+          "removed_child_id": 50394,
+          "retained_child_id": 50399,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        },
+        {
+          "parent_id": 56585,
+          "removed_child_id": 57229,
+          "retained_child_id": 57137,
+          "short_daughter_nodes": 2,
+          "other_daughter_observed_nodes": 4
+        }
+      ]
+    }
+  ]
+}

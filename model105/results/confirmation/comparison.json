@@ -1,0 +1,175 @@
+{
+  "vs_model1": {
+    "status": "reject",
+    "control": {
+      "score": 0.9267886759651051,
+      "adjusted_edge_jaccard": 0.9198921242409671,
+      "division_jaccard": 0.06896551724137931,
+      "edge_weight": 23914,
+      "node_recall": 0.9830243743755424
+    },
+    "candidate": {
+      "score": 0.9267886759651051,
+      "adjusted_edge_jaccard": 0.9198921242409671,
+      "division_jaccard": 0.06896551724137931,
+      "edge_weight": 23914,
+      "node_recall": 0.9830243743755424
+    },
+    "delta": 0.0,
+    "families": {
+      "44b6": {
+        "control": {
+          "score": 0.9290739293530481,
+          "adjusted_edge_jaccard": 0.9185476135635744,
+          "division_jaccard": 0.10526315789473684,
+          "edge_weight": 7712,
+          "node_recall": 0.9863612823724018
+        },
+        "candidate": {
+          "score": 0.9290739293530481,
+          "adjusted_edge_jaccard": 0.9185476135635744,
+          "division_jaccard": 0.10526315789473684,
+          "edge_weight": 7712,
+          "node_recall": 0.9863612823724018
+        },
+        "delta": 0.0
+      },
+      "6bba": {
+        "control": {
+          "score": 0.9256603038380065,
+          "adjusted_edge_jaccard": 0.9205320987098013,
+          "division_jaccard": 0.05128205128205128,
+          "edge_weight": 16202,
+          "node_recall": 0.9798543117785258
+        },
+        "candidate": {
+          "score": 0.9256603038380065,
+          "adjusted_edge_jaccard": 0.9205320987098013,
+          "division_jaccard": 0.05128205128205128,
+          "edge_weight": 16202,
+          "node_recall": 0.9798543117785258
+        },
+        "delta": 0.0
+      }
+    },
+    "gates": {
+      "official_score_improves": false,
+      "family_drop_at_most_0.001": true,
+      "recall_drop_at_most_0.001": true
+    },
+    "edge_movie_wins": 0,
+    "edge_movie_losses": 0,
+    "edge_movie_ties": 39,
+    "caveat": "Fold4 has been reused for selection; this is development evidence, not an untouched holdout."
+  },
+  "vs_model104": {
+    "status": "reject",
+    "control": {
+      "score": 0.9272727433774782,
+      "adjusted_edge_jaccard": 0.9203761916533403,
+      "division_jaccard": 0.06896551724137931,
+      "edge_weight": 23909,
+      "node_recall": 0.9831808061790329
+    },
+    "candidate": {
+      "score": 0.9267886759651051,
+      "adjusted_edge_jaccard": 0.9198921242409671,
+      "division_jaccard": 0.06896551724137931,
+      "edge_weight": 23914,
+      "node_recall": 0.9830243743755424
+    },
+    "delta": -0.0004840674123731681,
+    "families": {
+      "44b6": {
+        "control": {
+          "score": 0.9293228616003099,
+          "adjusted_edge_jaccard": 0.9187965458108361,
+          "division_jaccard": 0.10526315789473684,
+          "edge_weight": 7711,
+          "node_recall": 0.9863612823724018
+        },
+        "candidate": {
+          "score": 0.9290739293530481,
+          "adjusted_edge_jaccard": 0.9185476135635744,
+          "division_jaccard": 0.10526315789473684,
+          "edge_weight": 7712,
+          "node_recall": 0.9863612823724018
+        },
+        "delta": -0.0002489322472617461
+      },
+      "6bba": {
+        "control": {
+          "score": 0.9262563815384012,
+          "adjusted_edge_jaccard": 0.9211281764101961,
+          "division_jaccard": 0.05128205128205128,
+          "edge_weight": 16198,
+          "node_recall": 0.9801593537953325
+        },
+        "candidate": {
+          "score": 0.9256603038380065,
+          "adjusted_edge_jaccard": 0.9205320987098013,
+          "division_jaccard": 0.05128205128205128,
+          "edge_weight": 16202,
+          "node_recall": 0.9798543117785258
+        },
+        "delta": -0.0005960777003947149
+      }
+    },
+    "gates": {
+      "official_score_improves": false,
+      "family_drop_at_most_0.001": true,
+      "recall_drop_at_most_0.001": true
+    },
+    "edge_movie_wins": 6,
+    "edge_movie_losses": 6,
+    "edge_movie_ties": 27,
+    "caveat": "Fold4 has been reused for selection; this is development evidence, not an untouched holdout."
+  },
+  "leave_one_movie_out_vs_model1": {
+    "minimum_delta": 0.0,
+    "maximum_delta": 0.0,
+    "positive_count": 0,
+    "movie_count": 39,
+    "nonpositive_omissions": {
+      "44b6_0c582fdc": 0.0,
+      "44b6_12dfb391": 0.0,
+      "44b6_144b256d": 0.0,
+      "44b6_40c45f5a": 0.0,
+      "44b6_5f15d135": 0.0,
+      "44b6_7a302da0": 0.0,
+      "44b6_7e557709": 0.0,
+      "44b6_87bba6c4": 0.0,
+      "44b6_8cc6506c": 0.0,
+      "44b6_8f9ecab4": 0.0,
+      "44b6_949adeb1": 0.0,
+      "44b6_97725144": 0.0,
+      "44b6_996155de": 0.0,
+      "44b6_a2bb48bb": 0.0,
+      "44b6_aaf8b0ea": 0.0,
+      "44b6_cf8fed6b": 0.0,
+      "44b6_d29c9ab2": 0.0,
+      "44b6_d78e09d9": 0.0,
+      "44b6_e28840c6": 0.0,
+      "6bba_12665c0e": 0.0,
+      "6bba_1ebfb80d": 0.0,
+      "6bba_20852818": 0.0,
+      "6bba_2540cd90": 0.0,
+      "6bba_268e1230": 0.0,
+      "6bba_372c8cb8": 0.0,
+      "6bba_3a1849c2": 0.0,
+      "6bba_3c5691b6": 0.0,
+      "6bba_474be664": 0.0,
+      "6bba_5b28472a": 0.0,
+      "6bba_6db0e9b4": 0.0,
+      "6bba_74686d6a": 0.0,
+      "6bba_7f87b3d8": 0.0,
+      "6bba_9a41d029": 0.0,
+      "6bba_ae82a791": 0.0,
+      "6bba_ed9377fd": 0.0,
+      "6bba_edf14583": 0.0,
+      "6bba_f17befbc": 0.0,
+      "6bba_f1fde7e0": 0.0,
+      "6bba_f8ffd5e7": 0.0
+    }
+  }
+}

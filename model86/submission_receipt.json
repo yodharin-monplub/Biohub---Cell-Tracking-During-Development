@@ -1,0 +1,11 @@
+{
+  "competition": "biohub-cell-tracking-during-development",
+  "kernel": "yodharinmonplub/biohub-model86-fold3-higher-upside",
+  "kernel_version": 2,
+  "submission_id": 56047125,
+  "status_at_2026-09-06": "COMPLETE",
+  "public_score": 0.877,
+  "delta_vs_model1_public_0p934": -0.057,
+  "csv_sha256": "31c551e79a27d91034ccecd6df1cddf3846229af919d9a774ba48169c0a0b4d6",
+  "weight_sha256": "a218ebdf340f9b3d4d050e4d7961f79e1d99c46dcc99b9e592dc5c21e4cd279d"
+}

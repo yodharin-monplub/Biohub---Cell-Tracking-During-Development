@@ -1,0 +1,136 @@
+{
+  "status": "source_calibration_gated",
+  "checkpoint_sha256": "b862fc2fea1bb9bfa874648994d3a0c2ea64c2318c88fe6973f691afbfde3e79",
+  "outer_eval_used_for_fit_or_selection": false,
+  "source_export_receipt_sha256": "b72e592771eab61f1416f5ea756af55853d4c83485e1fea8f3e627b4737e64ed",
+  "source_manifest_sha256": "6c670a1a4ac010f2419b7e38ea7c81e71ea2affdc0e5d408d8936cccc2047717",
+  "source_sha256": "e8cb0ef15f06f3106a6848f773ca45d83ea4c089721f8dea0c074a2913c8cfe9",
+  "fit_movies": 24,
+  "dev_movies": 8,
+  "fit_rows": 103830,
+  "fit_positives": 18450,
+  "dev_metrics": {
+    "rows": 46286,
+    "positives": 7785,
+    "raw_auc": 0.9735849148510302,
+    "calibrated_auc": 0.978917792708201,
+    "raw_top1": {
+      "eligible_targets": 7785,
+      "correct_top1": 7192,
+      "accuracy": 0.9238278741168915
+    },
+    "calibrated_top1": {
+      "eligible_targets": 7785,
+      "correct_top1": 7217,
+      "accuracy": 0.9270391779062299
+    }
+  },
+  "source_dev_gate_pass": true,
+  "source_fit_model": {
+    "feature_names": [
+      "raw_probability",
+      "raw_logit",
+      "edge_distance_grid",
+      "target_rank",
+      "source_rank",
+      "target_probability_margin",
+      "source_probability_margin",
+      "target_candidate_count",
+      "source_candidate_count",
+      "probability_distance_interaction"
+    ],
+    "means": [
+      0.19904356555530942,
+      -2.635189931756068,
+      6.270880456020363,
+      1.7273331407107773,
+      2.0270923625156505,
+      0.5742166077265931,
+      0.5599944598791151,
+      4.060945776750457,
+      4.649282480978522,
+      0.47523714007339807
+    ],
+    "scales": [
+      0.3153939651073465,
+      2.536264982364406,
+      3.0426993175295833,
+      1.2757433999983325,
+      1.6925509680905793,
+      0.3486206648375607,
+      0.34674263480049694,
+      1.1315237937305245,
+      1.8854451502677516,
+      0.6083902898351013
+    ],
+    "coefficients": [
+      0.9621459028556102,
+      0.644811409251501,
+      -0.6561442350272526,
+      -0.05022730410759141,
+      -0.6789487276352316,
+      -0.17565836722586897,
+      -1.0498167467170736,
+      -0.0893840620495183,
+      -0.15908004534629164,
+      -0.11736221273387383
+    ],
+    "intercept": -4.621925622830503,
+    "objective": 0.09686419513848023,
+    "converged": true
+  },
+  "full_source_model": {
+    "feature_names": [
+      "raw_probability",
+      "raw_logit",
+      "edge_distance_grid",
+      "target_rank",
+      "source_rank",
+      "target_probability_margin",
+      "source_probability_margin",
+      "target_candidate_count",
+      "source_candidate_count",
+      "probability_distance_interaction"
+    ],
+    "means": [
+      0.19758405864775558,
+      -2.5914568422266004,
+      6.14785615787946,
+      1.7309347437981295,
+      2.0283380852141013,
+      0.5599355510996408,
+      0.5459069600440646,
+      4.075501612086653,
+      4.665918356470995,
+      0.4778389744625651
+    ],
+    "scales": [
+      0.30891659172927766,
+      2.4483542188575567,
+      2.9954793528248964,
+      1.2783156383697778,
+      1.6940534249985426,
+      0.34428399693342915,
+      0.3420699424816014,
+      1.1266144875828508,
+      1.8805429078975067,
+      0.5983807744692128
+    ],
+    "coefficients": [
+      0.9181269150572736,
+      0.5853952428343517,
+      -0.6333895126198751,
+      -0.027614664450842548,
+      -0.6511768350261862,
+      -0.19200373269395063,
+      -0.9875618733233187,
+      -0.11806512291189372,
+      -0.14329179814742213,
+      -0.0969722404754018
+    ],
+    "intercept": -4.440099101440821,
+    "objective": 0.10700483474772525,
+    "converged": true
+  },
+  "caveat": "Backbone trained on all source movies; eight dev movies are held out only from calibrator fitting. Outer embryo labels are not used. Even a passed source gate does not prove outer-embryo tracking gain."
+}

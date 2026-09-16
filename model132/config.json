@@ -1,0 +1,15 @@
+{
+  "source_model": "model130",
+  "minimum_link_probability": 0.6,
+  "parent_orphan_min_um": 6.5,
+  "parent_orphan_max_um": 15.0,
+  "sister_min_um": 9.5,
+  "sister_max_um": 20.5,
+  "existing_daughter_parent_max_um": 5.0,
+  "midpoint_error_min_um": 3.0,
+  "raw_node_match_max_um": 7.0,
+  "frame_fraction_cap": 0.0076,
+  "global_fraction_cap": 0.00375,
+  "require_parent_and_orphan_rank_one": true,
+  "exclude_prior_vetoed_edges": true
+}

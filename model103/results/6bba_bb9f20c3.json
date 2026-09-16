@@ -1,0 +1,713 @@
+{
+  "movie": "6bba_bb9f20c3",
+  "stages": [
+    {
+      "stage": "post_ilp",
+      "nodes": 23002,
+      "edges": 22141,
+      "rematched_tp": 1789,
+      "rematched_fp": 86,
+      "rematched_fn": 90,
+      "matches_different_from_fixed": 34
+    },
+    {
+      "stage": "before_motion",
+      "nodes": 23002,
+      "edges": 22052,
+      "rematched_tp": 1789,
+      "rematched_fp": 86,
+      "rematched_fn": 90,
+      "matches_different_from_fixed": 34
+    },
+    {
+      "stage": "after_motion",
+      "nodes": 23002,
+      "edges": 22122,
+      "rematched_tp": 1777,
+      "rematched_fp": 107,
+      "rematched_fn": 102,
+      "matches_different_from_fixed": 34
+    },
+    {
+      "stage": "after_gap1",
+      "nodes": 23105,
+      "edges": 22328,
+      "rematched_tp": 1781,
+      "rematched_fp": 109,
+      "rematched_fn": 98,
+      "matches_different_from_fixed": 32
+    },
+    {
+      "stage": "after_gap2",
+      "nodes": 23153,
+      "edges": 22400,
+      "rematched_tp": 1785,
+      "rematched_fp": 105,
+      "rematched_fn": 94,
+      "matches_different_from_fixed": 28
+    },
+    {
+      "stage": "after_divisions",
+      "nodes": 23153,
+      "edges": 22429,
+      "rematched_tp": 1787,
+      "rematched_fp": 105,
+      "rematched_fn": 92,
+      "matches_different_from_fixed": 28
+    },
+    {
+      "stage": "after_short_filter",
+      "nodes": 22864,
+      "edges": 22267,
+      "rematched_tp": 1789,
+      "rematched_fp": 103,
+      "rematched_fn": 90,
+      "matches_different_from_fixed": 29
+    },
+    {
+      "stage": "final",
+      "nodes": 22864,
+      "edges": 22267,
+      "rematched_tp": 1800,
+      "rematched_fp": 82,
+      "rematched_fn": 79,
+      "matches_different_from_fixed": 2
+    }
+  ],
+  "transitions": [
+    {
+      "before": "post_ilp",
+      "after": "before_motion",
+      "counts": {
+        "removed_ignored": 89
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "before_motion",
+      "after": "after_motion",
+      "counts": {
+        "removed_ignored": 190,
+        "removed_tp": 15,
+        "removed_evaluable_fp": 5,
+        "added_ignored": 255,
+        "added_evaluable_fp": 18,
+        "added_tp": 7
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 6572,
+          "target": 6846,
+          "probability": 0.917254626750946,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 6695,
+          "target": 6962,
+          "probability": 0.5338101983070374,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "evaluable_fp",
+          "source": 7006,
+          "target": 7283,
+          "probability": 0.8043275475502014,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 14176,
+          "target": 14427,
+          "probability": 0.8407355546951294,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 16964,
+          "target": 17202,
+          "probability": 0.48468470573425293,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "evaluable_fp",
+          "source": 17682,
+          "target": 17948,
+          "probability": 0.7217066287994385,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20773,
+          "target": 20963,
+          "probability": 0.6047682762145996,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20781,
+          "target": 20974,
+          "probability": 0.7990757822990417,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "evaluable_fp",
+          "source": 20796,
+          "target": 20982,
+          "probability": 0.7488500475883484,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20797,
+          "target": 20978,
+          "probability": 0.48112425208091736,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20798,
+          "target": 20990,
+          "probability": 0.6636316776275635,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20799,
+          "target": 20992,
+          "probability": 0.8414626121520996,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20854,
+          "target": 21054,
+          "probability": 0.9133281111717224,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20872,
+          "target": 21063,
+          "probability": 0.5203616619110107,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "evaluable_fp",
+          "source": 20924,
+          "target": 21157,
+          "probability": 0.5516859889030457,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20963,
+          "target": 21174,
+          "probability": 0.6585954427719116,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 20978,
+          "target": 21188,
+          "probability": 0.6891958713531494,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "evaluable_fp",
+          "source": 20982,
+          "target": 21198,
+          "probability": 0.8226504921913147,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 21034,
+          "target": 21248,
+          "probability": 0.955004096031189,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 21063,
+          "target": 21275,
+          "probability": 0.7705320119857788,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 6572,
+          "target": 6862,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 6672,
+          "target": 6962,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 6757,
+          "target": 7038,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 7006,
+          "target": 7301,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 14144,
+          "target": 14427,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 14218,
+          "target": 14514,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 16959,
+          "target": 17202,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 17682,
+          "target": 17916,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 17860,
+          "target": 18077,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 20746,
+          "target": 20982,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20758,
+          "target": 20990,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20759,
+          "target": 20992,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20773,
+          "target": 20998,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20781,
+          "target": 21027,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20797,
+          "target": 21010,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20832,
+          "target": 21054,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20845,
+          "target": 21063,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20851,
+          "target": 21068,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20854,
+          "target": 21069,
+          "probability": 0.0,
+          "motion_pass": "relaxed"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 20982,
+          "target": 21157,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20998,
+          "target": 21174,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 21010,
+          "target": 21188,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 21058,
+          "target": 21248,
+          "probability": 0.0,
+          "motion_pass": "relaxed"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 21063,
+          "target": 21251,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 21811,
+          "target": 22027,
+          "probability": 0.0,
+          "motion_pass": "relaxed"
+        }
+      ]
+    },
+    {
+      "before": "after_motion",
+      "after": "after_gap1",
+      "counts": {
+        "added_ignored": 196,
+        "added_evaluable_fp": 6,
+        "added_tp": 4
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 6695,
+          "target": 25094,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 7154,
+          "target": 25098,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 7834,
+          "target": 25100,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 9452,
+          "target": 25103,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 12704,
+          "target": 25112,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 20872,
+          "target": 25150,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 25098,
+          "target": 7729,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 25100,
+          "target": 8392,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 25103,
+          "target": 10034,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 25150,
+          "target": 21275,
+          "probability": null,
+          "motion_pass": null
+        }
+      ]
+    },
+    {
+      "before": "after_gap1",
+      "after": "after_gap2",
+      "counts": {
+        "added_ignored": 66,
+        "added_tp": 6
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 3466,
+          "target": 25168,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 5228,
+          "target": 25170,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 25168,
+          "target": 25169,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 25169,
+          "target": 4350,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 25170,
+          "target": 25171,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 25171,
+          "target": 6109,
+          "probability": null,
+          "motion_pass": null
+        }
+      ]
+    },
+    {
+      "before": "after_gap2",
+      "after": "after_divisions",
+      "counts": {
+        "added_ignored": 27,
+        "added_tp": 2
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 2792,
+          "target": 3069,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 7063,
+          "target": 7353,
+          "probability": null,
+          "motion_pass": null
+        }
+      ]
+    },
+    {
+      "before": "after_divisions",
+      "after": "after_short_filter",
+      "counts": {
+        "removed_ignored": 162
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_short_filter",
+      "after": "final",
+      "counts": {},
+      "changed_evaluable_edges": []
+    }
+  ],
+  "replay_stats": {
+    "raw_edges": 22141,
+    "dropped_nonconsecutive_edges": 0,
+    "dropped_long_edges": 89,
+    "dropped_multi_parent_edges": 0,
+    "dropped_multi_child_edges": 0,
+    "dropped_division_edges": 0,
+    "gap_candidates": 266,
+    "gap_pairs_selected": 103,
+    "gap_reused_existing": 0,
+    "gap_inserted_synthetic": 103,
+    "gap_added_nodes": 103,
+    "gap_added_edges": 206,
+    "gap_skipped_node_cap": 0,
+    "gap_density_nodes_scored": 22429,
+    "gap_density_candidates_expanded": 17,
+    "gap_density_candidates_restricted": 0,
+    "gap_density_selected_outside_base": 3,
+    "gap_density_step_delta_milli_sum": 1629750,
+    "gap_refined_synthetic": 173,
+    "gap_refine_failed": 0,
+    "gap_refine_rejected_shift": 0,
+    "pruned_isolated_nodes": 76,
+    "motion_relink_edges": 22122,
+    "motion_relink_tight_edges": 21748,
+    "motion_relink_relaxed_edges": 374,
+    "motion_relink_frames": 99,
+    "motion_relink_replaced_raw_edges": 22052,
+    "motion_relink_fallback_raw": 0,
+    "motion_relink_skipped_large_frame": 0,
+    "gap2_candidates": 33,
+    "gap2_pairs_selected": 24,
+    "gap2_added_nodes": 48,
+    "gap2_added_edges": 72,
+    "gap2_skipped_cap": 0,
+    "safe_division_candidates": 34,
+    "safe_division_geometric_candidates": 0,
+    "safe_divisions_added": 29,
+    "safe_division_skipped_cap": 0,
+    "safe_division_mutual_nn_rejected": 0,
+    "safe_division_divergence_rejected": 0,
+    "deepcenter_gap_checked": 22,
+    "deepcenter_gap_bypassed_strong_motion": 103,
+    "deepcenter_gap_bypassed_observed_node": 0,
+    "deepcenter_gap_accepted": 0,
+    "deepcenter_gap_rejected": 22,
+    "deepcenter_gap_missing": 0,
+    "deepcenter_safe_div_checked": 0,
+    "deepcenter_safe_div_accepted": 0,
+    "deepcenter_safe_div_rejected": 0,
+    "deepcenter_safe_div_missing": 0,
+    "short_track_components_removed": 51,
+    "short_track_nodes_removed": 213,
+    "short_track_edges_removed": 162,
+    "short_track_filter_skipped_all": 0,
+    "short_track_rescue_triggered": 0,
+    "short_track_rescue_components": 0,
+    "short_track_rescue_nodes": 0,
+    "short_track_rescue_budget": 0,
+    "linefit_smoothed_nodes": 22864,
+    "linefit_skipped_nodes": 0,
+    "gap_close_effective_max_gap": 1
+  }
+}

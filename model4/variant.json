@@ -1,0 +1,25 @@
+{
+  "base_model": "model1",
+  "base_ref": "evgendvorkin/biohub-0-934-lb-proxy-score-0-9384",
+  "base_version": 27,
+  "notebook_sha256": "49fda6b835de0581ddcdbfb79690d63d16062838cc33d69c6f42fe0c93e73c3f",
+  "replacements": [
+    {
+      "new": "model4_division_precision_probe",
+      "old": "team_fusion_v7_balanced_ensemble"
+    },
+    {
+      "new": "single-knob safe-division global cap 0.0025",
+      "old": "balanced: SEC_DET 0.80, BIDIR 0.15, EDGE_WEIGHT 0.20"
+    },
+    {
+      "new": "os.environ[\"BIOHUB_SAFE_DIV_GLOBAL_FRAC_CAP\"] = \"0.0025\"",
+      "old": "os.environ[\"BIOHUB_SAFE_DIV_GLOBAL_FRAC_CAP\"] = \"0.00375\""
+    },
+    {
+      "new": "model4_division_precision_probe",
+      "old": "team_fusion_v6_optimal_balance_0.9382"
+    }
+  ],
+  "status": "unverified_candidate"
+}

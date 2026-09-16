@@ -1,0 +1,788 @@
+{
+  "status": "pass",
+  "movies_exact": 78,
+  "source_sha256": "7e6ddcb6e13bdaa0e035cc1e03e5bedfbc029e6d300c61a58271584a1257d27a",
+  "per_movie": [
+    {
+      "cohort": "development",
+      "movie": "44b6_1d530831",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 34239,
+      "edges": 32710
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_2a2eff9f",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 36140,
+      "edges": 34420
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_3bb3690f",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 15350,
+      "edges": 14725
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_668e0cc7",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 33289,
+      "edges": 32189
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_706092f0",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 24613,
+      "edges": 23354
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_71a4179f",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 26540,
+      "edges": 25272
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_74d0c52e",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 8160,
+      "edges": 7818
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_808952d6",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 14909,
+      "edges": 14462
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_90724892",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 22826,
+      "edges": 21921
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_a21120c2",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 21949,
+      "edges": 21304
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_b2c44266",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 34800,
+      "edges": 33406
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_c15fded2",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 19258,
+      "edges": 18468
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_c96cfa10",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 36641,
+      "edges": 35173
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_d754aa59",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 5538,
+      "edges": 5305
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_09961292",
+      "model132_added": 0,
+      "model133_added": 8,
+      "model145_added": 0,
+      "model149_pruned": 6,
+      "nodes": 29356,
+      "edges": 28502
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_1d0d8384",
+      "model132_added": 2,
+      "model133_added": 10,
+      "model145_added": 0,
+      "model149_pruned": 6,
+      "nodes": 17155,
+      "edges": 16410
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_1f58c2f6",
+      "model132_added": 6,
+      "model133_added": 36,
+      "model145_added": 1,
+      "model149_pruned": 10,
+      "nodes": 30857,
+      "edges": 29333
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_312f0dc3",
+      "model132_added": 4,
+      "model133_added": 10,
+      "model145_added": 0,
+      "model149_pruned": 5,
+      "nodes": 9446,
+      "edges": 8959
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_3abfe10a",
+      "model132_added": 7,
+      "model133_added": 63,
+      "model145_added": 0,
+      "model149_pruned": 23,
+      "nodes": 52923,
+      "edges": 50233
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_48816121",
+      "model132_added": 9,
+      "model133_added": 21,
+      "model145_added": 1,
+      "model149_pruned": 6,
+      "nodes": 25039,
+      "edges": 24314
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_4f99ce20",
+      "model132_added": 9,
+      "model133_added": 6,
+      "model145_added": 1,
+      "model149_pruned": 4,
+      "nodes": 5415,
+      "edges": 5176
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_4ffd3da3",
+      "model132_added": 1,
+      "model133_added": 17,
+      "model145_added": 0,
+      "model149_pruned": 6,
+      "nodes": 19990,
+      "edges": 19345
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_6ca87370",
+      "model132_added": 2,
+      "model133_added": 5,
+      "model145_added": 0,
+      "model149_pruned": 4,
+      "nodes": 6329,
+      "edges": 6074
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_705ec2c9",
+      "model132_added": 5,
+      "model133_added": 11,
+      "model145_added": 1,
+      "model149_pruned": 5,
+      "nodes": 6090,
+      "edges": 5796
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_76db78c1",
+      "model132_added": 1,
+      "model133_added": 3,
+      "model145_added": 0,
+      "model149_pruned": 1,
+      "nodes": 4603,
+      "edges": 4498
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_784a78c9",
+      "model132_added": 0,
+      "model133_added": 5,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 12722,
+      "edges": 12397
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_789f8168",
+      "model132_added": 8,
+      "model133_added": 20,
+      "model145_added": 0,
+      "model149_pruned": 12,
+      "nodes": 10647,
+      "edges": 10170
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_80d12824",
+      "model132_added": 4,
+      "model133_added": 6,
+      "model145_added": 0,
+      "model149_pruned": 3,
+      "nodes": 8507,
+      "edges": 8087
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_91951b3a",
+      "model132_added": 3,
+      "model133_added": 12,
+      "model145_added": 0,
+      "model149_pruned": 5,
+      "nodes": 11424,
+      "edges": 11006
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_9e23430b",
+      "model132_added": 1,
+      "model133_added": 7,
+      "model145_added": 0,
+      "model149_pruned": 1,
+      "nodes": 7527,
+      "edges": 7261
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_a5e926bb",
+      "model132_added": 2,
+      "model133_added": 10,
+      "model145_added": 0,
+      "model149_pruned": 4,
+      "nodes": 7988,
+      "edges": 7592
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_afb141ff",
+      "model132_added": 3,
+      "model133_added": 13,
+      "model145_added": 0,
+      "model149_pruned": 5,
+      "nodes": 5625,
+      "edges": 5355
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_b204cac7",
+      "model132_added": 2,
+      "model133_added": 2,
+      "model145_added": 0,
+      "model149_pruned": 1,
+      "nodes": 5392,
+      "edges": 5245
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_bb9f20c3",
+      "model132_added": 5,
+      "model133_added": 9,
+      "model145_added": 0,
+      "model149_pruned": 5,
+      "nodes": 22886,
+      "edges": 22261
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_bbb708ca",
+      "model132_added": 5,
+      "model133_added": 12,
+      "model145_added": 0,
+      "model149_pruned": 5,
+      "nodes": 6611,
+      "edges": 6292
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_c328f2fd",
+      "model132_added": 5,
+      "model133_added": 20,
+      "model145_added": 0,
+      "model149_pruned": 5,
+      "nodes": 27755,
+      "edges": 26774
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_d5eae175",
+      "model132_added": 3,
+      "model133_added": 1,
+      "model145_added": 0,
+      "model149_pruned": 1,
+      "nodes": 4121,
+      "edges": 4036
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_e5e44988",
+      "model132_added": 2,
+      "model133_added": 5,
+      "model145_added": 1,
+      "model149_pruned": 2,
+      "nodes": 5211,
+      "edges": 4919
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_ebdf3b34",
+      "model132_added": 4,
+      "model133_added": 29,
+      "model145_added": 0,
+      "model149_pruned": 8,
+      "nodes": 57680,
+      "edges": 55632
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_0c582fdc",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 26129,
+      "edges": 25031
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_12dfb391",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 42536,
+      "edges": 40991
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_144b256d",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 23097,
+      "edges": 21851
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_40c45f5a",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 28664,
+      "edges": 27461
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_5f15d135",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 19880,
+      "edges": 18902
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_7a302da0",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 40245,
+      "edges": 38374
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_7e557709",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 43170,
+      "edges": 41856
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_87bba6c4",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 27871,
+      "edges": 26454
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_8cc6506c",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 17358,
+      "edges": 16625
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_8f9ecab4",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 33960,
+      "edges": 32312
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_949adeb1",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 37121,
+      "edges": 35421
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_97725144",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 32176,
+      "edges": 31094
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_996155de",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 8840,
+      "edges": 8549
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_a2bb48bb",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 42175,
+      "edges": 39904
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_aaf8b0ea",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 14010,
+      "edges": 13435
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_cf8fed6b",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 40691,
+      "edges": 39278
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_d29c9ab2",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 36365,
+      "edges": 35548
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_d78e09d9",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 22836,
+      "edges": 21962
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_e28840c6",
+      "model132_added": 0,
+      "model133_added": 0,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 22770,
+      "edges": 21583
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_12665c0e",
+      "model132_added": 4,
+      "model133_added": 7,
+      "model145_added": 0,
+      "model149_pruned": 3,
+      "nodes": 8074,
+      "edges": 7740
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_1ebfb80d",
+      "model132_added": 2,
+      "model133_added": 11,
+      "model145_added": 0,
+      "model149_pruned": 9,
+      "nodes": 11142,
+      "edges": 10652
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_20852818",
+      "model132_added": 4,
+      "model133_added": 6,
+      "model145_added": 0,
+      "model149_pruned": 0,
+      "nodes": 9879,
+      "edges": 9490
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_2540cd90",
+      "model132_added": 1,
+      "model133_added": 3,
+      "model145_added": 0,
+      "model149_pruned": 1,
+      "nodes": 3482,
+      "edges": 3420
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_268e1230",
+      "model132_added": 2,
+      "model133_added": 13,
+      "model145_added": 0,
+      "model149_pruned": 6,
+      "nodes": 4710,
+      "edges": 4428
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_372c8cb8",
+      "model132_added": 2,
+      "model133_added": 3,
+      "model145_added": 0,
+      "model149_pruned": 1,
+      "nodes": 6657,
+      "edges": 6496
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_3a1849c2",
+      "model132_added": 1,
+      "model133_added": 6,
+      "model145_added": 0,
+      "model149_pruned": 3,
+      "nodes": 6595,
+      "edges": 6376
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_3c5691b6",
+      "model132_added": 0,
+      "model133_added": 5,
+      "model145_added": 0,
+      "model149_pruned": 1,
+      "nodes": 6147,
+      "edges": 5996
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_474be664",
+      "model132_added": 2,
+      "model133_added": 12,
+      "model145_added": 0,
+      "model149_pruned": 3,
+      "nodes": 23451,
+      "edges": 22338
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_5b28472a",
+      "model132_added": 3,
+      "model133_added": 5,
+      "model145_added": 0,
+      "model149_pruned": 2,
+      "nodes": 5891,
+      "edges": 5720
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_6db0e9b4",
+      "model132_added": 4,
+      "model133_added": 21,
+      "model145_added": 1,
+      "model149_pruned": 6,
+      "nodes": 24736,
+      "edges": 23720
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_74686d6a",
+      "model132_added": 6,
+      "model133_added": 19,
+      "model145_added": 1,
+      "model149_pruned": 6,
+      "nodes": 25792,
+      "edges": 24752
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_7f87b3d8",
+      "model132_added": 4,
+      "model133_added": 12,
+      "model145_added": 1,
+      "model149_pruned": 5,
+      "nodes": 9280,
+      "edges": 8727
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_9a41d029",
+      "model132_added": 2,
+      "model133_added": 9,
+      "model145_added": 0,
+      "model149_pruned": 3,
+      "nodes": 18211,
+      "edges": 17651
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_ae82a791",
+      "model132_added": 5,
+      "model133_added": 6,
+      "model145_added": 0,
+      "model149_pruned": 2,
+      "nodes": 7146,
+      "edges": 6951
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_ed9377fd",
+      "model132_added": 1,
+      "model133_added": 2,
+      "model145_added": 0,
+      "model149_pruned": 2,
+      "nodes": 4217,
+      "edges": 4088
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_edf14583",
+      "model132_added": 4,
+      "model133_added": 13,
+      "model145_added": 0,
+      "model149_pruned": 5,
+      "nodes": 48849,
+      "edges": 47043
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_f17befbc",
+      "model132_added": 5,
+      "model133_added": 37,
+      "model145_added": 0,
+      "model149_pruned": 11,
+      "nodes": 25582,
+      "edges": 24176
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_f1fde7e0",
+      "model132_added": 5,
+      "model133_added": 14,
+      "model145_added": 0,
+      "model149_pruned": 3,
+      "nodes": 7957,
+      "edges": 7431
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_f8ffd5e7",
+      "model132_added": 12,
+      "model133_added": 36,
+      "model145_added": 0,
+      "model149_pruned": 9,
+      "nodes": 31148,
+      "edges": 29714
+    }
+  ],
+  "caveat": "Graph adapter parity only; not full Kaggle notebook execution."
+}

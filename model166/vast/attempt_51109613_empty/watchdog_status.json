@@ -1,0 +1,8 @@
+{
+  "status": "armed",
+  "instance_id": 51109613,
+  "seconds_to_stop": 73475.39966511726,
+  "monitor_interval_seconds": 600,
+  "updated_unix": 1789476041.6657174,
+  "alarm_enabled": false
+}

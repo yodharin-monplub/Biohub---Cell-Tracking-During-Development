@@ -1,0 +1,29 @@
+{
+  "base_model": "model1",
+  "base_ref": "evgendvorkin/biohub-0-934-lb-proxy-score-0-9384",
+  "base_version": 27,
+  "notebook_sha256": "bed4d5c6f1c60eb548ce239f01e88d1dc85ffe5da96bd6daf7cb19c178bdc44c",
+  "replacements": [
+    {
+      "new": "model2_detector_recall_probe",
+      "old": "team_fusion_v7_balanced_ensemble"
+    },
+    {
+      "new": "single-knob detector threshold 0.9625",
+      "old": "balanced: SEC_DET 0.80, BIDIR 0.15, EDGE_WEIGHT 0.20"
+    },
+    {
+      "new": "os.environ[\"BIOHUB_DET_THRESHOLD\"] = \"0.9625\"",
+      "old": "os.environ[\"BIOHUB_DET_THRESHOLD\"] = \"0.965\""
+    },
+    {
+      "new": "\"BIOHUB_DET_THRESHOLD\": 0.9625,",
+      "old": "\"BIOHUB_DET_THRESHOLD\": 0.965,"
+    },
+    {
+      "new": "model2_detector_recall_probe",
+      "old": "team_fusion_v6_optimal_balance_0.9382"
+    }
+  ],
+  "status": "unverified_candidate"
+}

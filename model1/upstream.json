@@ -1,0 +1,14 @@
+{
+  "dataset_sources": [
+    "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+    "pilkwang/biohub-temporal-unet3d-seed314159-v1",
+    "pilkwang/biohub-tracking-support-pack-50ep-v1"
+  ],
+  "license": "Apache-2.0 (declared on the Kaggle notebook page)",
+  "published_public_score": 0.934,
+  "published_runtime": "31m 6s on 2x T4 for the visible run",
+  "ref": "evgendvorkin/biohub-0-934-lb-proxy-score-0-9384",
+  "source_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "title": "Biohub  0.934 LB PROXY_SCORE=0.9384",
+  "version": 27
+}

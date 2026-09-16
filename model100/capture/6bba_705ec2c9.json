@@ -1,0 +1,13 @@
+{
+  "movie": "6bba_705ec2c9",
+  "parity": true,
+  "coordinate_sha256": "be861eacc76276f05ad45471c33c2bcc8d303ab5a94e92fca8757493e41531f1",
+  "expected_coordinate_sha256": "be861eacc76276f05ad45471c33c2bcc8d303ab5a94e92fca8757493e41531f1",
+  "nodes": 6386,
+  "edges": 5910,
+  "topology_equal": true,
+  "max_edge_probability_error": 0.0,
+  "captured_links": 40460,
+  "file_sha256": "1dcaefe1c29bb3af697d9aa40199fa20dc7e079be60f8966a9a89d96dc5a1897",
+  "seconds": 157.54428052902222
+}

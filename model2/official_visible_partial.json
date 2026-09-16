@@ -1,0 +1,57 @@
+{
+  "datasets": [
+    {
+      "adj_edge_jaccard": 0.868807449002392,
+      "dataset": "44b6_0113de3b",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 4,
+      "edge_fp": 3,
+      "edge_jaccard": 0.8679245283018868,
+      "edge_tp": 46,
+      "node_recall": 0.9423076923076923,
+      "num_pred_nodes": 25493,
+      "total_node_ratio": -0.010172781984080762
+    },
+    {
+      "adj_edge_jaccard": 1.0019578546466612,
+      "dataset": "44b6_0b24845f",
+      "division_fn": 0,
+      "division_fp": 2,
+      "division_tp": 0,
+      "edge_fn": 0,
+      "edge_fp": 2,
+      "edge_jaccard": 0.9607843137254902,
+      "edge_tp": 49,
+      "node_recall": 1.0,
+      "num_pred_nodes": 18741,
+      "total_node_ratio": -0.42854093611831073
+    }
+  ],
+  "max_distance_um": 7.0,
+  "skipped": [],
+  "status": "valid_and_scored",
+  "structural_totals": {
+    "divisions": 302,
+    "edges": 115574,
+    "nodes": 119706,
+    "tracks": 4132
+  },
+  "submission": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model2/output-v1/submission.csv",
+  "submission_sha256": "b2c2460edfe74cab9458f5c516bb16054ae99c888c252d717e4797a7816642ce",
+  "summary": {
+    "adj_edge_jaccard": 0.9341023594625626,
+    "division_fn": 0,
+    "division_fp": 2,
+    "division_jaccard": 0.0,
+    "division_tp": 0,
+    "edge_jaccard": 0.9134615384615384,
+    "n": 2,
+    "n_adj": 2,
+    "node_recall": 0.9711538461538461,
+    "score": 0.9341023594625626
+  },
+  "torch_import_shimmed_for_metadata_only_io": true,
+  "train_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/data/raw/train"
+}

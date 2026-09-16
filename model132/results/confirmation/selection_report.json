@@ -1,0 +1,2160 @@
+{
+  "status": "valid",
+  "cohort": "confirmation",
+  "source_model130_sha256": "1d0752bbdad4f43f1ea50aaad07ac7d8e5e9a3c07484301592f55898cc8df3d5",
+  "source_model118_sha256": "3d70e9cbaadadc106115d8b081145daf98fb08e13bb223101d220ce0dde4f4bb",
+  "candidate_sha256": "efd04ad20abb50576aaeb87d799b0349560710f1f89bf9ca0fcb4fcee6e4341e",
+  "config_sha256": "c5b625d5ea0675571eeb2058055bcf9476575e80af4f46f7e877f54a2b6a28b5",
+  "pilot_sha256": "d8ec9441d0d1db433c2d461447fe42e78434fce13dfc6692231a30e1e5a962ce",
+  "source_code_sha256": "6d0bb584ec5991ad4ed3024b75a392c9e00b35e7862bcdf22023153c83ac8d8d",
+  "totals": {
+    "broad_proposals": 62603,
+    "rule_proposals": 120,
+    "raw_verified_proposals": 120,
+    "prior_veto_safe_proposals": 120,
+    "selected": 104,
+    "global_cap": 3050,
+    "frames_selected": 99
+  },
+  "movies": [
+    {
+      "movie": "44b6_0c582fdc",
+      "stats": {
+        "broad_proposals": 2065,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 94,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 26,
+      "additions": [
+        {
+          "movie": "44b6_0c582fdc",
+          "t": 85,
+          "parent": 28173,
+          "existing_daughter": 28435,
+          "orphan": 28419,
+          "probability": 0.7435705661773682,
+          "parent_distance_um": 7.5457588460339755,
+          "existing_daughter_distance_um": 3.1729139308370784,
+          "sister_distance_um": 10.686768980847297,
+          "midpoint_prediction_error_um": 3.0671202393287422,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_12dfb391",
+      "stats": {
+        "broad_proposals": 3155,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 154,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 39,
+      "additions": [
+        {
+          "movie": "44b6_12dfb391",
+          "t": 46,
+          "parent": 21780,
+          "existing_daughter": 22262,
+          "orphan": 22270,
+          "probability": 0.6522246599197388,
+          "parent_distance_um": 8.872633927560631,
+          "existing_daughter_distance_um": 1.284675299443404,
+          "sister_distance_um": 10.123697832931404,
+          "midpoint_prediction_error_um": 4.70706852941669,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_144b256d",
+      "stats": {
+        "broad_proposals": 1494,
+        "rule_proposals": 0,
+        "raw_verified_proposals": 0,
+        "prior_veto_safe_proposals": 0,
+        "selected": 0,
+        "global_cap": 82,
+        "frames_selected": 0
+      },
+      "prior_vetoed_edges": 8,
+      "additions": []
+    },
+    {
+      "movie": "44b6_40c45f5a",
+      "stats": {
+        "broad_proposals": 2618,
+        "rule_proposals": 2,
+        "raw_verified_proposals": 2,
+        "prior_veto_safe_proposals": 2,
+        "selected": 2,
+        "global_cap": 103,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 38,
+      "additions": [
+        {
+          "movie": "44b6_40c45f5a",
+          "t": 40,
+          "parent": 12156,
+          "existing_daughter": 12524,
+          "orphan": 12555,
+          "probability": 0.7375960946083069,
+          "parent_distance_um": 9.992428774452184,
+          "existing_daughter_distance_um": 0.9084026158592896,
+          "sister_distance_um": 10.180595819990105,
+          "midpoint_prediction_error_um": 5.154734625807618,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_40c45f5a",
+          "t": 67,
+          "parent": 23428,
+          "existing_daughter": 23823,
+          "orphan": 23817,
+          "probability": 0.635947585105896,
+          "parent_distance_um": 8.125,
+          "existing_daughter_distance_um": 2.0714766773970688,
+          "sister_distance_um": 10.099214851908043,
+          "midpoint_prediction_error_um": 4.569183888425809,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_5f15d135",
+      "stats": {
+        "broad_proposals": 1701,
+        "rule_proposals": 3,
+        "raw_verified_proposals": 3,
+        "prior_veto_safe_proposals": 3,
+        "selected": 3,
+        "global_cap": 71,
+        "frames_selected": 3
+      },
+      "prior_vetoed_edges": 32,
+      "additions": [
+        {
+          "movie": "44b6_5f15d135",
+          "t": 93,
+          "parent": 27131,
+          "existing_daughter": 27336,
+          "orphan": 27346,
+          "probability": 0.7506974339485168,
+          "parent_distance_um": 8.900491559458949,
+          "existing_daughter_distance_um": 1.9902104160113323,
+          "sister_distance_um": 10.341436674853258,
+          "midpoint_prediction_error_um": 4.631962664465248,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_5f15d135",
+          "t": 86,
+          "parent": 25726,
+          "existing_daughter": 25930,
+          "orphan": 25943,
+          "probability": 0.6547227501869202,
+          "parent_distance_um": 9.27282867104208,
+          "existing_daughter_distance_um": 1.7235727791422095,
+          "sister_distance_um": 9.992428774452184,
+          "midpoint_prediction_error_um": 4.006251218798567,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_5f15d135",
+          "t": 49,
+          "parent": 15975,
+          "existing_daughter": 16289,
+          "orphan": 16253,
+          "probability": 0.6363286972045898,
+          "parent_distance_um": 8.295859754268994,
+          "existing_daughter_distance_um": 2.368824207280903,
+          "sister_distance_um": 10.188698165737367,
+          "midpoint_prediction_error_um": 7.360303816122334,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_7a302da0",
+      "stats": {
+        "broad_proposals": 3319,
+        "rule_proposals": 2,
+        "raw_verified_proposals": 2,
+        "prior_veto_safe_proposals": 2,
+        "selected": 2,
+        "global_cap": 144,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 53,
+      "additions": [
+        {
+          "movie": "44b6_7a302da0",
+          "t": 19,
+          "parent": 11187,
+          "existing_daughter": 11765,
+          "orphan": 11724,
+          "probability": 0.6144745945930481,
+          "parent_distance_um": 8.375058302035873,
+          "existing_daughter_distance_um": 2.1877232028983924,
+          "sister_distance_um": 10.050069962443047,
+          "midpoint_prediction_error_um": 5.090297909995052,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_7a302da0",
+          "t": 35,
+          "parent": 20197,
+          "existing_daughter": 20764,
+          "orphan": 20789,
+          "probability": 0.6051061153411865,
+          "parent_distance_um": 8.983546157420243,
+          "existing_daughter_distance_um": 1.7235727791422095,
+          "sister_distance_um": 10.188698165737367,
+          "midpoint_prediction_error_um": 3.750943891625813,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_7e557709",
+      "stats": {
+        "broad_proposals": 2506,
+        "rule_proposals": 4,
+        "raw_verified_proposals": 4,
+        "prior_veto_safe_proposals": 4,
+        "selected": 4,
+        "global_cap": 157,
+        "frames_selected": 4
+      },
+      "prior_vetoed_edges": 17,
+      "additions": [
+        {
+          "movie": "44b6_7e557709",
+          "t": 43,
+          "parent": 19657,
+          "existing_daughter": 20153,
+          "orphan": 20114,
+          "probability": 0.7428553700447083,
+          "parent_distance_um": 8.135149910265945,
+          "existing_daughter_distance_um": 1.9902104160113323,
+          "sister_distance_um": 9.792226269470085,
+          "midpoint_prediction_error_um": 4.63641433552104,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_7e557709",
+          "t": 35,
+          "parent": 15735,
+          "existing_daughter": 16180,
+          "orphan": 16236,
+          "probability": 0.7399677634239197,
+          "parent_distance_um": 8.215897794063652,
+          "existing_daughter_distance_um": 1.6750116604071745,
+          "sister_distance_um": 9.884489111734608,
+          "midpoint_prediction_error_um": 3.25,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_7e557709",
+          "t": 5,
+          "parent": 2603,
+          "existing_daughter": 3033,
+          "orphan": 3049,
+          "probability": 0.6209617257118225,
+          "parent_distance_um": 8.325647497342175,
+          "existing_daughter_distance_um": 2.368824207280903,
+          "sister_distance_um": 10.546863425919575,
+          "midpoint_prediction_error_um": 4.640861736385819,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_7e557709",
+          "t": 68,
+          "parent": 31640,
+          "existing_daughter": 32148,
+          "orphan": 32117,
+          "probability": 0.6065750122070312,
+          "parent_distance_um": 9.165417765301264,
+          "existing_daughter_distance_um": 2.1877232028983924,
+          "sister_distance_um": 10.357383386985344,
+          "midpoint_prediction_error_um": 6.140962935993834,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_87bba6c4",
+      "stats": {
+        "broad_proposals": 3123,
+        "rule_proposals": 5,
+        "raw_verified_proposals": 5,
+        "prior_veto_safe_proposals": 5,
+        "selected": 5,
+        "global_cap": 99,
+        "frames_selected": 5
+      },
+      "prior_vetoed_edges": 51,
+      "additions": [
+        {
+          "movie": "44b6_87bba6c4",
+          "t": 17,
+          "parent": 4262,
+          "existing_daughter": 4566,
+          "orphan": 4545,
+          "probability": 0.7818848490715027,
+          "parent_distance_um": 10.686768980847297,
+          "existing_daughter_distance_um": 1.86167137607581,
+          "sister_distance_um": 9.95934117110665,
+          "midpoint_prediction_error_um": 3.4049954685175425,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_87bba6c4",
+          "t": 27,
+          "parent": 7475,
+          "existing_daughter": 7799,
+          "orphan": 7860,
+          "probability": 0.7382333874702454,
+          "parent_distance_um": 6.797862715589364,
+          "existing_daughter_distance_um": 3.374565944310468,
+          "sister_distance_um": 9.690574109024707,
+          "midpoint_prediction_error_um": 3.453125,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_87bba6c4",
+          "t": 46,
+          "parent": 14642,
+          "existing_daughter": 15059,
+          "orphan": 15041,
+          "probability": 0.6646564602851868,
+          "parent_distance_um": 8.617863895711048,
+          "existing_daughter_distance_um": 4.487177913232324,
+          "sister_distance_um": 10.468330215464164,
+          "midpoint_prediction_error_um": 3.5416053916267973,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_87bba6c4",
+          "t": 11,
+          "parent": 2643,
+          "existing_daughter": 2913,
+          "orphan": 2914,
+          "probability": 0.6493876576423645,
+          "parent_distance_um": 10.72530776073582,
+          "existing_daughter_distance_um": 1.4647552056572457,
+          "sister_distance_um": 12.119602535768243,
+          "midpoint_prediction_error_um": 4.112967773548681,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_87bba6c4",
+          "t": 39,
+          "parent": 11769,
+          "existing_daughter": 12172,
+          "orphan": 12126,
+          "probability": 0.6433455348014832,
+          "parent_distance_um": 10.309469251615235,
+          "existing_daughter_distance_um": 1.284675299443404,
+          "sister_distance_um": 10.357383386985344,
+          "midpoint_prediction_error_um": 3.4590941055788003,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_8cc6506c",
+      "stats": {
+        "broad_proposals": 1272,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 62,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 20,
+      "additions": [
+        {
+          "movie": "44b6_8cc6506c",
+          "t": 58,
+          "parent": 14331,
+          "existing_daughter": 14531,
+          "orphan": 14553,
+          "probability": 0.744248628616333,
+          "parent_distance_um": 9.475296829123613,
+          "existing_daughter_distance_um": 2.0714766773970688,
+          "sister_distance_um": 11.504839335036365,
+          "midpoint_prediction_error_um": 3.734407688141454,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_8f9ecab4",
+      "stats": {
+        "broad_proposals": 2491,
+        "rule_proposals": 0,
+        "raw_verified_proposals": 0,
+        "prior_veto_safe_proposals": 0,
+        "selected": 0,
+        "global_cap": 121,
+        "frames_selected": 0
+      },
+      "prior_vetoed_edges": 26,
+      "additions": []
+    },
+    {
+      "movie": "44b6_949adeb1",
+      "stats": {
+        "broad_proposals": 3602,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 133,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 50,
+      "additions": [
+        {
+          "movie": "44b6_949adeb1",
+          "t": 85,
+          "parent": 36852,
+          "existing_daughter": 37517,
+          "orphan": 37441,
+          "probability": 0.7532244324684143,
+          "parent_distance_um": 8.14528717265389,
+          "existing_daughter_distance_um": 1.9902104160113323,
+          "sister_distance_um": 9.834271229989541,
+          "midpoint_prediction_error_um": 4.883456207569594,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_97725144",
+      "stats": {
+        "broad_proposals": 1715,
+        "rule_proposals": 0,
+        "raw_verified_proposals": 0,
+        "prior_veto_safe_proposals": 0,
+        "selected": 0,
+        "global_cap": 117,
+        "frames_selected": 0
+      },
+      "prior_vetoed_edges": 25,
+      "additions": []
+    },
+    {
+      "movie": "44b6_996155de",
+      "stats": {
+        "broad_proposals": 300,
+        "rule_proposals": 0,
+        "raw_verified_proposals": 0,
+        "prior_veto_safe_proposals": 0,
+        "selected": 0,
+        "global_cap": 32,
+        "frames_selected": 0
+      },
+      "prior_vetoed_edges": 11,
+      "additions": []
+    },
+    {
+      "movie": "44b6_a2bb48bb",
+      "stats": {
+        "broad_proposals": 4171,
+        "rule_proposals": 0,
+        "raw_verified_proposals": 0,
+        "prior_veto_safe_proposals": 0,
+        "selected": 0,
+        "global_cap": 150,
+        "frames_selected": 0
+      },
+      "prior_vetoed_edges": 65,
+      "additions": []
+    },
+    {
+      "movie": "44b6_aaf8b0ea",
+      "stats": {
+        "broad_proposals": 685,
+        "rule_proposals": 0,
+        "raw_verified_proposals": 0,
+        "prior_veto_safe_proposals": 0,
+        "selected": 0,
+        "global_cap": 50,
+        "frames_selected": 0
+      },
+      "prior_vetoed_edges": 14,
+      "additions": []
+    },
+    {
+      "movie": "44b6_cf8fed6b",
+      "stats": {
+        "broad_proposals": 3649,
+        "rule_proposals": 8,
+        "raw_verified_proposals": 8,
+        "prior_veto_safe_proposals": 8,
+        "selected": 6,
+        "global_cap": 147,
+        "frames_selected": 4
+      },
+      "prior_vetoed_edges": 53,
+      "additions": [
+        {
+          "movie": "44b6_cf8fed6b",
+          "t": 60,
+          "parent": 23005,
+          "existing_daughter": 23692,
+          "orphan": 23680,
+          "probability": 0.9014810919761658,
+          "parent_distance_um": 9.165417765301264,
+          "existing_daughter_distance_um": 4.667457150312148,
+          "sister_distance_um": 11.411214672965363,
+          "midpoint_prediction_error_um": 3.10056855925248,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_cf8fed6b",
+          "t": 60,
+          "parent": 22758,
+          "existing_daughter": 23421,
+          "orphan": 23443,
+          "probability": 0.8110825419425964,
+          "parent_distance_um": 10.855316237908502,
+          "existing_daughter_distance_um": 3.2752922102462856,
+          "sister_distance_um": 11.118194899015757,
+          "midpoint_prediction_error_um": 4.86228811395674,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_cf8fed6b",
+          "t": 60,
+          "parent": 23014,
+          "existing_daughter": 23734,
+          "orphan": 23715,
+          "probability": 0.7981792688369751,
+          "parent_distance_um": 11.562077694990636,
+          "existing_daughter_distance_um": 2.7252078475778685,
+          "sister_distance_um": 9.89283397528231,
+          "midpoint_prediction_error_um": 4.361278706196727,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_cf8fed6b",
+          "t": 44,
+          "parent": 12699,
+          "existing_daughter": 13299,
+          "orphan": 13267,
+          "probability": 0.6707024574279785,
+          "parent_distance_um": 12.112791856648904,
+          "existing_daughter_distance_um": 1.6750116604071745,
+          "sister_distance_um": 10.65583760199075,
+          "midpoint_prediction_error_um": 5.480612135063017,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_cf8fed6b",
+          "t": 76,
+          "parent": 33306,
+          "existing_daughter": 33904,
+          "orphan": 33877,
+          "probability": 0.6484072804450989,
+          "parent_distance_um": 7.761395352158012,
+          "existing_daughter_distance_um": 2.368824207280903,
+          "sister_distance_um": 9.690574109024707,
+          "midpoint_prediction_error_um": 3.616537806124111,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_cf8fed6b",
+          "t": 40,
+          "parent": 10502,
+          "existing_daughter": 10996,
+          "orphan": 11050,
+          "probability": 0.6075759530067444,
+          "parent_distance_um": 6.749131888620936,
+          "existing_daughter_distance_um": 3.447145558284419,
+          "sister_distance_um": 9.78379559526874,
+          "midpoint_prediction_error_um": 4.908737426772795,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_d29c9ab2",
+      "stats": {
+        "broad_proposals": 1529,
+        "rule_proposals": 6,
+        "raw_verified_proposals": 6,
+        "prior_veto_safe_proposals": 6,
+        "selected": 6,
+        "global_cap": 133,
+        "frames_selected": 6
+      },
+      "prior_vetoed_edges": 16,
+      "additions": [
+        {
+          "movie": "44b6_d29c9ab2",
+          "t": 4,
+          "parent": 1078,
+          "existing_daughter": 1345,
+          "orphan": 1315,
+          "probability": 0.8843432664871216,
+          "parent_distance_um": 7.501887783251626,
+          "existing_daughter_distance_um": 2.333728575156074,
+          "sister_distance_um": 9.699085813879574,
+          "midpoint_prediction_error_um": 4.308931947855524,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_d29c9ab2",
+          "t": 26,
+          "parent": 7470,
+          "existing_daughter": 7775,
+          "orphan": 7809,
+          "probability": 0.7379804253578186,
+          "parent_distance_um": 9.926143274832375,
+          "existing_daughter_distance_um": 0.5745242597140698,
+          "sister_distance_um": 9.72457622791348,
+          "midpoint_prediction_error_um": 3.3314977042052725,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_d29c9ab2",
+          "t": 5,
+          "parent": 1381,
+          "existing_daughter": 1659,
+          "orphan": 1650,
+          "probability": 0.7373591661453247,
+          "parent_distance_um": 8.52157189138248,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 9.647902945718307,
+          "midpoint_prediction_error_um": 5.154734625807618,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_d29c9ab2",
+          "t": 53,
+          "parent": 17129,
+          "existing_daughter": 17536,
+          "orphan": 17537,
+          "probability": 0.7087817192077637,
+          "parent_distance_um": 12.639533713709538,
+          "existing_daughter_distance_um": 1.86167137607581,
+          "sister_distance_um": 13.157734476820089,
+          "midpoint_prediction_error_um": 6.591398425457605,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_d29c9ab2",
+          "t": 62,
+          "parent": 20809,
+          "existing_daughter": 21215,
+          "orphan": 21240,
+          "probability": 0.6481217741966248,
+          "parent_distance_um": 10.357383386985344,
+          "existing_daughter_distance_um": 1.6750116604071745,
+          "sister_distance_um": 11.324104890122662,
+          "midpoint_prediction_error_um": 4.996214387226092,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_d29c9ab2",
+          "t": 34,
+          "parent": 9930,
+          "existing_daughter": 10254,
+          "orphan": 10252,
+          "probability": 0.61397385597229,
+          "parent_distance_um": 9.165417765301264,
+          "existing_daughter_distance_um": 1.21875,
+          "sister_distance_um": 9.510068677459696,
+          "midpoint_prediction_error_um": 5.025034981221523,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_d78e09d9",
+      "stats": {
+        "broad_proposals": 1557,
+        "rule_proposals": 2,
+        "raw_verified_proposals": 2,
+        "prior_veto_safe_proposals": 2,
+        "selected": 2,
+        "global_cap": 82,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 32,
+      "additions": [
+        {
+          "movie": "44b6_d78e09d9",
+          "t": 27,
+          "parent": 8958,
+          "existing_daughter": 9261,
+          "orphan": 9295,
+          "probability": 0.6829503178596497,
+          "parent_distance_um": 8.694129664607033,
+          "existing_daughter_distance_um": 3.832554834897995,
+          "sister_distance_um": 12.2213072771492,
+          "midpoint_prediction_error_um": 5.4693080072459805,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "44b6_d78e09d9",
+          "t": 13,
+          "parent": 4171,
+          "existing_daughter": 4488,
+          "orphan": 4500,
+          "probability": 0.6004282832145691,
+          "parent_distance_um": 8.063832254269679,
+          "existing_daughter_distance_um": 4.5420130792964475,
+          "sister_distance_um": 11.265657506887914,
+          "midpoint_prediction_error_um": 5.078125,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "44b6_e28840c6",
+      "stats": {
+        "broad_proposals": 1473,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 81,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 9,
+      "additions": [
+        {
+          "movie": "44b6_e28840c6",
+          "t": 73,
+          "parent": 25305,
+          "existing_daughter": 25611,
+          "orphan": 25641,
+          "probability": 0.6091395616531372,
+          "parent_distance_um": 9.901171805650076,
+          "existing_daughter_distance_um": 0.0,
+          "sister_distance_um": 9.901171805650076,
+          "midpoint_prediction_error_um": 5.178691693492672,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_12665c0e",
+      "stats": {
+        "broad_proposals": 267,
+        "rule_proposals": 4,
+        "raw_verified_proposals": 4,
+        "prior_veto_safe_proposals": 4,
+        "selected": 4,
+        "global_cap": 29,
+        "frames_selected": 4
+      },
+      "prior_vetoed_edges": 2,
+      "additions": [
+        {
+          "movie": "6bba_12665c0e",
+          "t": 71,
+          "parent": 7225,
+          "existing_daughter": 7286,
+          "orphan": 7279,
+          "probability": 0.8885738253593445,
+          "parent_distance_um": 14.072912811497128,
+          "existing_daughter_distance_um": 2.8726212985703494,
+          "sister_distance_um": 11.955075412769256,
+          "midpoint_prediction_error_um": 3.8217740685773145,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_12665c0e",
+          "t": 65,
+          "parent": 6929,
+          "existing_daughter": 6979,
+          "orphan": 6982,
+          "probability": 0.8367633819580078,
+          "parent_distance_um": 9.21032453961314,
+          "existing_daughter_distance_um": 3.1729139308370784,
+          "sister_distance_um": 12.248285913241086,
+          "midpoint_prediction_error_um": 5.331789429040216,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_12665c0e",
+          "t": 13,
+          "parent": 2238,
+          "existing_daughter": 2378,
+          "orphan": 2385,
+          "probability": 0.6793704628944397,
+          "parent_distance_um": 6.563169608695177,
+          "existing_daughter_distance_um": 4.1429533547941375,
+          "sister_distance_um": 10.476210028559947,
+          "midpoint_prediction_error_um": 5.20650228230287,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_12665c0e",
+          "t": 11,
+          "parent": 1919,
+          "existing_daughter": 2060,
+          "orphan": 2064,
+          "probability": 0.6774447560310364,
+          "parent_distance_um": 9.766912415139188,
+          "existing_daughter_distance_um": 2.9575446425202108,
+          "sister_distance_um": 12.248285913241086,
+          "midpoint_prediction_error_um": 6.124142956620543,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_1ebfb80d",
+      "stats": {
+        "broad_proposals": 652,
+        "rule_proposals": 4,
+        "raw_verified_proposals": 4,
+        "prior_veto_safe_proposals": 4,
+        "selected": 2,
+        "global_cap": 40,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 7,
+      "additions": [
+        {
+          "movie": "6bba_1ebfb80d",
+          "t": 60,
+          "parent": 9925,
+          "existing_daughter": 10047,
+          "orphan": 10057,
+          "probability": 0.7686262130737305,
+          "parent_distance_um": 11.353215747641723,
+          "existing_daughter_distance_um": 2.7252078475778685,
+          "sister_distance_um": 10.5625,
+          "midpoint_prediction_error_um": 5.87308811976289,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_1ebfb80d",
+          "t": 29,
+          "parent": 5810,
+          "existing_daughter": 5954,
+          "orphan": 5959,
+          "probability": 0.7189828157424927,
+          "parent_distance_um": 9.95105208005666,
+          "existing_daughter_distance_um": 1.1490485194281397,
+          "sister_distance_um": 9.613629647536875,
+          "midpoint_prediction_error_um": 4.26078594569124,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_20852818",
+      "stats": {
+        "broad_proposals": 393,
+        "rule_proposals": 5,
+        "raw_verified_proposals": 5,
+        "prior_veto_safe_proposals": 5,
+        "selected": 4,
+        "global_cap": 36,
+        "frames_selected": 4
+      },
+      "prior_vetoed_edges": 9,
+      "additions": [
+        {
+          "movie": "6bba_20852818",
+          "t": 5,
+          "parent": 1492,
+          "existing_daughter": 1728,
+          "orphan": 1713,
+          "probability": 0.8711668252944946,
+          "parent_distance_um": 8.67512607977544,
+          "existing_daughter_distance_um": 2.0714766773970688,
+          "sister_distance_um": 9.901171805650076,
+          "midpoint_prediction_error_um": 3.4590941055788003,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_20852818",
+          "t": 62,
+          "parent": 8838,
+          "existing_daughter": 8902,
+          "orphan": 8907,
+          "probability": 0.7756476402282715,
+          "parent_distance_um": 7.66510966979599,
+          "existing_daughter_distance_um": 3.350023320814349,
+          "sister_distance_um": 9.613629647536875,
+          "midpoint_prediction_error_um": 3.447145558284419,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_20852818",
+          "t": 2,
+          "parent": 763,
+          "existing_daughter": 1005,
+          "orphan": 1012,
+          "probability": 0.716100811958313,
+          "parent_distance_um": 11.331389615797349,
+          "existing_daughter_distance_um": 3.917733121653388,
+          "sister_distance_um": 12.248285913241086,
+          "midpoint_prediction_error_um": 5.618159903662853,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_20852818",
+          "t": 58,
+          "parent": 8540,
+          "existing_daughter": 8608,
+          "orphan": 8603,
+          "probability": 0.6269581317901611,
+          "parent_distance_um": 10.41300456460574,
+          "existing_daughter_distance_um": 0.5745242597140698,
+          "sister_distance_um": 10.663578858080433,
+          "midpoint_prediction_error_um": 3.9229953579025554,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_2540cd90",
+      "stats": {
+        "broad_proposals": 21,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 13,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 0,
+      "additions": [
+        {
+          "movie": "6bba_2540cd90",
+          "t": 16,
+          "parent": 697,
+          "existing_daughter": 736,
+          "orphan": 739,
+          "probability": 0.6548647880554199,
+          "parent_distance_um": 7.621925609713073,
+          "existing_daughter_distance_um": 3.6336104634371584,
+          "sister_distance_um": 10.900831390311474,
+          "midpoint_prediction_error_um": 3.5648292823780494,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_268e1230",
+      "stats": {
+        "broad_proposals": 272,
+        "rule_proposals": 3,
+        "raw_verified_proposals": 3,
+        "prior_veto_safe_proposals": 3,
+        "selected": 2,
+        "global_cap": 17,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 5,
+      "additions": [
+        {
+          "movie": "6bba_268e1230",
+          "t": 70,
+          "parent": 3020,
+          "existing_daughter": 3104,
+          "orphan": 3101,
+          "probability": 0.6829254627227783,
+          "parent_distance_um": 10.29344831069744,
+          "existing_daughter_distance_um": 3.7454399357752353,
+          "sister_distance_um": 13.913691829004263,
+          "midpoint_prediction_error_um": 4.147929877134497,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_268e1230",
+          "t": 85,
+          "parent": 4054,
+          "existing_daughter": 4142,
+          "orphan": 4132,
+          "probability": 0.6364529132843018,
+          "parent_distance_um": 14.987266730878583,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 14.765385249376326,
+          "midpoint_prediction_error_um": 7.493633365439291,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_372c8cb8",
+      "stats": {
+        "broad_proposals": 121,
+        "rule_proposals": 2,
+        "raw_verified_proposals": 2,
+        "prior_veto_safe_proposals": 2,
+        "selected": 2,
+        "global_cap": 24,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 1,
+      "additions": [
+        {
+          "movie": "6bba_372c8cb8",
+          "t": 62,
+          "parent": 4596,
+          "existing_daughter": 4678,
+          "orphan": 4677,
+          "probability": 0.6436759829521179,
+          "parent_distance_um": 8.175623542733605,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 9.690574109024707,
+          "midpoint_prediction_error_um": 3.943974092286231,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_372c8cb8",
+          "t": 71,
+          "parent": 5298,
+          "existing_daughter": 5386,
+          "orphan": 5393,
+          "probability": 0.6133409142494202,
+          "parent_distance_um": 14.987266730878583,
+          "existing_daughter_distance_um": 1.7235727791422095,
+          "sister_distance_um": 14.787723212601053,
+          "midpoint_prediction_error_um": 8.426627833280937,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_3a1849c2",
+      "stats": {
+        "broad_proposals": 262,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 24,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 4,
+      "additions": [
+        {
+          "movie": "6bba_3a1849c2",
+          "t": 34,
+          "parent": 2456,
+          "existing_daughter": 2531,
+          "orphan": 2535,
+          "probability": 0.7643247246742249,
+          "parent_distance_um": 11.411214672965363,
+          "existing_daughter_distance_um": 1.6750116604071745,
+          "sister_distance_um": 12.065009453995467,
+          "midpoint_prediction_error_um": 5.488135284980682,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_3c5691b6",
+      "stats": {
+        "broad_proposals": 115,
+        "rule_proposals": 0,
+        "raw_verified_proposals": 0,
+        "prior_veto_safe_proposals": 0,
+        "selected": 0,
+        "global_cap": 22,
+        "frames_selected": 0
+      },
+      "prior_vetoed_edges": 2,
+      "additions": []
+    },
+    {
+      "movie": "6bba_474be664",
+      "stats": {
+        "broad_proposals": 1822,
+        "rule_proposals": 2,
+        "raw_verified_proposals": 2,
+        "prior_veto_safe_proposals": 2,
+        "selected": 2,
+        "global_cap": 84,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 23,
+      "additions": [
+        {
+          "movie": "6bba_474be664",
+          "t": 66,
+          "parent": 23592,
+          "existing_daughter": 23945,
+          "orphan": 23929,
+          "probability": 0.7409647107124329,
+          "parent_distance_um": 8.285906709588275,
+          "existing_daughter_distance_um": 2.03125,
+          "sister_distance_um": 9.95934117110665,
+          "midpoint_prediction_error_um": 3.3314977042052725,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_474be664",
+          "t": 35,
+          "parent": 11778,
+          "existing_daughter": 12178,
+          "orphan": 12114,
+          "probability": 0.621845006942749,
+          "parent_distance_um": 11.294919004246998,
+          "existing_daughter_distance_um": 3.8540258983302125,
+          "sister_distance_um": 15.118832678566822,
+          "midpoint_prediction_error_um": 7.027655331127516,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_5b28472a",
+      "stats": {
+        "broad_proposals": 112,
+        "rule_proposals": 4,
+        "raw_verified_proposals": 4,
+        "prior_veto_safe_proposals": 4,
+        "selected": 3,
+        "global_cap": 21,
+        "frames_selected": 3
+      },
+      "prior_vetoed_edges": 1,
+      "additions": [
+        {
+          "movie": "6bba_5b28472a",
+          "t": 53,
+          "parent": 3892,
+          "existing_daughter": 3963,
+          "orphan": 3964,
+          "probability": 0.8610885143280029,
+          "parent_distance_um": 11.095906480544976,
+          "existing_daughter_distance_um": 2.6012692214570947,
+          "sister_distance_um": 13.626039237889344,
+          "midpoint_prediction_error_um": 5.734460149231573,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_5b28472a",
+          "t": 93,
+          "parent": 6511,
+          "existing_daughter": 6567,
+          "orphan": 6561,
+          "probability": 0.7394329309463501,
+          "parent_distance_um": 10.033634841123131,
+          "existing_daughter_distance_um": 1.1490485194281397,
+          "sister_distance_um": 10.164371752597402,
+          "midpoint_prediction_error_um": 5.114556814255757,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_5b28472a",
+          "t": 70,
+          "parent": 5047,
+          "existing_daughter": 5105,
+          "orphan": 5110,
+          "probability": 0.6306344270706177,
+          "parent_distance_um": 9.72457622791348,
+          "existing_daughter_distance_um": 1.1490485194281397,
+          "sister_distance_um": 10.847711812290184,
+          "midpoint_prediction_error_um": 5.158735196550119,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_6db0e9b4",
+      "stats": {
+        "broad_proposals": 1888,
+        "rule_proposals": 6,
+        "raw_verified_proposals": 6,
+        "prior_veto_safe_proposals": 6,
+        "selected": 4,
+        "global_cap": 89,
+        "frames_selected": 3
+      },
+      "prior_vetoed_edges": 19,
+      "additions": [
+        {
+          "movie": "6bba_6db0e9b4",
+          "t": 11,
+          "parent": 3642,
+          "existing_daughter": 4024,
+          "orphan": 4048,
+          "probability": 0.8247983455657959,
+          "parent_distance_um": 10.484083919208201,
+          "existing_daughter_distance_um": 2.1877232028983924,
+          "sister_distance_um": 11.468920298463146,
+          "midpoint_prediction_error_um": 5.094349082868684,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_6db0e9b4",
+          "t": 11,
+          "parent": 3700,
+          "existing_daughter": 4094,
+          "orphan": 4124,
+          "probability": 0.7808021306991577,
+          "parent_distance_um": 7.368707591056928,
+          "existing_daughter_distance_um": 2.6012692214570947,
+          "sister_distance_um": 9.917826437783633,
+          "midpoint_prediction_error_um": 4.1429533547941375,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_6db0e9b4",
+          "t": 91,
+          "parent": 28174,
+          "existing_daughter": 28439,
+          "orphan": 28461,
+          "probability": 0.7550129890441895,
+          "parent_distance_um": 9.228226061925445,
+          "existing_daughter_distance_um": 1.625,
+          "sister_distance_um": 10.436751470165417,
+          "midpoint_prediction_error_um": 4.614113030962723,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_6db0e9b4",
+          "t": 7,
+          "parent": 2342,
+          "existing_daughter": 2711,
+          "orphan": 2683,
+          "probability": 0.7280356884002686,
+          "parent_distance_um": 12.48847124601326,
+          "existing_daughter_distance_um": 1.4647552056572457,
+          "sister_distance_um": 11.774243606278919,
+          "midpoint_prediction_error_um": 5.58501412822743,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_74686d6a",
+      "stats": {
+        "broad_proposals": 1900,
+        "rule_proposals": 6,
+        "raw_verified_proposals": 6,
+        "prior_veto_safe_proposals": 6,
+        "selected": 6,
+        "global_cap": 93,
+        "frames_selected": 6
+      },
+      "prior_vetoed_edges": 24,
+      "additions": [
+        {
+          "movie": "6bba_74686d6a",
+          "t": 59,
+          "parent": 20223,
+          "existing_daughter": 20563,
+          "orphan": 20521,
+          "probability": 0.7553184032440186,
+          "parent_distance_um": 10.058277452551208,
+          "existing_daughter_distance_um": 1.6750116604071745,
+          "sister_distance_um": 10.593703908454303,
+          "midpoint_prediction_error_um": 5.138701197773616,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_74686d6a",
+          "t": 14,
+          "parent": 4979,
+          "existing_daughter": 5329,
+          "orphan": 5316,
+          "probability": 0.7062720656394958,
+          "parent_distance_um": 8.608283165794443,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 10.221043320644913,
+          "midpoint_prediction_error_um": 4.63641433552104,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_74686d6a",
+          "t": 16,
+          "parent": 5538,
+          "existing_daughter": 5895,
+          "orphan": 5853,
+          "probability": 0.6773601174354553,
+          "parent_distance_um": 6.625736987309412,
+          "existing_daughter_distance_um": 3.0671202393287422,
+          "sister_distance_um": 9.690574109024707,
+          "midpoint_prediction_error_um": 3.1533479851778172,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_74686d6a",
+          "t": 31,
+          "parent": 10636,
+          "existing_daughter": 11018,
+          "orphan": 10995,
+          "probability": 0.6559934020042419,
+          "parent_distance_um": 7.632744530147724,
+          "existing_daughter_distance_um": 2.333728575156074,
+          "sister_distance_um": 9.561989365451103,
+          "midpoint_prediction_error_um": 3.107215016095603,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_74686d6a",
+          "t": 9,
+          "parent": 3193,
+          "existing_daughter": 3502,
+          "orphan": 3574,
+          "probability": 0.6339264512062073,
+          "parent_distance_um": 8.255975582116266,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 9.992428774452184,
+          "midpoint_prediction_error_um": 4.896113134735042,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_74686d6a",
+          "t": 21,
+          "parent": 7168,
+          "existing_daughter": 7483,
+          "orphan": 7535,
+          "probability": 0.6218095421791077,
+          "parent_distance_um": 6.550584420492571,
+          "existing_daughter_distance_um": 3.447145558284419,
+          "sister_distance_um": 9.917826437783633,
+          "midpoint_prediction_error_um": 5.138701197773616,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_7f87b3d8",
+      "stats": {
+        "broad_proposals": 751,
+        "rule_proposals": 6,
+        "raw_verified_proposals": 6,
+        "prior_veto_safe_proposals": 6,
+        "selected": 4,
+        "global_cap": 33,
+        "frames_selected": 4
+      },
+      "prior_vetoed_edges": 5,
+      "additions": [
+        {
+          "movie": "6bba_7f87b3d8",
+          "t": 77,
+          "parent": 8699,
+          "existing_daughter": 8797,
+          "orphan": 8788,
+          "probability": 0.9188272356987,
+          "parent_distance_um": 11.236319807325707,
+          "existing_daughter_distance_um": 2.2980970388562794,
+          "sister_distance_um": 10.188698165737367,
+          "midpoint_prediction_error_um": 6.6660908768276625,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_7f87b3d8",
+          "t": 20,
+          "parent": 3675,
+          "existing_daughter": 3819,
+          "orphan": 3813,
+          "probability": 0.7896496653556824,
+          "parent_distance_um": 6.90625,
+          "existing_daughter_distance_um": 4.772356925566235,
+          "sister_distance_um": 10.221043320644913,
+          "midpoint_prediction_error_um": 4.600680358993113,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_7f87b3d8",
+          "t": 2,
+          "parent": 473,
+          "existing_daughter": 693,
+          "orphan": 682,
+          "probability": 0.7364441156387329,
+          "parent_distance_um": 12.547799234327906,
+          "existing_daughter_distance_um": 3.350023320814349,
+          "sister_distance_um": 9.561989365451103,
+          "midpoint_prediction_error_um": 3.8217740685773145,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_7f87b3d8",
+          "t": 71,
+          "parent": 8122,
+          "existing_daughter": 8197,
+          "orphan": 8206,
+          "probability": 0.6300044655799866,
+          "parent_distance_um": 7.534815027590259,
+          "existing_daughter_distance_um": 4.0827619710803615,
+          "sister_distance_um": 9.690574109024707,
+          "midpoint_prediction_error_um": 3.570611653222036,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_9a41d029",
+      "stats": {
+        "broad_proposals": 1298,
+        "rule_proposals": 2,
+        "raw_verified_proposals": 2,
+        "prior_veto_safe_proposals": 2,
+        "selected": 2,
+        "global_cap": 66,
+        "frames_selected": 2
+      },
+      "prior_vetoed_edges": 14,
+      "additions": [
+        {
+          "movie": "6bba_9a41d029",
+          "t": 77,
+          "parent": 14662,
+          "existing_daughter": 14905,
+          "orphan": 14942,
+          "probability": 0.7747728824615479,
+          "parent_distance_um": 8.295859754268994,
+          "existing_daughter_distance_um": 2.03125,
+          "sister_distance_um": 10.017172754824587,
+          "midpoint_prediction_error_um": 3.350023320814349,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_9a41d029",
+          "t": 37,
+          "parent": 5413,
+          "existing_daughter": 5609,
+          "orphan": 5618,
+          "probability": 0.6488673686981201,
+          "parent_distance_um": 8.797915680006259,
+          "existing_daughter_distance_um": 2.0714766773970688,
+          "sister_distance_um": 10.60149053494366,
+          "midpoint_prediction_error_um": 3.901903832185642,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_ae82a791",
+      "stats": {
+        "broad_proposals": 197,
+        "rule_proposals": 6,
+        "raw_verified_proposals": 6,
+        "prior_veto_safe_proposals": 6,
+        "selected": 5,
+        "global_cap": 26,
+        "frames_selected": 5
+      },
+      "prior_vetoed_edges": 3,
+      "additions": [
+        {
+          "movie": "6bba_ae82a791",
+          "t": 77,
+          "parent": 5630,
+          "existing_daughter": 5705,
+          "orphan": 5722,
+          "probability": 0.8688378930091858,
+          "parent_distance_um": 7.675867723749543,
+          "existing_daughter_distance_um": 3.040096626753827,
+          "sister_distance_um": 10.41300456460574,
+          "midpoint_prediction_error_um": 4.546552823637376,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_ae82a791",
+          "t": 53,
+          "parent": 3791,
+          "existing_daughter": 3867,
+          "orphan": 3865,
+          "probability": 0.8296942710876465,
+          "parent_distance_um": 7.814374775053984,
+          "existing_daughter_distance_um": 2.632800908728193,
+          "sister_distance_um": 9.917826437783633,
+          "midpoint_prediction_error_um": 3.7454399357752353,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_ae82a791",
+          "t": 14,
+          "parent": 992,
+          "existing_daughter": 1059,
+          "orphan": 1053,
+          "probability": 0.6739342212677002,
+          "parent_distance_um": 12.910826972932446,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 11.562077694990636,
+          "midpoint_prediction_error_um": 7.181553246425874,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_ae82a791",
+          "t": 86,
+          "parent": 6415,
+          "existing_daughter": 6495,
+          "orphan": 6498,
+          "probability": 0.6691061854362488,
+          "parent_distance_um": 8.165523942160723,
+          "existing_daughter_distance_um": 3.65625,
+          "sister_distance_um": 11.497664504693986,
+          "midpoint_prediction_error_um": 4.187529151017936,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_ae82a791",
+          "t": 11,
+          "parent": 753,
+          "existing_daughter": 810,
+          "orphan": 817,
+          "probability": 0.6285508871078491,
+          "parent_distance_um": 10.60149053494366,
+          "existing_daughter_distance_um": 2.368824207280903,
+          "sister_distance_um": 12.775900469732065,
+          "midpoint_prediction_error_um": 5.094349082868684,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_ed9377fd",
+      "stats": {
+        "broad_proposals": 68,
+        "rule_proposals": 1,
+        "raw_verified_proposals": 1,
+        "prior_veto_safe_proposals": 1,
+        "selected": 1,
+        "global_cap": 15,
+        "frames_selected": 1
+      },
+      "prior_vetoed_edges": 1,
+      "additions": [
+        {
+          "movie": "6bba_ed9377fd",
+          "t": 66,
+          "parent": 3287,
+          "existing_daughter": 3342,
+          "orphan": 3337,
+          "probability": 0.7938358783721924,
+          "parent_distance_um": 10.212966635605934,
+          "existing_daughter_distance_um": 2.03125,
+          "sister_distance_um": 10.878097619184157,
+          "midpoint_prediction_error_um": 6.703125,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_edf14583",
+      "stats": {
+        "broad_proposals": 3530,
+        "rule_proposals": 4,
+        "raw_verified_proposals": 4,
+        "prior_veto_safe_proposals": 4,
+        "selected": 4,
+        "global_cap": 176,
+        "frames_selected": 3
+      },
+      "prior_vetoed_edges": 36,
+      "additions": [
+        {
+          "movie": "6bba_edf14583",
+          "t": 41,
+          "parent": 27481,
+          "existing_daughter": 28182,
+          "orphan": 28107,
+          "probability": 0.8275054097175598,
+          "parent_distance_um": 8.900491559458949,
+          "existing_daughter_distance_um": 1.6750116604071745,
+          "sister_distance_um": 10.34941310232131,
+          "midpoint_prediction_error_um": 5.174706551160655,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_edf14583",
+          "t": 79,
+          "parent": 48853,
+          "existing_daughter": 49355,
+          "orphan": 49304,
+          "probability": 0.6423837542533875,
+          "parent_distance_um": 10.671314498458004,
+          "existing_daughter_distance_um": 1.625,
+          "sister_distance_um": 11.788252229444364,
+          "midpoint_prediction_error_um": 5.6071330826234185,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_edf14583",
+          "t": 44,
+          "parent": 29230,
+          "existing_daughter": 29933,
+          "orphan": 29835,
+          "probability": 0.6253538131713867,
+          "parent_distance_um": 10.34941310232131,
+          "existing_daughter_distance_um": 3.25,
+          "sister_distance_um": 13.455402318864346,
+          "midpoint_prediction_error_um": 5.061848916465702,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_edf14583",
+          "t": 44,
+          "parent": 29171,
+          "existing_daughter": 29809,
+          "orphan": 29834,
+          "probability": 0.6068697571754456,
+          "parent_distance_um": 8.983546157420243,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 9.518741792511236,
+          "midpoint_prediction_error_um": 5.20650228230287,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_f17befbc",
+      "stats": {
+        "broad_proposals": 3089,
+        "rule_proposals": 6,
+        "raw_verified_proposals": 6,
+        "prior_veto_safe_proposals": 6,
+        "selected": 5,
+        "global_cap": 91,
+        "frames_selected": 5
+      },
+      "prior_vetoed_edges": 44,
+      "additions": [
+        {
+          "movie": "6bba_f17befbc",
+          "t": 22,
+          "parent": 4414,
+          "existing_daughter": 4669,
+          "orphan": 4650,
+          "probability": 0.7378527522087097,
+          "parent_distance_um": 10.779030568655049,
+          "existing_daughter_distance_um": 0.8125,
+          "sister_distance_um": 10.5625,
+          "midpoint_prediction_error_um": 5.3895152843275245,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f17befbc",
+          "t": 28,
+          "parent": 6066,
+          "existing_daughter": 6370,
+          "orphan": 6354,
+          "probability": 0.6976568102836609,
+          "parent_distance_um": 12.92360364797683,
+          "existing_daughter_distance_um": 2.6012692214570947,
+          "sister_distance_um": 10.381257525584267,
+          "midpoint_prediction_error_um": 4.811104708445348,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f17befbc",
+          "t": 45,
+          "parent": 12029,
+          "existing_daughter": 12427,
+          "orphan": 12375,
+          "probability": 0.6843475103378296,
+          "parent_distance_um": 11.353215747641723,
+          "existing_daughter_distance_um": 3.832554834897995,
+          "sister_distance_um": 11.633229613912038,
+          "midpoint_prediction_error_um": 6.039340428598143,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f17befbc",
+          "t": 29,
+          "parent": 6293,
+          "existing_daughter": 6586,
+          "orphan": 6587,
+          "probability": 0.6550546288490295,
+          "parent_distance_um": 11.02877096790481,
+          "existing_daughter_distance_um": 4.375446405796785,
+          "sister_distance_um": 9.518741792511236,
+          "midpoint_prediction_error_um": 5.647459502123499,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f17befbc",
+          "t": 56,
+          "parent": 16333,
+          "existing_daughter": 16719,
+          "orphan": 16786,
+          "probability": 0.6139546036720276,
+          "parent_distance_um": 8.722557412393455,
+          "existing_daughter_distance_um": 2.7252078475778685,
+          "sister_distance_um": 10.900831390311474,
+          "midpoint_prediction_error_um": 5.2183757350827085,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_f1fde7e0",
+      "stats": {
+        "broad_proposals": 610,
+        "rule_proposals": 7,
+        "raw_verified_proposals": 7,
+        "prior_veto_safe_proposals": 7,
+        "selected": 5,
+        "global_cap": 28,
+        "frames_selected": 5
+      },
+      "prior_vetoed_edges": 5,
+      "additions": [
+        {
+          "movie": "6bba_f1fde7e0",
+          "t": 79,
+          "parent": 8705,
+          "existing_daughter": 8781,
+          "orphan": 8775,
+          "probability": 0.8332553505897522,
+          "parent_distance_um": 12.382297406479138,
+          "existing_daughter_distance_um": 2.9575446425202108,
+          "sister_distance_um": 10.468330215464164,
+          "midpoint_prediction_error_um": 5.234165107732082,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f1fde7e0",
+          "t": 49,
+          "parent": 6805,
+          "existing_daughter": 6869,
+          "orphan": 6864,
+          "probability": 0.7898287773132324,
+          "parent_distance_um": 9.613629647536875,
+          "existing_daughter_distance_um": 4.375446405796785,
+          "sister_distance_um": 12.078680857196286,
+          "midpoint_prediction_error_um": 5.525597394173774,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f1fde7e0",
+          "t": 42,
+          "parent": 6331,
+          "existing_daughter": 6408,
+          "orphan": 6402,
+          "probability": 0.7540234923362732,
+          "parent_distance_um": 12.30206569290296,
+          "existing_daughter_distance_um": 0.9084026158592896,
+          "sister_distance_um": 12.388959929106237,
+          "midpoint_prediction_error_um": 4.883456207569594,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f1fde7e0",
+          "t": 70,
+          "parent": 8107,
+          "existing_daughter": 8177,
+          "orphan": 8160,
+          "probability": 0.7253058552742004,
+          "parent_distance_um": 9.30835688037905,
+          "existing_daughter_distance_um": 2.8145825622994254,
+          "sister_distance_um": 11.753199364960164,
+          "midpoint_prediction_error_um": 5.559097449507878,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f1fde7e0",
+          "t": 60,
+          "parent": 7498,
+          "existing_daughter": 7564,
+          "orphan": 7546,
+          "probability": 0.6688421368598938,
+          "parent_distance_um": 10.663578858080433,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 11.975764915549236,
+          "midpoint_prediction_error_um": 6.800896798630678,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    },
+    {
+      "movie": "6bba_f8ffd5e7",
+      "stats": {
+        "broad_proposals": 2810,
+        "rule_proposals": 13,
+        "raw_verified_proposals": 13,
+        "prior_veto_safe_proposals": 13,
+        "selected": 12,
+        "global_cap": 111,
+        "frames_selected": 11
+      },
+      "prior_vetoed_edges": 34,
+      "additions": [
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 31,
+          "parent": 8827,
+          "existing_daughter": 9148,
+          "orphan": 9171,
+          "probability": 0.8523082733154297,
+          "parent_distance_um": 6.5253412267099105,
+          "existing_daughter_distance_um": 3.2752922102462856,
+          "sister_distance_um": 9.792226269470085,
+          "midpoint_prediction_error_um": 3.2815848043475886,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 79,
+          "parent": 26829,
+          "existing_daughter": 27234,
+          "orphan": 27241,
+          "probability": 0.7417600154876709,
+          "parent_distance_um": 8.946728190377755,
+          "existing_daughter_distance_um": 2.8726212985703494,
+          "sister_distance_um": 9.690574109024707,
+          "midpoint_prediction_error_um": 5.848448144860737,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 76,
+          "parent": 25755,
+          "existing_daughter": 26145,
+          "orphan": 26157,
+          "probability": 0.7096274495124817,
+          "parent_distance_um": 8.375058302035873,
+          "existing_daughter_distance_um": 4.375446405796785,
+          "sister_distance_um": 11.206905307108649,
+          "midpoint_prediction_error_um": 4.996214387226092,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 76,
+          "parent": 25556,
+          "existing_daughter": 25936,
+          "orphan": 25962,
+          "probability": 0.7063548564910889,
+          "parent_distance_um": 12.910826972932446,
+          "existing_daughter_distance_um": 1.8168052317185792,
+          "sister_distance_um": 11.619034087436011,
+          "midpoint_prediction_error_um": 5.809517043718006,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 37,
+          "parent": 10796,
+          "existing_daughter": 11117,
+          "orphan": 11149,
+          "probability": 0.6672142148017883,
+          "parent_distance_um": 8.175623542733605,
+          "existing_daughter_distance_um": 3.374565944310468,
+          "sister_distance_um": 11.447314777929364,
+          "midpoint_prediction_error_um": 4.192452761361778,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 66,
+          "parent": 21594,
+          "existing_daughter": 21983,
+          "orphan": 22003,
+          "probability": 0.6527678966522217,
+          "parent_distance_um": 9.917826437783633,
+          "existing_daughter_distance_um": 4.375446405796785,
+          "sister_distance_um": 11.316815475212097,
+          "midpoint_prediction_error_um": 5.658407737606049,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 85,
+          "parent": 29490,
+          "existing_daughter": 29963,
+          "orphan": 29939,
+          "probability": 0.6434546709060669,
+          "parent_distance_um": 6.662995408410545,
+          "existing_daughter_distance_um": 3.350023320814349,
+          "sister_distance_um": 9.792226269470085,
+          "midpoint_prediction_error_um": 3.205258435855836,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 28,
+          "parent": 7943,
+          "existing_daughter": 8230,
+          "orphan": 8261,
+          "probability": 0.6423313021659851,
+          "parent_distance_um": 8.335553089777546,
+          "existing_daughter_distance_um": 4.89189779763437,
+          "sister_distance_um": 11.67571263884993,
+          "midpoint_prediction_error_um": 3.411048798573541,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 84,
+          "parent": 28884,
+          "existing_daughter": 29297,
+          "orphan": 29347,
+          "probability": 0.6416823267936707,
+          "parent_distance_um": 9.825876630738858,
+          "existing_daughter_distance_um": 2.03125,
+          "sister_distance_um": 11.036250637104976,
+          "midpoint_prediction_error_um": 5.781038847495318,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 49,
+          "parent": 15069,
+          "existing_daughter": 15429,
+          "orphan": 15464,
+          "probability": 0.6368273496627808,
+          "parent_distance_um": 10.908398785454262,
+          "existing_daughter_distance_um": 1.625,
+          "sister_distance_um": 10.476210028559947,
+          "midpoint_prediction_error_um": 6.800896798630678,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 68,
+          "parent": 22454,
+          "existing_daughter": 22839,
+          "orphan": 22864,
+          "probability": 0.6254684925079346,
+          "parent_distance_um": 12.228057516425084,
+          "existing_daughter_distance_um": 3.2752922102462856,
+          "sister_distance_um": 10.221043320644913,
+          "midpoint_prediction_error_um": 3.0196702142990715,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "t": 38,
+          "parent": 11254,
+          "existing_daughter": 11595,
+          "orphan": 11582,
+          "probability": 0.605699360370636,
+          "parent_distance_um": 9.510068677459696,
+          "existing_daughter_distance_um": 1.1490485194281397,
+          "sister_distance_um": 10.309469251615235,
+          "midpoint_prediction_error_um": 4.958913218891817,
+          "raw_ids_verified": true,
+          "parent_probability_rank": 1,
+          "orphan_probability_rank": 1
+        }
+      ]
+    }
+  ],
+  "caveat": "Label-free full-graph candidate; exact organizer scorer required."
+}

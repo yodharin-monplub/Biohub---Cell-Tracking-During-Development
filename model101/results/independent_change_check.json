@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "movies": 39,
+  "reassigned_edges": 3,
+  "all_nodes_ids_times_coordinates_unchanged": true,
+  "only_reported_edges_changed": true,
+  "model1_notebook_and_public_csv_unchanged": true,
+  "config_and_resolved_source_unchanged": true
+}

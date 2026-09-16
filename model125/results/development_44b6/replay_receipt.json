@@ -1,0 +1,350 @@
+{
+  "status": "complete",
+  "cohort": "development",
+  "scope": "44b6",
+  "source_model118_sha256": "f2adc579b4ba4829f4a97c6439f8dae7ecf1a6d4b2162ddf8f08cc2001a24dbf",
+  "source_model124_sha256": "4ec225a2f087800fde6204f1dd51a5eb62e93193f064fbc470af2d165ee954f1",
+  "candidate_sha256": "94e76141aa0db6d12e1b2b0de35626b2d6e1bdf1945f16c8e116f6898393fca2",
+  "validation": {
+    "status": "valid",
+    "path": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model125/results/development_44b6/candidate.csv",
+    "rows": 661527,
+    "datasets": {
+      "44b6_1d530831": {
+        "nodes": 34682,
+        "edges": 33105,
+        "frames": 100,
+        "divisions": 79,
+        "tracks": 1577,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_2a2eff9f": {
+        "nodes": 36676,
+        "edges": 34864,
+        "frames": 100,
+        "divisions": 85,
+        "tracks": 1812,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_3bb3690f": {
+        "nodes": 15578,
+        "edges": 14908,
+        "frames": 100,
+        "divisions": 23,
+        "tracks": 670,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_668e0cc7": {
+        "nodes": 33485,
+        "edges": 32360,
+        "frames": 100,
+        "divisions": 40,
+        "tracks": 1125,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_706092f0": {
+        "nodes": 25012,
+        "edges": 23667,
+        "frames": 100,
+        "divisions": 14,
+        "tracks": 1345,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_71a4179f": {
+        "nodes": 27066,
+        "edges": 25695,
+        "frames": 100,
+        "divisions": 21,
+        "tracks": 1371,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_74d0c52e": {
+        "nodes": 8210,
+        "edges": 7865,
+        "frames": 100,
+        "divisions": 18,
+        "tracks": 345,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_808952d6": {
+        "nodes": 15051,
+        "edges": 14587,
+        "frames": 100,
+        "divisions": 27,
+        "tracks": 464,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_90724892": {
+        "nodes": 22999,
+        "edges": 22071,
+        "frames": 100,
+        "divisions": 32,
+        "tracks": 928,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_a21120c2": {
+        "nodes": 21990,
+        "edges": 21353,
+        "frames": 100,
+        "divisions": 31,
+        "tracks": 637,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_b2c44266": {
+        "nodes": 35222,
+        "edges": 33762,
+        "frames": 100,
+        "divisions": 47,
+        "tracks": 1460,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_c15fded2": {
+        "nodes": 19315,
+        "edges": 18537,
+        "frames": 100,
+        "divisions": 40,
+        "tracks": 778,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_c96cfa10": {
+        "nodes": 37057,
+        "edges": 35522,
+        "frames": 100,
+        "divisions": 83,
+        "tracks": 1535,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_d754aa59": {
+        "nodes": 5560,
+        "edges": 5328,
+        "frames": 100,
+        "divisions": 11,
+        "tracks": 232,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      }
+    },
+    "totals": {
+      "nodes": 337903,
+      "edges": 323624,
+      "divisions": 551,
+      "tracks": 14279
+    }
+  },
+  "movies": [
+    {
+      "movie": "44b6_1d530831",
+      "raw_nodes": 41230,
+      "candidate_valid_raw_nodes": 34183,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 34741,
+      "candidate_final_edges": 33243,
+      "baseline_final_nodes": 34239,
+      "baseline_final_edges": 32757,
+      "eligible_edges": 368,
+      "accepted_edges": 348,
+      "added_raw_nodes": 443,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_2a2eff9f",
+      "raw_nodes": 46725,
+      "candidate_valid_raw_nodes": 36068,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 36730,
+      "candidate_final_edges": 35025,
+      "baseline_final_nodes": 36140,
+      "baseline_final_edges": 34466,
+      "eligible_edges": 416,
+      "accepted_edges": 398,
+      "added_raw_nodes": 536,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_3bb3690f",
+      "raw_nodes": 19573,
+      "candidate_valid_raw_nodes": 15311,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 15609,
+      "candidate_final_edges": 14985,
+      "baseline_final_nodes": 15350,
+      "baseline_final_edges": 14739,
+      "eligible_edges": 175,
+      "accepted_edges": 169,
+      "added_raw_nodes": 228,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_668e0cc7",
+      "raw_nodes": 36515,
+      "candidate_valid_raw_nodes": 33102,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 33519,
+      "candidate_final_edges": 32436,
+      "baseline_final_nodes": 33289,
+      "baseline_final_edges": 32210,
+      "eligible_edges": 157,
+      "accepted_edges": 150,
+      "added_raw_nodes": 196,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_706092f0",
+      "raw_nodes": 37047,
+      "candidate_valid_raw_nodes": 24546,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 25066,
+      "candidate_final_edges": 23797,
+      "baseline_final_nodes": 24613,
+      "baseline_final_edges": 23363,
+      "eligible_edges": 317,
+      "accepted_edges": 304,
+      "added_raw_nodes": 399,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_71a4179f",
+      "raw_nodes": 39231,
+      "candidate_valid_raw_nodes": 26541,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 27111,
+      "candidate_final_edges": 25825,
+      "baseline_final_nodes": 26540,
+      "baseline_final_edges": 25287,
+      "eligible_edges": 426,
+      "accepted_edges": 408,
+      "added_raw_nodes": 526,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_74d0c52e",
+      "raw_nodes": 10426,
+      "candidate_valid_raw_nodes": 8062,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 8218,
+      "candidate_final_edges": 7880,
+      "baseline_final_nodes": 8160,
+      "baseline_final_edges": 7827,
+      "eligible_edges": 39,
+      "accepted_edges": 38,
+      "added_raw_nodes": 50,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_808952d6",
+      "raw_nodes": 16978,
+      "candidate_valid_raw_nodes": 14895,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 15054,
+      "candidate_final_edges": 14614,
+      "baseline_final_nodes": 14909,
+      "baseline_final_edges": 14478,
+      "eligible_edges": 123,
+      "accepted_edges": 109,
+      "added_raw_nodes": 142,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_90724892",
+      "raw_nodes": 25784,
+      "candidate_valid_raw_nodes": 22744,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 23043,
+      "candidate_final_edges": 22156,
+      "baseline_final_nodes": 22826,
+      "baseline_final_edges": 21944,
+      "eligible_edges": 134,
+      "accepted_edges": 127,
+      "added_raw_nodes": 173,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_a21120c2",
+      "raw_nodes": 22800,
+      "candidate_valid_raw_nodes": 21864,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 21998,
+      "candidate_final_edges": 21369,
+      "baseline_final_nodes": 21949,
+      "baseline_final_edges": 21323,
+      "eligible_edges": 33,
+      "accepted_edges": 30,
+      "added_raw_nodes": 41,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_b2c44266",
+      "raw_nodes": 45021,
+      "candidate_valid_raw_nodes": 34630,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 35284,
+      "candidate_final_edges": 33907,
+      "baseline_final_nodes": 34800,
+      "baseline_final_edges": 33441,
+      "eligible_edges": 333,
+      "accepted_edges": 321,
+      "added_raw_nodes": 422,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_c15fded2",
+      "raw_nodes": 20857,
+      "candidate_valid_raw_nodes": 19099,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 19329,
+      "candidate_final_edges": 18564,
+      "baseline_final_nodes": 19258,
+      "baseline_final_edges": 18497,
+      "eligible_edges": 40,
+      "accepted_edges": 40,
+      "added_raw_nodes": 57,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_c96cfa10",
+      "raw_nodes": 43486,
+      "candidate_valid_raw_nodes": 36514,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 37117,
+      "candidate_final_edges": 35682,
+      "baseline_final_nodes": 36641,
+      "baseline_final_edges": 35216,
+      "eligible_edges": 330,
+      "accepted_edges": 306,
+      "added_raw_nodes": 416,
+      "baseline_final_nodes_edges_preserved": true
+    },
+    {
+      "movie": "44b6_d754aa59",
+      "raw_nodes": 6387,
+      "candidate_valid_raw_nodes": 5508,
+      "raw_id_collisions_remapped": 0,
+      "candidate_final_nodes": 5566,
+      "candidate_final_edges": 5339,
+      "baseline_final_nodes": 5538,
+      "baseline_final_edges": 5312,
+      "eligible_edges": 18,
+      "accepted_edges": 16,
+      "added_raw_nodes": 22,
+      "baseline_final_nodes_edges_preserved": true
+    }
+  ],
+  "totals": {
+    "eligible_edges": 2909,
+    "accepted_edges": 2764,
+    "added_raw_nodes": 3651
+  }
+}

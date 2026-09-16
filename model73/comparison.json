@@ -1,0 +1,209 @@
+{
+  "baseline": "model66",
+  "comparisons_to_baseline": {
+    "model73": {
+      "family_official_score_delta": {
+        "44b6": -0.0011090702121483442,
+        "6bba": -0.0007217000896142522
+      },
+      "losses": 5,
+      "macro_mean_delta": -0.0018176676769324552,
+      "median_delta": 0.00029530435612667993,
+      "official_score_delta": -0.0007878648885872863,
+      "per_dataset_delta": {
+        "44b6_18ced818": -0.042306386130492646,
+        "44b6_808952d6": 0.00037479354592817593,
+        "44b6_87bba6c4": 0.000539374421749339,
+        "44b6_95029e92": 7.750435962017299e-05,
+        "44b6_b2c44266": 0.0004764715899754357,
+        "44b6_c771cb04": 0.004795377031682535,
+        "44b6_d29c9ab2": 4.357613882077782e-05,
+        "44b6_d78e09d9": 0.00021581516632518394,
+        "6bba_13f19531": 0.0007367277578925746,
+        "6bba_2540cd90": 0.00021147237642082928,
+        "6bba_283bf9f1": -0.0013498090984191968,
+        "6bba_57b7cc1e": -0.003519419019937242,
+        "6bba_789f8168": 0.00011842992360044935,
+        "6bba_a90a0b9c": -0.001586134867818001,
+        "6bba_ae82a791": 0.0014590973159607223,
+        "6bba_aeee7805": 0.0007013135421402028,
+        "6bba_af149c94": -0.004814088925577664,
+        "6bba_d0fc38b5": 0.0007701984728452071,
+        "6bba_d1acb6ff": 0.005896452509338235,
+        "6bba_d82a4fc6": 0.0008058803512958068
+      },
+      "ties": 0,
+      "wins": 15
+    }
+  },
+  "datasets": [
+    "44b6_18ced818",
+    "44b6_808952d6",
+    "44b6_87bba6c4",
+    "44b6_95029e92",
+    "44b6_b2c44266",
+    "44b6_c771cb04",
+    "44b6_d29c9ab2",
+    "44b6_d78e09d9",
+    "6bba_13f19531",
+    "6bba_2540cd90",
+    "6bba_283bf9f1",
+    "6bba_57b7cc1e",
+    "6bba_789f8168",
+    "6bba_a90a0b9c",
+    "6bba_ae82a791",
+    "6bba_aeee7805",
+    "6bba_af149c94",
+    "6bba_d0fc38b5",
+    "6bba_d1acb6ff",
+    "6bba_d82a4fc6"
+  ],
+  "family_router_apparent": {
+    "choices": {
+      "44b6": "model66",
+      "6bba": "model66"
+    },
+    "gain_over_baseline": 0.0,
+    "summary": {
+      "adj_edge_jaccard": 0.9052228612335925,
+      "division_jaccard": 0.0,
+      "edge_jaccard": 0.9062354118039346,
+      "n": 20,
+      "node_recall": 0.9935881635002106,
+      "score": 0.9052228612335925
+    }
+  },
+  "family_router_leave_one_out": {
+    "choices": {
+      "44b6_18ced818": "model73",
+      "44b6_808952d6": "model66",
+      "44b6_87bba6c4": "model66",
+      "44b6_95029e92": "model66",
+      "44b6_b2c44266": "model66",
+      "44b6_c771cb04": "model66",
+      "44b6_d29c9ab2": "model66",
+      "44b6_d78e09d9": "model66",
+      "6bba_13f19531": "model66",
+      "6bba_2540cd90": "model66",
+      "6bba_283bf9f1": "model66",
+      "6bba_57b7cc1e": "model66",
+      "6bba_789f8168": "model66",
+      "6bba_a90a0b9c": "model66",
+      "6bba_ae82a791": "model66",
+      "6bba_aeee7805": "model66",
+      "6bba_af149c94": "model66",
+      "6bba_d0fc38b5": "model66",
+      "6bba_d1acb6ff": "model66",
+      "6bba_d82a4fc6": "model66"
+    },
+    "gain_over_baseline": -0.0003086273023307218,
+    "summary": {
+      "adj_edge_jaccard": 0.9049142339312618,
+      "division_jaccard": 0.0,
+      "edge_jaccard": 0.9059207894385918,
+      "n": 20,
+      "node_recall": 0.9930881635002106,
+      "score": 0.9049142339312618
+    }
+  },
+  "per_dataset_best": {
+    "choices": {
+      "44b6_18ced818": "model66",
+      "44b6_808952d6": "model73",
+      "44b6_87bba6c4": "model73",
+      "44b6_95029e92": "model73",
+      "44b6_b2c44266": "model73",
+      "44b6_c771cb04": "model73",
+      "44b6_d29c9ab2": "model73",
+      "44b6_d78e09d9": "model73",
+      "6bba_13f19531": "model73",
+      "6bba_2540cd90": "model73",
+      "6bba_283bf9f1": "model66",
+      "6bba_57b7cc1e": "model66",
+      "6bba_789f8168": "model73",
+      "6bba_a90a0b9c": "model66",
+      "6bba_ae82a791": "model73",
+      "6bba_aeee7805": "model73",
+      "6bba_af149c94": "model66",
+      "6bba_d0fc38b5": "model73",
+      "6bba_d1acb6ff": "model73",
+      "6bba_d82a4fc6": "model73"
+    },
+    "gain_over_baseline": 0.0006652417826811252,
+    "summary": {
+      "adj_edge_jaccard": 0.9058881030162736,
+      "division_jaccard": 0.0,
+      "edge_jaccard": 0.9066835645677694,
+      "n": 20,
+      "node_recall": 0.9938818492564515,
+      "score": 0.9058881030162736
+    }
+  },
+  "status": "complete",
+  "summaries": {
+    "model66": {
+      "families": {
+        "44b6": {
+          "adj_edge_jaccard": 0.9532070283429529,
+          "division_jaccard": null,
+          "edge_jaccard": 0.947075208913649,
+          "n": 8,
+          "node_recall": 0.9964616893377463,
+          "score": 0.9532070283429529
+        },
+        "6bba": {
+          "adj_edge_jaccard": 0.8938551694132443,
+          "division_jaccard": 0.0,
+          "edge_jaccard": 0.8965602573620391,
+          "n": 12,
+          "node_recall": 0.99167247960852,
+          "score": 0.8938551694132443
+        }
+      },
+      "official": {
+        "adj_edge_jaccard": 0.9052228612335925,
+        "division_fn": 5,
+        "division_fp": 0,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "edge_jaccard": 0.9062354118039346,
+        "n": 20,
+        "n_adj": 20,
+        "node_recall": 0.9935881635002106,
+        "score": 0.9052228612335925
+      }
+    },
+    "model73": {
+      "families": {
+        "44b6": {
+          "adj_edge_jaccard": 0.9520979581308046,
+          "division_jaccard": null,
+          "edge_jaccard": 0.9457391304347826,
+          "n": 8,
+          "node_recall": 0.9957623501306978,
+          "score": 0.9520979581308046
+        },
+        "6bba": {
+          "adj_edge_jaccard": 0.89313346932363,
+          "division_jaccard": 0.0,
+          "edge_jaccard": 0.8951752577319587,
+          "n": 12,
+          "node_recall": 0.9905824682751777,
+          "score": 0.89313346932363
+        }
+      },
+      "official": {
+        "adj_edge_jaccard": 0.9044349963450052,
+        "division_fn": 5,
+        "division_fp": 0,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "edge_jaccard": 0.9048666666666667,
+        "n": 20,
+        "n_adj": 20,
+        "node_recall": 0.9926544210173859,
+        "score": 0.9044349963450052
+      }
+    }
+  }
+}

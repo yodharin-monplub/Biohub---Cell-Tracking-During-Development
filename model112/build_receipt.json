@@ -1,0 +1,12 @@
+{
+  "status": "frozen_before_scoring",
+  "model1_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "control_sha256": "e162397f95ac833c2b7e9595ebee54b3fc8d349097abec17b5c718e3a9e9ab9b",
+  "candidate_sha256": "70fc3c32e2e190cb15987164e98ffa8a76732bf3b49969e52b20c82a72a2893a",
+  "build_source_sha256": "2fe4aaf10816d60f9b64f9529089c489fea54d6706fc32fc1e527a0a0f6cf07e",
+  "changed_cells_vs_model107": [
+    8
+  ],
+  "single_change": "OUTPUT_FILTER_SHORT_TRACKS=False",
+  "kaggle_submitted": false
+}

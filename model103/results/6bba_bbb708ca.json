@@ -1,0 +1,356 @@
+{
+  "movie": "6bba_bbb708ca",
+  "stages": [
+    {
+      "stage": "post_ilp",
+      "nodes": 6881,
+      "edges": 6424,
+      "rematched_tp": 853,
+      "rematched_fp": 3,
+      "rematched_fn": 8,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "before_motion",
+      "nodes": 6881,
+      "edges": 6409,
+      "rematched_tp": 853,
+      "rematched_fp": 3,
+      "rematched_fn": 8,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_motion",
+      "nodes": 6881,
+      "edges": 6423,
+      "rematched_tp": 845,
+      "rematched_fp": 9,
+      "rematched_fn": 16,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_gap1",
+      "nodes": 6902,
+      "edges": 6465,
+      "rematched_tp": 845,
+      "rematched_fp": 9,
+      "rematched_fn": 16,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_gap2",
+      "nodes": 6926,
+      "edges": 6501,
+      "rematched_tp": 845,
+      "rematched_fp": 9,
+      "rematched_fn": 16,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_divisions",
+      "nodes": 6926,
+      "edges": 6519,
+      "rematched_tp": 846,
+      "rematched_fp": 11,
+      "rematched_fn": 15,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_short_filter",
+      "nodes": 6649,
+      "edges": 6326,
+      "rematched_tp": 846,
+      "rematched_fp": 11,
+      "rematched_fn": 15,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "final",
+      "nodes": 6649,
+      "edges": 6326,
+      "rematched_tp": 846,
+      "rematched_fp": 11,
+      "rematched_fn": 15,
+      "matches_different_from_fixed": 0
+    }
+  ],
+  "transitions": [
+    {
+      "before": "post_ilp",
+      "after": "before_motion",
+      "counts": {
+        "removed_ignored": 15
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "before_motion",
+      "after": "after_motion",
+      "counts": {
+        "removed_ignored": 210,
+        "removed_tp": 9,
+        "added_ignored": 226,
+        "added_tp": 1,
+        "added_evaluable_fp": 6
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 3043,
+          "target": 3114,
+          "probability": 0.8975047469139099,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 3056,
+          "target": 3128,
+          "probability": 0.888157069683075,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 3416,
+          "target": 3502,
+          "probability": 0.856438159942627,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 3509,
+          "target": 3603,
+          "probability": 0.9497362375259399,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 4431,
+          "target": 4515,
+          "probability": 0.95196133852005,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 4469,
+          "target": 4546,
+          "probability": 0.780084490776062,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 4472,
+          "target": 4548,
+          "probability": 0.9682443737983704,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 5458,
+          "target": 5536,
+          "probability": 0.873229444026947,
+          "motion_pass": null
+        },
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 5509,
+          "target": 5625,
+          "probability": 0.629072368144989,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 1374,
+          "target": 1455,
+          "probability": 0.0,
+          "motion_pass": "relaxed"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 3043,
+          "target": 3117,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 3050,
+          "target": 3128,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 3405,
+          "target": 3502,
+          "probability": 0.0,
+          "motion_pass": "relaxed"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 3509,
+          "target": 3609,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 5509,
+          "target": 5636,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 5592,
+          "target": 5683,
+          "probability": 0.0,
+          "motion_pass": "relaxed"
+        }
+      ]
+    },
+    {
+      "before": "after_motion",
+      "after": "after_gap1",
+      "counts": {
+        "added_ignored": 42
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_gap1",
+      "after": "after_gap2",
+      "counts": {
+        "added_ignored": 36
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_gap2",
+      "after": "after_divisions",
+      "counts": {
+        "added_ignored": 15,
+        "added_evaluable_fp": 2,
+        "added_tp": 1
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 2917,
+          "target": 3009,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 5509,
+          "target": 5625,
+          "probability": null,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 7584,
+          "target": 7660,
+          "probability": null,
+          "motion_pass": null
+        }
+      ]
+    },
+    {
+      "before": "after_divisions",
+      "after": "after_short_filter",
+      "counts": {
+        "removed_ignored": 193
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_short_filter",
+      "after": "final",
+      "counts": {},
+      "changed_evaluable_edges": []
+    }
+  ],
+  "replay_stats": {
+    "raw_edges": 6424,
+    "dropped_nonconsecutive_edges": 0,
+    "dropped_long_edges": 15,
+    "dropped_multi_parent_edges": 0,
+    "dropped_multi_child_edges": 0,
+    "dropped_division_edges": 0,
+    "gap_candidates": 36,
+    "gap_pairs_selected": 21,
+    "gap_reused_existing": 0,
+    "gap_inserted_synthetic": 21,
+    "gap_added_nodes": 21,
+    "gap_added_edges": 42,
+    "gap_skipped_node_cap": 0,
+    "gap_density_nodes_scored": 6136,
+    "gap_density_candidates_expanded": 0,
+    "gap_density_candidates_restricted": 0,
+    "gap_density_selected_outside_base": 0,
+    "gap_density_step_delta_milli_sum": 172098,
+    "gap_refined_synthetic": 57,
+    "gap_refine_failed": 0,
+    "gap_refine_rejected_shift": 0,
+    "pruned_isolated_nodes": 17,
+    "motion_relink_edges": 6423,
+    "motion_relink_tight_edges": 5970,
+    "motion_relink_relaxed_edges": 453,
+    "motion_relink_frames": 99,
+    "motion_relink_replaced_raw_edges": 6409,
+    "motion_relink_fallback_raw": 0,
+    "motion_relink_skipped_large_frame": 0,
+    "gap2_candidates": 15,
+    "gap2_pairs_selected": 12,
+    "gap2_added_nodes": 24,
+    "gap2_added_edges": 36,
+    "gap2_skipped_cap": 0,
+    "safe_division_candidates": 19,
+    "safe_division_geometric_candidates": 0,
+    "safe_divisions_added": 18,
+    "safe_division_skipped_cap": 0,
+    "safe_division_mutual_nn_rejected": 0,
+    "safe_division_divergence_rejected": 0,
+    "deepcenter_gap_checked": 12,
+    "deepcenter_gap_bypassed_strong_motion": 21,
+    "deepcenter_gap_bypassed_observed_node": 0,
+    "deepcenter_gap_accepted": 0,
+    "deepcenter_gap_rejected": 12,
+    "deepcenter_gap_missing": 0,
+    "deepcenter_safe_div_checked": 0,
+    "deepcenter_safe_div_accepted": 0,
+    "deepcenter_safe_div_rejected": 0,
+    "deepcenter_safe_div_missing": 0,
+    "short_track_components_removed": 67,
+    "short_track_nodes_removed": 260,
+    "short_track_edges_removed": 193,
+    "short_track_filter_skipped_all": 0,
+    "short_track_rescue_triggered": 0,
+    "short_track_rescue_components": 0,
+    "short_track_rescue_nodes": 0,
+    "short_track_rescue_budget": 0,
+    "linefit_smoothed_nodes": 6649,
+    "linefit_skipped_nodes": 0,
+    "gap_close_effective_max_gap": 1
+  }
+}

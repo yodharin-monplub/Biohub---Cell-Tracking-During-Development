@@ -1,0 +1,7 @@
+{
+  "status": "empty_instance_destroyed",
+  "instance_id": 51104608,
+  "updated_unix": 1789469363.6967719,
+  "data_lost": false,
+  "reason": "avoid storage charges while external-data authorization is pending"
+}

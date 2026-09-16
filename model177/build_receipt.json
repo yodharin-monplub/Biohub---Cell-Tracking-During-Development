@@ -1,0 +1,15 @@
+{
+  "candidate_values": [
+    0.94,
+    0.95,
+    0.96
+  ],
+  "caveat": "Static package; no run or score.",
+  "changed_component": "SAFE_DIV_HIGH_CONF_EDGE_MIN",
+  "control": "model174_hc0970",
+  "deepcenter_min_fixed": 0.5,
+  "output_sha256": "ebba54c7b13d5972379060bcdfff61ffb81495431910aff20fed83cdd7573574",
+  "replacement_count": 2,
+  "source_sha256": "c9de3aea57ac822404267eae4d56302e359c5f9090115de9ce37f42cfd99c750",
+  "status": "built_unrun"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "built",
+  "base_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "candidate_sha256": "483103007fe17899cf5d2b1ad56e1579d5d694dec07576cc5f782db499aae39f",
+  "changed_cells": [
+    14
+  ],
+  "changed_component": "three-frame middle-node reassignment",
+  "config_sha256": "88b2f3b63ac79e43d0dbddccb16176b42d7d5e00254a90778a4d4165d6e4dc82",
+  "full_model1_pipeline_preserved": true,
+  "kaggle_submitted": false
+}

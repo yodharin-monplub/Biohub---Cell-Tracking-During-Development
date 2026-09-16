@@ -1,0 +1,59 @@
+{
+  "architecture": "TemporalUNet3D features frozen; detection head only",
+  "base_checkpoint": {
+    "path": "/kaggle/input/datasets/pilkwang/biohub-temporal-unet3d-seed314159-v1/weights/unet_transformer/split_0/edge_predictor_best.pth",
+    "sha256": "9bac2fa0dadc4a6fc1899e0caf187f4b553e0a7cd90ba1261a68b35ffe9e305f"
+  },
+  "invariant": "all non-detect_head tensors are copied byte-for-byte at tensor level",
+  "outputs": {
+    "secondary_synthetic_head_alpha025.pth": {
+      "alpha": 0.25,
+      "bytes": 8357979,
+      "changed_keys": [
+        "detect_head.weight",
+        "detect_head.bias"
+      ],
+      "sha256": "01f7bc97efa1435312b5da43b4a53d00f0e81f503210826fe62d892547f5d09d"
+    },
+    "secondary_synthetic_head_alpha050.pth": {
+      "alpha": 0.5,
+      "bytes": 8357979,
+      "changed_keys": [
+        "detect_head.weight",
+        "detect_head.bias"
+      ],
+      "sha256": "b3fe2e1a3b4e4663fa5b9bcfbe137fb24b74179d6da0b0b94c3191686ffa96a3"
+    },
+    "secondary_synthetic_head_alpha075.pth": {
+      "alpha": 0.75,
+      "bytes": 8357979,
+      "changed_keys": [
+        "detect_head.weight",
+        "detect_head.bias"
+      ],
+      "sha256": "82ac60f7e587c535874c4cb646c812640699d43c1e9c655b5e99092fffa0ef78"
+    },
+    "secondary_synthetic_head_alpha100.pth": {
+      "alpha": 1.0,
+      "bytes": 8357979,
+      "changed_keys": [
+        "detect_head.weight",
+        "detect_head.bias"
+      ],
+      "sha256": "e31fa9c9bdc5630ad6b151a841576c9fd5f854b16e9f7600939838ed6264d39b"
+    }
+  },
+  "purpose": "synthetic detector diagnostic; requires real embryo-held-out promotion gate",
+  "status": "complete",
+  "training": {
+    "batch_size": 8,
+    "best_topn_recall_3_5um": 0.834991112934099,
+    "elapsed_minutes": 1.1365485868333338,
+    "epochs": 5,
+    "learning_rate": 0.005,
+    "negative_weight": 0.01,
+    "seed": 271828,
+    "sequences": 100,
+    "validation_sequences": 20
+  }
+}

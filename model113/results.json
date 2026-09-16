@@ -1,0 +1,1022 @@
+{
+  "status": "complete",
+  "cohorts": {
+    "development": [
+      {
+        "movie": "44b6_1d530831",
+        "official_edge_fn": 26,
+        "missed_edges_with_missing_endpoint": 14,
+        "unique_missing_gt_endpoints": 9,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 1,
+          "raw_detection_not_post_ilp": 8
+        },
+        "raw_detector_nodes": 41230,
+        "post_ilp_nodes": 34911,
+        "final_nodes": 34239
+      },
+      {
+        "movie": "44b6_2a2eff9f",
+        "official_edge_fn": 10,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 46725,
+        "post_ilp_nodes": 37259,
+        "final_nodes": 36140
+      },
+      {
+        "movie": "44b6_3bb3690f",
+        "official_edge_fn": 19,
+        "missed_edges_with_missing_endpoint": 2,
+        "unique_missing_gt_endpoints": 1,
+        "category_counts": {
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 19573,
+        "post_ilp_nodes": 15693,
+        "final_nodes": 15350
+      },
+      {
+        "movie": "44b6_668e0cc7",
+        "official_edge_fn": 15,
+        "missed_edges_with_missing_endpoint": 3,
+        "unique_missing_gt_endpoints": 3,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 3
+        },
+        "raw_detector_nodes": 36515,
+        "post_ilp_nodes": 33519,
+        "final_nodes": 33289
+      },
+      {
+        "movie": "44b6_706092f0",
+        "official_edge_fn": 12,
+        "missed_edges_with_missing_endpoint": 6,
+        "unique_missing_gt_endpoints": 4,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 2,
+          "no_raw_matched_detection": 2
+        },
+        "raw_detector_nodes": 37047,
+        "post_ilp_nodes": 26057,
+        "final_nodes": 24613
+      },
+      {
+        "movie": "44b6_71a4179f",
+        "official_edge_fn": 16,
+        "missed_edges_with_missing_endpoint": 3,
+        "unique_missing_gt_endpoints": 3,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 3
+        },
+        "raw_detector_nodes": 39231,
+        "post_ilp_nodes": 27911,
+        "final_nodes": 26540
+      },
+      {
+        "movie": "44b6_74d0c52e",
+        "official_edge_fn": 5,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 10426,
+        "post_ilp_nodes": 8482,
+        "final_nodes": 8160
+      },
+      {
+        "movie": "44b6_808952d6",
+        "official_edge_fn": 0,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 16978,
+        "post_ilp_nodes": 15042,
+        "final_nodes": 14909
+      },
+      {
+        "movie": "44b6_90724892",
+        "official_edge_fn": 10,
+        "missed_edges_with_missing_endpoint": 3,
+        "unique_missing_gt_endpoints": 2,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 2
+        },
+        "raw_detector_nodes": 25784,
+        "post_ilp_nodes": 23142,
+        "final_nodes": 22826
+      },
+      {
+        "movie": "44b6_a21120c2",
+        "official_edge_fn": 1,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 22800,
+        "post_ilp_nodes": 22050,
+        "final_nodes": 21949
+      },
+      {
+        "movie": "44b6_b2c44266",
+        "official_edge_fn": 14,
+        "missed_edges_with_missing_endpoint": 9,
+        "unique_missing_gt_endpoints": 6,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 3,
+          "raw_detection_not_post_ilp": 3
+        },
+        "raw_detector_nodes": 45021,
+        "post_ilp_nodes": 35807,
+        "final_nodes": 34800
+      },
+      {
+        "movie": "44b6_c15fded2",
+        "official_edge_fn": 5,
+        "missed_edges_with_missing_endpoint": 3,
+        "unique_missing_gt_endpoints": 2,
+        "category_counts": {
+          "no_raw_matched_detection": 1,
+          "raw_detection_not_post_ilp": 1
+        },
+        "raw_detector_nodes": 20857,
+        "post_ilp_nodes": 19469,
+        "final_nodes": 19258
+      },
+      {
+        "movie": "44b6_c96cfa10",
+        "official_edge_fn": 19,
+        "missed_edges_with_missing_endpoint": 9,
+        "unique_missing_gt_endpoints": 7,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 6,
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 43486,
+        "post_ilp_nodes": 37244,
+        "final_nodes": 36641
+      },
+      {
+        "movie": "44b6_d754aa59",
+        "official_edge_fn": 3,
+        "missed_edges_with_missing_endpoint": 2,
+        "unique_missing_gt_endpoints": 1,
+        "category_counts": {
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 6387,
+        "post_ilp_nodes": 5661,
+        "final_nodes": 5538
+      },
+      {
+        "movie": "6bba_09961292",
+        "official_edge_fn": 73,
+        "missed_edges_with_missing_endpoint": 24,
+        "unique_missing_gt_endpoints": 19,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 12,
+          "post_ilp_id_removed_before_final": 3,
+          "no_raw_matched_detection": 4
+        },
+        "raw_detector_nodes": 32356,
+        "post_ilp_nodes": 29525,
+        "final_nodes": 29356
+      },
+      {
+        "movie": "6bba_1d0d8384",
+        "official_edge_fn": 80,
+        "missed_edges_with_missing_endpoint": 26,
+        "unique_missing_gt_endpoints": 21,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 11,
+          "no_raw_matched_detection": 8,
+          "post_ilp_id_removed_before_final": 2
+        },
+        "raw_detector_nodes": 20943,
+        "post_ilp_nodes": 17490,
+        "final_nodes": 17155
+      },
+      {
+        "movie": "6bba_1f58c2f6",
+        "official_edge_fn": 24,
+        "missed_edges_with_missing_endpoint": 9,
+        "unique_missing_gt_endpoints": 8,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 7,
+          "post_ilp_id_removed_before_final": 1
+        },
+        "raw_detector_nodes": 37526,
+        "post_ilp_nodes": 31509,
+        "final_nodes": 30857
+      },
+      {
+        "movie": "6bba_312f0dc3",
+        "official_edge_fn": 5,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 11040,
+        "post_ilp_nodes": 9787,
+        "final_nodes": 9446
+      },
+      {
+        "movie": "6bba_3abfe10a",
+        "official_edge_fn": 92,
+        "missed_edges_with_missing_endpoint": 31,
+        "unique_missing_gt_endpoints": 24,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 7,
+          "no_raw_matched_detection": 8,
+          "raw_id_present_final_but_not_matched": 7,
+          "post_ilp_id_removed_before_final": 2
+        },
+        "raw_detector_nodes": 63442,
+        "post_ilp_nodes": 54827,
+        "final_nodes": 52923
+      },
+      {
+        "movie": "6bba_48816121",
+        "official_edge_fn": 31,
+        "missed_edges_with_missing_endpoint": 18,
+        "unique_missing_gt_endpoints": 12,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 5,
+          "no_raw_matched_detection": 4,
+          "raw_id_present_final_but_not_matched": 1,
+          "post_ilp_id_removed_before_final": 2
+        },
+        "raw_detector_nodes": 26945,
+        "post_ilp_nodes": 25211,
+        "final_nodes": 25039
+      },
+      {
+        "movie": "6bba_4f99ce20",
+        "official_edge_fn": 11,
+        "missed_edges_with_missing_endpoint": 10,
+        "unique_missing_gt_endpoints": 9,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 5,
+          "raw_detection_not_post_ilp": 3,
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 6079,
+        "post_ilp_nodes": 5546,
+        "final_nodes": 5415
+      },
+      {
+        "movie": "6bba_4ffd3da3",
+        "official_edge_fn": 33,
+        "missed_edges_with_missing_endpoint": 21,
+        "unique_missing_gt_endpoints": 15,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 4,
+          "no_raw_matched_detection": 9,
+          "raw_id_present_final_but_not_matched": 1,
+          "post_ilp_id_removed_before_final": 1
+        },
+        "raw_detector_nodes": 23309,
+        "post_ilp_nodes": 20239,
+        "final_nodes": 19990
+      },
+      {
+        "movie": "6bba_6ca87370",
+        "official_edge_fn": 9,
+        "missed_edges_with_missing_endpoint": 6,
+        "unique_missing_gt_endpoints": 5,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 4,
+          "raw_detection_not_post_ilp": 1
+        },
+        "raw_detector_nodes": 7386,
+        "post_ilp_nodes": 6478,
+        "final_nodes": 6329
+      },
+      {
+        "movie": "6bba_705ec2c9",
+        "official_edge_fn": 25,
+        "missed_edges_with_missing_endpoint": 20,
+        "unique_missing_gt_endpoints": 16,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 7,
+          "no_raw_matched_detection": 3,
+          "raw_detection_not_post_ilp": 5,
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 8192,
+        "post_ilp_nodes": 6386,
+        "final_nodes": 6090
+      },
+      {
+        "movie": "6bba_76db78c1",
+        "official_edge_fn": 0,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 5048,
+        "post_ilp_nodes": 4672,
+        "final_nodes": 4603
+      },
+      {
+        "movie": "6bba_784a78c9",
+        "official_edge_fn": 4,
+        "missed_edges_with_missing_endpoint": 2,
+        "unique_missing_gt_endpoints": 1,
+        "category_counts": {
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 13830,
+        "post_ilp_nodes": 12800,
+        "final_nodes": 12722
+      },
+      {
+        "movie": "6bba_789f8168",
+        "official_edge_fn": 6,
+        "missed_edges_with_missing_endpoint": 1,
+        "unique_missing_gt_endpoints": 1,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 1
+        },
+        "raw_detector_nodes": 12040,
+        "post_ilp_nodes": 10905,
+        "final_nodes": 10647
+      },
+      {
+        "movie": "6bba_80d12824",
+        "official_edge_fn": 23,
+        "missed_edges_with_missing_endpoint": 17,
+        "unique_missing_gt_endpoints": 12,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 9,
+          "raw_id_present_final_but_not_matched": 2,
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 10315,
+        "post_ilp_nodes": 8898,
+        "final_nodes": 8507
+      },
+      {
+        "movie": "6bba_91951b3a",
+        "official_edge_fn": 22,
+        "missed_edges_with_missing_endpoint": 12,
+        "unique_missing_gt_endpoints": 7,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 4,
+          "raw_id_present_final_but_not_matched": 1,
+          "no_raw_matched_detection": 1,
+          "raw_detection_not_post_ilp": 1
+        },
+        "raw_detector_nodes": 12476,
+        "post_ilp_nodes": 11590,
+        "final_nodes": 11424
+      },
+      {
+        "movie": "6bba_9e23430b",
+        "official_edge_fn": 27,
+        "missed_edges_with_missing_endpoint": 18,
+        "unique_missing_gt_endpoints": 15,
+        "category_counts": {
+          "no_raw_matched_detection": 5,
+          "raw_detection_not_post_ilp": 8,
+          "raw_id_present_final_but_not_matched": 2
+        },
+        "raw_detector_nodes": 9174,
+        "post_ilp_nodes": 7711,
+        "final_nodes": 7527
+      },
+      {
+        "movie": "6bba_a5e926bb",
+        "official_edge_fn": 10,
+        "missed_edges_with_missing_endpoint": 6,
+        "unique_missing_gt_endpoints": 5,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 4,
+          "post_ilp_id_removed_before_final": 1
+        },
+        "raw_detector_nodes": 8900,
+        "post_ilp_nodes": 8149,
+        "final_nodes": 7988
+      },
+      {
+        "movie": "6bba_afb141ff",
+        "official_edge_fn": 14,
+        "missed_edges_with_missing_endpoint": 2,
+        "unique_missing_gt_endpoints": 2,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 2
+        },
+        "raw_detector_nodes": 6874,
+        "post_ilp_nodes": 5814,
+        "final_nodes": 5625
+      },
+      {
+        "movie": "6bba_b204cac7",
+        "official_edge_fn": 16,
+        "missed_edges_with_missing_endpoint": 14,
+        "unique_missing_gt_endpoints": 12,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 3,
+          "no_raw_matched_detection": 4,
+          "post_ilp_id_removed_before_final": 5
+        },
+        "raw_detector_nodes": 6125,
+        "post_ilp_nodes": 5511,
+        "final_nodes": 5392
+      },
+      {
+        "movie": "6bba_bb9f20c3",
+        "official_edge_fn": 75,
+        "missed_edges_with_missing_endpoint": 29,
+        "unique_missing_gt_endpoints": 22,
+        "category_counts": {
+          "no_raw_matched_detection": 8,
+          "raw_detection_not_post_ilp": 12,
+          "raw_id_present_final_but_not_matched": 2
+        },
+        "raw_detector_nodes": 25037,
+        "post_ilp_nodes": 23002,
+        "final_nodes": 22886
+      },
+      {
+        "movie": "6bba_bbb708ca",
+        "official_edge_fn": 8,
+        "missed_edges_with_missing_endpoint": 5,
+        "unique_missing_gt_endpoints": 3,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 1,
+          "no_raw_matched_detection": 1,
+          "raw_detection_not_post_ilp": 1
+        },
+        "raw_detector_nodes": 8286,
+        "post_ilp_nodes": 6881,
+        "final_nodes": 6611
+      },
+      {
+        "movie": "6bba_c328f2fd",
+        "official_edge_fn": 55,
+        "missed_edges_with_missing_endpoint": 42,
+        "unique_missing_gt_endpoints": 39,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 5,
+          "raw_detection_not_post_ilp": 8,
+          "no_raw_matched_detection": 26
+        },
+        "raw_detector_nodes": 34466,
+        "post_ilp_nodes": 28335,
+        "final_nodes": 27755
+      },
+      {
+        "movie": "6bba_d5eae175",
+        "official_edge_fn": 0,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 4313,
+        "post_ilp_nodes": 4154,
+        "final_nodes": 4121
+      },
+      {
+        "movie": "6bba_e5e44988",
+        "official_edge_fn": 19,
+        "missed_edges_with_missing_endpoint": 9,
+        "unique_missing_gt_endpoints": 7,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 2,
+          "no_raw_matched_detection": 3,
+          "raw_id_present_final_but_not_matched": 1,
+          "raw_detection_not_post_ilp": 1
+        },
+        "raw_detector_nodes": 6016,
+        "post_ilp_nodes": 5455,
+        "final_nodes": 5211
+      },
+      {
+        "movie": "6bba_ebdf3b34",
+        "official_edge_fn": 30,
+        "missed_edges_with_missing_endpoint": 12,
+        "unique_missing_gt_endpoints": 11,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 10,
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 65124,
+        "post_ilp_nodes": 58173,
+        "final_nodes": 57680
+      }
+    ],
+    "confirmation": [
+      {
+        "movie": "44b6_0c582fdc",
+        "official_edge_fn": 3,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 31739,
+        "post_ilp_nodes": 26506,
+        "final_nodes": 26129
+      },
+      {
+        "movie": "44b6_12dfb391",
+        "official_edge_fn": 32,
+        "missed_edges_with_missing_endpoint": 8,
+        "unique_missing_gt_endpoints": 6,
+        "category_counts": {
+          "no_raw_matched_detection": 3,
+          "raw_id_present_final_but_not_matched": 1,
+          "raw_detection_not_post_ilp": 2
+        },
+        "raw_detector_nodes": 50279,
+        "post_ilp_nodes": 43164,
+        "final_nodes": 42536
+      },
+      {
+        "movie": "44b6_144b256d",
+        "official_edge_fn": 2,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 37732,
+        "post_ilp_nodes": 24420,
+        "final_nodes": 23097
+      },
+      {
+        "movie": "44b6_40c45f5a",
+        "official_edge_fn": 6,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 36920,
+        "post_ilp_nodes": 29400,
+        "final_nodes": 28664
+      },
+      {
+        "movie": "44b6_5f15d135",
+        "official_edge_fn": 20,
+        "missed_edges_with_missing_endpoint": 10,
+        "unique_missing_gt_endpoints": 10,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 5,
+          "raw_id_present_final_but_not_matched": 2,
+          "post_ilp_id_removed_before_final": 3
+        },
+        "raw_detector_nodes": 28328,
+        "post_ilp_nodes": 20802,
+        "final_nodes": 19880
+      },
+      {
+        "movie": "44b6_7a302da0",
+        "official_edge_fn": 17,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 54946,
+        "post_ilp_nodes": 41755,
+        "final_nodes": 40245
+      },
+      {
+        "movie": "44b6_7e557709",
+        "official_edge_fn": 14,
+        "missed_edges_with_missing_endpoint": 4,
+        "unique_missing_gt_endpoints": 4,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 3,
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 48451,
+        "post_ilp_nodes": 43472,
+        "final_nodes": 43170
+      },
+      {
+        "movie": "44b6_87bba6c4",
+        "official_edge_fn": 41,
+        "missed_edges_with_missing_endpoint": 17,
+        "unique_missing_gt_endpoints": 12,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 9,
+          "post_ilp_id_removed_before_final": 2,
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 35682,
+        "post_ilp_nodes": 28723,
+        "final_nodes": 27871
+      },
+      {
+        "movie": "44b6_8cc6506c",
+        "official_edge_fn": 10,
+        "missed_edges_with_missing_endpoint": 4,
+        "unique_missing_gt_endpoints": 3,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 3
+        },
+        "raw_detector_nodes": 22932,
+        "post_ilp_nodes": 17977,
+        "final_nodes": 17358
+      },
+      {
+        "movie": "44b6_8f9ecab4",
+        "official_edge_fn": 6,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 49167,
+        "post_ilp_nodes": 35429,
+        "final_nodes": 33960
+      },
+      {
+        "movie": "44b6_949adeb1",
+        "official_edge_fn": 33,
+        "missed_edges_with_missing_endpoint": 11,
+        "unique_missing_gt_endpoints": 8,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 6,
+          "post_ilp_id_removed_before_final": 2
+        },
+        "raw_detector_nodes": 45995,
+        "post_ilp_nodes": 38038,
+        "final_nodes": 37121
+      },
+      {
+        "movie": "44b6_97725144",
+        "official_edge_fn": 4,
+        "missed_edges_with_missing_endpoint": 2,
+        "unique_missing_gt_endpoints": 1,
+        "category_counts": {
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 39842,
+        "post_ilp_nodes": 32927,
+        "final_nodes": 32176
+      },
+      {
+        "movie": "44b6_996155de",
+        "official_edge_fn": 7,
+        "missed_edges_with_missing_endpoint": 7,
+        "unique_missing_gt_endpoints": 5,
+        "category_counts": {
+          "no_raw_matched_detection": 5
+        },
+        "raw_detector_nodes": 10635,
+        "post_ilp_nodes": 8980,
+        "final_nodes": 8840
+      },
+      {
+        "movie": "44b6_a2bb48bb",
+        "official_edge_fn": 35,
+        "missed_edges_with_missing_endpoint": 8,
+        "unique_missing_gt_endpoints": 5,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 4,
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 65026,
+        "post_ilp_nodes": 44107,
+        "final_nodes": 42175
+      },
+      {
+        "movie": "44b6_aaf8b0ea",
+        "official_edge_fn": 3,
+        "missed_edges_with_missing_endpoint": 3,
+        "unique_missing_gt_endpoints": 2,
+        "category_counts": {
+          "raw_id_present_final_but_not_matched": 1,
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 18939,
+        "post_ilp_nodes": 14369,
+        "final_nodes": 14010
+      },
+      {
+        "movie": "44b6_cf8fed6b",
+        "official_edge_fn": 4,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 45355,
+        "post_ilp_nodes": 41224,
+        "final_nodes": 40691
+      },
+      {
+        "movie": "44b6_d29c9ab2",
+        "official_edge_fn": 25,
+        "missed_edges_with_missing_endpoint": 6,
+        "unique_missing_gt_endpoints": 4,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 4
+        },
+        "raw_detector_nodes": 37592,
+        "post_ilp_nodes": 36391,
+        "final_nodes": 36365
+      },
+      {
+        "movie": "44b6_d78e09d9",
+        "official_edge_fn": 33,
+        "missed_edges_with_missing_endpoint": 14,
+        "unique_missing_gt_endpoints": 12,
+        "category_counts": {
+          "no_raw_matched_detection": 6,
+          "post_ilp_id_removed_before_final": 2,
+          "raw_detection_not_post_ilp": 3,
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 25403,
+        "post_ilp_nodes": 23055,
+        "final_nodes": 22836
+      },
+      {
+        "movie": "44b6_e28840c6",
+        "official_edge_fn": 18,
+        "missed_edges_with_missing_endpoint": 11,
+        "unique_missing_gt_endpoints": 10,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 5,
+          "no_raw_matched_detection": 5
+        },
+        "raw_detector_nodes": 34170,
+        "post_ilp_nodes": 24057,
+        "final_nodes": 22770
+      },
+      {
+        "movie": "6bba_12665c0e",
+        "official_edge_fn": 31,
+        "missed_edges_with_missing_endpoint": 24,
+        "unique_missing_gt_endpoints": 22,
+        "category_counts": {
+          "no_raw_matched_detection": 11,
+          "raw_detection_not_post_ilp": 10,
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 8848,
+        "post_ilp_nodes": 8186,
+        "final_nodes": 8074
+      },
+      {
+        "movie": "6bba_1ebfb80d",
+        "official_edge_fn": 35,
+        "missed_edges_with_missing_endpoint": 22,
+        "unique_missing_gt_endpoints": 18,
+        "category_counts": {
+          "no_raw_matched_detection": 8,
+          "raw_detection_not_post_ilp": 8,
+          "raw_id_present_final_but_not_matched": 2
+        },
+        "raw_detector_nodes": 13520,
+        "post_ilp_nodes": 11405,
+        "final_nodes": 11142
+      },
+      {
+        "movie": "6bba_20852818",
+        "official_edge_fn": 54,
+        "missed_edges_with_missing_endpoint": 40,
+        "unique_missing_gt_endpoints": 38,
+        "category_counts": {
+          "no_raw_matched_detection": 15,
+          "post_ilp_id_removed_before_final": 10,
+          "raw_detection_not_post_ilp": 13
+        },
+        "raw_detector_nodes": 11378,
+        "post_ilp_nodes": 10159,
+        "final_nodes": 9879
+      },
+      {
+        "movie": "6bba_2540cd90",
+        "official_edge_fn": 0,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 3570,
+        "post_ilp_nodes": 3496,
+        "final_nodes": 3482
+      },
+      {
+        "movie": "6bba_268e1230",
+        "official_edge_fn": 29,
+        "missed_edges_with_missing_endpoint": 22,
+        "unique_missing_gt_endpoints": 15,
+        "category_counts": {
+          "no_raw_matched_detection": 4,
+          "raw_detection_not_post_ilp": 7,
+          "raw_id_present_final_but_not_matched": 2,
+          "post_ilp_id_removed_before_final": 2
+        },
+        "raw_detector_nodes": 6661,
+        "post_ilp_nodes": 5079,
+        "final_nodes": 4710
+      },
+      {
+        "movie": "6bba_372c8cb8",
+        "official_edge_fn": 0,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 7489,
+        "post_ilp_nodes": 6777,
+        "final_nodes": 6657
+      },
+      {
+        "movie": "6bba_3a1849c2",
+        "official_edge_fn": 37,
+        "missed_edges_with_missing_endpoint": 19,
+        "unique_missing_gt_endpoints": 13,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 9,
+          "raw_id_present_final_but_not_matched": 2,
+          "no_raw_matched_detection": 2
+        },
+        "raw_detector_nodes": 8717,
+        "post_ilp_nodes": 6737,
+        "final_nodes": 6595
+      },
+      {
+        "movie": "6bba_3c5691b6",
+        "official_edge_fn": 4,
+        "missed_edges_with_missing_endpoint": 2,
+        "unique_missing_gt_endpoints": 1,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 1
+        },
+        "raw_detector_nodes": 7572,
+        "post_ilp_nodes": 6263,
+        "final_nodes": 6147
+      },
+      {
+        "movie": "6bba_474be664",
+        "official_edge_fn": 46,
+        "missed_edges_with_missing_endpoint": 27,
+        "unique_missing_gt_endpoints": 25,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 13,
+          "no_raw_matched_detection": 12
+        },
+        "raw_detector_nodes": 34178,
+        "post_ilp_nodes": 24274,
+        "final_nodes": 23451
+      },
+      {
+        "movie": "6bba_5b28472a",
+        "official_edge_fn": 10,
+        "missed_edges_with_missing_endpoint": 10,
+        "unique_missing_gt_endpoints": 11,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 6,
+          "post_ilp_id_removed_before_final": 3,
+          "no_raw_matched_detection": 1,
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 6871,
+        "post_ilp_nodes": 6012,
+        "final_nodes": 5891
+      },
+      {
+        "movie": "6bba_6db0e9b4",
+        "official_edge_fn": 12,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 30391,
+        "post_ilp_nodes": 25320,
+        "final_nodes": 24736
+      },
+      {
+        "movie": "6bba_74686d6a",
+        "official_edge_fn": 20,
+        "missed_edges_with_missing_endpoint": 4,
+        "unique_missing_gt_endpoints": 2,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 2
+        },
+        "raw_detector_nodes": 31609,
+        "post_ilp_nodes": 26363,
+        "final_nodes": 25792
+      },
+      {
+        "movie": "6bba_7f87b3d8",
+        "official_edge_fn": 22,
+        "missed_edges_with_missing_endpoint": 11,
+        "unique_missing_gt_endpoints": 9,
+        "category_counts": {
+          "no_raw_matched_detection": 5,
+          "raw_detection_not_post_ilp": 4
+        },
+        "raw_detector_nodes": 11037,
+        "post_ilp_nodes": 9691,
+        "final_nodes": 9280
+      },
+      {
+        "movie": "6bba_9a41d029",
+        "official_edge_fn": 32,
+        "missed_edges_with_missing_endpoint": 20,
+        "unique_missing_gt_endpoints": 17,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 9,
+          "raw_id_present_final_but_not_matched": 3,
+          "no_raw_matched_detection": 5
+        },
+        "raw_detector_nodes": 20107,
+        "post_ilp_nodes": 18486,
+        "final_nodes": 18211
+      },
+      {
+        "movie": "6bba_ae82a791",
+        "official_edge_fn": 5,
+        "missed_edges_with_missing_endpoint": 0,
+        "unique_missing_gt_endpoints": 0,
+        "category_counts": {},
+        "raw_detector_nodes": 7562,
+        "post_ilp_nodes": 7150,
+        "final_nodes": 7146
+      },
+      {
+        "movie": "6bba_ed9377fd",
+        "official_edge_fn": 16,
+        "missed_edges_with_missing_endpoint": 16,
+        "unique_missing_gt_endpoints": 13,
+        "category_counts": {
+          "no_raw_matched_detection": 5,
+          "raw_id_present_final_but_not_matched": 1,
+          "raw_detection_not_post_ilp": 7
+        },
+        "raw_detector_nodes": 4832,
+        "post_ilp_nodes": 4287,
+        "final_nodes": 4217
+      },
+      {
+        "movie": "6bba_edf14583",
+        "official_edge_fn": 31,
+        "missed_edges_with_missing_endpoint": 7,
+        "unique_missing_gt_endpoints": 5,
+        "category_counts": {
+          "post_ilp_id_removed_before_final": 3,
+          "raw_detection_not_post_ilp": 1,
+          "no_raw_matched_detection": 1
+        },
+        "raw_detector_nodes": 58391,
+        "post_ilp_nodes": 49677,
+        "final_nodes": 48849
+      },
+      {
+        "movie": "6bba_f17befbc",
+        "official_edge_fn": 75,
+        "missed_edges_with_missing_endpoint": 33,
+        "unique_missing_gt_endpoints": 28,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 18,
+          "post_ilp_id_removed_before_final": 7,
+          "no_raw_matched_detection": 2,
+          "raw_id_present_final_but_not_matched": 1
+        },
+        "raw_detector_nodes": 32430,
+        "post_ilp_nodes": 26359,
+        "final_nodes": 25582
+      },
+      {
+        "movie": "6bba_f1fde7e0",
+        "official_edge_fn": 13,
+        "missed_edges_with_missing_endpoint": 12,
+        "unique_missing_gt_endpoints": 9,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 3,
+          "post_ilp_id_removed_before_final": 4,
+          "raw_id_present_final_but_not_matched": 2
+        },
+        "raw_detector_nodes": 9996,
+        "post_ilp_nodes": 8636,
+        "final_nodes": 7957
+      },
+      {
+        "movie": "6bba_f8ffd5e7",
+        "official_edge_fn": 12,
+        "missed_edges_with_missing_endpoint": 1,
+        "unique_missing_gt_endpoints": 1,
+        "category_counts": {
+          "raw_detection_not_post_ilp": 1
+        },
+        "raw_detector_nodes": 35807,
+        "post_ilp_nodes": 31787,
+        "final_nodes": 31148
+      }
+    ]
+  },
+  "totals": {
+    "development": {
+      "post_ilp_id_removed_before_final": 52,
+      "raw_detection_not_post_ilp": 140,
+      "missed_edges_with_missing_endpoint": 388,
+      "unique_missing_gt_endpoints": 304,
+      "official_edge_fn": 847,
+      "no_raw_matched_detection": 93,
+      "raw_id_present_final_but_not_matched": 19
+    },
+    "confirmation": {
+      "missed_edges_with_missing_endpoint": 375,
+      "unique_missing_gt_endpoints": 309,
+      "official_edge_fn": 797,
+      "no_raw_matched_detection": 93,
+      "raw_id_present_final_but_not_matched": 22,
+      "raw_detection_not_post_ilp": 156,
+      "post_ilp_id_removed_before_final": 38
+    }
+  },
+  "movies_per_cohort": 39,
+  "source_model": "model107",
+  "elapsed_seconds": 39.85972356796265,
+  "source_sha256": "0152d1f37e25a787c7aa58c099d35add7fca6ae732f227a7a64043068cd0bf19",
+  "caveat": "Raw vs final node matching is a stage-coverage diagnostic, not causal attribution or an attainable score."
+}

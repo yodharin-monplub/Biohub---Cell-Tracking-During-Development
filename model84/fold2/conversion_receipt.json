@@ -1,0 +1,41 @@
+{
+  "datasets": [
+    {
+      "dataset": "44b6_0113de3b",
+      "divisions": 0,
+      "edges": 24324,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 25298
+    },
+    {
+      "dataset": "44b6_0b24845f",
+      "divisions": 0,
+      "edges": 20095,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 22681
+    },
+    {
+      "dataset": "6bba_05b6850b",
+      "divisions": 0,
+      "edges": 5802,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 6120
+    },
+    {
+      "dataset": "6bba_05db0fb1",
+      "divisions": 0,
+      "edges": 63584,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 67605
+    }
+  ],
+  "geff_dir": "/workspace/biohub/model84/fold2/geffs/det_0p9650",
+  "output": "/workspace/biohub/model84/fold2/submission.csv",
+  "output_sha256": "041f182dfc8c799921cab1a8cb61e3c0e497db2000b0bc3f7bd39ed1c37bbb61",
+  "rows": 235509,
+  "status": "valid"
+}

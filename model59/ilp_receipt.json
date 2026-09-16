@@ -1,0 +1,142 @@
+{
+  "appearance_weight": 0.0,
+  "candidate_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model24/candidates_top5",
+  "disappearance_weight": 2.0,
+  "distance_weights": [
+    0.02
+  ],
+  "division_weight": 1.2,
+  "edge_cost": "-edge_prob + distance_weight * edge_dist",
+  "edge_distance_unit": "approximately isotropic downsample-grid voxels (1.625 um)",
+  "edge_floor": 0.4,
+  "elapsed_seconds": 273.11503091594204,
+  "num_threads": 1,
+  "results": [
+    {
+      "datasets": [
+        {
+          "candidate_edges_retained": 80020,
+          "dataset": "44b6_18ced818",
+          "nodes": 74569,
+          "selected_edges": 69246
+        },
+        {
+          "candidate_edges_retained": 16581,
+          "dataset": "44b6_808952d6",
+          "nodes": 15599,
+          "selected_edges": 14949
+        },
+        {
+          "candidate_edges_retained": 32694,
+          "dataset": "44b6_87bba6c4",
+          "nodes": 29757,
+          "selected_edges": 27765
+        },
+        {
+          "candidate_edges_retained": 4926,
+          "dataset": "44b6_95029e92",
+          "nodes": 4855,
+          "selected_edges": 4714
+        },
+        {
+          "candidate_edges_retained": 39835,
+          "dataset": "44b6_b2c44266",
+          "nodes": 37766,
+          "selected_edges": 35316
+        },
+        {
+          "candidate_edges_retained": 33819,
+          "dataset": "44b6_c771cb04",
+          "nodes": 30550,
+          "selected_edges": 28204
+        },
+        {
+          "candidate_edges_retained": 36714,
+          "dataset": "44b6_d29c9ab2",
+          "nodes": 36849,
+          "selected_edges": 35721
+        },
+        {
+          "candidate_edges_retained": 23425,
+          "dataset": "44b6_d78e09d9",
+          "nodes": 22856,
+          "selected_edges": 21674
+        },
+        {
+          "candidate_edges_retained": 6104,
+          "dataset": "6bba_13f19531",
+          "nodes": 5881,
+          "selected_edges": 5610
+        },
+        {
+          "candidate_edges_retained": 3463,
+          "dataset": "6bba_2540cd90",
+          "nodes": 3457,
+          "selected_edges": 3383
+        },
+        {
+          "candidate_edges_retained": 22320,
+          "dataset": "6bba_283bf9f1",
+          "nodes": 21868,
+          "selected_edges": 20847
+        },
+        {
+          "candidate_edges_retained": 92227,
+          "dataset": "6bba_57b7cc1e",
+          "nodes": 80385,
+          "selected_edges": 74464
+        },
+        {
+          "candidate_edges_retained": 11263,
+          "dataset": "6bba_789f8168",
+          "nodes": 10957,
+          "selected_edges": 10384
+        },
+        {
+          "candidate_edges_retained": 36269,
+          "dataset": "6bba_a90a0b9c",
+          "nodes": 33674,
+          "selected_edges": 31568
+        },
+        {
+          "candidate_edges_retained": 7338,
+          "dataset": "6bba_ae82a791",
+          "nodes": 7175,
+          "selected_edges": 6940
+        },
+        {
+          "candidate_edges_retained": 5451,
+          "dataset": "6bba_aeee7805",
+          "nodes": 5230,
+          "selected_edges": 5052
+        },
+        {
+          "candidate_edges_retained": 8275,
+          "dataset": "6bba_af149c94",
+          "nodes": 7946,
+          "selected_edges": 7672
+        },
+        {
+          "candidate_edges_retained": 6263,
+          "dataset": "6bba_d0fc38b5",
+          "nodes": 5991,
+          "selected_edges": 5779
+        },
+        {
+          "candidate_edges_retained": 18968,
+          "dataset": "6bba_d1acb6ff",
+          "nodes": 16951,
+          "selected_edges": 15966
+        },
+        {
+          "candidate_edges_retained": 30435,
+          "dataset": "6bba_d82a4fc6",
+          "nodes": 29158,
+          "selected_edges": 27793
+        }
+      ],
+      "distance_weight": 0.02
+    }
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,249 @@
+{
+  "status": "complete",
+  "scope": "development_44b6",
+  "source_model118_sha256": "f2adc579b4ba4829f4a97c6439f8dae7ecf1a6d4b2162ddf8f08cc2001a24dbf",
+  "source_model125_sha256": "94e76141aa0db6d12e1b2b0de35626b2d6e1bdf1945f16c8e116f6898393fca2",
+  "candidate_sha256": "8b8b77375953342c8b03678b457ec65df502aa54692abcdb316403e3d19452df",
+  "validation": {
+    "status": "valid",
+    "path": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model127/results/development_44b6/candidate.csv",
+    "rows": 655182,
+    "datasets": {
+      "44b6_1d530831": {
+        "nodes": 34251,
+        "edges": 32773,
+        "frames": 100,
+        "divisions": 79,
+        "tracks": 1478,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_2a2eff9f": {
+        "nodes": 36140,
+        "edges": 34466,
+        "frames": 100,
+        "divisions": 85,
+        "tracks": 1674,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_3bb3690f": {
+        "nodes": 15350,
+        "edges": 14739,
+        "frames": 100,
+        "divisions": 23,
+        "tracks": 611,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_668e0cc7": {
+        "nodes": 33292,
+        "edges": 32214,
+        "frames": 100,
+        "divisions": 40,
+        "tracks": 1078,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_706092f0": {
+        "nodes": 24619,
+        "edges": 23371,
+        "frames": 100,
+        "divisions": 14,
+        "tracks": 1248,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_71a4179f": {
+        "nodes": 26543,
+        "edges": 25291,
+        "frames": 100,
+        "divisions": 21,
+        "tracks": 1252,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_74d0c52e": {
+        "nodes": 8160,
+        "edges": 7827,
+        "frames": 100,
+        "divisions": 18,
+        "tracks": 333,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_808952d6": {
+        "nodes": 14909,
+        "edges": 14478,
+        "frames": 100,
+        "divisions": 27,
+        "tracks": 431,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_90724892": {
+        "nodes": 22826,
+        "edges": 21944,
+        "frames": 100,
+        "divisions": 32,
+        "tracks": 882,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_a21120c2": {
+        "nodes": 21949,
+        "edges": 21323,
+        "frames": 100,
+        "divisions": 31,
+        "tracks": 626,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_b2c44266": {
+        "nodes": 34806,
+        "edges": 33449,
+        "frames": 100,
+        "divisions": 47,
+        "tracks": 1357,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_c15fded2": {
+        "nodes": 19258,
+        "edges": 18497,
+        "frames": 100,
+        "divisions": 40,
+        "tracks": 761,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_c96cfa10": {
+        "nodes": 36641,
+        "edges": 35216,
+        "frames": 100,
+        "divisions": 83,
+        "tracks": 1425,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_d754aa59": {
+        "nodes": 5538,
+        "edges": 5312,
+        "frames": 100,
+        "divisions": 11,
+        "tracks": 226,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      }
+    },
+    "totals": {
+      "nodes": 334282,
+      "edges": 320900,
+      "divisions": 551,
+      "tracks": 13382
+    }
+  },
+  "movies": [
+    {
+      "movie": "44b6_1d530831",
+      "two_sided_paths": 4,
+      "added_nodes": 12,
+      "added_edges": 16,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_2a2eff9f",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_3bb3690f",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_668e0cc7",
+      "two_sided_paths": 1,
+      "added_nodes": 3,
+      "added_edges": 4,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_706092f0",
+      "two_sided_paths": 2,
+      "added_nodes": 6,
+      "added_edges": 8,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_71a4179f",
+      "two_sided_paths": 1,
+      "added_nodes": 3,
+      "added_edges": 4,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_74d0c52e",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_808952d6",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_90724892",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_a21120c2",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_b2c44266",
+      "two_sided_paths": 2,
+      "added_nodes": 6,
+      "added_edges": 8,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_c15fded2",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_c96cfa10",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    },
+    {
+      "movie": "44b6_d754aa59",
+      "two_sided_paths": 0,
+      "added_nodes": 0,
+      "added_edges": 0,
+      "baseline_final_preserved": true
+    }
+  ],
+  "total_bridge_paths": 10,
+  "total_added_nodes": 30,
+  "total_added_edges": 40
+}

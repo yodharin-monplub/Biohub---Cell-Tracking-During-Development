@@ -1,0 +1,916 @@
+{
+  "datasets": [
+    {
+      "dataset": "44b6_1574802b",
+      "thresholds": [
+        {
+          "edges": 99329,
+          "nodes": 21622,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 99273,
+          "nodes": 21608,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 99239,
+          "nodes": 21599,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_18ced818",
+      "thresholds": [
+        {
+          "edges": 412780,
+          "nodes": 86854,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 412057,
+          "nodes": 86694,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 411317,
+          "nodes": 86517,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_33b596bf",
+      "thresholds": [
+        {
+          "edges": 120159,
+          "nodes": 26322,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 120076,
+          "nodes": 26298,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 119989,
+          "nodes": 26276,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_3a861e03",
+      "thresholds": [
+        {
+          "edges": 181013,
+          "nodes": 39996,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 180839,
+          "nodes": 39955,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 180658,
+          "nodes": 39910,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_415c0a3a",
+      "thresholds": [
+        {
+          "edges": 161873,
+          "nodes": 37535,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 161259,
+          "nodes": 37395,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 160638,
+          "nodes": 37235,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_5f15d135",
+      "thresholds": [
+        {
+          "edges": 123450,
+          "nodes": 28406,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 123116,
+          "nodes": 28324,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 122633,
+          "nodes": 28215,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_8f5ab931",
+      "thresholds": [
+        {
+          "edges": 145650,
+          "nodes": 31652,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 145407,
+          "nodes": 31593,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 145177,
+          "nodes": 31526,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_95029e92",
+      "thresholds": [
+        {
+          "edges": 11165,
+          "nodes": 4986,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 11155,
+          "nodes": 4979,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 11142,
+          "nodes": 4973,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_97725144",
+      "thresholds": [
+        {
+          "edges": 176058,
+          "nodes": 41030,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 175666,
+          "nodes": 40929,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 175206,
+          "nodes": 40820,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_9be80b04",
+      "thresholds": [
+        {
+          "edges": 113130,
+          "nodes": 26502,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 112482,
+          "nodes": 26356,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 111562,
+          "nodes": 26158,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_a2bb48bb",
+      "thresholds": [
+        {
+          "edges": 281706,
+          "nodes": 61405,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 280831,
+          "nodes": 61202,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 279795,
+          "nodes": 60954,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_d5e7d891",
+      "thresholds": [
+        {
+          "edges": 243676,
+          "nodes": 51485,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 243332,
+          "nodes": 51404,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 242887,
+          "nodes": 51302,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "thresholds": [
+        {
+          "edges": 77540,
+          "nodes": 17167,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 77516,
+          "nodes": 17160,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 77488,
+          "nodes": 17147,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_e57ff5c6",
+      "thresholds": [
+        {
+          "edges": 105591,
+          "nodes": 24101,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 105296,
+          "nodes": 24031,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 104967,
+          "nodes": 23961,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_0e7c0d07",
+      "thresholds": [
+        {
+          "edges": 123484,
+          "nodes": 26612,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 123436,
+          "nodes": 26595,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 123369,
+          "nodes": 26576,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_13f19531",
+      "thresholds": [
+        {
+          "edges": 17668,
+          "nodes": 6454,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 17642,
+          "nodes": 6443,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 17616,
+          "nodes": 6434,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_2646afc7",
+      "thresholds": [
+        {
+          "edges": 17223,
+          "nodes": 5821,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 17180,
+          "nodes": 5813,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 17167,
+          "nodes": 5807,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_32db13fc",
+      "thresholds": [
+        {
+          "edges": 254277,
+          "nodes": 54119,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 254105,
+          "nodes": 54072,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 253974,
+          "nodes": 54026,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_3a1849c2",
+      "thresholds": [
+        {
+          "edges": 28137,
+          "nodes": 8310,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 28120,
+          "nodes": 8302,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 28107,
+          "nodes": 8292,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_4aa14c89",
+      "thresholds": [
+        {
+          "edges": 30749,
+          "nodes": 8996,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 30713,
+          "nodes": 8983,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 30705,
+          "nodes": 8977,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_5dfe9ad1",
+      "thresholds": [
+        {
+          "edges": 143660,
+          "nodes": 32701,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 143576,
+          "nodes": 32681,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 143539,
+          "nodes": 32667,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_61dd1e0d",
+      "thresholds": [
+        {
+          "edges": 42976,
+          "nodes": 11524,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 42944,
+          "nodes": 11509,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 42913,
+          "nodes": 11494,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_6321a359",
+      "thresholds": [
+        {
+          "edges": 14101,
+          "nodes": 5829,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 14086,
+          "nodes": 5822,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 14061,
+          "nodes": 5811,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_6feb10f0",
+      "thresholds": [
+        {
+          "edges": 57941,
+          "nodes": 15552,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 57775,
+          "nodes": 15510,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 57577,
+          "nodes": 15459,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_6feeb0b1",
+      "thresholds": [
+        {
+          "edges": 28154,
+          "nodes": 8055,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 28144,
+          "nodes": 8048,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 28132,
+          "nodes": 8044,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_718b21f9",
+      "thresholds": [
+        {
+          "edges": 8618,
+          "nodes": 4413,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 8615,
+          "nodes": 4410,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 8612,
+          "nodes": 4408,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_7af54fde",
+      "thresholds": [
+        {
+          "edges": 49303,
+          "nodes": 12549,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 49261,
+          "nodes": 12533,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 49220,
+          "nodes": 12515,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_87289e13",
+      "thresholds": [
+        {
+          "edges": 62623,
+          "nodes": 14999,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 62610,
+          "nodes": 14995,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 62573,
+          "nodes": 14979,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_8b7818bf",
+      "thresholds": [
+        {
+          "edges": 18648,
+          "nodes": 6402,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 18641,
+          "nodes": 6399,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 18636,
+          "nodes": 6396,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_af149c94",
+      "thresholds": [
+        {
+          "edges": 30902,
+          "nodes": 8463,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 30872,
+          "nodes": 8456,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 30845,
+          "nodes": 8449,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_b329af44",
+      "thresholds": [
+        {
+          "edges": 364981,
+          "nodes": 75580,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 364769,
+          "nodes": 75530,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 364498,
+          "nodes": 75474,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d1acb6ff",
+      "thresholds": [
+        {
+          "edges": 89134,
+          "nodes": 19931,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 89123,
+          "nodes": 19926,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 89093,
+          "nodes": 19914,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d6ecebbb",
+      "thresholds": [
+        {
+          "edges": 22521,
+          "nodes": 7428,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 22511,
+          "nodes": 7423,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 22503,
+          "nodes": 7419,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_df673a83",
+      "thresholds": [
+        {
+          "edges": 107873,
+          "nodes": 24090,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 107825,
+          "nodes": 24077,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 107797,
+          "nodes": 24066,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_ebff6e76",
+      "thresholds": [
+        {
+          "edges": 325818,
+          "nodes": 70385,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 325347,
+          "nodes": 70274,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 324926,
+          "nodes": 70172,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_ef7b4f7e",
+      "thresholds": [
+        {
+          "edges": 20848,
+          "nodes": 6882,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 20847,
+          "nodes": 6877,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 20830,
+          "nodes": 6869,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_f17befbc",
+      "thresholds": [
+        {
+          "edges": 142213,
+          "nodes": 30805,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 142188,
+          "nodes": 30796,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 142137,
+          "nodes": 30784,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_f8ffd5e7",
+      "thresholds": [
+        {
+          "edges": 160514,
+          "nodes": 35611,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 160382,
+          "nodes": 35577,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 160244,
+          "nodes": 35538,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_fc83837d",
+      "thresholds": [
+        {
+          "edges": 80186,
+          "nodes": 18216,
+          "resumed": false,
+          "threshold": 0.9613
+        },
+        {
+          "edges": 80043,
+          "nodes": 18182,
+          "resumed": false,
+          "threshold": 0.9625
+        },
+        {
+          "edges": 79946,
+          "nodes": 18154,
+          "resumed": false,
+          "threshold": 0.9638
+        }
+      ]
+    }
+  ],
+  "edge_threshold": 1e-06,
+  "elapsed_seconds": 1182.5641698911786,
+  "gpu": "NVIDIA RTX A6000",
+  "ilp_applied": false,
+  "max_edge_distance": 12.0,
+  "parents_per_target": 5,
+  "resume_enabled": true,
+  "shared_unet_tta": true,
+  "status": "complete",
+  "thresholds": [
+    0.9613,
+    0.9625,
+    0.9638
+  ],
+  "weight_sha256": "9e79fc29c53a9ac0d91df91d9493e8b33767d5b8750eb30a38508bd10481c1d7"
+}

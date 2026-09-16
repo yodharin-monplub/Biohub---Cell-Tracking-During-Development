@@ -1,0 +1,10 @@
+{
+  "status": "stopped_before_upload",
+  "instance_id": 51118513,
+  "updated_unix": 1789477468.3362792,
+  "data_uploaded": false,
+  "training_started": false,
+  "disk_retained": true,
+  "storage_charges_may_continue": true,
+  "alarm_enabled": false
+}

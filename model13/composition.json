@@ -1,0 +1,23 @@
+{
+  "alternative": "model12/base_secondary_submission.csv",
+  "alternative_datasets": [
+    "44b6_0113de3b",
+    "6bba_05b6850b",
+    "6bba_05db0fb1"
+  ],
+  "alternative_sha256": "2ab38cac9ea06e4c5a1ac5cac69ce5ac43c8143bd71272185203b1e5987b344f",
+  "base": "model1/reference_submission.csv",
+  "base_datasets": [
+    "44b6_0b24845f"
+  ],
+  "base_sha256": "22ca7cc3557ae8e7cae7903e7439f3d69b6587801461873ff60b4baaacb5ff5a",
+  "output": "model13/submission.csv",
+  "output_sha256": "181b3f1e9693e08955cbbdaae43f6126b4f3d076cff37a44844ed7aa2b51f409",
+  "row_counts": {
+    "44b6_0113de3b": 48990,
+    "44b6_0b24845f": 35932,
+    "6bba_05b6850b": 11981,
+    "6bba_05db0fb1": 129793
+  },
+  "rows": 226696
+}

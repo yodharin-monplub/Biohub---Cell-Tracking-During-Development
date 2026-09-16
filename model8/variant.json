@@ -1,0 +1,15 @@
+{
+  "base_model": "model1",
+  "base_notebook_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "base_secondary_checkpoint_sha256": "9bac2fa0dadc4a6fc1899e0caf187f4b553e0a7cd90ba1261a68b35ffe9e305f",
+  "changed_cells": [
+    4,
+    6,
+    10
+  ],
+  "detection_threshold": 0.95,
+  "model6_checkpoint": "secondary_synthetic_head_alpha050.pth",
+  "model6_checkpoint_sha256": "b3fe2e1a3b4e4663fa5b9bcfbe137fb24b74179d6da0b0b94c3191686ffa96a3",
+  "notebook_sha256": "9c0fc483e53224c0b6a4d4e14921e4b0a4c89f941a3c7118a063ad819ac31ab0",
+  "status": "unverified_candidate"
+}

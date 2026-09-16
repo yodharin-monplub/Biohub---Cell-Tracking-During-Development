@@ -1,0 +1,41 @@
+{
+  "datasets": [
+    {
+      "dataset": "44b6_0113de3b",
+      "divisions": 0,
+      "edges": 24535,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 25480
+    },
+    {
+      "dataset": "44b6_0b24845f",
+      "divisions": 0,
+      "edges": 19803,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 22373
+    },
+    {
+      "dataset": "6bba_05b6850b",
+      "divisions": 0,
+      "edges": 5849,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 6168
+    },
+    {
+      "dataset": "6bba_05db0fb1",
+      "divisions": 0,
+      "edges": 63985,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 67992
+    }
+  ],
+  "geff_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model16/geffs/det_0p9700",
+  "output": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model16/submissions/det_0p9700.csv",
+  "output_sha256": "06dd72a214d3e44b091e88e2c00583f83f80118572b21a1431fbc310086ac80a",
+  "rows": 236185,
+  "status": "valid"
+}

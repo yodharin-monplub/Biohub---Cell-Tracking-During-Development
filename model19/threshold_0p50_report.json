@@ -1,0 +1,25 @@
+{
+  "candidates_scored": 16173,
+  "edges_added": 94,
+  "edges_added_by_dataset": {
+    "44b6_0113de3b": 14,
+    "44b6_0b24845f": 11,
+    "6bba_05b6850b": 4,
+    "6bba_05db0fb1": 65
+  },
+  "input_csv": "model14/primary_submission.csv",
+  "input_sha256": "9df4342ca1fa6eb08254d3490a4890af638f8cddc161ee7f3543b94cdd02b791",
+  "output_csv": "model19/threshold_0p50.csv",
+  "output_sha256": "c0615417dbe35f6941a27be1a6eab6ba7289babd3a2d5c7a0e638787af245b0e",
+  "prefilter": {
+    "both_successors_required": true,
+    "max_parent_candidate_um": 15.0,
+    "max_parent_linked_um": 12.0,
+    "max_sister_um": 20.5,
+    "min_separation_growth_um": 0.0,
+    "nearest_orphan_required": true
+  },
+  "ranker": "model5/division_geometry_model.json",
+  "ranker_sha256": "c47297481a6cdd1124af53ce9b6e4c2ebc2134218c4388229845fc2962a876b2",
+  "threshold": 0.5
+}

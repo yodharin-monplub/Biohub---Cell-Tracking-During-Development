@@ -1,0 +1,25 @@
+{
+  "candidates_scored": 14377,
+  "edges_added": 103,
+  "edges_added_by_dataset": {
+    "44b6_0113de3b": 12,
+    "44b6_0b24845f": 15,
+    "6bba_05b6850b": 5,
+    "6bba_05db0fb1": 71
+  },
+  "input_csv": "model30/submissions/visible_gap_close_exact.csv",
+  "input_sha256": "e11364dca2407599a65a0f66f2310ebf6c2b5b0c39ebe353b41e9bcd448c1de1",
+  "output_csv": "model35/visible_gap_division_p050.csv",
+  "output_sha256": "cada163a804752c18d94bc8eda604fe64d32fda2ed1381d0d1f38ebfb7319130",
+  "prefilter": {
+    "both_successors_required": true,
+    "max_parent_candidate_um": 15.0,
+    "max_parent_linked_um": 12.0,
+    "max_sister_um": 20.5,
+    "min_separation_growth_um": 0.0,
+    "nearest_orphan_required": true
+  },
+  "ranker": "model5/division_geometry_model.json",
+  "ranker_sha256": "c47297481a6cdd1124af53ce9b6e4c2ebc2134218c4388229845fc2962a876b2",
+  "threshold": 0.5
+}

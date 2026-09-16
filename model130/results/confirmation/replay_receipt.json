@@ -1,0 +1,647 @@
+{
+  "status": "complete",
+  "cohort": "confirmation",
+  "midpoint_veto_above_um": 2.5,
+  "source_model129_csv_sha256": "b542593a9ff51a8f4e1176950c4f2e3c965fd4d59ef4da9a06ac9c6e49e00cff",
+  "candidate_sha256": "1d0752bbdad4f43f1ea50aaad07ac7d8e5e9a3c07484301592f55898cc8df3d5",
+  "validation": {
+    "status": "valid",
+    "path": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model130/results/confirmation/candidate.csv",
+    "rows": 1662149,
+    "datasets": {
+      "44b6_0c582fdc": {
+        "nodes": 26129,
+        "edges": 25031,
+        "frames": 100,
+        "divisions": 22,
+        "tracks": 1098,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_12dfb391": {
+        "nodes": 42536,
+        "edges": 40991,
+        "frames": 100,
+        "divisions": 16,
+        "tracks": 1545,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_144b256d": {
+        "nodes": 23097,
+        "edges": 21851,
+        "frames": 100,
+        "divisions": 3,
+        "tracks": 1246,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_40c45f5a": {
+        "nodes": 28664,
+        "edges": 27461,
+        "frames": 100,
+        "divisions": 35,
+        "tracks": 1203,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_5f15d135": {
+        "nodes": 19880,
+        "edges": 18902,
+        "frames": 100,
+        "divisions": 12,
+        "tracks": 978,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_7a302da0": {
+        "nodes": 40245,
+        "edges": 38374,
+        "frames": 100,
+        "divisions": 43,
+        "tracks": 1871,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_7e557709": {
+        "nodes": 43170,
+        "edges": 41856,
+        "frames": 100,
+        "divisions": 22,
+        "tracks": 1314,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_87bba6c4": {
+        "nodes": 27871,
+        "edges": 26454,
+        "frames": 100,
+        "divisions": 21,
+        "tracks": 1417,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_8cc6506c": {
+        "nodes": 17358,
+        "edges": 16625,
+        "frames": 100,
+        "divisions": 14,
+        "tracks": 733,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_8f9ecab4": {
+        "nodes": 33960,
+        "edges": 32312,
+        "frames": 100,
+        "divisions": 12,
+        "tracks": 1648,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_949adeb1": {
+        "nodes": 37121,
+        "edges": 35421,
+        "frames": 100,
+        "divisions": 28,
+        "tracks": 1700,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_97725144": {
+        "nodes": 32176,
+        "edges": 31094,
+        "frames": 100,
+        "divisions": 12,
+        "tracks": 1082,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_996155de": {
+        "nodes": 8840,
+        "edges": 8549,
+        "frames": 100,
+        "divisions": 12,
+        "tracks": 291,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_a2bb48bb": {
+        "nodes": 42175,
+        "edges": 39904,
+        "frames": 100,
+        "divisions": 31,
+        "tracks": 2271,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_aaf8b0ea": {
+        "nodes": 14010,
+        "edges": 13435,
+        "frames": 100,
+        "divisions": 8,
+        "tracks": 575,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_cf8fed6b": {
+        "nodes": 40691,
+        "edges": 39278,
+        "frames": 100,
+        "divisions": 31,
+        "tracks": 1413,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_d29c9ab2": {
+        "nodes": 36365,
+        "edges": 35548,
+        "frames": 100,
+        "divisions": 20,
+        "tracks": 817,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_d78e09d9": {
+        "nodes": 22836,
+        "edges": 21962,
+        "frames": 100,
+        "divisions": 17,
+        "tracks": 874,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "44b6_e28840c6": {
+        "nodes": 22770,
+        "edges": 21583,
+        "frames": 100,
+        "divisions": 8,
+        "tracks": 1187,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_12665c0e": {
+        "nodes": 8074,
+        "edges": 7732,
+        "frames": 100,
+        "divisions": 0,
+        "tracks": 342,
+        "max_indegree": 1,
+        "max_outdegree": 1
+      },
+      "6bba_1ebfb80d": {
+        "nodes": 11142,
+        "edges": 10648,
+        "frames": 100,
+        "divisions": 4,
+        "tracks": 494,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_20852818": {
+        "nodes": 9879,
+        "edges": 9480,
+        "frames": 100,
+        "divisions": 5,
+        "tracks": 399,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_2540cd90": {
+        "nodes": 3482,
+        "edges": 3417,
+        "frames": 100,
+        "divisions": 0,
+        "tracks": 65,
+        "max_indegree": 1,
+        "max_outdegree": 1
+      },
+      "6bba_268e1230": {
+        "nodes": 4710,
+        "edges": 4419,
+        "frames": 100,
+        "divisions": 1,
+        "tracks": 291,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_372c8cb8": {
+        "nodes": 6657,
+        "edges": 6492,
+        "frames": 100,
+        "divisions": 3,
+        "tracks": 165,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_3a1849c2": {
+        "nodes": 6595,
+        "edges": 6372,
+        "frames": 100,
+        "divisions": 4,
+        "tracks": 223,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_3c5691b6": {
+        "nodes": 6147,
+        "edges": 5992,
+        "frames": 100,
+        "divisions": 3,
+        "tracks": 155,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_474be664": {
+        "nodes": 23451,
+        "edges": 22327,
+        "frames": 100,
+        "divisions": 16,
+        "tracks": 1124,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_5b28472a": {
+        "nodes": 5891,
+        "edges": 5714,
+        "frames": 100,
+        "divisions": 2,
+        "tracks": 177,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_6db0e9b4": {
+        "nodes": 24736,
+        "edges": 23700,
+        "frames": 100,
+        "divisions": 14,
+        "tracks": 1036,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_74686d6a": {
+        "nodes": 25792,
+        "edges": 24732,
+        "frames": 100,
+        "divisions": 11,
+        "tracks": 1060,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_7f87b3d8": {
+        "nodes": 9280,
+        "edges": 8715,
+        "frames": 100,
+        "divisions": 1,
+        "tracks": 565,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_9a41d029": {
+        "nodes": 18211,
+        "edges": 17643,
+        "frames": 100,
+        "divisions": 19,
+        "tracks": 568,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_ae82a791": {
+        "nodes": 7146,
+        "edges": 6942,
+        "frames": 100,
+        "divisions": 3,
+        "tracks": 204,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_ed9377fd": {
+        "nodes": 4217,
+        "edges": 4087,
+        "frames": 100,
+        "divisions": 0,
+        "tracks": 130,
+        "max_indegree": 1,
+        "max_outdegree": 1
+      },
+      "6bba_edf14583": {
+        "nodes": 48849,
+        "edges": 47031,
+        "frames": 100,
+        "divisions": 22,
+        "tracks": 1818,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_f17befbc": {
+        "nodes": 25582,
+        "edges": 24145,
+        "frames": 100,
+        "divisions": 17,
+        "tracks": 1437,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_f1fde7e0": {
+        "nodes": 7957,
+        "edges": 7415,
+        "frames": 100,
+        "divisions": 2,
+        "tracks": 542,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      },
+      "6bba_f8ffd5e7": {
+        "nodes": 31148,
+        "edges": 29675,
+        "frames": 100,
+        "divisions": 18,
+        "tracks": 1473,
+        "max_indegree": 1,
+        "max_outdegree": 2
+      }
+    },
+    "totals": {
+      "nodes": 848840,
+      "edges": 813309,
+      "divisions": 512,
+      "tracks": 35531
+    }
+  },
+  "movies": [
+    {
+      "movie": "44b6_0c582fdc",
+      "eligible_forks_with_predecessor": 33,
+      "added_daughter_edges_removed": 13,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 26129
+    },
+    {
+      "movie": "44b6_12dfb391",
+      "eligible_forks_with_predecessor": 32,
+      "added_daughter_edges_removed": 16,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 42536
+    },
+    {
+      "movie": "44b6_144b256d",
+      "eligible_forks_with_predecessor": 5,
+      "added_daughter_edges_removed": 2,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 23097
+    },
+    {
+      "movie": "44b6_40c45f5a",
+      "eligible_forks_with_predecessor": 48,
+      "added_daughter_edges_removed": 17,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 28664
+    },
+    {
+      "movie": "44b6_5f15d135",
+      "eligible_forks_with_predecessor": 24,
+      "added_daughter_edges_removed": 14,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 19880
+    },
+    {
+      "movie": "44b6_7a302da0",
+      "eligible_forks_with_predecessor": 60,
+      "added_daughter_edges_removed": 24,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 40245
+    },
+    {
+      "movie": "44b6_7e557709",
+      "eligible_forks_with_predecessor": 27,
+      "added_daughter_edges_removed": 7,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 43170
+    },
+    {
+      "movie": "44b6_87bba6c4",
+      "eligible_forks_with_predecessor": 49,
+      "added_daughter_edges_removed": 31,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 27871
+    },
+    {
+      "movie": "44b6_8cc6506c",
+      "eligible_forks_with_predecessor": 17,
+      "added_daughter_edges_removed": 5,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 17358
+    },
+    {
+      "movie": "44b6_8f9ecab4",
+      "eligible_forks_with_predecessor": 19,
+      "added_daughter_edges_removed": 8,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 33960
+    },
+    {
+      "movie": "44b6_949adeb1",
+      "eligible_forks_with_predecessor": 50,
+      "added_daughter_edges_removed": 24,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 37121
+    },
+    {
+      "movie": "44b6_97725144",
+      "eligible_forks_with_predecessor": 24,
+      "added_daughter_edges_removed": 14,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 32176
+    },
+    {
+      "movie": "44b6_996155de",
+      "eligible_forks_with_predecessor": 16,
+      "added_daughter_edges_removed": 6,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 8840
+    },
+    {
+      "movie": "44b6_a2bb48bb",
+      "eligible_forks_with_predecessor": 59,
+      "added_daughter_edges_removed": 31,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 42175
+    },
+    {
+      "movie": "44b6_aaf8b0ea",
+      "eligible_forks_with_predecessor": 13,
+      "added_daughter_edges_removed": 6,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 14010
+    },
+    {
+      "movie": "44b6_cf8fed6b",
+      "eligible_forks_with_predecessor": 61,
+      "added_daughter_edges_removed": 36,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 40691
+    },
+    {
+      "movie": "44b6_d29c9ab2",
+      "eligible_forks_with_predecessor": 28,
+      "added_daughter_edges_removed": 9,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 36365
+    },
+    {
+      "movie": "44b6_d78e09d9",
+      "eligible_forks_with_predecessor": 27,
+      "added_daughter_edges_removed": 11,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 22836
+    },
+    {
+      "movie": "44b6_e28840c6",
+      "eligible_forks_with_predecessor": 9,
+      "added_daughter_edges_removed": 2,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 22770
+    },
+    {
+      "movie": "6bba_12665c0e",
+      "eligible_forks_with_predecessor": 2,
+      "added_daughter_edges_removed": 2,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 8074
+    },
+    {
+      "movie": "6bba_1ebfb80d",
+      "eligible_forks_with_predecessor": 7,
+      "added_daughter_edges_removed": 3,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 11142
+    },
+    {
+      "movie": "6bba_20852818",
+      "eligible_forks_with_predecessor": 12,
+      "added_daughter_edges_removed": 8,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 9879
+    },
+    {
+      "movie": "6bba_2540cd90",
+      "eligible_forks_with_predecessor": 0,
+      "added_daughter_edges_removed": 0,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 3482
+    },
+    {
+      "movie": "6bba_268e1230",
+      "eligible_forks_with_predecessor": 5,
+      "added_daughter_edges_removed": 4,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 4710
+    },
+    {
+      "movie": "6bba_372c8cb8",
+      "eligible_forks_with_predecessor": 3,
+      "added_daughter_edges_removed": 1,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 6657
+    },
+    {
+      "movie": "6bba_3a1849c2",
+      "eligible_forks_with_predecessor": 8,
+      "added_daughter_edges_removed": 4,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 6595
+    },
+    {
+      "movie": "6bba_3c5691b6",
+      "eligible_forks_with_predecessor": 5,
+      "added_daughter_edges_removed": 2,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 6147
+    },
+    {
+      "movie": "6bba_474be664",
+      "eligible_forks_with_predecessor": 26,
+      "added_daughter_edges_removed": 12,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 23451
+    },
+    {
+      "movie": "6bba_5b28472a",
+      "eligible_forks_with_predecessor": 2,
+      "added_daughter_edges_removed": 0,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 5891
+    },
+    {
+      "movie": "6bba_6db0e9b4",
+      "eligible_forks_with_predecessor": 23,
+      "added_daughter_edges_removed": 11,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 24736
+    },
+    {
+      "movie": "6bba_74686d6a",
+      "eligible_forks_with_predecessor": 19,
+      "added_daughter_edges_removed": 10,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 25792
+    },
+    {
+      "movie": "6bba_7f87b3d8",
+      "eligible_forks_with_predecessor": 4,
+      "added_daughter_edges_removed": 3,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 9280
+    },
+    {
+      "movie": "6bba_9a41d029",
+      "eligible_forks_with_predecessor": 24,
+      "added_daughter_edges_removed": 7,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 18211
+    },
+    {
+      "movie": "6bba_ae82a791",
+      "eligible_forks_with_predecessor": 6,
+      "added_daughter_edges_removed": 3,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 7146
+    },
+    {
+      "movie": "6bba_ed9377fd",
+      "eligible_forks_with_predecessor": 1,
+      "added_daughter_edges_removed": 1,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 4217
+    },
+    {
+      "movie": "6bba_edf14583",
+      "eligible_forks_with_predecessor": 32,
+      "added_daughter_edges_removed": 14,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 48849
+    },
+    {
+      "movie": "6bba_f17befbc",
+      "eligible_forks_with_predecessor": 46,
+      "added_daughter_edges_removed": 30,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 25582
+    },
+    {
+      "movie": "6bba_f1fde7e0",
+      "eligible_forks_with_predecessor": 6,
+      "added_daughter_edges_removed": 4,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 7957
+    },
+    {
+      "movie": "6bba_f8ffd5e7",
+      "eligible_forks_with_predecessor": 39,
+      "added_daughter_edges_removed": 22,
+      "original_ilp_edges_preserved": true,
+      "nodes_preserved": 31148
+    }
+  ],
+  "total_edges_removed": 417
+}

@@ -1,0 +1,35 @@
+{
+  "base_model": "model1",
+  "base_notebook_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "candidate_changed_cells_relative_to_portable_control": [
+    4,
+    8,
+    10
+  ],
+  "candidate_notebook_sha256": "2bf8a08e94c75b91107e2cf6ec9c04f1370e4bdf330deabeff7e544e7fc6c630",
+  "candidate_primary_sha256": "e2a59cfe971ac57115dfdd60b96e196d53e230b6cfae329f9e0732170166763b",
+  "control_notebook_sha256": "1621a1342c7e7f66259d12cef9fc47fe5ca87470f09144201f9afd477011b45c",
+  "portable_infrastructure_cells": [
+    4,
+    8,
+    18
+  ],
+  "public_primary_sha256": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771",
+  "status": "built_unverified",
+  "unchanged_model1_components": [
+    "secondary checkpoint and 0.80 detector/0.20 edge fusion",
+    "eight-view detector TTA",
+    "harmonic forward/reverse association",
+    "ILP parameters",
+    "DeepCenter gate",
+    "motion relinking and gap recovery",
+    "track filtering/rescue and division repair",
+    "coordinate smoothing and submission audit"
+  ],
+  "validation": {
+    "candidate_training_overlap": 0,
+    "held_out_movies": 39,
+    "split": 4,
+    "split_file": "model77/cloud_splits.json"
+  }
+}

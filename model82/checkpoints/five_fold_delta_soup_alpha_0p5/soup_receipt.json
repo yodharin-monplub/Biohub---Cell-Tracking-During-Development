@@ -1,0 +1,35 @@
+{
+  "alpha_mean_tuned_delta": 0.5,
+  "changed_float_tensor_count": 126,
+  "discrete_tensor_count_kept_from_reference": 10,
+  "float_tensor_count": 126,
+  "l2_reference_to_output": 7.710063186918194,
+  "output": "/workspace/biohub/model82/checkpoints/five_fold_delta_soup_alpha_0p5/edge_predictor_best.pth",
+  "output_sha256": "48d2c35ef724275e983832b4e7b10e86228472df9972cf5a67f76f3396deb950",
+  "reference": "/workspace/biohub/data/public/support-pack/weights/unet_transformer/split_0/edge_predictor_best.pth",
+  "reference_sha256": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771",
+  "source_count": 5,
+  "status": "valid",
+  "tuned": [
+    {
+      "path": "/workspace/biohub/model77/cloud_outputs/pilot_fold0_seed_20260906/split_0/edge_predictor_best.pth",
+      "sha256": "9e79fc29c53a9ac0d91df91d9493e8b33767d5b8750eb30a38508bd10481c1d7"
+    },
+    {
+      "path": "/workspace/biohub/model81/cloud_outputs/full_pilot_fold1_seed_20260906/split_1/edge_predictor_best.pth",
+      "sha256": "7a79516de5402431d091ba8e15daf4407bc418bbd5f39c05c6d58973a582eac2"
+    },
+    {
+      "path": "/workspace/biohub/model82/cloud_outputs/full_pilot_fold2_seed_20260906/split_2/edge_predictor_best.pth",
+      "sha256": "e497dc60c68d55684f2882192d112bcf16f0f1ad71cb67829af1e44359b6ae43"
+    },
+    {
+      "path": "/workspace/biohub/model82/cloud_outputs/full_pilot_fold3_seed_20260906/split_3/edge_predictor_best.pth",
+      "sha256": "377d525cc717f6c29e583082c88905001462a4038f2aec73cf06da08856c1ea1"
+    },
+    {
+      "path": "/workspace/biohub/model82/cloud_outputs/full_pilot_fold4_seed_20260906/split_4/edge_predictor_best.pth",
+      "sha256": "2f1a2112f2e5a2e235c81f351fa642bc9c442efe07d7cf0e6933b7b83dee68c1"
+    }
+  ]
+}

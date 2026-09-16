@@ -1,0 +1,56 @@
+{
+  "status": "not_promoted",
+  "gates": {
+    "development_beats_model1": true,
+    "development_beats_model107": false,
+    "confirmation_beats_model1": true,
+    "confirmation_beats_model107": false
+  },
+  "cohorts": {
+    "development": {
+      "model1": {
+        "control_score": 0.9298357327505433,
+        "candidate_score": 0.9500830338741032,
+        "delta": 0.02024730112355988,
+        "families": {
+          "44b6": 0.02174161138183517,
+          "6bba": 0.019728120551184003
+        },
+        "node_recall_delta": 0.00475358470336007
+      },
+      "model107": {
+        "control_score": 0.9530565301694005,
+        "candidate_score": 0.9500830338741032,
+        "delta": -0.0029734962952973065,
+        "families": {
+          "44b6": 0.0010530504215233716,
+          "6bba": -0.0037140612129257233
+        },
+        "node_recall_delta": 0.002966446923619248
+      }
+    },
+    "confirmation": {
+      "model1": {
+        "control_score": 0.9267886759651051,
+        "candidate_score": 0.946681603620793,
+        "delta": 0.019892927655687953,
+        "families": {
+          "44b6": 0.007290416828295676,
+          "6bba": 0.025905140332860843
+        },
+        "node_recall_delta": 0.005856844215905377
+      },
+      "model107": {
+        "control_score": 0.9495462814177554,
+        "candidate_score": 0.946681603620793,
+        "delta": -0.0028646777969624226,
+        "families": {
+          "44b6": -0.004596022492225016,
+          "6bba": -0.002144621930650459
+        },
+        "node_recall_delta": 0.0037976662594766397
+      }
+    }
+  },
+  "caveat": "Both movie groups have been reused; no public or untouched-holdout claim."
+}

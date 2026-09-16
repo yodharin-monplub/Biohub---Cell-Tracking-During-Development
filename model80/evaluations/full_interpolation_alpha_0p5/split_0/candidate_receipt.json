@@ -1,0 +1,300 @@
+{
+  "datasets": [
+    {
+      "candidate_edges": 99319,
+      "dataset": "44b6_1574802b",
+      "nodes": 21624,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 418236,
+      "dataset": "44b6_18ced818",
+      "nodes": 87850,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 120412,
+      "dataset": "44b6_33b596bf",
+      "nodes": 26366,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 181700,
+      "dataset": "44b6_3a861e03",
+      "nodes": 40143,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 174081,
+      "dataset": "44b6_415c0a3a",
+      "nodes": 39889,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 126171,
+      "dataset": "44b6_5f15d135",
+      "nodes": 29007,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 145112,
+      "dataset": "44b6_8f5ab931",
+      "nodes": 31555,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 11449,
+      "dataset": "44b6_95029e92",
+      "nodes": 5097,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 176712,
+      "dataset": "44b6_97725144",
+      "nodes": 41164,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 122683,
+      "dataset": "44b6_9be80b04",
+      "nodes": 28347,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 286979,
+      "dataset": "44b6_a2bb48bb",
+      "nodes": 62506,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 246203,
+      "dataset": "44b6_d5e7d891",
+      "nodes": 51978,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 77412,
+      "dataset": "44b6_deabac95",
+      "nodes": 17164,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 106469,
+      "dataset": "44b6_e57ff5c6",
+      "nodes": 24211,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 123327,
+      "dataset": "6bba_0e7c0d07",
+      "nodes": 26596,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 17967,
+      "dataset": "6bba_13f19531",
+      "nodes": 6557,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 17818,
+      "dataset": "6bba_2646afc7",
+      "nodes": 5947,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 253677,
+      "dataset": "6bba_32db13fc",
+      "nodes": 54032,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 28497,
+      "dataset": "6bba_3a1849c2",
+      "nodes": 8435,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 31400,
+      "dataset": "6bba_4aa14c89",
+      "nodes": 9134,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 144609,
+      "dataset": "6bba_5dfe9ad1",
+      "nodes": 32949,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 43186,
+      "dataset": "6bba_61dd1e0d",
+      "nodes": 11583,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 14664,
+      "dataset": "6bba_6321a359",
+      "nodes": 5996,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 60848,
+      "dataset": "6bba_6feb10f0",
+      "nodes": 16072,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 28733,
+      "dataset": "6bba_6feeb0b1",
+      "nodes": 8154,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 8676,
+      "dataset": "6bba_718b21f9",
+      "nodes": 4449,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 49788,
+      "dataset": "6bba_7af54fde",
+      "nodes": 12668,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 63100,
+      "dataset": "6bba_87289e13",
+      "nodes": 15082,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 19107,
+      "dataset": "6bba_8b7818bf",
+      "nodes": 6483,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 31319,
+      "dataset": "6bba_af149c94",
+      "nodes": 8543,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 363450,
+      "dataset": "6bba_b329af44",
+      "nodes": 75348,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 89895,
+      "dataset": "6bba_d1acb6ff",
+      "nodes": 20054,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 23179,
+      "dataset": "6bba_d6ecebbb",
+      "nodes": 7578,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 107706,
+      "dataset": "6bba_df673a83",
+      "nodes": 24104,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 320291,
+      "dataset": "6bba_ebff6e76",
+      "nodes": 69336,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 21290,
+      "dataset": "6bba_ef7b4f7e",
+      "nodes": 6961,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 141597,
+      "dataset": "6bba_f17befbc",
+      "nodes": 30673,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 162014,
+      "dataset": "6bba_f8ffd5e7",
+      "nodes": 35889,
+      "resumed": false
+    },
+    {
+      "candidate_edges": 81102,
+      "dataset": "6bba_fc83837d",
+      "nodes": 18371,
+      "resumed": false
+    }
+  ],
+  "det_threshold": 0.965,
+  "edge_distance_unit": "approximately isotropic downsample-grid voxels (1.625 um)",
+  "edge_threshold": 1e-06,
+  "elapsed_seconds": 1055.6195202376693,
+  "export_config": {
+    "data_dir": "/workspace/biohub/data/raw/train",
+    "datasets": [
+      "44b6_1574802b",
+      "44b6_18ced818",
+      "44b6_33b596bf",
+      "44b6_3a861e03",
+      "44b6_415c0a3a",
+      "44b6_5f15d135",
+      "44b6_8f5ab931",
+      "44b6_95029e92",
+      "44b6_97725144",
+      "44b6_9be80b04",
+      "44b6_a2bb48bb",
+      "44b6_d5e7d891",
+      "44b6_deabac95",
+      "44b6_e57ff5c6",
+      "6bba_0e7c0d07",
+      "6bba_13f19531",
+      "6bba_2646afc7",
+      "6bba_32db13fc",
+      "6bba_3a1849c2",
+      "6bba_4aa14c89",
+      "6bba_5dfe9ad1",
+      "6bba_61dd1e0d",
+      "6bba_6321a359",
+      "6bba_6feb10f0",
+      "6bba_6feeb0b1",
+      "6bba_718b21f9",
+      "6bba_7af54fde",
+      "6bba_87289e13",
+      "6bba_8b7818bf",
+      "6bba_af149c94",
+      "6bba_b329af44",
+      "6bba_d1acb6ff",
+      "6bba_d6ecebbb",
+      "6bba_df673a83",
+      "6bba_ebff6e76",
+      "6bba_ef7b4f7e",
+      "6bba_f17befbc",
+      "6bba_f8ffd5e7",
+      "6bba_fc83837d"
+    ],
+    "det_threshold": 0.965,
+    "edge_threshold": 1e-06,
+    "max_edge_distance": 12.0,
+    "parents_per_target": 5,
+    "split": 0,
+    "split_sha256": "78be6c75b0737cee777f1f10d473489757700b808a7013761294288818e42932",
+    "weight_sha256": "73354ec759d4e1b348532bd2652dbee8ed70a20b4ffdfe17a5a26b94752cab1f"
+  },
+  "gpu": "NVIDIA RTX A6000",
+  "ilp_applied": false,
+  "max_edge_distance": 12.0,
+  "parents_per_target": 5,
+  "resume_enabled": true,
+  "status": "complete",
+  "weight_sha256": "73354ec759d4e1b348532bd2652dbee8ed70a20b4ffdfe17a5a26b94752cab1f"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "config_sha256": "30e114d865d71540018d8e2c5ec4e06a93bc0dab310df0dac2f49834227e02fe",
+  "model144_audit_sha256": "06c1dc3e7829fcef0ca047652e6f8ecd104d49cfb52951cd7e391eb572654bb8",
+  "before": {
+    "n": 540,
+    "labels": {
+      "unknown": 530,
+      "explicit_division_positive": 5,
+      "positive_link_division_unverified": 5
+    }
+  },
+  "after": {
+    "n": 411,
+    "labels": {
+      "unknown": 402,
+      "explicit_division_positive": 5,
+      "positive_link_division_unverified": 4
+    }
+  },
+  "caveat": "Approximate model1 post-ILP proposal rule, not final model145 selected edges. Sparse-GT unknowns are not negatives."
+}

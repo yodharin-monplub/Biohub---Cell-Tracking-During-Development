@@ -1,0 +1,26 @@
+{
+  "algorithm_changes": 0,
+  "changes": [
+    "allow caller-supplied artifact paths",
+    "allow caller-supplied competition and working directories",
+    "make final retention guard use the resolved working directory"
+  ],
+  "output": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model167/reproduction.ipynb",
+  "output_sha256": "eaae8dfffe53428beb0ee62eed4b8460d0465a96d94d44c03ed25e864591b0f0",
+  "replacement_counts": {
+    "COMP_DIR_CANDIDATES = [Path(f'/kaggle/input/competitions/{COMPETITION}'), Path(f'/kaggle/input/{COMPETITION}')]": 1,
+    "Path('/kaggle/working'), Path('/kaggle/working/wheels')": 1,
+    "Path('/kaggle/working/dual_seed_frame_retention_guard_report.json').write_text": 1,
+    "WORKING_DIR = Path('/kaggle/working') if Path('/kaggle/working').exists() else Path('.')": 1,
+    "_coordinate_manifest_path = Path('/kaggle/working') / f'detector_coordinates_{_coordinate_manifest_arm}_{_coordinate_shard}.jsonl'": 1,
+    "_guard_submission = Path('/kaggle/working/submission.csv')": 1,
+    "for _guard_path in sorted(Path('/kaggle/working').glob('retention_guard_*.jsonl')):": 1,
+    "guard_log = Path('/kaggle/working') / f'retention_guard_{shard}.jsonl'": 1,
+    "os.environ['BIOHUB_DEEPCENTER_CHECKPOINT'] = '/kaggle/input/datasets/pilkwang/biohub-deepcenter-unet3d-center-prior-v1/weights/full_frame_center/best.pt'": 3,
+    "os.environ['BIOHUB_MODEL_ARTIFACTS'] = '/kaggle/input/datasets/pilkwang/biohub-tracking-support-pack-50ep-v1'": 1,
+    "os.environ['BIOHUB_SECONDARY_ARTIFACT_MANIFEST'] = '/kaggle/input/datasets/pilkwang/biohub-temporal-unet3d-seed314159-v1/ARTIFACT_MANIFEST.json'": 1
+  },
+  "source": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model167/public/zhincez/biohub-0-947-lb-runnable-with-public-datasets.ipynb",
+  "source_sha256": "38bca69a477e9090717c59c54358c2434e168042ac29734b9b12922aa7d0f186",
+  "status": "prepared_not_run_not_scored"
+}

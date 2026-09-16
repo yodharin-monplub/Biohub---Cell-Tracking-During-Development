@@ -1,0 +1,61 @@
+{
+  "datasets": [
+    {
+      "dataset": "44b6_0113de3b",
+      "thresholds": [
+        {
+          "edges": 24393,
+          "nodes": 25376,
+          "resumed": false,
+          "threshold": 0.965
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_0b24845f",
+      "thresholds": [
+        {
+          "edges": 18805,
+          "nodes": 21272,
+          "resumed": false,
+          "threshold": 0.965
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_05b6850b",
+      "thresholds": [
+        {
+          "edges": 5788,
+          "nodes": 6093,
+          "resumed": false,
+          "threshold": 0.965
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_05db0fb1",
+      "thresholds": [
+        {
+          "edges": 63062,
+          "nodes": 67143,
+          "resumed": false,
+          "threshold": 0.965
+        }
+      ]
+    }
+  ],
+  "edge_threshold": 0.5,
+  "elapsed_seconds": 177.78350679762661,
+  "gpu": "NVIDIA RTX A6000",
+  "ilp_applied": true,
+  "max_edge_distance": null,
+  "parents_per_target": null,
+  "resume_enabled": false,
+  "shared_unet_tta": true,
+  "status": "complete",
+  "thresholds": [
+    0.965
+  ],
+  "weight_sha256": "3842e711490bd4eb39f353cbf5b80cc9968d5f1d76086cde0503099c21193dae"
+}

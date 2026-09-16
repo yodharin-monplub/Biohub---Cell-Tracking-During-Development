@@ -1,0 +1,11 @@
+{
+  "movie": "6bba_df673a83",
+  "is_preflight": false,
+  "capture_sha256": "88121f2dfc9330687ab27f3ac922823690339aef6b841441c51afba8835869b6",
+  "raw_detector_nodes": 24020,
+  "top5_links": 118865,
+  "post_ilp_nodes": 21682,
+  "post_ilp_edges": 20780,
+  "preflight": null,
+  "seconds": 174.3659336566925
+}

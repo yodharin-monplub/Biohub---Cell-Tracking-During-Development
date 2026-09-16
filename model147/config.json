@@ -1,0 +1,21 @@
+{
+  "source_model": "model143",
+  "control_model": "model130",
+  "recovery_family": "6bba",
+  "base_rule_model": "model145",
+  "minimum_link_probability": 0.6,
+  "parent_orphan_max_um": 15.0,
+  "sister_max_um": 20.5,
+  "rule_parent_orphan_max_um": 10.0,
+  "rule_sister_max_um": 14.0,
+  "sister_separation_growth_min_um": 4.0,
+  "raw_node_match_max_um": 7.0,
+  "frame_fraction_cap": 0.0076,
+  "global_fraction_cap": 0.00375,
+  "require_parent_and_orphan_rank_one": true,
+  "preserve_existing_recovery_edges": true,
+  "subtract_existing_recovery_from_caps": true,
+  "preserve_model118_neural_veto": true,
+  "preserve_model129_tight_sister_veto": true,
+  "allow_model130_midpoint_veto_override": true
+}

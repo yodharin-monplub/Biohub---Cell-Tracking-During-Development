@@ -1,0 +1,114 @@
+{
+  "datasets": [
+    {
+      "candidate_edges": 11728,
+      "dataset": "44b6_95029e92",
+      "nodes": 5196
+    },
+    {
+      "candidate_edges": 69997,
+      "dataset": "44b6_808952d6",
+      "nodes": 17581
+    },
+    {
+      "candidate_edges": 112237,
+      "dataset": "44b6_d78e09d9",
+      "nodes": 24971
+    },
+    {
+      "candidate_edges": 164803,
+      "dataset": "44b6_87bba6c4",
+      "nodes": 35937
+    },
+    {
+      "candidate_edges": 174318,
+      "dataset": "44b6_d29c9ab2",
+      "nodes": 38118
+    },
+    {
+      "candidate_edges": 176854,
+      "dataset": "44b6_c771cb04",
+      "nodes": 40158
+    },
+    {
+      "candidate_edges": 196369,
+      "dataset": "44b6_b2c44266",
+      "nodes": 45591
+    },
+    {
+      "candidate_edges": 424775,
+      "dataset": "44b6_18ced818",
+      "nodes": 89181
+    },
+    {
+      "candidate_edges": 7229,
+      "dataset": "6bba_2540cd90",
+      "nodes": 3564
+    },
+    {
+      "candidate_edges": 13558,
+      "dataset": "6bba_aeee7805",
+      "nodes": 5838
+    },
+    {
+      "candidate_edges": 18472,
+      "dataset": "6bba_13f19531",
+      "nodes": 6714
+    },
+    {
+      "candidate_edges": 18755,
+      "dataset": "6bba_d0fc38b5",
+      "nodes": 6775
+    },
+    {
+      "candidate_edges": 24919,
+      "dataset": "6bba_ae82a791",
+      "nodes": 7646
+    },
+    {
+      "candidate_edges": 31980,
+      "dataset": "6bba_af149c94",
+      "nodes": 8673
+    },
+    {
+      "candidate_edges": 47632,
+      "dataset": "6bba_789f8168",
+      "nodes": 12032
+    },
+    {
+      "candidate_edges": 90935,
+      "dataset": "6bba_d1acb6ff",
+      "nodes": 20234
+    },
+    {
+      "candidate_edges": 101846,
+      "dataset": "6bba_283bf9f1",
+      "nodes": 23735
+    },
+    {
+      "candidate_edges": 151829,
+      "dataset": "6bba_d82a4fc6",
+      "nodes": 33067
+    },
+    {
+      "candidate_edges": 183511,
+      "dataset": "6bba_a90a0b9c",
+      "nodes": 40972
+    },
+    {
+      "candidate_edges": 491778,
+      "dataset": "6bba_57b7cc1e",
+      "nodes": 103518
+    }
+  ],
+  "det_threshold": 0.965,
+  "edge_distance_unit": "approximately isotropic downsample-grid voxels (1.625 um)",
+  "edge_threshold": 1e-06,
+  "elapsed_seconds": 887.8493938629399,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "ilp_applied": false,
+  "max_edge_distance": 12.0,
+  "parents_per_target": 5,
+  "status": "complete",
+  "weight_sha256": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771"
+}

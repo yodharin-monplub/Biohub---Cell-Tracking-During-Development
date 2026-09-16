@@ -1,0 +1,90 @@
+{
+  "candidate_file": "teacher_44b6_0b24845f.csv.gz",
+  "candidate_sha256": "4b73d97fbcbfd1935b6e1c3db2c5210da9c676fb41389256853b5647e0f85ecf",
+  "dataset": "44b6_0b24845f",
+  "elapsed_minutes": 19.5744689004,
+  "estimated_nodes": 32795.0,
+  "failed_frames": 0,
+  "frames": 100,
+  "gpu_id": 1,
+  "metrics": {
+    "confidence_0.60": {
+      "estimated_node_ratio": 1.9571276109162983,
+      "nodes": 64184,
+      "sparse_truth_matched": 47,
+      "sparse_truth_recall": 0.9215686274509803
+    },
+    "confidence_0.70": {
+      "estimated_node_ratio": 1.6882146668699496,
+      "nodes": 55365,
+      "sparse_truth_matched": 45,
+      "sparse_truth_recall": 0.8823529411764706
+    },
+    "confidence_0.80": {
+      "estimated_node_ratio": 1.0974233877115414,
+      "nodes": 35990,
+      "sparse_truth_matched": 37,
+      "sparse_truth_recall": 0.7254901960784313
+    },
+    "confidence_0.90": {
+      "estimated_node_ratio": 0.039609696600091476,
+      "nodes": 1299,
+      "sparse_truth_matched": 0,
+      "sparse_truth_recall": 0.0
+    },
+    "confidence_quantiles": {
+      "q01": 0.5387493870088033,
+      "q05": 0.595716618487925,
+      "q10": 0.6388385878052822,
+      "q25": 0.7356333837130871,
+      "q50": 0.8056939266902996,
+      "q75": 0.8457141948039415,
+      "q90": 0.8723477764100563,
+      "q95": 0.8860477473146172,
+      "q99": 0.9074822802241503
+    },
+    "model1_baseline": {
+      "estimated_node_ratio": 0.5658789449611221,
+      "nodes": 18558,
+      "sparse_truth_matched": 51,
+      "sparse_truth_recall": 1.0
+    },
+    "mutual1_confidence_0.70": {
+      "estimated_node_ratio": 1.5890532093306906,
+      "nodes": 52113,
+      "sparse_truth_matched": 44,
+      "sparse_truth_recall": 0.8627450980392157
+    },
+    "mutual2_confidence_0.70": {
+      "estimated_node_ratio": 1.157158103369416,
+      "nodes": 37949,
+      "sparse_truth_matched": 41,
+      "sparse_truth_recall": 0.803921568627451
+    },
+    "novel_mutual1_confidence_0.70": {
+      "estimated_node_ratio": 1.0634243024851349,
+      "nodes": 34875,
+      "sparse_truth_matched": 5,
+      "sparse_truth_recall": 0.09803921568627451
+    },
+    "raw": {
+      "estimated_node_ratio": 2.0704680591553593,
+      "nodes": 67901,
+      "sparse_truth_matched": 47,
+      "sparse_truth_recall": 0.9215686274509803
+    },
+    "temporal1_confidence_0.70": {
+      "estimated_node_ratio": 1.6700106723585912,
+      "nodes": 54768,
+      "sparse_truth_matched": 44,
+      "sparse_truth_recall": 0.8627450980392157
+    },
+    "truth_nodes": 51
+  },
+  "scale_um": [
+    1.625,
+    0.40625,
+    0.40625
+  ],
+  "status": "complete"
+}

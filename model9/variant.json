@@ -1,0 +1,12 @@
+{
+  "built_notebook_sha256": "1c169787fea15e97014bf5e7b94c34db47efa4471165446e44ded03ce6bfe177",
+  "expected_public_output_totals": {
+    "divisions": 219,
+    "edges": 115354,
+    "nodes": 119517
+  },
+  "public_completed_output_sha256": "f9d42e27f6b2cbeba1ea8f433087fba45be7742b41b38d271c4109339e9279c4",
+  "source_kernel": "cloudssdut/biohub-0-948-reproduction-20260901",
+  "source_notebook_sha256": "1c169787fea15e97014bf5e7b94c34db47efa4471165446e44ded03ce6bfe177",
+  "status": "unverified_claimed_0.948_reproduction"
+}

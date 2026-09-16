@@ -1,0 +1,6 @@
+The 44b6_1d530831.csv file is an incomplete CPU smoke-test artifact.
+It was interrupted at the user's request to check GPU access and has
+no completion receipt. Do not score or use it for parity claims.
+
+The completed model1 GPU parity check is 44b6_3bb3690f.csv with
+44b6_3bb3690f.json in this directory.

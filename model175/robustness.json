@@ -1,0 +1,252 @@
+{
+  "aggregate_gain": 0.001805007753401755,
+  "caveat": "Existing eight-movie tuning ledger; not checkpoint-disjoint, embryo-disjoint, or untouched CV.",
+  "cross_family_selection": [
+    {
+      "delta_vs_base": 0.0016002780411126238,
+      "selected_config": "hc0970",
+      "test_family": "6bba",
+      "test_metrics": {
+        "adjusted_edge_jaccard": 0.9358197768946536,
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9483197768946535,
+        "weight": 4426
+      },
+      "test_rank": 1,
+      "tune_family": "44b6"
+    },
+    {
+      "delta_vs_base": 3.2833449203906184e-06,
+      "selected_config": "hc0970",
+      "test_family": "44b6",
+      "test_metrics": {
+        "adjusted_edge_jaccard": 0.91757926912973,
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.95757926912973,
+        "weight": 1549
+      },
+      "test_rank": 1,
+      "tune_family": "6bba"
+    }
+  ],
+  "family_rankings": {
+    "44b6": [
+      {
+        "adjusted_edge_jaccard": 0.91757926912973,
+        "config": "hc0970",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.95757926912973,
+        "weight": 1549
+      },
+      {
+        "adjusted_edge_jaccard": 0.9175759857848096,
+        "config": "base",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9575759857848096,
+        "weight": 1549
+      },
+      {
+        "adjusted_edge_jaccard": 0.9175759857848096,
+        "config": "hc0980",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9575759857848096,
+        "weight": 1549
+      },
+      {
+        "adjusted_edge_jaccard": 0.9175759857848096,
+        "config": "hc0985",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9575759857848096,
+        "weight": 1549
+      }
+    ],
+    "6bba": [
+      {
+        "adjusted_edge_jaccard": 0.9358197768946536,
+        "config": "hc0970",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9483197768946535,
+        "weight": 4426
+      },
+      {
+        "adjusted_edge_jaccard": 0.9358197768946536,
+        "config": "hc0980",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9483197768946535,
+        "weight": 4426
+      },
+      {
+        "adjusted_edge_jaccard": 0.9358197768946536,
+        "config": "hc0985",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9483197768946535,
+        "weight": 4426
+      },
+      {
+        "adjusted_edge_jaccard": 0.9356083877424298,
+        "config": "base",
+        "division_fn": 7,
+        "division_fp": 1,
+        "division_jaccard": 0.1111111111111111,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9467194988535409,
+        "weight": 4427
+      }
+    ]
+  },
+  "full_ranking": [
+    {
+      "adjusted_edge_jaccard": 0.9310909824966845,
+      "config": "hc0970",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.9541679055736076,
+      "weight": 5975
+    },
+    {
+      "adjusted_edge_jaccard": 0.9310901312998171,
+      "config": "hc0980",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.9541670543767402,
+      "weight": 5975
+    },
+    {
+      "adjusted_edge_jaccard": 0.9310901312998171,
+      "config": "hc0985",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.9541670543767402,
+      "weight": 5975
+    },
+    {
+      "adjusted_edge_jaccard": 0.9309343263916344,
+      "config": "base",
+      "division_fn": 9,
+      "division_fp": 2,
+      "division_jaccard": 0.21428571428571427,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.9523628978202059,
+      "weight": 5976
+    }
+  ],
+  "leave_one_movie_out": [
+    {
+      "base_score": 0.9471954782815818,
+      "delta_vs_base": 6.31005121798367e-06,
+      "held_out": "44b6_12dfb391",
+      "selected_config": "hc0970",
+      "selected_score": 0.9472017883327998
+    },
+    {
+      "base_score": 0.8073048624957645,
+      "delta_vs_base": 0.0,
+      "held_out": "44b6_267148e4",
+      "selected_config": "hc0970",
+      "selected_score": 0.8073048624957645
+    },
+    {
+      "base_score": 0.9564071840703496,
+      "delta_vs_base": 0.0,
+      "held_out": "44b6_2a2eff9f",
+      "selected_config": "hc0970",
+      "selected_score": 0.9564071840703496
+    },
+    {
+      "base_score": 1.0774575259117032,
+      "delta_vs_base": 0.0,
+      "held_out": "44b6_341df25f",
+      "selected_config": "hc0970",
+      "selected_score": 1.0774575259117032
+    },
+    {
+      "base_score": 1.036342623167349,
+      "delta_vs_base": 0.051092295263751364,
+      "held_out": "6bba_062c8d37",
+      "selected_config": "hc0970",
+      "selected_score": 1.0874349184311003
+    },
+    {
+      "base_score": 0.8176527501520399,
+      "delta_vs_base": 0.0,
+      "held_out": "6bba_07e24132",
+      "selected_config": "hc0970",
+      "selected_score": 0.8176527501520399
+    },
+    {
+      "base_score": 0.9952160788389075,
+      "delta_vs_base": 0.0,
+      "held_out": "6bba_085bf656",
+      "selected_config": "hc0970",
+      "selected_score": 0.9952160788389075
+    },
+    {
+      "base_score": 0.8989912071300317,
+      "delta_vs_base": 0.0,
+      "held_out": "6bba_09961292",
+      "selected_config": "hc0970",
+      "selected_score": 0.8989912071300317
+    }
+  ],
+  "loo_mean_delta_vs_base": 0.0063873256643711684,
+  "loo_positive_zero_negative": {
+    "negative": 0,
+    "positive": 2,
+    "zero": 6
+  },
+  "loo_selection_counts": {
+    "hc0970": 8
+  },
+  "predeclared_promotion_margin": 0.002,
+  "source": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model174/output/validator_results.csv",
+  "source_sha256": "506f96172f8f50eff213eb3fa43fa31fb87f32527c79903933516f01eb6eb45e",
+  "status": "complete_existing_ledger_audit",
+  "target_0p97_reached": false
+}

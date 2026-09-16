@@ -1,0 +1,175 @@
+{
+  "baseline_node_recall": 0.9867126566328667,
+  "baseline_score": 0.9032502985814737,
+  "gates": {
+    "movie_wins_exceed_losses": false,
+    "node_recall_drop_within_limit": true,
+    "pooled_exact_score_improves": false
+  },
+  "movie_deltas": [
+    {
+      "adj_edge_jaccard_delta": -0.005453835810182106,
+      "dataset": "44b6_1574802b"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0005033949293739015,
+      "dataset": "44b6_18ced818"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0001285897985426887,
+      "dataset": "44b6_33b596bf"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.004351383442155687,
+      "dataset": "44b6_3a861e03"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.00027913330418138926,
+      "dataset": "44b6_415c0a3a"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.010054195134568067,
+      "dataset": "44b6_5f15d135"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0018310908196136344,
+      "dataset": "44b6_8f5ab931"
+    },
+    {
+      "adj_edge_jaccard_delta": 1.9376089904987737e-05,
+      "dataset": "44b6_95029e92"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.00033112355439957053,
+      "dataset": "44b6_97725144"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.008464505134442413,
+      "dataset": "44b6_9be80b04"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.016456183650476408,
+      "dataset": "44b6_a2bb48bb"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.009209670715737195,
+      "dataset": "44b6_d5e7d891"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.00012163574951751244,
+      "dataset": "44b6_deabac95"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.00272274695167829,
+      "dataset": "44b6_e57ff5c6"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.017380912028728712,
+      "dataset": "6bba_0e7c0d07"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.0008371906339689206,
+      "dataset": "6bba_13f19531"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.001085951785543049,
+      "dataset": "6bba_2646afc7"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.0074585457292929425,
+      "dataset": "6bba_32db13fc"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.0034568224388776825,
+      "dataset": "6bba_3a1849c2"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.006134113168216104,
+      "dataset": "6bba_4aa14c89"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0019542455077276033,
+      "dataset": "6bba_5dfe9ad1"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.003456821172917346,
+      "dataset": "6bba_61dd1e0d"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.0005213966265363856,
+      "dataset": "6bba_6321a359"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.007301416652048975,
+      "dataset": "6bba_6feb10f0"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.000519937552763472,
+      "dataset": "6bba_6feeb0b1"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0,
+      "dataset": "6bba_718b21f9"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.007879795402594203,
+      "dataset": "6bba_7af54fde"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.0001192446468404329,
+      "dataset": "6bba_87289e13"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.0005475587532245418,
+      "dataset": "6bba_8b7818bf"
+    },
+    {
+      "adj_edge_jaccard_delta": -7.487324862531786e-05,
+      "dataset": "6bba_af149c94"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.010334378133234678,
+      "dataset": "6bba_b329af44"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.002274301735927353,
+      "dataset": "6bba_d1acb6ff"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.008148015239053619,
+      "dataset": "6bba_d6ecebbb"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.005799677140287396,
+      "dataset": "6bba_df673a83"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.008594094048035794,
+      "dataset": "6bba_ebff6e76"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0010086453906279491,
+      "dataset": "6bba_ef7b4f7e"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.0010433719025113586,
+      "dataset": "6bba_f17befbc"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.009761007362231289,
+      "dataset": "6bba_f8ffd5e7"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0079923744951792,
+      "dataset": "6bba_fc83837d"
+    }
+  ],
+  "movie_losses": 23,
+  "movie_ties": 1,
+  "movie_wins": 15,
+  "node_recall_delta": -0.0002780872681980018,
+  "pilot_node_recall": 0.9864345693646687,
+  "pilot_score": 0.9017787402139977,
+  "score_delta": -0.0014715583674759225,
+  "status": "reject"
+}

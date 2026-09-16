@@ -1,0 +1,822 @@
+{
+  "status": "complete",
+  "feature_names": [
+    "probability",
+    "source_best_ratio",
+    "target_best_ratio",
+    "source_best_margin",
+    "target_best_margin",
+    "raw_distance_um",
+    "axial_distance_um",
+    "xy_distance_um",
+    "time_fraction",
+    "selected_ilp",
+    "source_occupied",
+    "target_occupied",
+    "past_acceleration_um",
+    "future_acceleration_um",
+    "has_past_context",
+    "has_future_context"
+  ],
+  "cohorts": {
+    "development": {
+      "movies": [
+        {
+          "movie": "44b6_1d530831",
+          "cohort": "development",
+          "positives": 269,
+          "negatives": 2171,
+          "matched_detector_nodes": 276,
+          "gt_edges": 271,
+          "capture_sha256": "fa02bd0614b8904b7fded424b878205de57c118822d6383e47c7887c6f65c645",
+          "selected_edges": 32428
+        },
+        {
+          "movie": "44b6_2a2eff9f",
+          "cohort": "development",
+          "positives": 210,
+          "negatives": 1753,
+          "matched_detector_nodes": 214,
+          "gt_edges": 210,
+          "capture_sha256": "29d8987843b4bc10353c566115b3b62dfa9c7f7fbae3b0614691f64b6792ffaa",
+          "selected_edges": 34349
+        },
+        {
+          "movie": "44b6_3bb3690f",
+          "cohort": "development",
+          "positives": 394,
+          "negatives": 3005,
+          "matched_detector_nodes": 399,
+          "gt_edges": 396,
+          "capture_sha256": "1ec378842a102b4a3de3d011d1450f81a10e915e26e71d77a3a6375e0bd24277",
+          "selected_edges": 14643
+        },
+        {
+          "movie": "44b6_668e0cc7",
+          "cohort": "development",
+          "positives": 631,
+          "negatives": 5031,
+          "matched_detector_nodes": 643,
+          "gt_edges": 631,
+          "capture_sha256": "c3f6504430769258a8cc666c5fbb128ab9044786c47fc416b07537ceaa96cd91",
+          "selected_edges": 31778
+        },
+        {
+          "movie": "44b6_706092f0",
+          "cohort": "development",
+          "positives": 113,
+          "negatives": 755,
+          "matched_detector_nodes": 116,
+          "gt_edges": 117,
+          "capture_sha256": "b72653736282e1f1280bee6d50eafb0485bef73975fdaafe5768c0adeddd68a9",
+          "selected_edges": 23772
+        },
+        {
+          "movie": "44b6_71a4179f",
+          "cohort": "development",
+          "positives": 119,
+          "negatives": 952,
+          "matched_detector_nodes": 121,
+          "gt_edges": 119,
+          "capture_sha256": "5d433063951328e77d5d9e3b92181eb6f1362710889c574170978a24c5cebc05",
+          "selected_edges": 25550
+        },
+        {
+          "movie": "44b6_74d0c52e",
+          "cohort": "development",
+          "positives": 139,
+          "negatives": 1035,
+          "matched_detector_nodes": 140,
+          "gt_edges": 139,
+          "capture_sha256": "0435d843bd8c6fe3cf2da684568061e1672eeae6e59a87fb4a78107d3d5a806b",
+          "selected_edges": 7861
+        },
+        {
+          "movie": "44b6_808952d6",
+          "cohort": "development",
+          "positives": 179,
+          "negatives": 1064,
+          "matched_detector_nodes": 181,
+          "gt_edges": 179,
+          "capture_sha256": "4547629b17aa83bfe5d37ee481533320ad3d367fb6f4e4af6905124949aad69e",
+          "selected_edges": 14338
+        },
+        {
+          "movie": "44b6_90724892",
+          "cohort": "development",
+          "positives": 98,
+          "negatives": 779,
+          "matched_detector_nodes": 102,
+          "gt_edges": 103,
+          "capture_sha256": "562748a51c5d92fa1dbcfe05a1a9a5e1d6feddee83fb1d3d113705798922900e",
+          "selected_edges": 21778
+        },
+        {
+          "movie": "44b6_a21120c2",
+          "cohort": "development",
+          "positives": 286,
+          "negatives": 2268,
+          "matched_detector_nodes": 296,
+          "gt_edges": 286,
+          "capture_sha256": "5087a14acf39f24abbd75908bf295d2b0b9898d39f97189b2af52fe4c47a97e1",
+          "selected_edges": 21187
+        },
+        {
+          "movie": "44b6_b2c44266",
+          "cohort": "development",
+          "positives": 168,
+          "negatives": 1177,
+          "matched_detector_nodes": 170,
+          "gt_edges": 168,
+          "capture_sha256": "2165183346d4a3a44998c3b9f0579e60b02f85df3edf2096b79a6f85111be295",
+          "selected_edges": 33253
+        },
+        {
+          "movie": "44b6_c15fded2",
+          "cohort": "development",
+          "positives": 100,
+          "negatives": 815,
+          "matched_detector_nodes": 103,
+          "gt_edges": 102,
+          "capture_sha256": "353cde637c7fbcac92d6f395bebdd73b521dda03bb5e8314503b62ade3d873f9",
+          "selected_edges": 18405
+        },
+        {
+          "movie": "44b6_c96cfa10",
+          "cohort": "development",
+          "positives": 607,
+          "negatives": 4549,
+          "matched_detector_nodes": 625,
+          "gt_edges": 616,
+          "capture_sha256": "abfead7dfe2c909870fd3a2fc4ffe7fe76f746ca5522176760742228b5f70adb",
+          "selected_edges": 34735
+        },
+        {
+          "movie": "44b6_d754aa59",
+          "cohort": "development",
+          "positives": 70,
+          "negatives": 469,
+          "matched_detector_nodes": 72,
+          "gt_edges": 70,
+          "capture_sha256": "a133e5726ca2454063711a2f070ee64339cce0ee97c304b7e35bcdc2ef83c5c8",
+          "selected_edges": 5394
+        },
+        {
+          "movie": "6bba_09961292",
+          "cohort": "development",
+          "positives": 1862,
+          "negatives": 14913,
+          "matched_detector_nodes": 1946,
+          "gt_edges": 1871,
+          "capture_sha256": "3f8b0e56daac9450d16826d6583987a3a876e101130868f896fa47f1351d6b20",
+          "selected_edges": 28177
+        },
+        {
+          "movie": "6bba_1d0d8384",
+          "cohort": "development",
+          "positives": 1348,
+          "negatives": 10281,
+          "matched_detector_nodes": 1429,
+          "gt_edges": 1365,
+          "capture_sha256": "25c97e64cbbec9077dda191d83b7817ee2e4bdb864fc74dcade11a3b5a6663e9",
+          "selected_edges": 16425
+        },
+        {
+          "movie": "6bba_1f58c2f6",
+          "cohort": "development",
+          "positives": 299,
+          "negatives": 2480,
+          "matched_detector_nodes": 317,
+          "gt_edges": 299,
+          "capture_sha256": "ba02de422d114c16948090c7fc4524d87e6a92ca54626e87f7d7b5eb9ff05775",
+          "selected_edges": 29131
+        },
+        {
+          "movie": "6bba_312f0dc3",
+          "cohort": "development",
+          "positives": 500,
+          "negatives": 2659,
+          "matched_detector_nodes": 520,
+          "gt_edges": 500,
+          "capture_sha256": "d345cdfa2021844b33f8cf9488abe44eb8d2e5286bcbbb55990cab71ad188f2c",
+          "selected_edges": 9171
+        },
+        {
+          "movie": "6bba_3abfe10a",
+          "cohort": "development",
+          "positives": 912,
+          "negatives": 7462,
+          "matched_detector_nodes": 985,
+          "gt_edges": 935,
+          "capture_sha256": "aa70f389dc50dc2d67c4375e33ca71a0555308fbc86d81226ca9f8570b14af4a",
+          "selected_edges": 50602
+        },
+        {
+          "movie": "6bba_48816121",
+          "cohort": "development",
+          "positives": 911,
+          "negatives": 7419,
+          "matched_detector_nodes": 931,
+          "gt_edges": 918,
+          "capture_sha256": "54cf3c8a8463cdabf4ab66b25702f88aafc46106e731972d0c48e0972329ae1d",
+          "selected_edges": 24224
+        },
+        {
+          "movie": "6bba_4f99ce20",
+          "cohort": "development",
+          "positives": 1008,
+          "negatives": 5554,
+          "matched_detector_nodes": 1056,
+          "gt_edges": 1010,
+          "capture_sha256": "b0e8bcec5163f329493fcc2fe12999fb537e76ed22dfc66e2ab99ccc8957bb1d",
+          "selected_edges": 5242
+        },
+        {
+          "movie": "6bba_4ffd3da3",
+          "cohort": "development",
+          "positives": 668,
+          "negatives": 5315,
+          "matched_detector_nodes": 694,
+          "gt_edges": 689,
+          "capture_sha256": "2a0d6391ec20cf8ed3a4b496f0991b410bb7f7250b2f678e8c15b160e07db004",
+          "selected_edges": 19243
+        },
+        {
+          "movie": "6bba_6ca87370",
+          "cohort": "development",
+          "positives": 1050,
+          "negatives": 6101,
+          "matched_detector_nodes": 1080,
+          "gt_edges": 1052,
+          "capture_sha256": "b0a1b91106cc51a4bd85d0e0469b20db82221d911a1efe797cecc36bcb1786c1",
+          "selected_edges": 6161
+        },
+        {
+          "movie": "6bba_705ec2c9",
+          "cohort": "development",
+          "positives": 557,
+          "negatives": 3682,
+          "matched_detector_nodes": 591,
+          "gt_edges": 562,
+          "capture_sha256": "1dcaefe1c29bb3af697d9aa40199fa20dc7e079be60f8966a9a89d96dc5a1897",
+          "selected_edges": 5910
+        },
+        {
+          "movie": "6bba_76db78c1",
+          "cohort": "development",
+          "positives": 604,
+          "negatives": 3254,
+          "matched_detector_nodes": 617,
+          "gt_edges": 604,
+          "capture_sha256": "9887fa4a80564c4521afe0e8fe4d8047f15981fa6062cedcf0fa7f919c0e0a56",
+          "selected_edges": 4525
+        },
+        {
+          "movie": "6bba_784a78c9",
+          "cohort": "development",
+          "positives": 1735,
+          "negatives": 10449,
+          "matched_detector_nodes": 1787,
+          "gt_edges": 1739,
+          "capture_sha256": "cbfc38375891cf97b28dcd3960bc193a7a2c310d16ef0c8fd0d6ac671fadbebb",
+          "selected_edges": 12362
+        },
+        {
+          "movie": "6bba_789f8168",
+          "cohort": "development",
+          "positives": 679,
+          "negatives": 4552,
+          "matched_detector_nodes": 712,
+          "gt_edges": 681,
+          "capture_sha256": "47a439c17f0cf8c3a9d8ed1c0d1b4622480e3336b716fe7c78e676be1fc57918",
+          "selected_edges": 10325
+        },
+        {
+          "movie": "6bba_80d12824",
+          "cohort": "development",
+          "positives": 652,
+          "negatives": 4079,
+          "matched_detector_nodes": 679,
+          "gt_edges": 654,
+          "capture_sha256": "14d5d96b5f4077097b06471d629fd27656388854d97bc22ea1bd0a4fc8e1a34d",
+          "selected_edges": 8334
+        },
+        {
+          "movie": "6bba_91951b3a",
+          "cohort": "development",
+          "positives": 1144,
+          "negatives": 7327,
+          "matched_detector_nodes": 1186,
+          "gt_edges": 1148,
+          "capture_sha256": "2e36772f8e54c5dffd268cb6c9eb5b81e257ec87a15f81aec63cc1003e5134f6",
+          "selected_edges": 11086
+        },
+        {
+          "movie": "6bba_9e23430b",
+          "cohort": "development",
+          "positives": 876,
+          "negatives": 4395,
+          "matched_detector_nodes": 908,
+          "gt_edges": 891,
+          "capture_sha256": "125944031f996781894fb3276682141f72852e281ee7c72bd24eb9eb65ea2371",
+          "selected_edges": 7309
+        },
+        {
+          "movie": "6bba_a5e926bb",
+          "cohort": "development",
+          "positives": 698,
+          "negatives": 4440,
+          "matched_detector_nodes": 741,
+          "gt_edges": 698,
+          "capture_sha256": "a0a4e1e901d72d1499a0183e59e2470f7da5291f41306b28906fdbf701ff05bf",
+          "selected_edges": 7688
+        },
+        {
+          "movie": "6bba_afb141ff",
+          "cohort": "development",
+          "positives": 621,
+          "negatives": 3587,
+          "matched_detector_nodes": 651,
+          "gt_edges": 626,
+          "capture_sha256": "996750000c976a5886500515807c18f379187c60c0471896c4011fb5da91a46b",
+          "selected_edges": 5417
+        },
+        {
+          "movie": "6bba_b204cac7",
+          "cohort": "development",
+          "positives": 803,
+          "negatives": 4364,
+          "matched_detector_nodes": 822,
+          "gt_edges": 811,
+          "capture_sha256": "5f48e9ec19197ca05abbd78162330a5da27e93bb4297e51355a83cef195b742e",
+          "selected_edges": 5300
+        },
+        {
+          "movie": "6bba_bb9f20c3",
+          "cohort": "development",
+          "positives": 1866,
+          "negatives": 14660,
+          "matched_detector_nodes": 1916,
+          "gt_edges": 1879,
+          "capture_sha256": "4f7eac491c7df87beb174bb595c2750586f406b2787cfa879a61b71e23b1b4c5",
+          "selected_edges": 22141
+        },
+        {
+          "movie": "6bba_bbb708ca",
+          "cohort": "development",
+          "positives": 859,
+          "negatives": 4644,
+          "matched_detector_nodes": 891,
+          "gt_edges": 861,
+          "capture_sha256": "880ca0897e980a8d44b9326a4d535c17726150c78e47766108e18634e0838d63",
+          "selected_edges": 6424
+        },
+        {
+          "movie": "6bba_c328f2fd",
+          "cohort": "development",
+          "positives": 463,
+          "negatives": 3860,
+          "matched_detector_nodes": 483,
+          "gt_edges": 500,
+          "capture_sha256": "c18f97469d66f9d3e0f8d55281e0ab9a2965efc5aa25bcfc13b485f4a41fc15e",
+          "selected_edges": 26699
+        },
+        {
+          "movie": "6bba_d5eae175",
+          "cohort": "development",
+          "positives": 519,
+          "negatives": 2306,
+          "matched_detector_nodes": 528,
+          "gt_edges": 519,
+          "capture_sha256": "cc0c07af907e28a3f79ac50816d1b57bcf96ddc27d9b2b356cec96623ee519c7",
+          "selected_edges": 4049
+        },
+        {
+          "movie": "6bba_e5e44988",
+          "cohort": "development",
+          "positives": 629,
+          "negatives": 3500,
+          "matched_detector_nodes": 662,
+          "gt_edges": 634,
+          "capture_sha256": "dc069288b91e8c37c5abf82444ace849b3a8b1982a59099d237220c539715add",
+          "selected_edges": 5123
+        },
+        {
+          "movie": "6bba_ebdf3b34",
+          "cohort": "development",
+          "positives": 798,
+          "negatives": 6347,
+          "matched_detector_nodes": 845,
+          "gt_edges": 803,
+          "capture_sha256": "007b073832b1fe6fdf71b69dfd6bad08e96955dea1ac03c1d685119872d2988e",
+          "selected_edges": 54945
+        }
+      ],
+      "positives": 25444,
+      "negatives": 173453,
+      "file_sha256": "dff72906ca413f2fa553babbd634746eac1d237b578845b2d1aa7b5867b0b4fe"
+    },
+    "confirmation": {
+      "movies": [
+        {
+          "movie": "44b6_0c582fdc",
+          "cohort": "confirmation",
+          "positives": 69,
+          "negatives": 540,
+          "matched_detector_nodes": 71,
+          "gt_edges": 70,
+          "capture_sha256": "5d32dbfc9ca0b4297741de7a20998529a211fe4e9058ddb4f38b563e36513da0",
+          "selected_edges": 24773
+        },
+        {
+          "movie": "44b6_12dfb391",
+          "cohort": "confirmation",
+          "positives": 763,
+          "negatives": 6380,
+          "matched_detector_nodes": 783,
+          "gt_edges": 773,
+          "capture_sha256": "6ac2185921c9c24f93c8fa6196f5b2fb0090f0abe2bb31d8310802fcb4527d9c",
+          "selected_edges": 40426
+        },
+        {
+          "movie": "44b6_144b256d",
+          "cohort": "confirmation",
+          "positives": 119,
+          "negatives": 776,
+          "matched_detector_nodes": 121,
+          "gt_edges": 119,
+          "capture_sha256": "86a736fa453927b20114159c0aa80ac29090f94ddb1d2b833ca16c7214b589cb",
+          "selected_edges": 22216
+        },
+        {
+          "movie": "44b6_40c45f5a",
+          "cohort": "confirmation",
+          "positives": 198,
+          "negatives": 1523,
+          "matched_detector_nodes": 200,
+          "gt_edges": 198,
+          "capture_sha256": "427103301fbed14d7e1245f0ba5cf73cc8ae8d43a40a645bb5b4a3e1bd630086",
+          "selected_edges": 27325
+        },
+        {
+          "movie": "44b6_5f15d135",
+          "cohort": "confirmation",
+          "positives": 268,
+          "negatives": 2190,
+          "matched_detector_nodes": 276,
+          "gt_edges": 273,
+          "capture_sha256": "2fe63ed274cc5c38c975c9e9b3bf03a8049bcc2068809a84b7ea1f4f5957c72d",
+          "selected_edges": 19074
+        },
+        {
+          "movie": "44b6_7a302da0",
+          "cohort": "confirmation",
+          "positives": 505,
+          "negatives": 4149,
+          "matched_detector_nodes": 515,
+          "gt_edges": 507,
+          "capture_sha256": "f23416dbf6d9476e984d145ab41df836577e54d0b9a479b3729c03f8def9f7f4",
+          "selected_edges": 38541
+        },
+        {
+          "movie": "44b6_7e557709",
+          "cohort": "confirmation",
+          "positives": 556,
+          "negatives": 4282,
+          "matched_detector_nodes": 568,
+          "gt_edges": 560,
+          "capture_sha256": "0b1b506b800e128a6458e6ce3da59f8d5bdfae33cdf209af132a028a2e62b6c2",
+          "selected_edges": 41196
+        },
+        {
+          "movie": "44b6_87bba6c4",
+          "cohort": "confirmation",
+          "positives": 148,
+          "negatives": 1265,
+          "matched_detector_nodes": 153,
+          "gt_edges": 149,
+          "capture_sha256": "a5357e5c12313c3c832c6a0b55f1870647c38478646379aace0e54fcbbf38944",
+          "selected_edges": 26544
+        },
+        {
+          "movie": "44b6_8cc6506c",
+          "cohort": "confirmation",
+          "positives": 396,
+          "negatives": 2809,
+          "matched_detector_nodes": 400,
+          "gt_edges": 396,
+          "capture_sha256": "60577af400547f8a837f38773049a6dcd116f9d4a1268ec2bc787257b097b364",
+          "selected_edges": 16668
+        },
+        {
+          "movie": "44b6_8f9ecab4",
+          "cohort": "confirmation",
+          "positives": 368,
+          "negatives": 2957,
+          "matched_detector_nodes": 373,
+          "gt_edges": 370,
+          "capture_sha256": "f23d86cdde855ce74609766137b69d97faccc115c25d450cb3794f460ea76dd2",
+          "selected_edges": 32469
+        },
+        {
+          "movie": "44b6_949adeb1",
+          "cohort": "confirmation",
+          "positives": 376,
+          "negatives": 3215,
+          "matched_detector_nodes": 388,
+          "gt_edges": 378,
+          "capture_sha256": "ab708c78b0cb1fff2e6c75ba2c549ee0c353ef98c2008ddaaf45c2480ea17f57",
+          "selected_edges": 35295
+        },
+        {
+          "movie": "44b6_97725144",
+          "cohort": "confirmation",
+          "positives": 219,
+          "negatives": 1780,
+          "matched_detector_nodes": 224,
+          "gt_edges": 221,
+          "capture_sha256": "d5465b5b55e9b0aabe13f33d76793bbebfcfa2d488e5d99e70ccea5d8187e488",
+          "selected_edges": 31007
+        },
+        {
+          "movie": "44b6_996155de",
+          "cohort": "confirmation",
+          "positives": 370,
+          "negatives": 2146,
+          "matched_detector_nodes": 375,
+          "gt_edges": 377,
+          "capture_sha256": "91a1a7cf2a1773a3672b27fee9072845baa96eb09f897acfc529839f34a2ec73",
+          "selected_edges": 8525
+        },
+        {
+          "movie": "44b6_a2bb48bb",
+          "cohort": "confirmation",
+          "positives": 404,
+          "negatives": 3222,
+          "matched_detector_nodes": 413,
+          "gt_edges": 410,
+          "capture_sha256": "8d1b005f4fd0681f52d5af534babe7e4585f01386c4239e1ba2c02646d78e3a6",
+          "selected_edges": 40120
+        },
+        {
+          "movie": "44b6_aaf8b0ea",
+          "cohort": "confirmation",
+          "positives": 202,
+          "negatives": 1250,
+          "matched_detector_nodes": 207,
+          "gt_edges": 206,
+          "capture_sha256": "3c0b9708d07b6b67dd48cddcca04a58d1faafd45c9c3f15892f63f93c69aa6bd",
+          "selected_edges": 13343
+        },
+        {
+          "movie": "44b6_cf8fed6b",
+          "cohort": "confirmation",
+          "positives": 188,
+          "negatives": 1494,
+          "matched_detector_nodes": 191,
+          "gt_edges": 188,
+          "capture_sha256": "f372bf6c4e58152dbbe04d90c0b254f9455b8f79d20d29e26f9dfcc4787cbd01",
+          "selected_edges": 38955
+        },
+        {
+          "movie": "44b6_d29c9ab2",
+          "cohort": "confirmation",
+          "positives": 1326,
+          "negatives": 10590,
+          "matched_detector_nodes": 1352,
+          "gt_edges": 1328,
+          "capture_sha256": "3420f691b6b83f4f4b3dbfe5c0c81fd4f9cfcbdc9c639c2d7bb43e2ef87de360",
+          "selected_edges": 35236
+        },
+        {
+          "movie": "44b6_d78e09d9",
+          "cohort": "confirmation",
+          "positives": 438,
+          "negatives": 3503,
+          "matched_detector_nodes": 455,
+          "gt_edges": 451,
+          "capture_sha256": "71b28d7ddb5abc73c65687d72f7e4aed389ff4e672b9d840e0a22ec4046d45a5",
+          "selected_edges": 21831
+        },
+        {
+          "movie": "44b6_e28840c6",
+          "cohort": "confirmation",
+          "positives": 299,
+          "negatives": 2124,
+          "matched_detector_nodes": 305,
+          "gt_edges": 309,
+          "capture_sha256": "f1a2d3f20770a1a2f33c26da1af96c5433640cb15ff94f4cbcf6a4a3588e1232",
+          "selected_edges": 21874
+        },
+        {
+          "movie": "6bba_12665c0e",
+          "cohort": "confirmation",
+          "positives": 984,
+          "negatives": 6237,
+          "matched_detector_nodes": 1025,
+          "gt_edges": 998,
+          "capture_sha256": "57c6503e60c30526d6b4e53d8ee687cd3bad5ac8064970d99bcff2c6b72c33f9",
+          "selected_edges": 7799
+        },
+        {
+          "movie": "6bba_1ebfb80d",
+          "cohort": "confirmation",
+          "positives": 702,
+          "negatives": 4833,
+          "matched_detector_nodes": 734,
+          "gt_edges": 719,
+          "capture_sha256": "edb6920d2cf9418510dda60d58457cd10eb1b8d82f848a7dc44f0ebb3b476151",
+          "selected_edges": 10720
+        },
+        {
+          "movie": "6bba_20852818",
+          "cohort": "confirmation",
+          "positives": 887,
+          "negatives": 6008,
+          "matched_detector_nodes": 934,
+          "gt_edges": 909,
+          "capture_sha256": "2e136e2c72dfb0a19d132f7ed223602092a2f45d50a8c9547ef792d7eeaf72d9",
+          "selected_edges": 9623
+        },
+        {
+          "movie": "6bba_2540cd90",
+          "cohort": "confirmation",
+          "positives": 523,
+          "negatives": 2209,
+          "matched_detector_nodes": 529,
+          "gt_edges": 523,
+          "capture_sha256": "a151252ed00de3401f5d623e3fdc2705c148e282e00809f362f52a009a647ff6",
+          "selected_edges": 3421
+        },
+        {
+          "movie": "6bba_268e1230",
+          "cohort": "confirmation",
+          "positives": 600,
+          "negatives": 3240,
+          "matched_detector_nodes": 636,
+          "gt_edges": 609,
+          "capture_sha256": "85b5cea9c0515749f8557052b0f95a3274120eb15785039d167ecffe4d972dc1",
+          "selected_edges": 4679
+        },
+        {
+          "movie": "6bba_372c8cb8",
+          "cohort": "confirmation",
+          "positives": 1007,
+          "negatives": 5280,
+          "matched_detector_nodes": 1036,
+          "gt_edges": 1007,
+          "capture_sha256": "d85da38c6434af6e5c32f8bb0560cdc86405f8a629de6da89f1aee166edb2a62",
+          "selected_edges": 6540
+        },
+        {
+          "movie": "6bba_3a1849c2",
+          "cohort": "confirmation",
+          "positives": 1133,
+          "negatives": 6091,
+          "matched_detector_nodes": 1169,
+          "gt_edges": 1142,
+          "capture_sha256": "ffababa47b9d5ac8fa18a82c814bd8f4da96bcfba0cd3f215eed5b033254615a",
+          "selected_edges": 6391
+        },
+        {
+          "movie": "6bba_3c5691b6",
+          "cohort": "confirmation",
+          "positives": 746,
+          "negatives": 3826,
+          "matched_detector_nodes": 765,
+          "gt_edges": 746,
+          "capture_sha256": "768cbba00e3c57d127e7eeda2dd6b6d501ffb0c10f07cfb533db82e09ba0e243",
+          "selected_edges": 6050
+        },
+        {
+          "movie": "6bba_474be664",
+          "cohort": "confirmation",
+          "positives": 265,
+          "negatives": 1979,
+          "matched_detector_nodes": 278,
+          "gt_edges": 286,
+          "capture_sha256": "a3fe064138f85b2f9acfb506d54dd0c1682d3ee52110321d82d698aa874c0e38",
+          "selected_edges": 22335
+        },
+        {
+          "movie": "6bba_5b28472a",
+          "cohort": "confirmation",
+          "positives": 720,
+          "negatives": 3903,
+          "matched_detector_nodes": 735,
+          "gt_edges": 724,
+          "capture_sha256": "d1af30fc4e0e0674e9c76c2b12717cb3e61303f409dd394621a2490ab83e48da",
+          "selected_edges": 5774
+        },
+        {
+          "movie": "6bba_6db0e9b4",
+          "cohort": "confirmation",
+          "positives": 438,
+          "negatives": 3404,
+          "matched_detector_nodes": 448,
+          "gt_edges": 440,
+          "capture_sha256": "ca3ea73dc534d4505d20665d0fa9473df8a14082a9230b1d955e028636a017d0",
+          "selected_edges": 23685
+        },
+        {
+          "movie": "6bba_74686d6a",
+          "cohort": "confirmation",
+          "positives": 576,
+          "negatives": 4243,
+          "matched_detector_nodes": 586,
+          "gt_edges": 576,
+          "capture_sha256": "27dbf22437643325e21eef999c87003af94954e89e41eae471f013fbc2f732fe",
+          "selected_edges": 24625
+        },
+        {
+          "movie": "6bba_7f87b3d8",
+          "cohort": "confirmation",
+          "positives": 926,
+          "negatives": 6258,
+          "matched_detector_nodes": 994,
+          "gt_edges": 934,
+          "capture_sha256": "5ad2e97d24d8edc42cea5599475d9084e69cb74247faba65534fd76eb88d69d6",
+          "selected_edges": 8992
+        },
+        {
+          "movie": "6bba_9a41d029",
+          "cohort": "confirmation",
+          "positives": 1339,
+          "negatives": 9478,
+          "matched_detector_nodes": 1393,
+          "gt_edges": 1353,
+          "capture_sha256": "bf158734a7af3375a214ffe9e426aa0f0afb4567b1851160d2f5681695cb9379",
+          "selected_edges": 17651
+        },
+        {
+          "movie": "6bba_ae82a791",
+          "cohort": "confirmation",
+          "positives": 1471,
+          "negatives": 8767,
+          "matched_detector_nodes": 1495,
+          "gt_edges": 1471,
+          "capture_sha256": "71a48bb7a3177ce9ce5310e10250f4b8669368f45af7cb009a070ff183e405f4",
+          "selected_edges": 6903
+        },
+        {
+          "movie": "6bba_ed9377fd",
+          "cohort": "confirmation",
+          "positives": 501,
+          "negatives": 2666,
+          "matched_detector_nodes": 526,
+          "gt_edges": 508,
+          "capture_sha256": "812c136f3f0ee4d9b5cff35488dffd8a14adf9a4c0360f61f1507a303355099c",
+          "selected_edges": 4110
+        },
+        {
+          "movie": "6bba_edf14583",
+          "cohort": "confirmation",
+          "positives": 753,
+          "negatives": 6118,
+          "matched_detector_nodes": 797,
+          "gt_edges": 760,
+          "capture_sha256": "39840844aaa8e5ecf9e9d49c583ee434b82627a7d7cfa196d8506494b4d94129",
+          "selected_edges": 46716
+        },
+        {
+          "movie": "6bba_f17befbc",
+          "cohort": "confirmation",
+          "positives": 1006,
+          "negatives": 8107,
+          "matched_detector_nodes": 1074,
+          "gt_edges": 1015,
+          "capture_sha256": "d2a23d92e45ae4e8e8f6591abdb52f5ef5a3168eeae7602d62cc4ba89a33cb18",
+          "selected_edges": 24074
+        },
+        {
+          "movie": "6bba_f1fde7e0",
+          "cohort": "confirmation",
+          "positives": 446,
+          "negatives": 2827,
+          "matched_detector_nodes": 476,
+          "gt_edges": 446,
+          "capture_sha256": "64111776ecb16798c7f18ae82c0973ea95745afcc1e385673645ebcd33fb2855",
+          "selected_edges": 7888
+        },
+        {
+          "movie": "6bba_f8ffd5e7",
+          "cohort": "confirmation",
+          "positives": 364,
+          "negatives": 2737,
+          "matched_detector_nodes": 386,
+          "gt_edges": 370,
+          "capture_sha256": "85e1606fd437e4b3f701dde1dd7fd9f964cbd499fb6df754672429b8ad5b221d",
+          "selected_edges": 29787
+        }
+      ],
+      "positives": 22599,
+      "negatives": 154406,
+      "file_sha256": "df87f0cdf75a9f50d630e1e7b8320b2ca343338265e2e920d94cb5a33ae9511a"
+    }
+  },
+  "elapsed_seconds": 36.741816997528076,
+  "source_sha256": "e3fefe4a87d32bab77ac84beec1359ada5923b0a7260e722bc947963bb01630d",
+  "model1_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "model107_sha256": "e162397f95ac833c2b7e9595ebee54b3fc8d349097abec17b5c718e3a9e9ab9b",
+  "caveat": "Sparse explicit link labels only; candidate-domain diagnostics, not full tracking score."
+}

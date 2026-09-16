@@ -1,0 +1,386 @@
+{
+  "status": "valid",
+  "input_sha256": "f25bf11f3437a3059c6d6820ff7092c21ac2adce8bc26a4d0f3d20c989c8ab29",
+  "output_sha256": "004579e250b50ba113b7332d703444ce19fecaa11172d6e26de7323c9f0f9c26",
+  "config_sha256": "0d41c02fc75b6e1fbfd362dd4a18ac8520906bf548a7cf9ed8c9842a68bb72a8",
+  "config": {
+    "context_edges": 2,
+    "scale_um": [
+      1.625,
+      0.40625,
+      0.40625
+    ],
+    "max_step_um": 3.0,
+    "max_prediction_error_um": 1.5,
+    "max_context_deviation_um": 1.0,
+    "max_velocity_difference_um": 1.0,
+    "min_runner_up_margin_um": 0.75,
+    "max_links_fraction": 0.001,
+    "max_links_per_movie": 30
+  },
+  "movies": [
+    {
+      "dataset": "44b6_1d530831",
+      "eligible_starts": 1146,
+      "eligible_ends": 1152,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_2a2eff9f",
+      "eligible_starts": 1332,
+      "eligible_ends": 1334,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_3bb3690f",
+      "eligible_starts": 501,
+      "eligible_ends": 496,
+      "motion_candidates": 0,
+      "cap": 15,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_668e0cc7",
+      "eligible_starts": 887,
+      "eligible_ends": 887,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_706092f0",
+      "eligible_starts": 1111,
+      "eligible_ends": 1092,
+      "motion_candidates": 0,
+      "cap": 24,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_71a4179f",
+      "eligible_starts": 1108,
+      "eligible_ends": 1108,
+      "motion_candidates": 0,
+      "cap": 26,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_74d0c52e",
+      "eligible_starts": 274,
+      "eligible_ends": 276,
+      "motion_candidates": 0,
+      "cap": 8,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_808952d6",
+      "eligible_starts": 351,
+      "eligible_ends": 357,
+      "motion_candidates": 0,
+      "cap": 14,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_90724892",
+      "eligible_starts": 735,
+      "eligible_ends": 713,
+      "motion_candidates": 0,
+      "cap": 22,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_a21120c2",
+      "eligible_starts": 534,
+      "eligible_ends": 523,
+      "motion_candidates": 0,
+      "cap": 21,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_b2c44266",
+      "eligible_starts": 1151,
+      "eligible_ends": 1148,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_c15fded2",
+      "eligible_starts": 576,
+      "eligible_ends": 569,
+      "motion_candidates": 0,
+      "cap": 19,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "eligible_starts": 1125,
+      "eligible_ends": 1129,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "44b6_d754aa59",
+      "eligible_starts": 172,
+      "eligible_ends": 173,
+      "motion_candidates": 0,
+      "cap": 5,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_09961292",
+      "eligible_starts": 721,
+      "eligible_ends": 724,
+      "motion_candidates": 0,
+      "cap": 29,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_1d0d8384",
+      "eligible_starts": 597,
+      "eligible_ends": 617,
+      "motion_candidates": 0,
+      "cap": 17,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_1f58c2f6",
+      "eligible_starts": 1034,
+      "eligible_ends": 1020,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_312f0dc3",
+      "eligible_starts": 377,
+      "eligible_ends": 393,
+      "motion_candidates": 0,
+      "cap": 9,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_3abfe10a",
+      "eligible_starts": 1742,
+      "eligible_ends": 1744,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_48816121",
+      "eligible_starts": 564,
+      "eligible_ends": 511,
+      "motion_candidates": 0,
+      "cap": 25,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_4f99ce20",
+      "eligible_starts": 218,
+      "eligible_ends": 208,
+      "motion_candidates": 0,
+      "cap": 5,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_4ffd3da3",
+      "eligible_starts": 466,
+      "eligible_ends": 450,
+      "motion_candidates": 0,
+      "cap": 20,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_6ca87370",
+      "eligible_starts": 215,
+      "eligible_ends": 223,
+      "motion_candidates": 0,
+      "cap": 6,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_705ec2c9",
+      "eligible_starts": 208,
+      "eligible_ends": 223,
+      "motion_candidates": 0,
+      "cap": 6,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_76db78c1",
+      "eligible_starts": 86,
+      "eligible_ends": 89,
+      "motion_candidates": 0,
+      "cap": 4,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_784a78c9",
+      "eligible_starts": 270,
+      "eligible_ends": 274,
+      "motion_candidates": 0,
+      "cap": 12,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_789f8168",
+      "eligible_starts": 424,
+      "eligible_ends": 370,
+      "motion_candidates": 0,
+      "cap": 10,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_80d12824",
+      "eligible_starts": 358,
+      "eligible_ends": 340,
+      "motion_candidates": 0,
+      "cap": 8,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_91951b3a",
+      "eligible_starts": 337,
+      "eligible_ends": 320,
+      "motion_candidates": 0,
+      "cap": 11,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_9e23430b",
+      "eligible_starts": 222,
+      "eligible_ends": 230,
+      "motion_candidates": 0,
+      "cap": 7,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_a5e926bb",
+      "eligible_starts": 359,
+      "eligible_ends": 328,
+      "motion_candidates": 0,
+      "cap": 7,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_afb141ff",
+      "eligible_starts": 215,
+      "eligible_ends": 237,
+      "motion_candidates": 0,
+      "cap": 5,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_b204cac7",
+      "eligible_starts": 139,
+      "eligible_ends": 134,
+      "motion_candidates": 0,
+      "cap": 5,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_bb9f20c3",
+      "eligible_starts": 532,
+      "eligible_ends": 535,
+      "motion_candidates": 0,
+      "cap": 22,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_bbb708ca",
+      "eligible_starts": 258,
+      "eligible_ends": 258,
+      "motion_candidates": 0,
+      "cap": 6,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_c328f2fd",
+      "eligible_starts": 798,
+      "eligible_ends": 835,
+      "motion_candidates": 0,
+      "cap": 27,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_d5eae175",
+      "eligible_starts": 83,
+      "eligible_ends": 78,
+      "motion_candidates": 0,
+      "cap": 4,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_e5e44988",
+      "eligible_starts": 235,
+      "eligible_ends": 228,
+      "motion_candidates": 0,
+      "cap": 5,
+      "added": 0,
+      "links": []
+    },
+    {
+      "dataset": "6bba_ebdf3b34",
+      "eligible_starts": 1447,
+      "eligible_ends": 1536,
+      "motion_candidates": 0,
+      "cap": 30,
+      "added": 0,
+      "links": []
+    }
+  ],
+  "before": {
+    "nodes": 736711,
+    "edges": 709583,
+    "divisions": 1762,
+    "tracks": 27128
+  },
+  "after": {
+    "nodes": 736711,
+    "edges": 709583,
+    "divisions": 1762,
+    "tracks": 27128
+  }
+}

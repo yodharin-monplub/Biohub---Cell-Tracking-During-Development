@@ -1,0 +1,9 @@
+{
+  "candidate_grid": "PP_CANDIDATES: dict[str, dict] = {'tight515': {'MOTION_RELINK_TIGHT_UM': 5.15}, 'tight545': {'MOTION_RELINK_TIGHT_UM': 5.45}}",
+  "diagnostic_only": true,
+  "output_sha256": "8d0188a7853cf0623cca3a0d4199aac2a1b8f38465ba261a25de9d6151a31476",
+  "prediction_logic_changed": false,
+  "replacement_count": 4,
+  "source_sha256": "eaae8dfffe53428beb0ee62eed4b8460d0465a96d94d44c03ed25e864591b0f0",
+  "status": "built_unrun_diagnostic"
+}

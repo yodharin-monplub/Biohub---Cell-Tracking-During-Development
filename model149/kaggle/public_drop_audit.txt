@@ -1,0 +1,73 @@
+MODEL149 PUBLIC 0.932 VS MODEL104 PUBLIC 0.934 - CORRECTED AUDIT
+2026-09-14. No new Kaggle/model run was started.
+
+CRITICAL CORRECTION
+The earlier version of this audit mistakenly called the four movies
+in the saved notebook output "hidden-test movies." They are the
+PUBLIC EXAMPLE TEST, copied from train with local .geff annotations.
+Kaggle's official data description says test/ contains example copies
+from train and that a DIFFERENT hidden test set is swapped in for the
+submission notebook rerun:
+https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/data
+The four output IDs also exist under local data/raw/train with both
+.zarr and .geff. Thus the downloaded notebook output CSV and run_stats
+do NOT expose the hidden scored graphs or their per-movie branch counts.
+The public 0.932 is an actual Kaggle score, but the output files below
+cannot explain which hidden predictions caused it.
+
+Authoritative public result:
+- model149/kaggle/remote_run_v1/scoring_result.json: submission
+  56213300 COMPLETE, public score 0.932.
+- Model1/model104 public best 0.934 was previously verified separately.
+
+EXAMPLE-TEST PACKAGE COMPARISON ONLY
+Inputs model104/kaggle/reupload1/output/submission.csv and
+model149/kaggle/remote_run_v1/output/submission.csv, their run_stats,
+and corresponding integrity receipts describe the four TRAIN-COPY
+example movies. Recorded pre-ILP detector coordinate SHA256, raw
+node/edge counts, checkpoints and support integrity agree between
+model104 and model149 on these examples, while final graphs differ:
+
+movie            nodes104  nodes149  edges only104  edges only149
+44b6_0113de3b     25472     25536            493            554
+44b6_0b24845f     18558     18399           1315           1041
+6bba_05b6850b      6055      6055            104            105
+6bba_05db0fb1     69329     69320           3063           2744
+
+On these EXAMPLES, the two 44b6 movies receive zero model132/133/145
+additions and zero model149 prunes; their graph differences arise
+upstream of the new 6bba-only recovery/prune branch. On the two
+example 6bba movies, saved run_stats show 7 model132 additions,
+34 model133 additions, 0 model145 additions and 14 prunes. These
+counts validate execution of the packaged branch on the examples,
+NOT on the hidden rerun. No hidden detector hashes, node/edge graphs,
+branch counts, or event labels are available in these saved artifacts.
+
+EMBRYO-DISJOINT ROUTER CONSEQUENCE
+The official data description states train and hidden test embryos are
+disjoint and the first dataset-name segment is embryo ID. All 199
+local training movies have first segment 44b6 or 6bba. The exact
+model149 notebook embeds deploy_runtime.py's guard:
+    if movie.split("_")[0] != "6bba": return edges, zero_branch_counts
+Consequently, under the stated competition split, EVERY real hidden
+movie bypasses model132/133/145 recovery and model149 growth pruning.
+The local score gains from the 6bba-specific branch cannot transfer
+to hidden embryos through that code path. This is an inference from
+the official split description and the packaged guard, not a hidden
+runtime trace. The 0.932-vs-0.934 public decline must instead reflect
+upstream graph/packaging differences on hidden data; the saved
+example outputs cannot partition those causes further.
+
+The previous 4-movie resampling exercise also does NOT explain the
+public score: it assumed the four examples were the scored hidden
+sample. Kaggle states hidden test size is approximately the training
+dataset size. Do not use the 4.74% local statistic as a probability
+of public regression. Without hidden per-movie artifacts or an
+authorized same-run ablation, the 0.002 score drop cannot be assigned
+to one upstream stage. The 6bba-only growth threshold is bypassed.
+
+If new runs are later authorized, compare the full model104 control
+and one changed component per notebook on the SAME paired local
+cohorts. A public Kaggle score is still the only available direct
+evidence of hidden-rerun generalization. Preserve both scored
+submissions; do not relaunch an identical notebook just to repeat it.
