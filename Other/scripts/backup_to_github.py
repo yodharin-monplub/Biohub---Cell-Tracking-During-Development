@@ -164,7 +164,7 @@ def main() -> None:
         porcelain.clone(REPO_URL, str(STAGE))
         log("cloned the backup repository")
     repo = Repo(str(STAGE))
-    keep = {"README.md"}  # files that live only in the backup repo (made on GitHub)
+    keep = {"README.md", ".gitignore", "data/.gitkeep"}  # files from the user's initial upload, not in the project
     sync_stage(files, keep)
     porcelain.add(str(STAGE), paths=[str(p) for p in STAGE.rglob("*") if p.is_file() and ".git" not in p.relative_to(STAGE).parts])
     status = porcelain.status(str(STAGE))
