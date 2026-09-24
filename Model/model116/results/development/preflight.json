@@ -1,0 +1,9 @@
+{
+  "movie": "44b6_1d530831",
+  "cohort": "development",
+  "post_ilp_nodes": 34911,
+  "final_nodes": 34239,
+  "final_edges": 32804,
+  "parity": true,
+  "control_csv_sha256": "e18ca4d45dfe4d3722b4c4e1029374caf84d7de729235ef04605ac4b76160645"
+}

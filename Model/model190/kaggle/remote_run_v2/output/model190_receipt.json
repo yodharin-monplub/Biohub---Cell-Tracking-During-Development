@@ -1,0 +1,5 @@
+{
+  "role": "both",
+  "model185_sha256": "ac8dd16249dbffc08e8da88eb1cd7228ed10d1625c22d696774487ed5ef41357",
+  "checkpoint": "/kaggle/input/datasets/krittanutsomtuas/biohub-model185-scratch-seed/edge_predictor_best.pth"
+}

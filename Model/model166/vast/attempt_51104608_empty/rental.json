@@ -1,0 +1,32 @@
+{
+  "instance_id": 51104608,
+  "offer": {
+    "id": 32944283,
+    "gpu_name": "RTX 4090",
+    "gpu_ram": 24564,
+    "num_gpus": 1,
+    "cpu_ram": 64138,
+    "cpu_cores_effective": 28.0,
+    "disk_space": 1543.0,
+    "disk_bw": 2458.2000000000003,
+    "inet_down": 701.5,
+    "inet_up": 402.9,
+    "reliability": 0.9990686,
+    "reliability2": 0.9990686,
+    "cuda_max_good": 12.8,
+    "geolocation": "South Korea, KR",
+    "dph_total": 0.3616666666666667,
+    "dlperf": 98.92532614557065,
+    "dlperf_per_dphtotal": 273.52624740710775,
+    "storage_cost": 0.19999999999999998,
+    "inet_up_cost": 0.00390625,
+    "inet_down_cost": 0.0026041666666666665
+  },
+  "label": "biohub-model166-training",
+  "created_unix": 1789465819.8655193,
+  "hard_stop_deadline_unix": 1789565359.0360262,
+  "maximum_cost_usd": 10.0,
+  "disk_gb": 150,
+  "image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-devel",
+  "mode": "next_model_training_no_kaggle"
+}

@@ -1,0 +1,68 @@
+RUNPOD SPEC — MODEL 77 CLOUD PILOT
+==================================
+
+Recommended Pod
+---------------
+Cloud: On-Demand (Secure or Community, subject to GPU availability)
+GPU: 1 x RTX 6000 Ada, 48 GB VRAM
+System memory: at least 64 GB RAM (the currently listed RTX 6000 Ada profile
+is 167 GB, which is ample)
+CPU: at least 10 vCPU
+Container image: runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404
+Container disk: 30 GB
+Pod volume: 250 GB, mounted at /workspace
+Expose: TCP 22 for SSH; HTTP 8888 only if Jupyter is desired.
+
+Budget fallback
+---------------
+An RTX 4090 with 24 GB VRAM is the best budget/speed fallback. Set
+BIOHUB_MIN_VRAM_GB=20 and BIOHUB_BATCH_SIZE=4 for preflight/pilot, then
+increase batch size only after a successful smoke.
+An RTX A6000/A40 has 48 GB VRAM but is generally a throughput fallback, not the
+first choice when a 6000 Ada is available at a reasonable rate.
+
+Storage rationale
+-----------------
+The current local workspace uses about 96 GB: roughly 84 GB of raw/support
+data plus 12 GB of prior experiments. 250 GB leaves about 150 GB for the
+environment, candidate GEFFs, checkpoints, logs, and evaluation artifacts.
+Keep all valuable files below /workspace. Container-disk data is disposable.
+
+Network-volume fallback
+-----------------------
+Network Volume is unavailable for this deployment, so use a 250 GB Pod Volume.
+It persists when the Pod is stopped or restarted, but is deleted when the Pod
+is terminated. Keep this Pod allocated until model77/cloud_outputs and
+model77/evaluations have been copied back locally. Do not use the container
+disk for the project.
+
+Host-memory audit
+-----------------
+The 195 leakage-safe movies contain 18,420 labeled training windows with at
+most 33 labeled nodes in a frame. The reference trainer's coexisting original
+and padded target/metadata tensors are estimated at 257 MB. Host RAM is not
+the reason for choosing 48 GB VRAM; the larger GPU supports useful 3D batch
+sizes and more experiments per rented hour.
+
+Safe stage order
+----------------
+1. Sync the whole project to /workspace/biohub.
+2. Set BIOHUB_WORKSPACE=/workspace/biohub.
+3. Run: bash model77/install_cloud_env.sh
+4. Run preflight: BIOHUB_STAGE=preflight bash model77/run_cloud.sh
+5. Run smoke: BIOHUB_STAGE=smoke bash model77/run_cloud.sh
+6. Inspect the smoke receipt, then run pilot only after it passes:
+   BIOHUB_STAGE=pilot bash model77/run_cloud.sh
+7. Exact-score the frozen public checkpoint and pilot with identical inference:
+   BIOHUB_STAGE=baseline_eval bash model77/run_cloud.sh
+   BIOHUB_STAGE=pilot_eval bash model77/run_cloud.sh
+8. Apply the frozen promotion gate:
+   BIOHUB_STAGE=compare_eval bash model77/run_cloud.sh
+9. Do not launch fold0 or folds 1-4 unless pilot_comparison.json says promote.
+
+Persistence
+-----------
+The runners skip a completed receipt and reuse an interrupted run's best
+checkpoint as the next warm start. Stopping or restarting the Pod preserves
+/workspace on its Pod Volume. Terminating the Pod deletes that volume, so sync
+results locally before termination.

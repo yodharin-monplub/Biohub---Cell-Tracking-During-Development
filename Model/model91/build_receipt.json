@@ -1,0 +1,60 @@
+{
+  "base_notebook": "model89/submission.ipynb",
+  "base_notebook_sha256": "2bf8a08e94c75b91107e2cf6ec9c04f1370e4bdf330deabeff7e544e7fc6c630",
+  "checkpoint_receipt": {
+    "architecture": "candidate unet+detect_head; control transformer",
+    "candidate": "model82/checkpoints/full_pilot_fold4_seed_20260906_alpha_0p5/edge_predictor_best.pth",
+    "candidate_sha256": "e2a59cfe971ac57115dfdd60b96e196d53e230b6cfae329f9e0732170166763b",
+    "control": "data/public/biohub-tracking-support-pack-50ep-v1/weights/unet_transformer/split_0/edge_predictor_best.pth",
+    "control_sha256": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771",
+    "element_counts": {
+      "candidate": 1497643,
+      "control": 580353
+    },
+    "output": "model91/checkpoints/detector_candidate_transformer_control.pth",
+    "output_sha256": "10f10a2d299ae7f910fc15c4021e25d9ad8faf88a124aead00b6788ce13956ac",
+    "source_prefixes": {
+      "candidate": [
+        "unet.",
+        "detect_head."
+      ],
+      "control": [
+        "transformer."
+      ]
+    },
+    "state_entries": 136,
+    "status": "valid",
+    "tensor_counts": {
+      "candidate": 76,
+      "control": 60
+    }
+  },
+  "checkpoint_sha256": "10f10a2d299ae7f910fc15c4021e25d9ad8faf88a124aead00b6788ce13956ac",
+  "notebook_sha256": "c46622127b7fb612425603320eda383b76b9931b84dbe1fab987df3cdb6aaf7d",
+  "replacement_cells": {
+    "audit_label": [
+      10
+    ],
+    "checkpoint_hash": [
+      10
+    ],
+    "fallback_filename": [
+      10
+    ],
+    "preset": [
+      4,
+      8
+    ],
+    "score_axis": [
+      4
+    ]
+  },
+  "status": "built_unverified",
+  "validation": {
+    "candidate_training_overlap": 0,
+    "held_out_movies": 39,
+    "primary_gate": "submission-faithful repaired proxy",
+    "split": 4,
+    "split_file": "model77/cloud_splits.json"
+  }
+}

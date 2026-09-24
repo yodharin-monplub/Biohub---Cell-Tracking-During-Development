@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "config_sha256": "0eb33888d62ada8f9c46ceade9d5798b91e784953538f271dedfb64b9f1c9ddd",
+  "model144_audit_sha256": "06c1dc3e7829fcef0ca047652e6f8ecd104d49cfb52951cd7e391eb572654bb8",
+  "before": {
+    "n": 540,
+    "labels": {
+      "unknown": 530,
+      "explicit_division_positive": 5,
+      "positive_link_division_unverified": 5
+    }
+  },
+  "after": {
+    "n": 455,
+    "labels": {
+      "unknown": 446,
+      "explicit_division_positive": 5,
+      "positive_link_division_unverified": 4
+    }
+  },
+  "caveat": "Sparse-GT unknown is not negative; approximate model1 post-ILP rule coverage, not final model145 graph or precision."
+}

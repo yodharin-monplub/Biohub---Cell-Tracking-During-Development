@@ -1,0 +1,11 @@
+{
+  "status": "trained_not_scored",
+  "checkpoint": "C:\\biohub_data\\work\\model182\\clean_80x125\\model182_clean_fold0_seed20260914\\split_0\\edge_predictor_best.pth",
+  "checkpoint_sha256": "47436a113b39757c2c7c821c928a38dc2ff4e059811e8aceaa9b405d99e2fc91",
+  "elapsed_seconds": 14500.422000000006,
+  "fold": 0,
+  "outer_eval_sha256": "9a38aeec8ed9ac8433e480b854ef185b4886cb839a5dc1770e01cfc582113e42",
+  "initialization": "fresh_random_no_checkpoint",
+  "checkpoint_selection": "fixed_final_epoch",
+  "epochs": 80
+}

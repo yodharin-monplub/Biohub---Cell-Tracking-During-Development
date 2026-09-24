@@ -1,0 +1,719 @@
+{
+  "status": "complete",
+  "contract_sha256": "6119aea046e66d5e5455a823fc10035cb4c8a87dcb9331657f94aa0839cc526d",
+  "source_sha256": "4e78f268a004f846e8c68bf12e1f520131eca25cbf80900f76b221bffed26581",
+  "movies": [
+    {
+      "movie": "44b6_0113de3b",
+      "resumed": false,
+      "raw_candidate_edges": 131285,
+      "retained_candidate_edges": 30531,
+      "changed_retained_edges": 1606,
+      "selected_nodes": 29875,
+      "selected_edges": 28525,
+      "solve_seconds": 12.10413749498548
+    },
+    {
+      "movie": "44b6_0b24845f",
+      "resumed": false,
+      "raw_candidate_edges": 260153,
+      "retained_candidate_edges": 53688,
+      "changed_retained_edges": 7428,
+      "selected_nodes": 46372,
+      "selected_edges": 42425,
+      "solve_seconds": 19.000321318017086
+    },
+    {
+      "movie": "44b6_0c582fdc",
+      "resumed": false,
+      "raw_candidate_edges": 152422,
+      "retained_candidate_edges": 33233,
+      "changed_retained_edges": 2992,
+      "selected_nodes": 30842,
+      "selected_edges": 29103,
+      "solve_seconds": 14.494773003010778
+    },
+    {
+      "movie": "44b6_0db75fae",
+      "resumed": false,
+      "raw_candidate_edges": 76390,
+      "retained_candidate_edges": 17752,
+      "changed_retained_edges": 1482,
+      "selected_nodes": 16909,
+      "selected_edges": 15917,
+      "solve_seconds": 6.086928590986645
+    },
+    {
+      "movie": "44b6_12dfb391",
+      "resumed": false,
+      "raw_candidate_edges": 268287,
+      "retained_candidate_edges": 59310,
+      "changed_retained_edges": 2742,
+      "selected_nodes": 58275,
+      "selected_edges": 56005,
+      "solve_seconds": 35.72129437502008
+    },
+    {
+      "movie": "44b6_144b256d",
+      "resumed": false,
+      "raw_candidate_edges": 331740,
+      "retained_candidate_edges": 71733,
+      "changed_retained_edges": 4214,
+      "selected_nodes": 69576,
+      "selected_edges": 66286,
+      "solve_seconds": 39.867289046989754
+    },
+    {
+      "movie": "44b6_1574802b",
+      "resumed": false,
+      "raw_candidate_edges": 81410,
+      "retained_candidate_edges": 18698,
+      "changed_retained_edges": 1088,
+      "selected_nodes": 17998,
+      "selected_edges": 17037,
+      "solve_seconds": 7.182466527010547
+    },
+    {
+      "movie": "44b6_18ced818",
+      "resumed": false,
+      "raw_candidate_edges": 416022,
+      "retained_candidate_edges": 82660,
+      "changed_retained_edges": 8708,
+      "selected_nodes": 77873,
+      "selected_edges": 72002,
+      "solve_seconds": 29.683586191007635
+    },
+    {
+      "movie": "44b6_1d530831",
+      "resumed": false,
+      "raw_candidate_edges": 209442,
+      "retained_candidate_edges": 45223,
+      "changed_retained_edges": 3850,
+      "selected_nodes": 42629,
+      "selected_edges": 40070,
+      "solve_seconds": 17.24102449399652
+    },
+    {
+      "movie": "44b6_24264f12",
+      "resumed": false,
+      "raw_candidate_edges": 134413,
+      "retained_candidate_edges": 29822,
+      "changed_retained_edges": 2040,
+      "selected_nodes": 28837,
+      "selected_edges": 27324,
+      "solve_seconds": 12.710364931990625
+    },
+    {
+      "movie": "44b6_267148e4",
+      "resumed": false,
+      "raw_candidate_edges": 115916,
+      "retained_candidate_edges": 24963,
+      "changed_retained_edges": 2986,
+      "selected_nodes": 22979,
+      "selected_edges": 21341,
+      "solve_seconds": 8.13637789900531
+    },
+    {
+      "movie": "44b6_2a2eff9f",
+      "resumed": false,
+      "raw_candidate_edges": 290295,
+      "retained_candidate_edges": 62836,
+      "changed_retained_edges": 4426,
+      "selected_nodes": 60003,
+      "selected_edges": 56660,
+      "solve_seconds": 35.9764387489995
+    },
+    {
+      "movie": "44b6_2f31fc2f",
+      "resumed": false,
+      "raw_candidate_edges": 149961,
+      "retained_candidate_edges": 32677,
+      "changed_retained_edges": 4398,
+      "selected_nodes": 28863,
+      "selected_edges": 26482,
+      "solve_seconds": 11.009043605998158
+    },
+    {
+      "movie": "44b6_33b596bf",
+      "resumed": false,
+      "raw_candidate_edges": 135057,
+      "retained_candidate_edges": 28719,
+      "changed_retained_edges": 2954,
+      "selected_nodes": 26751,
+      "selected_edges": 25003,
+      "solve_seconds": 10.201972359005595
+    },
+    {
+      "movie": "44b6_341df25f",
+      "resumed": false,
+      "raw_candidate_edges": 39619,
+      "retained_candidate_edges": 10942,
+      "changed_retained_edges": 632,
+      "selected_nodes": 10161,
+      "selected_edges": 9684,
+      "solve_seconds": 3.7009192050027195
+    },
+    {
+      "movie": "44b6_3a861e03",
+      "resumed": false,
+      "raw_candidate_edges": 179262,
+      "retained_candidate_edges": 40191,
+      "changed_retained_edges": 1836,
+      "selected_nodes": 39815,
+      "selected_edges": 38082,
+      "solve_seconds": 16.865216275997227
+    },
+    {
+      "movie": "44b6_3bb3690f",
+      "resumed": false,
+      "raw_candidate_edges": 191430,
+      "retained_candidate_edges": 38259,
+      "changed_retained_edges": 3982,
+      "selected_nodes": 34657,
+      "selected_edges": 32317,
+      "solve_seconds": 13.418791280011646
+    },
+    {
+      "movie": "44b6_40c45f5a",
+      "resumed": false,
+      "raw_candidate_edges": 193975,
+      "retained_candidate_edges": 40408,
+      "changed_retained_edges": 3908,
+      "selected_nodes": 36887,
+      "selected_edges": 34713,
+      "solve_seconds": 18.075262464990374
+    },
+    {
+      "movie": "44b6_415c0a3a",
+      "resumed": false,
+      "raw_candidate_edges": 279159,
+      "retained_candidate_edges": 61240,
+      "changed_retained_edges": 2938,
+      "selected_nodes": 59467,
+      "selected_edges": 56898,
+      "solve_seconds": 37.671718968020286
+    },
+    {
+      "movie": "44b6_53f95252",
+      "resumed": false,
+      "raw_candidate_edges": 198594,
+      "retained_candidate_edges": 45593,
+      "changed_retained_edges": 3006,
+      "selected_nodes": 43282,
+      "selected_edges": 40933,
+      "solve_seconds": 20.06732401601039
+    },
+    {
+      "movie": "44b6_551a5dba",
+      "resumed": false,
+      "raw_candidate_edges": 318325,
+      "retained_candidate_edges": 65422,
+      "changed_retained_edges": 5470,
+      "selected_nodes": 61257,
+      "selected_edges": 57703,
+      "solve_seconds": 29.871428603015374
+    },
+    {
+      "movie": "44b6_5740d24b",
+      "resumed": false,
+      "raw_candidate_edges": 122080,
+      "retained_candidate_edges": 26328,
+      "changed_retained_edges": 3470,
+      "selected_nodes": 23069,
+      "selected_edges": 21343,
+      "solve_seconds": 8.251955760992132
+    },
+    {
+      "movie": "44b6_587a1e22",
+      "resumed": false,
+      "raw_candidate_edges": 82777,
+      "retained_candidate_edges": 19716,
+      "changed_retained_edges": 1122,
+      "selected_nodes": 19473,
+      "selected_edges": 18495,
+      "solve_seconds": 7.542832496023038
+    },
+    {
+      "movie": "44b6_5f15d135",
+      "resumed": false,
+      "raw_candidate_edges": 217143,
+      "retained_candidate_edges": 46373,
+      "changed_retained_edges": 4930,
+      "selected_nodes": 41578,
+      "selected_edges": 38910,
+      "solve_seconds": 20.517758642003173
+    },
+    {
+      "movie": "44b6_668e0cc7",
+      "resumed": false,
+      "raw_candidate_edges": 192616,
+      "retained_candidate_edges": 42561,
+      "changed_retained_edges": 2222,
+      "selected_nodes": 41472,
+      "selected_edges": 39686,
+      "solve_seconds": 22.618932729004882
+    },
+    {
+      "movie": "44b6_66f9292d",
+      "resumed": false,
+      "raw_candidate_edges": 272514,
+      "retained_candidate_edges": 59351,
+      "changed_retained_edges": 3398,
+      "selected_nodes": 57413,
+      "selected_edges": 54715,
+      "solve_seconds": 31.80151764099719
+    },
+    {
+      "movie": "44b6_706092f0",
+      "resumed": false,
+      "raw_candidate_edges": 369920,
+      "retained_candidate_edges": 78608,
+      "changed_retained_edges": 5340,
+      "selected_nodes": 74376,
+      "selected_edges": 70831,
+      "solve_seconds": 46.66117255599238
+    },
+    {
+      "movie": "44b6_71a4179f",
+      "resumed": false,
+      "raw_candidate_edges": 305741,
+      "retained_candidate_edges": 67839,
+      "changed_retained_edges": 3890,
+      "selected_nodes": 65085,
+      "selected_edges": 62194,
+      "solve_seconds": 40.9210653140035
+    },
+    {
+      "movie": "44b6_74d0c52e",
+      "resumed": false,
+      "raw_candidate_edges": 124643,
+      "retained_candidate_edges": 26491,
+      "changed_retained_edges": 3706,
+      "selected_nodes": 22606,
+      "selected_edges": 20812,
+      "solve_seconds": 8.079175744001986
+    },
+    {
+      "movie": "44b6_7a302da0",
+      "resumed": false,
+      "raw_candidate_edges": 342117,
+      "retained_candidate_edges": 74028,
+      "changed_retained_edges": 5584,
+      "selected_nodes": 69928,
+      "selected_edges": 66170,
+      "solve_seconds": 38.942783266014885
+    },
+    {
+      "movie": "44b6_7e557709",
+      "resumed": false,
+      "raw_candidate_edges": 264237,
+      "retained_candidate_edges": 58504,
+      "changed_retained_edges": 2050,
+      "selected_nodes": 57382,
+      "selected_edges": 55508,
+      "solve_seconds": 40.76990592101356
+    },
+    {
+      "movie": "44b6_808952d6",
+      "resumed": false,
+      "raw_candidate_edges": 94254,
+      "retained_candidate_edges": 23106,
+      "changed_retained_edges": 2138,
+      "selected_nodes": 20466,
+      "selected_edges": 19390,
+      "solve_seconds": 9.186096031975467
+    },
+    {
+      "movie": "44b6_81c256f0",
+      "resumed": false,
+      "raw_candidate_edges": 49304,
+      "retained_candidate_edges": 13005,
+      "changed_retained_edges": 570,
+      "selected_nodes": 12326,
+      "selected_edges": 11808,
+      "solve_seconds": 4.790729264001129
+    },
+    {
+      "movie": "44b6_87bba6c4",
+      "resumed": false,
+      "raw_candidate_edges": 164018,
+      "retained_candidate_edges": 34685,
+      "changed_retained_edges": 4538,
+      "selected_nodes": 31008,
+      "selected_edges": 28526,
+      "solve_seconds": 11.547916763985995
+    },
+    {
+      "movie": "44b6_8cc6506c",
+      "resumed": false,
+      "raw_candidate_edges": 197092,
+      "retained_candidate_edges": 39598,
+      "changed_retained_edges": 4038,
+      "selected_nodes": 36190,
+      "selected_edges": 33715,
+      "solve_seconds": 15.614976999990176
+    },
+    {
+      "movie": "44b6_8f5ab931",
+      "resumed": false,
+      "raw_candidate_edges": 141149,
+      "retained_candidate_edges": 30400,
+      "changed_retained_edges": 2414,
+      "selected_nodes": 28829,
+      "selected_edges": 27171,
+      "solve_seconds": 11.146173483983148
+    },
+    {
+      "movie": "44b6_8f9ecab4",
+      "resumed": false,
+      "raw_candidate_edges": 372082,
+      "retained_candidate_edges": 79941,
+      "changed_retained_edges": 3892,
+      "selected_nodes": 77487,
+      "selected_edges": 74288,
+      "solve_seconds": 57.51426967099542
+    },
+    {
+      "movie": "44b6_90724892",
+      "resumed": false,
+      "raw_candidate_edges": 133580,
+      "retained_candidate_edges": 28956,
+      "changed_retained_edges": 2378,
+      "selected_nodes": 27619,
+      "selected_edges": 26111,
+      "solve_seconds": 10.557546571013518
+    },
+    {
+      "movie": "44b6_949adeb1",
+      "resumed": false,
+      "raw_candidate_edges": 218461,
+      "retained_candidate_edges": 46822,
+      "changed_retained_edges": 4428,
+      "selected_nodes": 43303,
+      "selected_edges": 40595,
+      "solve_seconds": 19.470673031988554
+    },
+    {
+      "movie": "44b6_95029e92",
+      "resumed": false,
+      "raw_candidate_edges": 48972,
+      "retained_candidate_edges": 14216,
+      "changed_retained_edges": 1738,
+      "selected_nodes": 11953,
+      "selected_edges": 11214,
+      "solve_seconds": 4.710647124011302
+    },
+    {
+      "movie": "44b6_97725144",
+      "resumed": false,
+      "raw_candidate_edges": 224731,
+      "retained_candidate_edges": 51991,
+      "changed_retained_edges": 4284,
+      "selected_nodes": 47921,
+      "selected_edges": 45356,
+      "solve_seconds": 26.231157286005327
+    },
+    {
+      "movie": "44b6_996155de",
+      "resumed": false,
+      "raw_candidate_edges": 38680,
+      "retained_candidate_edges": 11662,
+      "changed_retained_edges": 716,
+      "selected_nodes": 10827,
+      "selected_edges": 10371,
+      "solve_seconds": 3.9033874140004627
+    },
+    {
+      "movie": "44b6_9be80b04",
+      "resumed": false,
+      "raw_candidate_edges": 322776,
+      "retained_candidate_edges": 66450,
+      "changed_retained_edges": 5432,
+      "selected_nodes": 62145,
+      "selected_edges": 58828,
+      "solve_seconds": 33.149545894004405
+    },
+    {
+      "movie": "44b6_9bfa6a0a",
+      "resumed": false,
+      "raw_candidate_edges": 302233,
+      "retained_candidate_edges": 66014,
+      "changed_retained_edges": 3370,
+      "selected_nodes": 64138,
+      "selected_edges": 61510,
+      "solve_seconds": 39.51214865400107
+    },
+    {
+      "movie": "44b6_a21120c2",
+      "resumed": false,
+      "raw_candidate_edges": 107067,
+      "retained_candidate_edges": 24260,
+      "changed_retained_edges": 1580,
+      "selected_nodes": 23939,
+      "selected_edges": 22674,
+      "solve_seconds": 8.795008154003881
+    },
+    {
+      "movie": "44b6_a2bb48bb",
+      "resumed": false,
+      "raw_candidate_edges": 358614,
+      "retained_candidate_edges": 73753,
+      "changed_retained_edges": 8680,
+      "selected_nodes": 65581,
+      "selected_edges": 60789,
+      "solve_seconds": 30.958992068015505
+    },
+    {
+      "movie": "44b6_aaf8b0ea",
+      "resumed": false,
+      "raw_candidate_edges": 104910,
+      "retained_candidate_edges": 26066,
+      "changed_retained_edges": 2316,
+      "selected_nodes": 23089,
+      "selected_edges": 21894,
+      "solve_seconds": 10.353156487020897
+    },
+    {
+      "movie": "44b6_abf82518",
+      "resumed": false,
+      "raw_candidate_edges": 139138,
+      "retained_candidate_edges": 31015,
+      "changed_retained_edges": 1560,
+      "selected_nodes": 29903,
+      "selected_edges": 28501,
+      "solve_seconds": 14.789739066996844
+    },
+    {
+      "movie": "44b6_b2c44266",
+      "resumed": false,
+      "raw_candidate_edges": 276502,
+      "retained_candidate_edges": 61760,
+      "changed_retained_edges": 3512,
+      "selected_nodes": 59598,
+      "selected_edges": 56746,
+      "solve_seconds": 31.818524481001077
+    },
+    {
+      "movie": "44b6_c15fded2",
+      "resumed": false,
+      "raw_candidate_edges": 106338,
+      "retained_candidate_edges": 24160,
+      "changed_retained_edges": 2154,
+      "selected_nodes": 23095,
+      "selected_edges": 21633,
+      "solve_seconds": 7.1079981019720435
+    },
+    {
+      "movie": "44b6_c50204e0",
+      "resumed": false,
+      "raw_candidate_edges": 279413,
+      "retained_candidate_edges": 57950,
+      "changed_retained_edges": 6618,
+      "selected_nodes": 51353,
+      "selected_edges": 47711,
+      "solve_seconds": 24.764789933979046
+    },
+    {
+      "movie": "44b6_c771cb04",
+      "resumed": false,
+      "raw_candidate_edges": 314043,
+      "retained_candidate_edges": 64451,
+      "changed_retained_edges": 5564,
+      "selected_nodes": 59606,
+      "selected_edges": 55998,
+      "solve_seconds": 29.25576206902042
+    },
+    {
+      "movie": "44b6_c8e2a523",
+      "resumed": false,
+      "raw_candidate_edges": 147828,
+      "retained_candidate_edges": 32726,
+      "changed_retained_edges": 1676,
+      "selected_nodes": 32508,
+      "selected_edges": 31232,
+      "solve_seconds": 14.61647106599412
+    },
+    {
+      "movie": "44b6_c96cfa10",
+      "resumed": false,
+      "raw_candidate_edges": 228299,
+      "retained_candidate_edges": 49431,
+      "changed_retained_edges": 3272,
+      "selected_nodes": 47686,
+      "selected_edges": 45332,
+      "solve_seconds": 22.089008415001445
+    },
+    {
+      "movie": "44b6_cf2536e8",
+      "resumed": false,
+      "raw_candidate_edges": 316885,
+      "retained_candidate_edges": 67132,
+      "changed_retained_edges": 3918,
+      "selected_nodes": 63841,
+      "selected_edges": 60835,
+      "solve_seconds": 41.262241452990565
+    },
+    {
+      "movie": "44b6_cf8fed6b",
+      "resumed": false,
+      "raw_candidate_edges": 219893,
+      "retained_candidate_edges": 47977,
+      "changed_retained_edges": 3432,
+      "selected_nodes": 46974,
+      "selected_edges": 44345,
+      "solve_seconds": 20.06131498797913
+    },
+    {
+      "movie": "44b6_d29c9ab2",
+      "resumed": false,
+      "raw_candidate_edges": 183275,
+      "retained_candidate_edges": 40832,
+      "changed_retained_edges": 1548,
+      "selected_nodes": 40302,
+      "selected_edges": 38829,
+      "solve_seconds": 17.38955153300776
+    },
+    {
+      "movie": "44b6_d2f34f90",
+      "resumed": false,
+      "raw_candidate_edges": 141258,
+      "retained_candidate_edges": 29237,
+      "changed_retained_edges": 3178,
+      "selected_nodes": 26291,
+      "selected_edges": 24453,
+      "solve_seconds": 10.840777868987061
+    },
+    {
+      "movie": "44b6_d5e7d891",
+      "resumed": false,
+      "raw_candidate_edges": 251021,
+      "retained_candidate_edges": 51772,
+      "changed_retained_edges": 5016,
+      "selected_nodes": 47425,
+      "selected_edges": 44471,
+      "solve_seconds": 23.491359253996052
+    },
+    {
+      "movie": "44b6_d754aa59",
+      "resumed": false,
+      "raw_candidate_edges": 37497,
+      "retained_candidate_edges": 10357,
+      "changed_retained_edges": 1140,
+      "selected_nodes": 9065,
+      "selected_edges": 8408,
+      "solve_seconds": 3.0623920040088706
+    },
+    {
+      "movie": "44b6_d78e09d9",
+      "resumed": false,
+      "raw_candidate_edges": 108849,
+      "retained_candidate_edges": 24331,
+      "changed_retained_edges": 1482,
+      "selected_nodes": 23882,
+      "selected_edges": 22601,
+      "solve_seconds": 9.036568149982486
+    },
+    {
+      "movie": "44b6_db3c847b",
+      "resumed": false,
+      "raw_candidate_edges": 84806,
+      "retained_candidate_edges": 19905,
+      "changed_retained_edges": 1590,
+      "selected_nodes": 18581,
+      "selected_edges": 17539,
+      "solve_seconds": 7.660982036992209
+    },
+    {
+      "movie": "44b6_ddf577ad",
+      "resumed": false,
+      "raw_candidate_edges": 275133,
+      "retained_candidate_edges": 59315,
+      "changed_retained_edges": 3174,
+      "selected_nodes": 57499,
+      "selected_edges": 54796,
+      "solve_seconds": 33.21245153498603
+    },
+    {
+      "movie": "44b6_deabac95",
+      "resumed": false,
+      "raw_candidate_edges": 67979,
+      "retained_candidate_edges": 15167,
+      "changed_retained_edges": 1096,
+      "selected_nodes": 14145,
+      "selected_edges": 13404,
+      "solve_seconds": 5.162501097016502
+    },
+    {
+      "movie": "44b6_e28840c6",
+      "resumed": false,
+      "raw_candidate_edges": 410080,
+      "retained_candidate_edges": 85609,
+      "changed_retained_edges": 5430,
+      "selected_nodes": 81594,
+      "selected_edges": 78023,
+      "solve_seconds": 58.24822770198807
+    },
+    {
+      "movie": "44b6_e29f0176",
+      "resumed": false,
+      "raw_candidate_edges": 60902,
+      "retained_candidate_edges": 14310,
+      "changed_retained_edges": 1894,
+      "selected_nodes": 12941,
+      "selected_edges": 11894,
+      "solve_seconds": 3.5710003440035507
+    },
+    {
+      "movie": "44b6_e31261b4",
+      "resumed": false,
+      "raw_candidate_edges": 381822,
+      "retained_candidate_edges": 78705,
+      "changed_retained_edges": 6886,
+      "selected_nodes": 75842,
+      "selected_edges": 70785,
+      "solve_seconds": 30.385154345014598
+    },
+    {
+      "movie": "44b6_e35b117d",
+      "resumed": false,
+      "raw_candidate_edges": 224953,
+      "retained_candidate_edges": 47059,
+      "changed_retained_edges": 5750,
+      "selected_nodes": 41848,
+      "selected_edges": 38814,
+      "solve_seconds": 18.07070348598063
+    },
+    {
+      "movie": "44b6_e57ff5c6",
+      "resumed": false,
+      "raw_candidate_edges": 133219,
+      "retained_candidate_edges": 28494,
+      "changed_retained_edges": 4272,
+      "selected_nodes": 24470,
+      "selected_edges": 22363,
+      "solve_seconds": 8.916227353998693
+    },
+    {
+      "movie": "44b6_eb2880fc",
+      "resumed": false,
+      "raw_candidate_edges": 238788,
+      "retained_candidate_edges": 53538,
+      "changed_retained_edges": 3154,
+      "selected_nodes": 51462,
+      "selected_edges": 48957,
+      "solve_seconds": 32.109190874994965
+    },
+    {
+      "movie": "44b6_f28707c6",
+      "resumed": false,
+      "raw_candidate_edges": 148661,
+      "retained_candidate_edges": 31125,
+      "changed_retained_edges": 4136,
+      "selected_nodes": 27355,
+      "selected_edges": 25257,
+      "solve_seconds": 9.355157597979996
+    }
+  ],
+  "elapsed_seconds": 1592.6131923270004,
+  "caveat": "Source-trained calibration, but outer fold was previously inspected; this is exploratory, not fresh untouched CV."
+}

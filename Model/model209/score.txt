@@ -1,0 +1,1 @@
+﻿Public LB (2026-09-25): 0.945 (vs 0.947 baseline model167). Local validator: 8 movies 0.9490 -> 0.9554; 40 movies 0.9167 -> 0.9182. The local division gain did not transfer to the LB.

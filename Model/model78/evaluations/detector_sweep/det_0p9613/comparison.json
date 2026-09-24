@@ -1,0 +1,175 @@
+{
+  "baseline_node_recall": 0.9867126566328667,
+  "baseline_score": 0.9032502985814737,
+  "gates": {
+    "movie_wins_exceed_losses": true,
+    "node_recall_drop_within_limit": false,
+    "pooled_exact_score_improves": true
+  },
+  "movie_deltas": [
+    {
+      "adj_edge_jaccard_delta": -0.010278282120154691,
+      "dataset": "44b6_1574802b"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.08440150570113147,
+      "dataset": "44b6_18ced818"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0008272610372911382,
+      "dataset": "44b6_33b596bf"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.022077071990214026,
+      "dataset": "44b6_3a861e03"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.02423812505192191,
+      "dataset": "44b6_415c0a3a"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.04508904084830845,
+      "dataset": "44b6_5f15d135"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.016467472896771973,
+      "dataset": "44b6_8f5ab931"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.003197054834334523,
+      "dataset": "44b6_95029e92"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.016692903500435063,
+      "dataset": "44b6_97725144"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.026997624936702658,
+      "dataset": "44b6_9be80b04"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.038785784854447725,
+      "dataset": "44b6_a2bb48bb"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.012663733248090003,
+      "dataset": "44b6_d5e7d891"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.007601818787033365,
+      "dataset": "44b6_deabac95"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.045425328431082934,
+      "dataset": "44b6_e57ff5c6"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.07262167726965874,
+      "dataset": "6bba_0e7c0d07"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.005471064178200202,
+      "dataset": "6bba_13f19531"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.006122018648964556,
+      "dataset": "6bba_2646afc7"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.016684339776132373,
+      "dataset": "6bba_32db13fc"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.005102587878430431,
+      "dataset": "6bba_3a1849c2"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.017003762566243252,
+      "dataset": "6bba_4aa14c89"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.003078938751209348,
+      "dataset": "6bba_5dfe9ad1"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.008310004046194641,
+      "dataset": "6bba_61dd1e0d"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.007047029178172348,
+      "dataset": "6bba_6321a359"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.005042997516860104,
+      "dataset": "6bba_6feb10f0"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.005114238151604944,
+      "dataset": "6bba_6feeb0b1"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0012308406874130817,
+      "dataset": "6bba_718b21f9"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.024475119285836566,
+      "dataset": "6bba_7af54fde"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.004725052079789349,
+      "dataset": "6bba_87289e13"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0021902350128985004,
+      "dataset": "6bba_8b7818bf"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.001173855749743935,
+      "dataset": "6bba_af149c94"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.009831409202163077,
+      "dataset": "6bba_b329af44"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.0025908734876542994,
+      "dataset": "6bba_d1acb6ff"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.007309772811554982,
+      "dataset": "6bba_d6ecebbb"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.01508902305167481,
+      "dataset": "6bba_df673a83"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.00614075659053237,
+      "dataset": "6bba_ebff6e76"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.00836970185153818,
+      "dataset": "6bba_ef7b4f7e"
+    },
+    {
+      "adj_edge_jaccard_delta": -0.005815078423531239,
+      "dataset": "6bba_f17befbc"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.02027667888695539,
+      "dataset": "6bba_f8ffd5e7"
+    },
+    {
+      "adj_edge_jaccard_delta": 0.004749977955923468,
+      "dataset": "6bba_fc83837d"
+    }
+  ],
+  "movie_losses": 15,
+  "movie_ties": 0,
+  "movie_wins": 24,
+  "node_recall_delta": -0.0011739120327582953,
+  "pilot_node_recall": 0.9855387446001084,
+  "pilot_score": 0.903389510119667,
+  "score_delta": 0.00013921153819329568,
+  "status": "reject"
+}

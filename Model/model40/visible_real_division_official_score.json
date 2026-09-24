@@ -1,0 +1,85 @@
+{
+  "datasets": [
+    {
+      "adj_edge_jaccard": 1.0009007959619491,
+      "dataset": "44b6_0113de3b",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 0,
+      "edge_fp": 0,
+      "edge_jaccard": 1.0,
+      "edge_tp": 50,
+      "node_recall": 1.0,
+      "num_pred_nodes": 25523,
+      "total_node_ratio": -0.00900795961949136
+    },
+    {
+      "adj_edge_jaccard": 1.0309437414239975,
+      "dataset": "44b6_0b24845f",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 0,
+      "edge_fp": 0,
+      "edge_jaccard": 1.0,
+      "edge_tp": 49,
+      "node_recall": 1.0,
+      "num_pred_nodes": 22647,
+      "total_node_ratio": -0.3094374142399756
+    },
+    {
+      "adj_edge_jaccard": 0.982642237935214,
+      "dataset": "6bba_05b6850b",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 11,
+      "edge_fp": 6,
+      "edge_jaccard": 0.9800235017626322,
+      "edge_tp": 834,
+      "node_recall": 0.9930313588850174,
+      "num_pred_nodes": 6192,
+      "total_node_ratio": -0.02672115686890915
+    },
+    {
+      "adj_edge_jaccard": 0.8944670144636353,
+      "dataset": "6bba_05db0fb1",
+      "division_fn": 3,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 63,
+      "edge_fp": 72,
+      "edge_jaccard": 0.8924302788844621,
+      "edge_tp": 1120,
+      "node_recall": 0.9934906427990235,
+      "num_pred_nodes": 68207,
+      "total_node_ratio": -0.022822349570200573
+    }
+  ],
+  "max_distance_um": 7.0,
+  "skipped": [],
+  "status": "valid_and_scored",
+  "structural_totals": {
+    "divisions": 15,
+    "edges": 115967,
+    "nodes": 122569,
+    "tracks": 6602
+  },
+  "submission": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model40/visible_real_division.csv",
+  "submission_sha256": "13484f9da5822316c1b79899f704f50c71377375b9e808f5cdad04a04c50d313",
+  "summary": {
+    "adj_edge_jaccard": 0.9339437327721554,
+    "division_fn": 3,
+    "division_fp": 0,
+    "division_jaccard": 0.0,
+    "division_tp": 0,
+    "edge_jaccard": 0.9310657596371882,
+    "n": 4,
+    "n_adj": 4,
+    "node_recall": 0.9966305004210102,
+    "score": 0.9339437327721554
+  },
+  "torch_import_shimmed_for_metadata_only_io": false,
+  "train_dir": "/tmp/biohub-visible-gt-four-20260903"
+}

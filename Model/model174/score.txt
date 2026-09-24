@@ -1,0 +1,2 @@
+public_lb=0.945 (Kaggle submission 56307840, scored 2026-09-18) REJECTED
+validator_proxy_8_train_movies=0.954168 (in-sample, did not transfer)

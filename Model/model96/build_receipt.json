@@ -1,0 +1,18 @@
+{
+  "status": "built",
+  "base_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "candidate_sha256": "048a0142d8d15f75ce24435a85df842572b6ad6491f6cd94707c905d75de51b4",
+  "changed_cells": [
+    4
+  ],
+  "single_change": {
+    "BIOHUB_DEEPCENTER_SAFE_DIV_VETO": {
+      "control": 0,
+      "candidate": 1
+    }
+  },
+  "deepcenter_epoch": 500,
+  "safe_division_threshold": 0.12,
+  "full_model1_pipeline_preserved": true,
+  "kaggle_submitted": false
+}

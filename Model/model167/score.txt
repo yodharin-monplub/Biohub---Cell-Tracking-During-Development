@@ -1,0 +1,2 @@
+public_lb=0.947 (Kaggle submission 56256610, 2026-09-15)
+validator_proxy_8_train_movies=0.951094 (tight55; in-sample, not CV)

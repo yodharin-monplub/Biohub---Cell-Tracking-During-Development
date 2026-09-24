@@ -1,0 +1,12 @@
+{
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "seconds": 58.15095782279968,
+  "shape": [
+    1081,
+    224
+  ],
+  "features_sha256": "49f36ce20a04900c8b425cee28c6d267bbc9f8b4d8c646426353eedfbda9f03f",
+  "candidates_sha256": "54d2d59e1ecdd6cc6c67b963cfc8890d6d20d636579b1c4bc24bf7e56dcb8811",
+  "protocol_sha256": "677506a281682b034f2141c7e685cb9e99b8dafea39de2dc7b921c677d199590",
+  "backbone_retrained": false
+}

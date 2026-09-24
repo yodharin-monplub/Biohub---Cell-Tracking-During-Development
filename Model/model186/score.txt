@@ -1,0 +1,1 @@
+heldout_44b6_24_movies_dual_seed=0.80606 vs single seed 0.79657 (+0.0095)

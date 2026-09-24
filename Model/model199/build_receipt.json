@@ -1,0 +1,7 @@
+{
+  "status": "built_unrun",
+  "source_cell_sha256": "66460635439aacfe4fd1e4389e95a677cc79cdb497211debb3471ea1b951f2cb",
+  "output_sha256": "6cf3d95a7b747192e9e11acd1983cc20e9c6bca87eb262444f2018b3763f168b",
+  "model193_sha256": "710a6379475fc26dd44509846c37ff7ea58901fece496be12809e160bb7cc127",
+  "det_threshold": "0.95"
+}

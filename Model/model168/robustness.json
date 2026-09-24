@@ -1,0 +1,375 @@
+{
+  "caveat": "Existing eight-movie tuning ledger; not checkpoint-disjoint, embryo-disjoint, or untouched CV.",
+  "cross_family_selection": [
+    {
+      "selected_config": "tight55",
+      "test_family": "6bba",
+      "test_metrics": {
+        "adjusted_edge_jaccard": 0.9325499323713898,
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9450499323713898,
+        "weight": 4436
+      },
+      "test_rank": 1,
+      "tune_family": "44b6"
+    },
+    {
+      "selected_config": "tight55",
+      "test_family": "44b6",
+      "test_metrics": {
+        "adjusted_edge_jaccard": 0.9151097755104298,
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9551097755104299,
+        "weight": 1552
+      },
+      "test_rank": 1,
+      "tune_family": "6bba"
+    }
+  ],
+  "family_rankings": {
+    "44b6": [
+      {
+        "adjusted_edge_jaccard": 0.9151097755104298,
+        "config": "tight55",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9551097755104299,
+        "weight": 1552
+      },
+      {
+        "adjusted_edge_jaccard": 0.913919582286342,
+        "config": "relaxed9",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.953919582286342,
+        "weight": 1553
+      },
+      {
+        "adjusted_edge_jaccard": 0.9133674722838906,
+        "config": "dcgap035",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9533674722838906,
+        "weight": 1554
+      },
+      {
+        "adjusted_edge_jaccard": 0.9133606989771357,
+        "config": "gap45",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9533606989771357,
+        "weight": 1554
+      },
+      {
+        "adjusted_edge_jaccard": 0.913340236252015,
+        "config": "bonus125",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.953340236252015,
+        "weight": 1554
+      },
+      {
+        "adjusted_edge_jaccard": 0.9133219040785244,
+        "config": "base",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9533219040785245,
+        "weight": 1554
+      },
+      {
+        "adjusted_edge_jaccard": 0.9133219040785244,
+        "config": "gap2step40",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9533219040785245,
+        "weight": 1554
+      },
+      {
+        "adjusted_edge_jaccard": 0.9133219040785244,
+        "config": "reuse28",
+        "division_fn": 2,
+        "division_fp": 1,
+        "division_jaccard": 0.4,
+        "division_tp": 2,
+        "movies": 4,
+        "score": 0.9533219040785245,
+        "weight": 1554
+      }
+    ],
+    "6bba": [
+      {
+        "adjusted_edge_jaccard": 0.9325499323713898,
+        "config": "tight55",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9450499323713898,
+        "weight": 4436
+      },
+      {
+        "adjusted_edge_jaccard": 0.9304049155657035,
+        "config": "dcgap035",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9429049155657034,
+        "weight": 4443
+      },
+      {
+        "adjusted_edge_jaccard": 0.9304042744450749,
+        "config": "gap45",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9429042744450749,
+        "weight": 4443
+      },
+      {
+        "adjusted_edge_jaccard": 0.9304036394945359,
+        "config": "bonus125",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9429036394945358,
+        "weight": 4443
+      },
+      {
+        "adjusted_edge_jaccard": 0.9303965624872635,
+        "config": "base",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9428965624872635,
+        "weight": 4443
+      },
+      {
+        "adjusted_edge_jaccard": 0.9303965624872635,
+        "config": "gap2step40",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9428965624872635,
+        "weight": 4443
+      },
+      {
+        "adjusted_edge_jaccard": 0.9303965624872635,
+        "config": "reuse28",
+        "division_fn": 7,
+        "division_fp": 0,
+        "division_jaccard": 0.125,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9428965624872635,
+        "weight": 4443
+      },
+      {
+        "adjusted_edge_jaccard": 0.9310822481346447,
+        "config": "relaxed9",
+        "division_fn": 7,
+        "division_fp": 1,
+        "division_jaccard": 0.1111111111111111,
+        "division_tp": 1,
+        "movies": 4,
+        "score": 0.9421933592457558,
+        "weight": 4437
+      }
+    ]
+  },
+  "full_ranking": [
+    {
+      "adjusted_edge_jaccard": 0.9280297046746281,
+      "config": "tight55",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.9511066277515512,
+      "weight": 5988
+    },
+    {
+      "adjusted_edge_jaccard": 0.9259900103030829,
+      "config": "dcgap035",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.949066933380006,
+      "weight": 5997
+    },
+    {
+      "adjusted_edge_jaccard": 0.925987780151732,
+      "config": "gap45",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.9490647032286551,
+      "weight": 5997
+    },
+    {
+      "adjusted_edge_jaccard": 0.925982007238595,
+      "config": "bonus125",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.9490589303155181,
+      "weight": 5997
+    },
+    {
+      "adjusted_edge_jaccard": 0.9259720136849989,
+      "config": "base",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.949048936761922,
+      "weight": 5997
+    },
+    {
+      "adjusted_edge_jaccard": 0.9259720136849989,
+      "config": "gap2step40",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.949048936761922,
+      "weight": 5997
+    },
+    {
+      "adjusted_edge_jaccard": 0.9259720136849989,
+      "config": "reuse28",
+      "division_fn": 9,
+      "division_fp": 1,
+      "division_jaccard": 0.23076923076923078,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.949048936761922,
+      "weight": 5997
+    },
+    {
+      "adjusted_edge_jaccard": 0.9266325619806526,
+      "config": "relaxed9",
+      "division_fn": 9,
+      "division_fp": 2,
+      "division_jaccard": 0.21428571428571427,
+      "division_tp": 3,
+      "movies": 8,
+      "score": 0.948061133409224,
+      "weight": 5990
+    }
+  ],
+  "leave_one_movie_out": [
+    {
+      "base_score": 0.947204943358409,
+      "delta_vs_base": -9.46507682719755e-06,
+      "held_out": "44b6_12dfb391",
+      "selected_config": "tight55",
+      "selected_score": 0.9471954782815818
+    },
+    {
+      "base_score": 0.8047949436867368,
+      "delta_vs_base": 0.008370873955880431,
+      "held_out": "44b6_267148e4",
+      "selected_config": "tight55",
+      "selected_score": 0.8131658176426172
+    },
+    {
+      "base_score": 0.9318092652996054,
+      "delta_vs_base": 1.6727112368108976e-05,
+      "held_out": "44b6_2a2eff9f",
+      "selected_config": "tight55",
+      "selected_score": 0.9318259924119735
+    },
+    {
+      "base_score": 1.0774175677101698,
+      "delta_vs_base": 0.0,
+      "held_out": "44b6_341df25f",
+      "selected_config": "tight55",
+      "selected_score": 1.0774175677101698
+    },
+    {
+      "base_score": 1.0829874384981173,
+      "delta_vs_base": 0.0021968172144704035,
+      "held_out": "6bba_062c8d37",
+      "selected_config": "tight55",
+      "selected_score": 1.0851842557125877
+    },
+    {
+      "base_score": 0.8082869411918477,
+      "delta_vs_base": 0.007117258419515493,
+      "held_out": "6bba_07e24132",
+      "selected_config": "tight55",
+      "selected_score": 0.8154041996113632
+    },
+    {
+      "base_score": 0.9951574021052928,
+      "delta_vs_base": -0.0017055219009814993,
+      "held_out": "6bba_085bf656",
+      "selected_config": "tight55",
+      "selected_score": 0.9934518802043113
+    },
+    {
+      "base_score": 0.8910581134757357,
+      "delta_vs_base": 0.0032667397060124337,
+      "held_out": "6bba_09961292",
+      "selected_config": "tight55",
+      "selected_score": 0.8943248531817481
+    }
+  ],
+  "loo_mean_delta_vs_base": 0.0024066786788047717,
+  "loo_selection_counts": {
+    "tight55": 8
+  },
+  "source": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model167/full_output/validator_results.csv",
+  "source_sha256": "caa5c1d46e38fc7deaa9a8e0ca6a178375c4709c281454506d94bf4e40392aaf",
+  "status": "complete_existing_ledger_audit",
+  "target_0p97_reached": false
+}

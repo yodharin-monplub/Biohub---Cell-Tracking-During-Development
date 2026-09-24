@@ -1,0 +1,6 @@
+﻿Held-out fold0 (24 x 44b6 movies, models trained on 6bba only), exact 0.947 predictor + base post-processing
+three seeds (20260914 primary + ensemble(777, 31337) secondary): proxy 0.80202 | adj edge J 0.79265 | div 3 TP / 17 FP / 12 FN
+two seeds   (model186):                                           proxy 0.80606 | adj edge J 0.79452 | div 3 TP / 11 FP / 12 FN
+one seed    (model182):                                           proxy 0.79657
+Paired per movie, three vs two seeds: 12 wins / 12 losses; edge TP 10971 vs 10995, FP 1281 vs 1261, FN 1558 vs 1534.
+Verdict: third seed is NEUTRAL (-0.004, inside the +-0.005 noise band). Returns from seeds saturate after two.

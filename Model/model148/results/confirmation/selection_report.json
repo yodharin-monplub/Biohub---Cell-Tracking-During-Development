@@ -1,0 +1,376 @@
+{
+  "status": "valid",
+  "cohort": "confirmation",
+  "source_csv_sha256": {
+    "model145": "0aed42c97f29cc6728d9a933c0b0c5ac3fbb9efa8fc4413ec4e77bd8437a4f59",
+    "model143": "126598fcf84abdb078a1c6b296393e065cd48245bcfc07f71677cdbb19826cd0",
+    "model133": "5306dac5bf6af79864464a3b9e4bfd2429c3ef94b6a098d092015ef21647176c",
+    "model132": "efd04ad20abb50576aaeb87d799b0349560710f1f89bf9ca0fcb4fcee6e4341e",
+    "model130": "1d0752bbdad4f43f1ea50aaad07ac7d8e5e9a3c07484301592f55898cc8df3d5"
+  },
+  "branch_report_sha256": "692665c0eb3572a8bd55666076e37f0516d237e2b20c6b42b7619b0cab59c1a4",
+  "model145_report_sha256": "eba7c6ef055072b8e7b7d42e1b0225a47cc4d6f26d4d96fd85ac7ee90fa8626c",
+  "candidate_sha256": "872ec1d722f2a54d0942c119996c8d07ada923afc8add5f981bca33963eaca79",
+  "config_sha256": "30e114d865d71540018d8e2c5ec4e06a93bc0dab310df0dac2f49834227e02fe",
+  "pilot_sha256": "5e3effb0f5e26ec28fe01dc94e9386f8398a0566d354da5a6c27c7477a93c754",
+  "source_code_sha256": "73d9e1ce7dc79602be8881e6ec6a5f8f8c489dfe1b75814c2904ed5204c59756",
+  "totals": {
+    "movies": 39,
+    "removed_low_growth": 128,
+    "retained_model145_new": 3
+  },
+  "movies": [
+    {
+      "movie": "44b6_0c582fdc",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 25031,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_12dfb391",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 40991,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_144b256d",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 21851,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_40c45f5a",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 27461,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_5f15d135",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 18902,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_7a302da0",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 38374,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_7e557709",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 41856,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_87bba6c4",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 26454,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_8cc6506c",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 16625,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_8f9ecab4",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 32312,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_949adeb1",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 35421,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_97725144",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 31094,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_996155de",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 8549,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_a2bb48bb",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 39904,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_aaf8b0ea",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 13435,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_cf8fed6b",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 39278,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_d29c9ab2",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 35548,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_d78e09d9",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 21962,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "44b6_e28840c6",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 21583,
+      "protected_model132_edges": 0
+    },
+    {
+      "movie": "6bba_12665c0e",
+      "family": "6bba",
+      "model133_incremental": 7,
+      "removed_low_growth": 3,
+      "retained_model145_new": 0,
+      "protected_control_edges": 7732,
+      "protected_model132_edges": 7736
+    },
+    {
+      "movie": "6bba_1ebfb80d",
+      "family": "6bba",
+      "model133_incremental": 11,
+      "removed_low_growth": 10,
+      "retained_model145_new": 0,
+      "protected_control_edges": 10648,
+      "protected_model132_edges": 10650
+    },
+    {
+      "movie": "6bba_20852818",
+      "family": "6bba",
+      "model133_incremental": 6,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0,
+      "protected_control_edges": 9480,
+      "protected_model132_edges": 9484
+    },
+    {
+      "movie": "6bba_2540cd90",
+      "family": "6bba",
+      "model133_incremental": 3,
+      "removed_low_growth": 1,
+      "retained_model145_new": 0,
+      "protected_control_edges": 3417,
+      "protected_model132_edges": 3418
+    },
+    {
+      "movie": "6bba_268e1230",
+      "family": "6bba",
+      "model133_incremental": 13,
+      "removed_low_growth": 9,
+      "retained_model145_new": 0,
+      "protected_control_edges": 4419,
+      "protected_model132_edges": 4421
+    },
+    {
+      "movie": "6bba_372c8cb8",
+      "family": "6bba",
+      "model133_incremental": 3,
+      "removed_low_growth": 2,
+      "retained_model145_new": 0,
+      "protected_control_edges": 6492,
+      "protected_model132_edges": 6494
+    },
+    {
+      "movie": "6bba_3a1849c2",
+      "family": "6bba",
+      "model133_incremental": 6,
+      "removed_low_growth": 3,
+      "retained_model145_new": 0,
+      "protected_control_edges": 6372,
+      "protected_model132_edges": 6373
+    },
+    {
+      "movie": "6bba_3c5691b6",
+      "family": "6bba",
+      "model133_incremental": 5,
+      "removed_low_growth": 1,
+      "retained_model145_new": 0,
+      "protected_control_edges": 5992,
+      "protected_model132_edges": 5992
+    },
+    {
+      "movie": "6bba_474be664",
+      "family": "6bba",
+      "model133_incremental": 12,
+      "removed_low_growth": 3,
+      "retained_model145_new": 0,
+      "protected_control_edges": 22327,
+      "protected_model132_edges": 22329
+    },
+    {
+      "movie": "6bba_5b28472a",
+      "family": "6bba",
+      "model133_incremental": 5,
+      "removed_low_growth": 4,
+      "retained_model145_new": 0,
+      "protected_control_edges": 5714,
+      "protected_model132_edges": 5717
+    },
+    {
+      "movie": "6bba_6db0e9b4",
+      "family": "6bba",
+      "model133_incremental": 21,
+      "removed_low_growth": 11,
+      "retained_model145_new": 1,
+      "protected_control_edges": 23700,
+      "protected_model132_edges": 23704
+    },
+    {
+      "movie": "6bba_74686d6a",
+      "family": "6bba",
+      "model133_incremental": 19,
+      "removed_low_growth": 9,
+      "retained_model145_new": 1,
+      "protected_control_edges": 24732,
+      "protected_model132_edges": 24738
+    },
+    {
+      "movie": "6bba_7f87b3d8",
+      "family": "6bba",
+      "model133_incremental": 12,
+      "removed_low_growth": 7,
+      "retained_model145_new": 1,
+      "protected_control_edges": 8715,
+      "protected_model132_edges": 8719
+    },
+    {
+      "movie": "6bba_9a41d029",
+      "family": "6bba",
+      "model133_incremental": 9,
+      "removed_low_growth": 4,
+      "retained_model145_new": 0,
+      "protected_control_edges": 17643,
+      "protected_model132_edges": 17645
+    },
+    {
+      "movie": "6bba_ae82a791",
+      "family": "6bba",
+      "model133_incremental": 6,
+      "removed_low_growth": 3,
+      "retained_model145_new": 0,
+      "protected_control_edges": 6942,
+      "protected_model132_edges": 6947
+    },
+    {
+      "movie": "6bba_ed9377fd",
+      "family": "6bba",
+      "model133_incremental": 2,
+      "removed_low_growth": 2,
+      "retained_model145_new": 0,
+      "protected_control_edges": 4087,
+      "protected_model132_edges": 4088
+    },
+    {
+      "movie": "6bba_edf14583",
+      "family": "6bba",
+      "model133_incremental": 13,
+      "removed_low_growth": 10,
+      "retained_model145_new": 0,
+      "protected_control_edges": 47031,
+      "protected_model132_edges": 47035
+    },
+    {
+      "movie": "6bba_f17befbc",
+      "family": "6bba",
+      "model133_incremental": 37,
+      "removed_low_growth": 21,
+      "retained_model145_new": 0,
+      "protected_control_edges": 24145,
+      "protected_model132_edges": 24150
+    },
+    {
+      "movie": "6bba_f1fde7e0",
+      "family": "6bba",
+      "model133_incremental": 14,
+      "removed_low_growth": 6,
+      "retained_model145_new": 0,
+      "protected_control_edges": 7415,
+      "protected_model132_edges": 7420
+    },
+    {
+      "movie": "6bba_f8ffd5e7",
+      "family": "6bba",
+      "model133_incremental": 36,
+      "removed_low_growth": 19,
+      "retained_model145_new": 0,
+      "protected_control_edges": 29675,
+      "protected_model132_edges": 29687
+    }
+  ],
+  "caveat": "Label-free final graph; exact organizer scorer required."
+}

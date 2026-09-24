@@ -1,0 +1,63 @@
+{
+  "status": "reject",
+  "control": {
+    "score": 0.9495462814177554,
+    "adjusted_edge_jaccard": 0.9434856753571493,
+    "division_jaccard": 0.06060606060606061,
+    "edge_weight": 23579,
+    "node_recall": 0.9850835523319711
+  },
+  "candidate": {
+    "score": 0.9473744949352197,
+    "adjusted_edge_jaccard": 0.9413138888746136,
+    "division_jaccard": 0.06060606060606061,
+    "edge_weight": 23594,
+    "node_recall": 0.9870773574741432
+  },
+  "delta": -0.002171786482535687,
+  "families": {
+    "44b6": {
+      "control": {
+        "score": 0.9409603686735688,
+        "adjusted_edge_jaccard": 0.9314365591497593,
+        "division_jaccard": 0.09523809523809523,
+        "edge_weight": 7644,
+        "node_recall": 0.9864540780067167
+      },
+      "candidate": {
+        "score": 0.9393034094795845,
+        "adjusted_edge_jaccard": 0.929779599955775,
+        "division_jaccard": 0.09523809523809523,
+        "edge_weight": 7645,
+        "node_recall": 0.9883443346131294
+      },
+      "delta": -0.001656959193984342
+    },
+    "6bba": {
+      "control": {
+        "score": 0.9537100661015178,
+        "adjusted_edge_jaccard": 0.9492656216570733,
+        "division_jaccard": 0.044444444444444446,
+        "edge_weight": 15935,
+        "node_recall": 0.9837815529409628
+      },
+      "candidate": {
+        "score": 0.9512871839544911,
+        "adjusted_edge_jaccard": 0.9468427395100466,
+        "division_jaccard": 0.044444444444444446,
+        "edge_weight": 15949,
+        "node_recall": 0.9858737291921063
+      },
+      "delta": -0.0024228821470266837
+    }
+  },
+  "gates": {
+    "official_score_improves": false,
+    "family_drop_at_most_0.001": false,
+    "recall_drop_at_most_0.001": true
+  },
+  "edge_movie_wins": 5,
+  "edge_movie_losses": 34,
+  "edge_movie_ties": 0,
+  "caveat": "Fold4 has been reused for selection; this is development evidence, not an untouched holdout."
+}

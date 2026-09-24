@@ -1,0 +1,1351 @@
+{
+  "status": "complete",
+  "movies": [
+    {
+      "cohort": "development",
+      "movie": "44b6_a21120c2",
+      "counts": {
+        "fp_to_absent": 2,
+        "absent_to_tp": 1
+      },
+      "events": [
+        {
+          "edge": [
+            2595,
+            2857
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              10,
+              57,
+              159,
+              101
+            ],
+            [
+              11,
+              58,
+              167,
+              109
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              10,
+              56,
+              156,
+              97
+            ],
+            [
+              11,
+              59,
+              174,
+              108
+            ]
+          ],
+          "control_gt": [
+            -1,
+            27000000007
+          ],
+          "candidate_gt": [
+            -1,
+            27000000007
+          ]
+        },
+        {
+          "edge": [
+            2615,
+            2849
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              10,
+              59,
+              180,
+              93
+            ],
+            [
+              11,
+              58,
+              186,
+              95
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              10,
+              59,
+              175,
+              99
+            ],
+            [
+              11,
+              56,
+              192,
+              93
+            ]
+          ],
+          "control_gt": [
+            26000000007,
+            -1
+          ],
+          "candidate_gt": [
+            26000000007,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            2615,
+            2857
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            [
+              10,
+              59,
+              180,
+              93
+            ],
+            [
+              11,
+              58,
+              167,
+              109
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              10,
+              59,
+              175,
+              99
+            ],
+            [
+              11,
+              59,
+              174,
+              108
+            ]
+          ],
+          "control_gt": [
+            26000000007,
+            27000000007
+          ],
+          "candidate_gt": [
+            26000000007,
+            27000000007
+          ]
+        }
+      ],
+      "official_counts_reproduced": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_80d12824",
+      "counts": {},
+      "events": [],
+      "official_counts_reproduced": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_a5e926bb",
+      "counts": {},
+      "events": [],
+      "official_counts_reproduced": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_d29c9ab2",
+      "counts": {
+        "fp_to_absent": 6,
+        "absent_to_tp": 2,
+        "absent_to_fp": 5,
+        "tp_to_absent": 1
+      },
+      "events": [
+        {
+          "edge": [
+            5263,
+            5589
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              18,
+              33,
+              121,
+              155
+            ],
+            [
+              19,
+              34,
+              120,
+              155
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              18,
+              32,
+              122,
+              158
+            ],
+            [
+              19,
+              36,
+              118,
+              152
+            ]
+          ],
+          "control_gt": [
+            -1,
+            27000000010
+          ],
+          "candidate_gt": [
+            -1,
+            27000000010
+          ]
+        },
+        {
+          "edge": [
+            5287,
+            5589
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            [
+              18,
+              38,
+              119,
+              147
+            ],
+            [
+              19,
+              34,
+              120,
+              155
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              18,
+              37,
+              118,
+              151
+            ],
+            [
+              19,
+              36,
+              118,
+              152
+            ]
+          ],
+          "control_gt": [
+            26000000010,
+            27000000010
+          ],
+          "candidate_gt": [
+            26000000010,
+            27000000010
+          ]
+        },
+        {
+          "edge": [
+            15352,
+            37635
+          ],
+          "before": "absent",
+          "after": "fp",
+          "control_nodes": [
+            [
+              49,
+              12,
+              247,
+              188
+            ],
+            null
+          ],
+          "candidate_nodes": [
+            [
+              49,
+              12,
+              247,
+              188
+            ],
+            [
+              50,
+              12,
+              247,
+              189
+            ]
+          ],
+          "control_gt": [
+            57000000064,
+            -1
+          ],
+          "candidate_gt": [
+            57000000064,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            15352,
+            37636
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              49,
+              12,
+              247,
+              188
+            ],
+            [
+              50,
+              12,
+              247,
+              189
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              49,
+              12,
+              247,
+              188
+            ],
+            null
+          ],
+          "control_gt": [
+            57000000064,
+            -1
+          ],
+          "candidate_gt": [
+            57000000064,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            15466,
+            37644
+          ],
+          "before": "absent",
+          "after": "fp",
+          "control_nodes": [
+            [
+              49,
+              25,
+              53,
+              161
+            ],
+            [
+              50,
+              23,
+              250,
+              138
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              49,
+              25,
+              53,
+              161
+            ],
+            [
+              50,
+              24,
+              51,
+              161
+            ]
+          ],
+          "control_gt": [
+            57000000034,
+            -1
+          ],
+          "candidate_gt": [
+            57000000034,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            15466,
+            37645
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              49,
+              25,
+              53,
+              161
+            ],
+            [
+              50,
+              24,
+              51,
+              161
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              49,
+              25,
+              53,
+              161
+            ],
+            [
+              50,
+              29,
+              53,
+              232
+            ]
+          ],
+          "control_gt": [
+            57000000034,
+            -1
+          ],
+          "candidate_gt": [
+            57000000034,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            22525,
+            37688
+          ],
+          "before": "absent",
+          "after": "fp",
+          "control_nodes": [
+            [
+              66,
+              55,
+              22,
+              215
+            ],
+            [
+              67,
+              31,
+              19,
+              226
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              66,
+              55,
+              22,
+              215
+            ],
+            [
+              67,
+              54,
+              27,
+              216
+            ]
+          ],
+          "control_gt": [
+            -1,
+            -1
+          ],
+          "candidate_gt": [
+            -1,
+            75000000053
+          ]
+        },
+        {
+          "edge": [
+            22525,
+            37689
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              66,
+              55,
+              22,
+              215
+            ],
+            [
+              67,
+              54,
+              27,
+              216
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              66,
+              55,
+              22,
+              215
+            ],
+            null
+          ],
+          "control_gt": [
+            -1,
+            75000000053
+          ],
+          "candidate_gt": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            37635,
+            16088
+          ],
+          "before": "absent",
+          "after": "fp",
+          "control_nodes": [
+            null,
+            [
+              51,
+              12,
+              248,
+              188
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              50,
+              12,
+              247,
+              189
+            ],
+            [
+              51,
+              12,
+              248,
+              188
+            ]
+          ],
+          "control_gt": [
+            -1,
+            59000000065
+          ],
+          "candidate_gt": [
+            -1,
+            59000000065
+          ]
+        },
+        {
+          "edge": [
+            37636,
+            16088
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              50,
+              12,
+              247,
+              189
+            ],
+            [
+              51,
+              12,
+              248,
+              188
+            ]
+          ],
+          "candidate_nodes": [
+            null,
+            [
+              51,
+              12,
+              248,
+              188
+            ]
+          ],
+          "control_gt": [
+            -1,
+            59000000065
+          ],
+          "candidate_gt": [
+            -1,
+            59000000065
+          ]
+        },
+        {
+          "edge": [
+            37644,
+            16191
+          ],
+          "before": "absent",
+          "after": "fp",
+          "control_nodes": [
+            [
+              50,
+              23,
+              250,
+              138
+            ],
+            [
+              51,
+              24,
+              52,
+              161
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              50,
+              24,
+              51,
+              161
+            ],
+            [
+              51,
+              24,
+              52,
+              161
+            ]
+          ],
+          "control_gt": [
+            -1,
+            59000000035
+          ],
+          "candidate_gt": [
+            -1,
+            59000000035
+          ]
+        },
+        {
+          "edge": [
+            37645,
+            16191
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              50,
+              24,
+              51,
+              161
+            ],
+            [
+              51,
+              24,
+              52,
+              161
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              50,
+              29,
+              53,
+              232
+            ],
+            [
+              51,
+              24,
+              52,
+              161
+            ]
+          ],
+          "control_gt": [
+            -1,
+            59000000035
+          ],
+          "candidate_gt": [
+            -1,
+            59000000035
+          ]
+        },
+        {
+          "edge": [
+            37688,
+            23369
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            [
+              67,
+              31,
+              19,
+              226
+            ],
+            [
+              68,
+              53,
+              32,
+              216
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              67,
+              54,
+              27,
+              216
+            ],
+            [
+              68,
+              53,
+              32,
+              216
+            ]
+          ],
+          "control_gt": [
+            -1,
+            76000000054
+          ],
+          "candidate_gt": [
+            75000000053,
+            76000000054
+          ]
+        },
+        {
+          "edge": [
+            37689,
+            23369
+          ],
+          "before": "tp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              67,
+              54,
+              27,
+              216
+            ],
+            [
+              68,
+              53,
+              32,
+              216
+            ]
+          ],
+          "candidate_nodes": [
+            null,
+            [
+              68,
+              53,
+              32,
+              216
+            ]
+          ],
+          "control_gt": [
+            75000000053,
+            76000000054
+          ],
+          "candidate_gt": [
+            -1,
+            76000000054
+          ]
+        }
+      ],
+      "official_counts_reproduced": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_7f87b3d8",
+      "counts": {
+        "absent_to_tp": 6,
+        "fp_to_absent": 5,
+        "absent_to_fp": 1
+      },
+      "events": [
+        {
+          "edge": [
+            165,
+            389
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            null,
+            null
+          ],
+          "candidate_nodes": [
+            [
+              0,
+              43,
+              241,
+              162
+            ],
+            [
+              1,
+              42,
+              237,
+              155
+            ]
+          ],
+          "control_gt": [
+            -1,
+            -1
+          ],
+          "candidate_gt": [
+            1000027,
+            2000065
+          ]
+        },
+        {
+          "edge": [
+            389,
+            592
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            null,
+            null
+          ],
+          "candidate_nodes": [
+            [
+              1,
+              42,
+              237,
+              155
+            ],
+            [
+              2,
+              40,
+              231,
+              141
+            ]
+          ],
+          "control_gt": [
+            -1,
+            -1
+          ],
+          "candidate_gt": [
+            2000065,
+            3000098
+          ]
+        },
+        {
+          "edge": [
+            584,
+            11040
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              2,
+              40,
+              145,
+              91
+            ],
+            [
+              3,
+              39,
+              148,
+              87
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              2,
+              40,
+              145,
+              91
+            ],
+            [
+              3,
+              40,
+              115,
+              130
+            ]
+          ],
+          "control_gt": [
+            3000093,
+            -1
+          ],
+          "candidate_gt": [
+            3000093,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            584,
+            11041
+          ],
+          "before": "absent",
+          "after": "fp",
+          "control_nodes": [
+            [
+              2,
+              40,
+              145,
+              91
+            ],
+            [
+              3,
+              62,
+              245,
+              226
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              2,
+              40,
+              145,
+              91
+            ],
+            [
+              3,
+              39,
+              148,
+              87
+            ]
+          ],
+          "control_gt": [
+            3000093,
+            -1
+          ],
+          "candidate_gt": [
+            3000093,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            592,
+            796
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            null,
+            null
+          ],
+          "candidate_nodes": [
+            [
+              2,
+              40,
+              231,
+              141
+            ],
+            [
+              3,
+              39,
+              226,
+              129
+            ]
+          ],
+          "control_gt": [
+            -1,
+            -1
+          ],
+          "candidate_gt": [
+            3000098,
+            4000136
+          ]
+        },
+        {
+          "edge": [
+            791,
+            998
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              3,
+              39,
+              215,
+              108
+            ],
+            [
+              4,
+              37,
+              217,
+              104
+            ]
+          ],
+          "candidate_nodes": [
+            null,
+            [
+              4,
+              37,
+              222,
+              114
+            ]
+          ],
+          "control_gt": [
+            -1,
+            5000169
+          ],
+          "candidate_gt": [
+            -1,
+            5000169
+          ]
+        },
+        {
+          "edge": [
+            796,
+            998
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            null,
+            [
+              4,
+              37,
+              217,
+              104
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              3,
+              39,
+              226,
+              129
+            ],
+            [
+              4,
+              37,
+              222,
+              114
+            ]
+          ],
+          "control_gt": [
+            -1,
+            5000169
+          ],
+          "candidate_gt": [
+            4000136,
+            5000169
+          ]
+        },
+        {
+          "edge": [
+            1173,
+            1384
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            [
+              5,
+              34,
+              42,
+              123
+            ],
+            [
+              6,
+              32,
+              38,
+              111
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              5,
+              34,
+              48,
+              117
+            ],
+            [
+              6,
+              33,
+              48,
+              116
+            ]
+          ],
+          "control_gt": [
+            6000202,
+            7000230
+          ],
+          "candidate_gt": [
+            6000202,
+            7000230
+          ]
+        },
+        {
+          "edge": [
+            1173,
+            1394
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              5,
+              34,
+              42,
+              123
+            ],
+            [
+              6,
+              34,
+              33,
+              129
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              5,
+              34,
+              48,
+              117
+            ],
+            [
+              6,
+              34,
+              32,
+              134
+            ]
+          ],
+          "control_gt": [
+            6000202,
+            -1
+          ],
+          "candidate_gt": [
+            6000202,
+            -1
+          ]
+        },
+        {
+          "edge": [
+            10413,
+            10519
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              94,
+              4,
+              232,
+              85
+            ],
+            [
+              95,
+              4,
+              233,
+              84
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              94,
+              4,
+              228,
+              91
+            ],
+            [
+              95,
+              4,
+              238,
+              79
+            ]
+          ],
+          "control_gt": [
+            -1,
+            96001856
+          ],
+          "candidate_gt": [
+            -1,
+            96001856
+          ]
+        },
+        {
+          "edge": [
+            10414,
+            10519
+          ],
+          "before": "absent",
+          "after": "tp",
+          "control_nodes": [
+            [
+              94,
+              4,
+              247,
+              71
+            ],
+            [
+              95,
+              4,
+              233,
+              84
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              94,
+              4,
+              241,
+              74
+            ],
+            [
+              95,
+              4,
+              238,
+              79
+            ]
+          ],
+          "control_gt": [
+            95001843,
+            96001856
+          ],
+          "candidate_gt": [
+            95001843,
+            96001856
+          ]
+        },
+        {
+          "edge": [
+            10414,
+            10531
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              94,
+              4,
+              247,
+              71
+            ],
+            [
+              95,
+              4,
+              249,
+              73
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              94,
+              4,
+              241,
+              74
+            ],
+            null
+          ],
+          "control_gt": [
+            95001843,
+            -1
+          ],
+          "candidate_gt": [
+            95001843,
+            -1
+          ]
+        }
+      ],
+      "official_counts_reproduced": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_f1fde7e0",
+      "counts": {
+        "absent_to_fp": 1,
+        "fp_to_absent": 1
+      },
+      "events": [
+        {
+          "edge": [
+            1164,
+            1411
+          ],
+          "before": "absent",
+          "after": "fp",
+          "control_nodes": [
+            [
+              4,
+              35,
+              65,
+              148
+            ],
+            null
+          ],
+          "candidate_nodes": [
+            [
+              4,
+              33,
+              73,
+              147
+            ],
+            [
+              5,
+              33,
+              78,
+              132
+            ]
+          ],
+          "control_gt": [
+            -1,
+            -1
+          ],
+          "candidate_gt": [
+            -1,
+            6000177
+          ]
+        },
+        {
+          "edge": [
+            2106,
+            10026
+          ],
+          "before": "fp",
+          "after": "absent",
+          "control_nodes": [
+            [
+              8,
+              31,
+              66,
+              81
+            ],
+            [
+              9,
+              30,
+              71,
+              76
+            ]
+          ],
+          "candidate_nodes": [
+            [
+              8,
+              32,
+              62,
+              78
+            ],
+            [
+              9,
+              31,
+              187,
+              70
+            ]
+          ],
+          "control_gt": [
+            9000263,
+            -1
+          ],
+          "candidate_gt": [
+            9000263,
+            -1
+          ]
+        }
+      ],
+      "official_counts_reproduced": true
+    }
+  ],
+  "caveat": "Each complete final graph is rematched independently, as in scoring. Label changes may reflect altered edges, coordinates, node retention, or matching; not isolated motion-stage causality."
+}

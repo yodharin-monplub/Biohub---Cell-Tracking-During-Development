@@ -1,0 +1,44 @@
+{
+  "status": "two_folds_scored",
+  "system": "clean embryo-disjoint backbone per fold, source-embryo-only link calibration, p0.40 ILP and model157 repairs",
+  "movies": 199,
+  "folds": [
+    {
+      "fold": 0,
+      "held_out_embryo": "44b6",
+      "movies": 71,
+      "metrics": {
+        "score": 0.800114796179057,
+        "adjusted_edge_jaccard": 0.7968889897274442,
+        "division_jaccard": 0.03225806451612903,
+        "edge_weight": 21788,
+        "node_recall": 0.93617391917027
+      },
+      "official_score_sha256": "fd18c6b33f570512f4164c55042c872c4f3387e1562d7fc78c8660a28c3ed44a",
+      "repair_receipt_sha256": "4efbc20a9ccce2374b68a952b283285b131ae090ae28eefc0d8c31e1633a7a4d"
+    },
+    {
+      "fold": 1,
+      "held_out_embryo": "6bba",
+      "movies": 128,
+      "metrics": {
+        "score": 0.6685862464738727,
+        "adjusted_edge_jaccard": 0.665367362353701,
+        "division_jaccard": 0.032188841201716736,
+        "edge_weight": 130386,
+        "node_recall": 0.9174603868489716
+      },
+      "official_score_sha256": "32e254c9a7931740f00b765c70701f6d6feda9aa701513c3d115b54eaf103158",
+      "repair_receipt_sha256": "4852cbf60318f6ccc57ef1ecb6965b4ad64190486d2224d75f91930f31949f00"
+    }
+  ],
+  "combined": {
+    "score": 0.687418428513013,
+    "adjusted_edge_jaccard": 0.6841983927348377,
+    "division_jaccard": 0.03220035778175313,
+    "edge_weight": 152174,
+    "node_recall": 0.9241370742600882
+  },
+  "target_0p97_reached": false,
+  "caveat": "Fold0 was reused for experimental selection and frozen repairs were previously tuned using both embryos; this is development CV, not untouched/nested validation or the full public model1 system."
+}

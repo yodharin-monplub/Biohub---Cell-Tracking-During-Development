@@ -1,0 +1,250 @@
+{
+  "elapsed_seconds": 12.792368391004857,
+  "input_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model22/geffs/dist_0p00000",
+  "max_lengths": [
+    4
+  ],
+  "results": [
+    {
+      "dataset": "44b6_18ced818",
+      "variants": [
+        {
+          "components_removed": 845,
+          "edges": 61793,
+          "max_component_length_removed": 4,
+          "nodes": 67397,
+          "nodes_removed": 3380
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_808952d6",
+      "variants": [
+        {
+          "components_removed": 70,
+          "edges": 14295,
+          "max_component_length_removed": 4,
+          "nodes": 14973,
+          "nodes_removed": 280
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_87bba6c4",
+      "variants": [
+        {
+          "components_removed": 285,
+          "edges": 24873,
+          "max_component_length_removed": 4,
+          "nodes": 27018,
+          "nodes_removed": 1140
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_95029e92",
+      "variants": [
+        {
+          "components_removed": 12,
+          "edges": 4631,
+          "max_component_length_removed": 4,
+          "nodes": 4784,
+          "nodes_removed": 48
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_b2c44266",
+      "variants": [
+        {
+          "components_removed": 394,
+          "edges": 32764,
+          "max_component_length_removed": 4,
+          "nodes": 35096,
+          "nodes_removed": 1576
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c771cb04",
+      "variants": [
+        {
+          "components_removed": 438,
+          "edges": 25320,
+          "max_component_length_removed": 4,
+          "nodes": 27456,
+          "nodes_removed": 1752
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_d29c9ab2",
+      "variants": [
+        {
+          "components_removed": 83,
+          "edges": 35136,
+          "max_component_length_removed": 4,
+          "nodes": 36323,
+          "nodes_removed": 332
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_d78e09d9",
+      "variants": [
+        {
+          "components_removed": 136,
+          "edges": 20815,
+          "max_component_length_removed": 4,
+          "nodes": 22041,
+          "nodes_removed": 544
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_13f19531",
+      "variants": [
+        {
+          "components_removed": 16,
+          "edges": 5380,
+          "max_component_length_removed": 4,
+          "nodes": 5649,
+          "nodes_removed": 64
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_2540cd90",
+      "variants": [
+        {
+          "components_removed": 4,
+          "edges": 3358,
+          "max_component_length_removed": 4,
+          "nodes": 3431,
+          "nodes_removed": 16
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_283bf9f1",
+      "variants": [
+        {
+          "components_removed": 71,
+          "edges": 20143,
+          "max_component_length_removed": 4,
+          "nodes": 21253,
+          "nodes_removed": 284
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_57b7cc1e",
+      "variants": [
+        {
+          "components_removed": 929,
+          "edges": 63046,
+          "max_component_length_removed": 4,
+          "nodes": 69502,
+          "nodes_removed": 3716
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_789f8168",
+      "variants": [
+        {
+          "components_removed": 37,
+          "edges": 10027,
+          "max_component_length_removed": 4,
+          "nodes": 10625,
+          "nodes_removed": 148
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_a90a0b9c",
+      "variants": [
+        {
+          "components_removed": 258,
+          "edges": 28658,
+          "max_component_length_removed": 4,
+          "nodes": 30840,
+          "nodes_removed": 1032
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_ae82a791",
+      "variants": [
+        {
+          "components_removed": 17,
+          "edges": 6750,
+          "max_component_length_removed": 4,
+          "nodes": 7005,
+          "nodes_removed": 68
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_aeee7805",
+      "variants": [
+        {
+          "components_removed": 21,
+          "edges": 4900,
+          "max_component_length_removed": 4,
+          "nodes": 5085,
+          "nodes_removed": 84
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_af149c94",
+      "variants": [
+        {
+          "components_removed": 15,
+          "edges": 7405,
+          "max_component_length_removed": 4,
+          "nodes": 7716,
+          "nodes_removed": 60
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d0fc38b5",
+      "variants": [
+        {
+          "components_removed": 17,
+          "edges": 5563,
+          "max_component_length_removed": 4,
+          "nodes": 5784,
+          "nodes_removed": 68
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d1acb6ff",
+      "variants": [
+        {
+          "components_removed": 121,
+          "edges": 14671,
+          "max_component_length_removed": 4,
+          "nodes": 15803,
+          "nodes_removed": 484
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d82a4fc6",
+      "variants": [
+        {
+          "components_removed": 148,
+          "edges": 26522,
+          "max_component_length_removed": 4,
+          "nodes": 27970,
+          "nodes_removed": 592
+        }
+      ]
+    }
+  ],
+  "status": "complete"
+}

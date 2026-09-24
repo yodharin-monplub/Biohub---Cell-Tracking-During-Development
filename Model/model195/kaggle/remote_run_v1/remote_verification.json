@@ -1,0 +1,9 @@
+{
+  "exact_source_match": true,
+  "gpu": "NvidiaTeslaT4",
+  "id": 135321681,
+  "internet": false,
+  "local_sha256": "ac5947aa96615c2623e06de4586bf22030b8c22040fdf2f313922a80e86ede3b",
+  "private": true,
+  "version": 1
+}

@@ -1,0 +1,169 @@
+{
+  "datasets": [
+    {
+      "dataset": "44b6_18ced818",
+      "divisions": 0,
+      "edges": 64327,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 70776
+    },
+    {
+      "dataset": "44b6_808952d6",
+      "divisions": 0,
+      "edges": 14504,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 15253
+    },
+    {
+      "dataset": "44b6_87bba6c4",
+      "divisions": 0,
+      "edges": 25728,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 28158
+    },
+    {
+      "dataset": "44b6_95029e92",
+      "divisions": 0,
+      "edges": 4659,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 4823
+    },
+    {
+      "dataset": "44b6_b2c44266",
+      "divisions": 0,
+      "edges": 33946,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 36672
+    },
+    {
+      "dataset": "44b6_c771cb04",
+      "divisions": 0,
+      "edges": 26633,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 29207
+    },
+    {
+      "dataset": "44b6_d29c9ab2",
+      "divisions": 0,
+      "edges": 35385,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 36656
+    },
+    {
+      "dataset": "44b6_d78e09d9",
+      "divisions": 0,
+      "edges": 21214,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 22574
+    },
+    {
+      "dataset": "6bba_13f19531",
+      "divisions": 0,
+      "edges": 5429,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 5715
+    },
+    {
+      "dataset": "6bba_2540cd90",
+      "divisions": 0,
+      "edges": 3369,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 3446
+    },
+    {
+      "dataset": "6bba_283bf9f1",
+      "divisions": 0,
+      "edges": 20356,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 21537
+    },
+    {
+      "dataset": "6bba_57b7cc1e",
+      "divisions": 0,
+      "edges": 65833,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 73218
+    },
+    {
+      "dataset": "6bba_789f8168",
+      "divisions": 0,
+      "edges": 10137,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 10773
+    },
+    {
+      "dataset": "6bba_a90a0b9c",
+      "divisions": 0,
+      "edges": 29432,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 31872
+    },
+    {
+      "dataset": "6bba_ae82a791",
+      "divisions": 0,
+      "edges": 6799,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 7072
+    },
+    {
+      "dataset": "6bba_aeee7805",
+      "divisions": 0,
+      "edges": 4962,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 5168
+    },
+    {
+      "dataset": "6bba_af149c94",
+      "divisions": 0,
+      "edges": 7449,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 7775
+    },
+    {
+      "dataset": "6bba_d0fc38b5",
+      "divisions": 0,
+      "edges": 5614,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 5852
+    },
+    {
+      "dataset": "6bba_d1acb6ff",
+      "divisions": 0,
+      "edges": 15034,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 16287
+    },
+    {
+      "dataset": "6bba_d82a4fc6",
+      "divisions": 0,
+      "edges": 26965,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 28561
+    }
+  ],
+  "geff_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model48/control_geffs/edge_p_0p500",
+  "output": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model48/control.csv",
+  "output_sha256": "4da2ab64060ec3349a705fb87267eb8a194e91d90493ec3d4a8c61a4fc160ad6",
+  "rows": 889170,
+  "status": "valid"
+}

@@ -1,0 +1,3 @@
+public_lb=0.945 (Kaggle submission 56316219, scored 2026-09-18) REJECTED
+train_proxy_32_movies=+0.025 vs base (in-sample, wrong sign)
+heldout_embryo_fold0=0.78865 vs base 0.79657; heldout_fold1=0.77876 vs base 0.80092

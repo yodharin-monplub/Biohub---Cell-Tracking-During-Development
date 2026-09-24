@@ -1,0 +1,1 @@
+﻿Not submitted. DivNet ranking of annotated divisions: AUC 0.562 on 91 events (manifest claims 0.845). Rejected.

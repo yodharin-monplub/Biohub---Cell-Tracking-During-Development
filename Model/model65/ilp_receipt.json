@@ -1,0 +1,277 @@
+{
+  "appearance_weight": 0.0,
+  "candidate_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model24/candidates_top5",
+  "disappearance_weight": 2.0,
+  "division_weight": 1.2,
+  "edge_cost": "-calibrated_leave_one_movie_out_probability",
+  "edge_floor": 0.4,
+  "elapsed_seconds": 312.538272115984,
+  "l2": 0.001,
+  "labeled_csv": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model64/labeled_candidate_features.csv",
+  "labeled_csv_sha256": "7ea45d0d07dc90d85f457fa075db5e9452742f23fe59e47cfa2cda019e130335",
+  "maxiter": 120,
+  "num_threads": 1,
+  "results": [
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 0.00012766420962821747,
+        "q50": 0.0031331633125147454,
+        "q99": 0.9679482289162596
+      },
+      "candidate_edges": 424775,
+      "candidate_edges_retained": 80020,
+      "dataset": "44b6_18ced818",
+      "nodes": 75838,
+      "selected_edges": 70184,
+      "solve_seconds": 47.20651835703757
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 7.517374135619602e-05,
+        "q50": 0.001987485494736726,
+        "q99": 0.9896707663498673
+      },
+      "candidate_edges": 69997,
+      "candidate_edges_retained": 16581,
+      "dataset": "44b6_808952d6",
+      "nodes": 15712,
+      "selected_edges": 15033,
+      "solve_seconds": 7.216727029997855
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 9.965350691447733e-05,
+        "q50": 0.0027476933482603037,
+        "q99": 0.9723670172851221
+      },
+      "candidate_edges": 164803,
+      "candidate_edges_retained": 32694,
+      "dataset": "44b6_87bba6c4",
+      "nodes": 30171,
+      "selected_edges": 28073,
+      "solve_seconds": 13.978217834956013
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 6.89174599775734e-05,
+        "q50": 0.006629119300307031,
+        "q99": 0.9965361691749682
+      },
+      "candidate_edges": 11728,
+      "candidate_edges_retained": 4926,
+      "dataset": "44b6_95029e92",
+      "nodes": 4867,
+      "selected_edges": 4723,
+      "solve_seconds": 2.2428533390630037
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 9.935788753182296e-05,
+        "q50": 0.0024776198882633183,
+        "q99": 0.9790917145562291
+      },
+      "candidate_edges": 196369,
+      "candidate_edges_retained": 39835,
+      "dataset": "44b6_b2c44266",
+      "nodes": 38200,
+      "selected_edges": 35638,
+      "solve_seconds": 19.319910697056912
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 0.00010164153751523535,
+        "q50": 0.0031781253299729708,
+        "q99": 0.9771377722373176
+      },
+      "candidate_edges": 176854,
+      "candidate_edges_retained": 33819,
+      "dataset": "44b6_c771cb04",
+      "nodes": 31112,
+      "selected_edges": 28619,
+      "solve_seconds": 13.823422151966952
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 4.326043271865413e-05,
+        "q50": 0.0008326346884252814,
+        "q99": 0.9870941130200088
+      },
+      "candidate_edges": 174318,
+      "candidate_edges_retained": 36714,
+      "dataset": "44b6_d29c9ab2",
+      "nodes": 36885,
+      "selected_edges": 35747,
+      "solve_seconds": 26.868115354911424
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 7.491211632258872e-05,
+        "q50": 0.0016019345845117636,
+        "q99": 0.9830407981315379
+      },
+      "candidate_edges": 112237,
+      "candidate_edges_retained": 23425,
+      "dataset": "44b6_d78e09d9",
+      "nodes": 22951,
+      "selected_edges": 21744,
+      "solve_seconds": 10.010880290996283
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 8.482627674762005e-05,
+        "q50": 0.004098901078227442,
+        "q99": 0.994381273600297
+      },
+      "candidate_edges": 18472,
+      "candidate_edges_retained": 6104,
+      "dataset": "6bba_13f19531",
+      "nodes": 5929,
+      "selected_edges": 5646,
+      "solve_seconds": 2.3310502669773996
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 0.0001613388174483366,
+        "q50": 0.02265695256101503,
+        "q99": 0.9960412700105855
+      },
+      "candidate_edges": 7229,
+      "candidate_edges_retained": 3463,
+      "dataset": "6bba_2540cd90",
+      "nodes": 3466,
+      "selected_edges": 3390,
+      "solve_seconds": 1.447725635021925
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 8.496726606047954e-05,
+        "q50": 0.0015140002685520956,
+        "q99": 0.9808106673691929
+      },
+      "candidate_edges": 101846,
+      "candidate_edges_retained": 22320,
+      "dataset": "6bba_283bf9f1",
+      "nodes": 21934,
+      "selected_edges": 20896,
+      "solve_seconds": 8.712547156959772
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 9.584201576130358e-05,
+        "q50": 0.0033951670863298163,
+        "q99": 0.9729550579838373
+      },
+      "candidate_edges": 491778,
+      "candidate_edges_retained": 92227,
+      "dataset": "6bba_57b7cc1e",
+      "nodes": 82700,
+      "selected_edges": 76189,
+      "solve_seconds": 49.51144583208952
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 7.203327664187702e-05,
+        "q50": 0.0015960705151468757,
+        "q99": 0.9923728661467602
+      },
+      "candidate_edges": 47632,
+      "candidate_edges_retained": 11263,
+      "dataset": "6bba_789f8168",
+      "nodes": 10989,
+      "selected_edges": 10407,
+      "solve_seconds": 4.340361924027093
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 8.046916879795704e-05,
+        "q50": 0.0027112623845298267,
+        "q99": 0.9799042299282511
+      },
+      "candidate_edges": 183511,
+      "candidate_edges_retained": 36269,
+      "dataset": "6bba_a90a0b9c",
+      "nodes": 34347,
+      "selected_edges": 32070,
+      "solve_seconds": 16.204486189060844
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 0.00011230341448001037,
+        "q50": 0.0021262293452194423,
+        "q99": 0.9908654562730586
+      },
+      "candidate_edges": 24919,
+      "candidate_edges_retained": 7338,
+      "dataset": "6bba_ae82a791",
+      "nodes": 7200,
+      "selected_edges": 6959,
+      "solve_seconds": 3.6537882819538936
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 0.00011607498048353979,
+        "q50": 0.01056780221272351,
+        "q99": 0.995496997051064
+      },
+      "candidate_edges": 13558,
+      "candidate_edges_retained": 5451,
+      "dataset": "6bba_aeee7805",
+      "nodes": 5278,
+      "selected_edges": 5088,
+      "solve_seconds": 2.4019659869372845
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 9.311665242104184e-05,
+        "q50": 0.0019342667106113732,
+        "q99": 0.9897785930619324
+      },
+      "candidate_edges": 31980,
+      "candidate_edges_retained": 8275,
+      "dataset": "6bba_af149c94",
+      "nodes": 7994,
+      "selected_edges": 7708,
+      "solve_seconds": 3.833282658015378
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 0.00011373999410314567,
+        "q50": 0.00422396972189065,
+        "q99": 0.992998517362442
+      },
+      "candidate_edges": 18755,
+      "candidate_edges_retained": 6263,
+      "dataset": "6bba_d0fc38b5",
+      "nodes": 6066,
+      "selected_edges": 5836,
+      "solve_seconds": 2.40315383404959
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 8.269533138615783e-05,
+        "q50": 0.0023671800677008033,
+        "q99": 0.9784778949404228
+      },
+      "candidate_edges": 90935,
+      "candidate_edges_retained": 18968,
+      "dataset": "6bba_d1acb6ff",
+      "nodes": 17082,
+      "selected_edges": 16062,
+      "solve_seconds": 7.9213380119763315
+    },
+    {
+      "calibrated_probability_quantiles": {
+        "q01": 9.225698768495474e-05,
+        "q50": 0.001995860377951348,
+        "q99": 0.978799859274175
+      },
+      "candidate_edges": 151829,
+      "candidate_edges_retained": 30435,
+      "dataset": "6bba_d82a4fc6",
+      "nodes": 29501,
+      "selected_edges": 28047,
+      "solve_seconds": 19.055916831013747
+    }
+  ],
+  "status": "complete"
+}

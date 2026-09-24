@@ -1,0 +1,24 @@
+{
+  "algorithm_changes": 0,
+  "output": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model179/reproduction.ipynb",
+  "output_sha256": "238a3ae169b47e6c191e4f54f9b479ce0ee9e6cbebb4b0d1f99b5a1edd241192",
+  "replacement_counts": {
+    "COMP_DIR_CANDIDATES = [\n    Path(f\"/kaggle/input/competitions/{COMPETITION}\"),\n    Path(f\"/kaggle/input/{COMPETITION}\"),\n]": 1,
+    "Path(\"/kaggle/working\")\n                            / f\"retention_guard_{shard}.jsonl\"": 1,
+    "Path(\"/kaggle/working\"),\n        Path(\"/kaggle/working/wheels\"),": 1,
+    "Path(\"/kaggle/working\")\\n            / f\"detector_coordinates_{_coordinate_manifest_arm}_\"": 1,
+    "Path(\"/kaggle/working/dual_seed_frame_retention_guard_report.json\").write_text": 1,
+    "WORKING_DIR = Path(\"/kaggle/working\") if Path(\"/kaggle/working\").exists() else Path(\".\")": 1,
+    "_guard_submission = Path(\"/kaggle/working/submission.csv\")": 1,
+    "for _guard_path in sorted(Path(\"/kaggle/working\").glob(\"retention_guard_*.jsonl\")):": 1,
+    "os.environ[\"BIOHUB_DEEPCENTER_CHECKPOINT\"] = \"/kaggle/input/biohub-deepcenter-unet3d-center-prior-v1/weights/full_frame_center/best.pt\"": 1
+  },
+  "skipped_code_cells": [
+    0,
+    1
+  ],
+  "skipped_reason": "display-only public Kaggle metadata tables",
+  "source": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model167/public/busyaprime/biohub-0-942-lb-one-knob-past-the-public-line.ipynb",
+  "source_sha256": "16a6efdd11057e7df2c4f052e94495d3c2d7bcbab988cd66544559e525eaac7b",
+  "status": "prepared_not_run_not_scored"
+}

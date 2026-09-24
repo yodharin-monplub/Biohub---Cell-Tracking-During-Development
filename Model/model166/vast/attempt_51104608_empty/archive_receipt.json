@@ -1,0 +1,11 @@
+{
+  "status": "archived_verified_empty_attempt",
+  "instance_id": 51104608,
+  "files": [
+    "rental.json",
+    "manual_stop.json",
+    "empty_cleanup.json",
+    "watchdog_status.json"
+  ],
+  "ready_for_fresh_rental": true
+}

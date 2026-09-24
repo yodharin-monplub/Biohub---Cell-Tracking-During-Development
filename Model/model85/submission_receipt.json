@@ -1,0 +1,11 @@
+{
+  "competition": "biohub-cell-tracking-during-development",
+  "kernel": "yodharinmonplub/biohub-model85-fold4-conservative",
+  "kernel_version": 2,
+  "submission_id": 56047124,
+  "status_at_2026-09-06": "COMPLETE",
+  "public_score": 0.876,
+  "delta_vs_model1_public_0p934": -0.058,
+  "csv_sha256": "edffe426ec7c2cec6c932c4648f7ff8f769a09b6ab6cbd09a43890e8a7433fb9",
+  "weight_sha256": "e2a59cfe971ac57115dfdd60b96e196d53e230b6cfae329f9e0732170166763b"
+}

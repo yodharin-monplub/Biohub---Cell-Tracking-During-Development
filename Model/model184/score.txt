@@ -1,0 +1,1 @@
+heldout_44b6_24_movies=0.75994 vs from-scratch 0.79657 -> synthetic pretraining REJECTED

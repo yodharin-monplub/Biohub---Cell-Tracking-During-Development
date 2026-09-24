@@ -1,0 +1,53 @@
+{
+  "candidate_csv": "model53/p80_candidates.csv",
+  "candidate_sha256": "4981b13e914baa023f8e44652ec31079fb7ea4cf7138ac87950a58959ec6355c",
+  "candidates_passing_gate": 10,
+  "datasets_skipped_for_existing_forks": [],
+  "edges_added": 7,
+  "input_csv": "model48/edge_p_0p400.csv",
+  "input_sha256": "611b949e1e2a444e5c5f1441f43b94b22d451f8b2e3ba1abd56780e2af70e796",
+  "output_csv": "model55/topk_sparse_rescue.csv",
+  "output_sha256": "03722040309d8a09441d6d0a9da286e270a8b561d42c74f9bb0782f6644520aa",
+  "probability_interval": [
+    0.45,
+    0.5668243328192077
+  ],
+  "selected": {
+    "44b6_18ced818": {
+      "probability": 0.5539873917759169,
+      "source_id": 40246,
+      "target_id": 41217
+    },
+    "44b6_808952d6": {
+      "probability": 0.5472385094742781,
+      "source_id": 16572,
+      "target_id": 16721
+    },
+    "44b6_d78e09d9": {
+      "probability": 0.4755930459805348,
+      "source_id": 5848,
+      "target_id": 6182
+    },
+    "6bba_283bf9f1": {
+      "probability": 0.5269129525384928,
+      "source_id": 21147,
+      "target_id": 21360
+    },
+    "6bba_aeee7805": {
+      "probability": 0.47941171830240736,
+      "source_id": 826,
+      "target_id": 884
+    },
+    "6bba_af149c94": {
+      "probability": 0.4909820824658148,
+      "source_id": 2818,
+      "target_id": 2901
+    },
+    "6bba_d0fc38b5": {
+      "probability": 0.4824445218642594,
+      "source_id": 3307,
+      "target_id": 3389
+    }
+  },
+  "status": "complete"
+}

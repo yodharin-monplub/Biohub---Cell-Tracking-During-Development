@@ -1,0 +1,10 @@
+{
+  "updated_unix": 1789319831.8163233,
+  "pid": 3091251,
+  "status": "complete",
+  "stage": "capture_complete",
+  "completed": 16,
+  "total": 16,
+  "receipt_sha256": "fdbfd259479f34c26c0019bf1aeafdbb5639a1613e81433bf0756e76d1f14472",
+  "alarm_enabled": false
+}

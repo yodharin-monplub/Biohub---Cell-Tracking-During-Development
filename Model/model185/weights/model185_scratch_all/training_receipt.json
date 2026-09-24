@@ -1,0 +1,17 @@
+{
+  "status": "trained_not_scored",
+  "checkpoint": "/workspace/runs/model185_scratch_all/split_0/edge_predictor_best.pth",
+  "checkpoint_sha256": "ac8dd16249dbffc08e8da88eb1cd7228ed10d1625c22d696774487ed5ef41357",
+  "elapsed_seconds": 47356.930095805,
+  "stage": "finetune",
+  "fold": "all",
+  "train_movies": 199,
+  "method": "model185_scratch_all",
+  "epochs": 130,
+  "max_iters": 250,
+  "lr": 0.0001,
+  "batch_size": 8,
+  "seed": 20260921,
+  "init": null,
+  "data_dir": "/workspace/biohub/data/raw/train"
+}

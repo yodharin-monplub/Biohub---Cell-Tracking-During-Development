@@ -1,0 +1,41 @@
+{
+  "candidates_scored": 58715,
+  "edges_added": 969,
+  "edges_added_by_dataset": {
+    "44b6_18ced818": 246,
+    "44b6_808952d6": 23,
+    "44b6_87bba6c4": 76,
+    "44b6_95029e92": 4,
+    "44b6_b2c44266": 39,
+    "44b6_c771cb04": 45,
+    "44b6_d29c9ab2": 51,
+    "44b6_d78e09d9": 54,
+    "6bba_13f19531": 4,
+    "6bba_2540cd90": 3,
+    "6bba_283bf9f1": 39,
+    "6bba_57b7cc1e": 253,
+    "6bba_789f8168": 12,
+    "6bba_a90a0b9c": 35,
+    "6bba_ae82a791": 7,
+    "6bba_aeee7805": 0,
+    "6bba_af149c94": 7,
+    "6bba_d0fc38b5": 3,
+    "6bba_d1acb6ff": 33,
+    "6bba_d82a4fc6": 35
+  },
+  "input_csv": "model30/submissions/gap_close_exact.csv",
+  "input_sha256": "48f14cacc1fab63d9f87846c3da1f0b381637b635b5b3dd6cbf1cc5a5fbf350b",
+  "output_csv": "model38/broad_real_division_p80.csv",
+  "output_sha256": "b643d857b377fead9b0ae96db4fe54b0f23e122fd1fbb6bb2517ecfa68d5c616",
+  "prefilter": {
+    "both_successors_required": true,
+    "max_parent_candidate_um": 15.0,
+    "max_parent_linked_um": 12.0,
+    "max_sister_um": 20.5,
+    "min_separation_growth_um": 0.0,
+    "nearest_orphan_required": true
+  },
+  "ranker": "model36/real_division_model.json",
+  "ranker_sha256": "6224077133dc2c94a6d22946e2874fc3f2844f2d35138b2621440d28feeb5953",
+  "threshold": 0.5668243328192077
+}

@@ -1,0 +1,67 @@
+{
+  "status": "not_confirmed",
+  "control": {
+    "score": 0.9267886759651051,
+    "adjusted_edge_jaccard": 0.9198921242409671,
+    "division_jaccard": 0.06896551724137931,
+    "edge_weight": 23914,
+    "node_recall": 0.9830243743755424
+  },
+  "candidate": {
+    "score": 0.9267886759651051,
+    "adjusted_edge_jaccard": 0.9198921242409671,
+    "division_jaccard": 0.06896551724137931,
+    "edge_weight": 23914,
+    "node_recall": 0.9830243743755424
+  },
+  "delta": 0.0,
+  "families": {
+    "44b6": {
+      "control": {
+        "score": 0.9290739293530481,
+        "adjusted_edge_jaccard": 0.9185476135635744,
+        "division_jaccard": 0.10526315789473684,
+        "edge_weight": 7712,
+        "node_recall": 0.9863612823724018
+      },
+      "candidate": {
+        "score": 0.9290739293530481,
+        "adjusted_edge_jaccard": 0.9185476135635744,
+        "division_jaccard": 0.10526315789473684,
+        "edge_weight": 7712,
+        "node_recall": 0.9863612823724018
+      },
+      "delta": 0.0
+    },
+    "6bba": {
+      "control": {
+        "score": 0.9256603038380065,
+        "adjusted_edge_jaccard": 0.9205320987098013,
+        "division_jaccard": 0.05128205128205128,
+        "edge_weight": 16202,
+        "node_recall": 0.9798543117785258
+      },
+      "candidate": {
+        "score": 0.9256603038380065,
+        "adjusted_edge_jaccard": 0.9205320987098013,
+        "division_jaccard": 0.05128205128205128,
+        "edge_weight": 16202,
+        "node_recall": 0.9798543117785258
+      },
+      "delta": 0.0
+    }
+  },
+  "gates": {
+    "official_score_improves": false,
+    "family_drop_at_most_0.001": true,
+    "recall_drop_at_most_0.001": true,
+    "additional_evaluated_true_division": false
+  },
+  "edge_movie_wins": 0,
+  "edge_movie_losses": 0,
+  "edge_movie_ties": 39,
+  "caveat": "Frozen rule,39 separately selected movies. Shared embryo families, prior annotation exposure and unknown checkpoint provenance mean this is not an untouched or unseen-embryo holdout.",
+  "division_tp_delta": 0,
+  "cohort_sha256": "72d06f2ab42228c7d18550694ab6ec9a6435436409a8c7acdd5431ae011253e0",
+  "edits": 1
+}

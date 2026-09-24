@@ -1,0 +1,15 @@
+{
+  "kernel": "yodharinmonplub/biohub-model104-protected-motion-links",
+  "kernel_id": 133826128,
+  "version": 1,
+  "monitor_interval_seconds": 600,
+  "alarm_enabled": false,
+  "submission_id": 56142407,
+  "status": "scoring",
+  "notebook_status": "COMPLETE",
+  "updated_unix": 1789040421.6847,
+  "elapsed_seconds": 6027.617052316666,
+  "scoring_status": "PENDING",
+  "public_score": "",
+  "error": ""
+}

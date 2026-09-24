@@ -1,0 +1,9 @@
+{
+  "minimum_original_probability": 0.95,
+  "maximum_velocity_change_um": 2.0,
+  "distance_gate": "unchanged MOTION_RELINK_TIGHT_UM (6 micrometers)",
+  "context": "Protect both edges of any consecutive three-frame high-confidence chain satisfying the velocity gate",
+  "conflicts": "Reject every qualifying edge sharing a source or target before forming triplets",
+  "evaluate_both_cohorts": true,
+  "promotion": "Must improve over both model1 and model104 in each cohort, pass family/recall gates, and retain positive gains over model1 in every leave-one-movie-out comparison. Review required; no automatic upload."
+}

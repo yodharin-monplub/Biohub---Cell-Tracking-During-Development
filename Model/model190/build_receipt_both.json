@@ -1,0 +1,7 @@
+{
+  "status": "built_unrun",
+  "role": "both",
+  "source_cell_sha256": "66460635439aacfe4fd1e4389e95a677cc79cdb497211debb3471ea1b951f2cb",
+  "output_sha256": "ca8a26b5aa4ae295eddbe64804d2ca1ab44638c6167709fdd431972d8c328d60",
+  "model185_sha256": "ac8dd16249dbffc08e8da88eb1cd7228ed10d1625c22d696774487ed5ef41357"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "frozen_before_confirmation_inference",
+  "files_sha256": {
+    "cohort.json": "72d06f2ab42228c7d18550694ab6ec9a6435436409a8c7acdd5431ae011253e0",
+    "config.json": "ce1e20c9eb2f3aa76f51d3c43fd9023cf5be2aa3840484f1a459f8428aecb39b",
+    "control.ipynb": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+    "frozen_selector.py": "70e0c3f1f4e7c9f0611cfc69b88c97350c3bcbdae7cdbd69cc40689a0fbd523d",
+    "prepare.py": "24a5743b58a741ea7d4eda9d353cf006850f0a3b7bece17703045ae55b0fa3cf",
+    "pipeline.py": "94757d33bcd1fda985866c561bd74f6747bcf96237591ebd1a56ef2d988cbb4f",
+    "compare.py": "b3c0d7564c36959604f12f66500f520721fdfc6d493a9575043020c133c6a5d3",
+    "run.sh": "20417948fc2e181b5c7dd4c2e51a0f902d2d4f2a3a455810309e61e7fb46bd26",
+    "monitor_run.py": "1c814fe690a6b8ae87e25b094cec2776dc326f0cfefef2ffe725683751037ba1"
+  },
+  "model101_build_sha256": "7a0848d8dddfa836abf56f76e500fb394d0add1140ad5f52f660a4f309874a70"
+}

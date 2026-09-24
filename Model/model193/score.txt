@@ -1,0 +1,1 @@
+﻿Public LB (2026-09-22): 0.938 (vs 0.947 baseline). Dummy-test output 227,423 rows / 115,693 nodes vs 241k / 122.8k for model167.

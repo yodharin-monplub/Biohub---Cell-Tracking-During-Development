@@ -1,0 +1,11 @@
+{
+  "status": "frozen_before_scoring",
+  "model1_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "candidate_sha256": "eaad4f00251f8cb8573b51a994e9642f8c0ca8cfad65c1157f420bb12f03cc10",
+  "build_source_sha256": "f1f2b307df1efd1e1e15dc1a997ca69c5ac648d2fd035e4420be6e89d0c6e57a",
+  "changed_cells": [
+    8
+  ],
+  "single_change": "OUTPUT_MOTION_RELINK=False",
+  "kaggle_submitted": false
+}

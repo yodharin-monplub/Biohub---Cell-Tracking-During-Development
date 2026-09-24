@@ -1,0 +1,16 @@
+{
+  "preflight_movie": "44b6_1d530831",
+  "train_only_movies": [
+    "44b6_267148e4",
+    "44b6_c50204e0",
+    "44b6_d2f34f90",
+    "6bba_05db0fb1",
+    "6bba_07e24132",
+    "6bba_cdcfe533",
+    "6bba_debd7bfa",
+    "6bba_df673a83"
+  ],
+  "expected_train_only_annotated_divisions": 22,
+  "capture_top_k": 5,
+  "predictor_notebook_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d"
+}

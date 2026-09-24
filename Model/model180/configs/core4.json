@@ -1,0 +1,1 @@
+﻿{"base": {}, "no_relink": {"OUTPUT_MOTION_RELINK": false}, "no_linefit": {"OUTPUT_LINEFIT_SMOOTH": false}, "relaxed_all_dc0.40": {"SAFE_DIV_SISTER_SYMMETRY_TAU": 0.0, "SAFE_DIV_REQUIRE_DIVERGENCE": false, "SAFE_DIV_REQUIRE_MUTUAL_NN": false, "DEEPCENTER_SAFE_DIV_THRESHOLD": 0.40}}

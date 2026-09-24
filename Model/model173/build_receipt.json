@@ -1,0 +1,10 @@
+{
+  "candidate_grid": "PP_CANDIDATES: dict[str, dict] = {'dcdiv030': {'DEEPCENTER_SAFE_DIV_THRESHOLD': 0.30}, 'dcdiv040': {'DEEPCENTER_SAFE_DIV_THRESHOLD': 0.40}, 'dcdiv045': {'DEEPCENTER_SAFE_DIV_THRESHOLD': 0.45}, 'dcdiv050': {'DEEPCENTER_SAFE_DIV_THRESHOLD': 0.50}}",
+  "caveat": "Static package; no run or score.",
+  "changed_occurrences": 2,
+  "inherited_radius_um": 5.15,
+  "one_new_component": "DEEPCENTER_SAFE_DIV_THRESHOLD",
+  "output_sha256": "f3095aea350625d5fee718a81e91cd0bcae1f18d1db2173e93e019031d1f692e",
+  "source_sha256": "eaae8dfffe53428beb0ee62eed4b8460d0465a96d94d44c03ed25e864591b0f0",
+  "status": "built_unrun"
+}

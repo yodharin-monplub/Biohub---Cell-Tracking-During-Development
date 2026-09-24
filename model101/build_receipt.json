@@ -1,9 +1,0 @@
-{
-  "status": "frozen_before_candidate_scoring",
-  "model1_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
-  "config_sha256": "ce1e20c9eb2f3aa76f51d3c43fd9023cf5be2aa3840484f1a459f8428aecb39b",
-  "resolved_candidate_sha256": "70e0c3f1f4e7c9f0611cfc69b88c97350c3bcbdae7cdbd69cc40689a0fbd523d",
-  "single_change": "High-neural-confidence exception to the motion-consistency rejection block",
-  "source_baseline": "complete model1 final CSV, not model100 output",
-  "caveat": "Development-data-informed rule; independent confirmation required."
-}

@@ -1,0 +1,119 @@
+{
+  "appearance_cost": 0.0,
+  "candidate_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model17/candidates",
+  "disappearance_cost": 2.0,
+  "distance_weights": [
+    0.06,
+    0.08,
+    0.12,
+    0.16
+  ],
+  "division_cost": 1.2,
+  "edge_cost": "-edge_prob + distance_weight * edge_dist",
+  "edge_distance_unit": "approximately isotropic downsample-grid voxels (1.625 um)",
+  "elapsed_seconds": 259.1602923060418,
+  "num_threads": 1,
+  "results": [
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24552,
+          "nodes": 25487
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 19223,
+          "nodes": 21563
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5839,
+          "nodes": 6156
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 63847,
+          "nodes": 67752
+        }
+      ],
+      "distance_weight": 0.06
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24528,
+          "nodes": 25455
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 18949,
+          "nodes": 21208
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5818,
+          "nodes": 6129
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 63683,
+          "nodes": 67539
+        }
+      ],
+      "distance_weight": 0.08
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24490,
+          "nodes": 25406
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 18268,
+          "nodes": 20347
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5778,
+          "nodes": 6078
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 63316,
+          "nodes": 67075
+        }
+      ],
+      "distance_weight": 0.12
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24428,
+          "nodes": 25330
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 17360,
+          "nodes": 19234
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5738,
+          "nodes": 6031
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 62862,
+          "nodes": 66534
+        }
+      ],
+      "distance_weight": 0.16
+    }
+  ],
+  "status": "complete"
+}

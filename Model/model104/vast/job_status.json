@@ -1,0 +1,14 @@
+{
+  "instance_id": 50471613,
+  "status": "failed",
+  "monitor_interval_seconds": 600,
+  "alarm_enabled": false,
+  "stage": "download",
+  "updated_unix": 1789030536.9908373,
+  "elapsed_seconds": 2833.9633655548096,
+  "error_type": "AssertionError",
+  "error": "",
+  "stop_requested": true,
+  "disk_retained": true,
+  "storage_charges_continue": true
+}

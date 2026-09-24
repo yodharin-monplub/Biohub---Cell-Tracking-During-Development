@@ -1,0 +1,41 @@
+{
+  "candidates_scored": 65956,
+  "edges_added": 373,
+  "edges_added_by_dataset": {
+    "44b6_18ced818": 89,
+    "44b6_808952d6": 15,
+    "44b6_87bba6c4": 30,
+    "44b6_95029e92": 0,
+    "44b6_b2c44266": 15,
+    "44b6_c771cb04": 14,
+    "44b6_d29c9ab2": 17,
+    "44b6_d78e09d9": 13,
+    "6bba_13f19531": 1,
+    "6bba_2540cd90": 1,
+    "6bba_283bf9f1": 15,
+    "6bba_57b7cc1e": 91,
+    "6bba_789f8168": 8,
+    "6bba_a90a0b9c": 22,
+    "6bba_ae82a791": 4,
+    "6bba_aeee7805": 1,
+    "6bba_af149c94": 4,
+    "6bba_d0fc38b5": 2,
+    "6bba_d1acb6ff": 12,
+    "6bba_d82a4fc6": 19
+  },
+  "input_csv": "model22/submissions/lambda_0p00.csv",
+  "input_sha256": "7cbeaa322ba83619b65e7b4fc004aae8cc2bc593e240c40b6969a97b0766afb6",
+  "output_csv": "model34/division_p050.csv",
+  "output_sha256": "7ee565fba99d9537846f97eeef559da61c22529750d9c88656c6585021c9b16d",
+  "prefilter": {
+    "both_successors_required": true,
+    "max_parent_candidate_um": 15.0,
+    "max_parent_linked_um": 12.0,
+    "max_sister_um": 20.5,
+    "min_separation_growth_um": 0.0,
+    "nearest_orphan_required": true
+  },
+  "ranker": "model5/division_geometry_model.json",
+  "ranker_sha256": "c47297481a6cdd1124af53ce9b6e4c2ebc2134218c4388229845fc2962a876b2",
+  "threshold": 0.5
+}

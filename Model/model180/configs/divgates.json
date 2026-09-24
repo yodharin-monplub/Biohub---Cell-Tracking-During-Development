@@ -1,0 +1,9 @@
+{
+  "base": {},
+  "no_linefit": {"OUTPUT_LINEFIT_SMOOTH": false},
+  "no_relink": {"OUTPUT_MOTION_RELINK": false},
+  "sym_tau_1.0": {"SAFE_DIV_SISTER_SYMMETRY_TAU": 1.0},
+  "diverge_0.0": {"SAFE_DIV_DIVERGE_UM": 0.0},
+  "no_mutual_nn": {"SAFE_DIV_REQUIRE_MUTUAL_NN": false},
+  "relaxed_all_dc0.40": {"SAFE_DIV_SISTER_SYMMETRY_TAU": 0.0, "SAFE_DIV_REQUIRE_DIVERGENCE": false, "SAFE_DIV_REQUIRE_MUTUAL_NN": false, "DEEPCENTER_SAFE_DIV_THRESHOLD": 0.40}
+}

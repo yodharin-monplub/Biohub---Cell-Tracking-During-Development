@@ -1,0 +1,4459 @@
+[
+  {
+    "movie": "44b6_2a2eff9f",
+    "gt_parent": 160000000048,
+    "gt_daughters": [
+      161000000048,
+      161000000049
+    ],
+    "t": 11,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 6402,
+      "matched_daughters": [
+        6866,
+        6909
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 5,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "160000000048": 3.093907824257213,
+        "161000000048": 1.1490485194281397,
+        "161000000049": 2.569350598886808
+      },
+      "matched_parent_incoming": [
+        5868
+      ],
+      "matched_parent_outgoing": [
+        6909
+      ],
+      "daughter_incoming": [
+        [
+          6359
+        ],
+        [
+          6402
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 6866,
+        "missing_daughter_incoming": [
+          6359
+        ],
+        "parent_children": [
+          6909
+        ],
+        "parent_second_distance_um": 11.258330249197702,
+        "sister_distance_um": 11.258330249197702,
+        "separation_growth_um": 0.23215494508369616,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 4954,
+      "matched_daughters": [
+        5328,
+        5365
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 5,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "160000000048": 2.368824207280903,
+        "161000000048": 1.8168052317185792,
+        "161000000049": 1.8168052317185792
+      },
+      "matched_parent_incoming": [
+        4529
+      ],
+      "matched_parent_outgoing": [
+        5365
+      ],
+      "daughter_incoming": [
+        [
+          4914
+        ],
+        [
+          4954
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 5328,
+        "missing_daughter_incoming": [
+          4914
+        ],
+        "parent_children": [
+          5365
+        ],
+        "parent_second_distance_um": 11.316815475212097,
+        "sister_distance_um": 11.316815475212097,
+        "separation_growth_um": 0.5829120689378104,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 6402,
+    "final_csv_daughters": [
+      6866,
+      6909
+    ]
+  },
+  {
+    "movie": "44b6_706092f0",
+    "gt_parent": 446000000015,
+    "gt_daughters": [
+      447000000015,
+      447000000016
+    ],
+    "t": 49,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 18010,
+      "matched_daughters": [
+        18360,
+        null
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "446000000015": 0.40625,
+        "447000000015": 0.0,
+        "447000000016": 4.667457150312148
+      },
+      "matched_parent_incoming": [
+        17657
+      ],
+      "matched_parent_outgoing": [
+        18360
+      ],
+      "daughter_incoming": [
+        [
+          18010
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 11979,
+      "matched_daughters": [
+        12212,
+        null
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "446000000015": 0.9084026158592896,
+        "447000000015": 0.40625,
+        "447000000016": 4.755034338729848
+      },
+      "matched_parent_incoming": [
+        11747
+      ],
+      "matched_parent_outgoing": [
+        12212
+      ],
+      "daughter_incoming": [
+        [
+          11979
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 18010,
+    "final_csv_daughters": [
+      18360,
+      null
+    ]
+  },
+  {
+    "movie": "44b6_74d0c52e",
+    "gt_parent": 296000000021,
+    "gt_daughters": [
+      297000000021,
+      297000000022
+    ],
+    "t": 58,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 6335,
+      "matched_daughters": [
+        6442,
+        6449
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "296000000021": 2.632800908728193,
+        "297000000021": 1.1490485194281397,
+        "297000000022": 0.40625
+      },
+      "matched_parent_incoming": [
+        6219
+      ],
+      "matched_parent_outgoing": [
+        6449
+      ],
+      "daughter_incoming": [
+        [
+          6329
+        ],
+        [
+          6335
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 6442,
+        "missing_daughter_incoming": [
+          6329
+        ],
+        "parent_children": [
+          6449
+        ],
+        "parent_second_distance_um": 13.595725431178728,
+        "sister_distance_um": 12.268480957314969,
+        "separation_growth_um": 2.975370262111177,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 5186,
+      "matched_daughters": [
+        5266,
+        5272
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "296000000021": 2.0714766773970688,
+        "297000000021": 0.5745242597140698,
+        "297000000022": 0.9084026158592896
+      },
+      "matched_parent_incoming": [
+        5094
+      ],
+      "matched_parent_outgoing": [
+        5272
+      ],
+      "daughter_incoming": [
+        [
+          5180
+        ],
+        [
+          5186
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 5266,
+        "missing_daughter_incoming": [
+          5180
+        ],
+        "parent_children": [
+          5272
+        ],
+        "parent_second_distance_um": 12.910826972932446,
+        "sister_distance_um": 12.428860064382413,
+        "separation_growth_um": 2.1961399356175875,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 6335,
+    "final_csv_daughters": [
+      6442,
+      6449
+    ]
+  },
+  {
+    "movie": "44b6_a21120c2",
+    "gt_parent": 68000000011,
+    "gt_daughters": [
+      69000000011,
+      69000000012
+    ],
+    "t": 52,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 13023,
+      "matched_daughters": [
+        13281,
+        13275
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "68000000011": 0.40625,
+        "69000000011": 1.7235727791422095,
+        "69000000012": 1.4647552056572457
+      },
+      "matched_parent_incoming": [
+        12768
+      ],
+      "matched_parent_outgoing": [
+        13281
+      ],
+      "daughter_incoming": [
+        [
+          13023
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 13275,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          13281
+        ],
+        "parent_second_distance_um": 5.859020822628983,
+        "sister_distance_um": 8.285906709588275,
+        "separation_growth_um": 5.212357067653597,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": true,
+      "category": "official_recovered",
+      "matched_parent": 12454,
+      "matched_daughters": [
+        12706,
+        12700
+      ],
+      "direct_correct_links": 2,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "68000000011": 0.0,
+        "69000000011": 1.8168052317185792,
+        "69000000012": 0.9084026158592896
+      },
+      "matched_parent_incoming": [
+        12205
+      ],
+      "matched_parent_outgoing": [
+        12706,
+        12700
+      ],
+      "daughter_incoming": [
+        [
+          12454
+        ],
+        [
+          12454
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 13023,
+    "final_csv_daughters": [
+      13281,
+      13275
+    ]
+  },
+  {
+    "movie": "44b6_a21120c2",
+    "gt_parent": 76000000019,
+    "gt_daughters": [
+      77000000019,
+      77000000020
+    ],
+    "t": 60,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 15120,
+      "matched_daughters": [
+        15384,
+        15387
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "76000000019": 0.0,
+        "77000000019": 0.8125,
+        "77000000020": 0.40625
+      },
+      "matched_parent_incoming": [
+        14857
+      ],
+      "matched_parent_outgoing": [
+        15387
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          15120
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 15384,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          15387
+        ],
+        "parent_second_distance_um": 6.700046641628698,
+        "sister_distance_um": 8.443747686898277,
+        "separation_growth_um": 3.497514809169717,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 14500,
+      "matched_daughters": [
+        14756,
+        14759
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "76000000019": 2.03125,
+        "77000000019": 3.6787502123683256,
+        "77000000020": 1.9902104160113323
+      },
+      "matched_parent_incoming": [
+        14244
+      ],
+      "matched_parent_outgoing": [
+        14759
+      ],
+      "daughter_incoming": [
+        [
+          14528
+        ],
+        [
+          14500
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 14756,
+        "missing_daughter_incoming": [
+          14528
+        ],
+        "parent_children": [
+          14759
+        ],
+        "parent_second_distance_um": 10.570309612896871,
+        "sister_distance_um": 9.72457622791348,
+        "separation_growth_um": 1.4454520285413786,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 15120,
+    "final_csv_daughters": [
+      15384,
+      15387
+    ]
+  },
+  {
+    "movie": "44b6_d754aa59",
+    "gt_parent": 69000000054,
+    "gt_daughters": [
+      70000000054,
+      70000000055
+    ],
+    "t": 63,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 3829,
+      "matched_daughters": [
+        3888,
+        3895
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "69000000054": 0.5745242597140698,
+        "70000000054": 0.8125,
+        "70000000055": 1.86167137607581
+      },
+      "matched_parent_incoming": [
+        3764
+      ],
+      "matched_parent_outgoing": [
+        3895
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          3829
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 3888,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          3895
+        ],
+        "parent_second_distance_um": 6.700046641628698,
+        "sister_distance_um": 11.490485194281398,
+        "separation_growth_um": 3.2245156551919045,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 3238,
+      "matched_daughters": [
+        3291,
+        3297
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "69000000054": 2.4375,
+        "70000000054": 2.9575446425202108,
+        "70000000055": 2.4375
+      },
+      "matched_parent_incoming": [
+        3184
+      ],
+      "matched_parent_outgoing": [
+        3297
+      ],
+      "daughter_incoming": [
+        [
+          3234
+        ],
+        [
+          3238
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 3291,
+        "missing_daughter_incoming": [
+          3234
+        ],
+        "parent_children": [
+          3297
+        ],
+        "parent_second_distance_um": 11.411214672965363,
+        "sister_distance_um": 12.335558991184794,
+        "separation_growth_um": 0.9780413154565313,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 3829,
+    "final_csv_daughters": [
+      3888,
+      3895
+    ]
+  },
+  {
+    "movie": "6bba_09961292",
+    "gt_parent": 25000920,
+    "gt_daughters": [
+      26000956,
+      26000987
+    ],
+    "t": 24,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 8622,
+      "matched_daughters": [
+        8891,
+        null
+      ],
+      "direct_correct_links": 0,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "25000920": 0.9084026158592896,
+        "26000956": 5.041429918683786,
+        "26000987": 8.788531233943473
+      },
+      "matched_parent_incoming": [
+        8284
+      ],
+      "matched_parent_outgoing": [],
+      "daughter_incoming": [
+        [
+          8534
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 7621,
+      "matched_daughters": [
+        7982,
+        null
+      ],
+      "direct_correct_links": 0,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "25000920": 0.40625,
+        "26000956": 5.859020822628983,
+        "26000987": 7.89840272618458
+      },
+      "matched_parent_incoming": [
+        7320
+      ],
+      "matched_parent_outgoing": [],
+      "daughter_incoming": [
+        [
+          7685
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 8622,
+    "final_csv_daughters": [
+      9016,
+      null
+    ]
+  },
+  {
+    "movie": "6bba_09961292",
+    "gt_parent": 45001493,
+    "gt_daughters": [
+      46001530,
+      46001531
+    ],
+    "t": 44,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 14911,
+      "matched_daughters": [
+        15245,
+        15199
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "45001493": 0.40625,
+        "46001530": 0.9084026158592896,
+        "46001531": 2.333728575156074
+      },
+      "matched_parent_incoming": [
+        14612
+      ],
+      "matched_parent_outgoing": [
+        15245
+      ],
+      "daughter_incoming": [
+        [
+          14911
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 15199,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          15245
+        ],
+        "parent_second_distance_um": 2.8145825622994254,
+        "sister_distance_um": 5.859020822628983,
+        "separation_growth_um": 3.4758934779953137,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": true,
+      "category": "official_recovered",
+      "matched_parent": 13326,
+      "matched_daughters": [
+        13616,
+        13573
+      ],
+      "direct_correct_links": 2,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "45001493": 1.6750116604071745,
+        "46001530": 1.6750116604071745,
+        "46001531": 0.0
+      },
+      "matched_parent_incoming": [
+        13066
+      ],
+      "matched_parent_outgoing": [
+        13573,
+        13616
+      ],
+      "daughter_incoming": [
+        [
+          13326
+        ],
+        [
+          13326
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 14911,
+    "final_csv_daughters": [
+      15245,
+      15199
+    ]
+  },
+  {
+    "movie": "6bba_09961292",
+    "gt_parent": 49001609,
+    "gt_daughters": [
+      50001629,
+      50001630
+    ],
+    "t": 48,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 16214,
+      "matched_daughters": [
+        16535,
+        null
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "49001609": 1.6750116604071745,
+        "50001629": 0.0,
+        "50001630": 5.025034981221523
+      },
+      "matched_parent_incoming": [
+        15884
+      ],
+      "matched_parent_outgoing": [
+        16535
+      ],
+      "daughter_incoming": [
+        [
+          16214
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 14478,
+      "matched_daughters": [
+        14775,
+        14733
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "49001609": 1.7235727791422095,
+        "50001629": 0.9084026158592896,
+        "50001630": 4.4502457797294745
+      },
+      "matched_parent_incoming": [
+        14177
+      ],
+      "matched_parent_outgoing": [
+        14775
+      ],
+      "daughter_incoming": [
+        [
+          14478
+        ],
+        [
+          14466
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 14733,
+        "missing_daughter_incoming": [
+          14466
+        ],
+        "parent_children": [
+          14775
+        ],
+        "parent_second_distance_um": 9.201360717986226,
+        "sister_distance_um": 10.570309612896871,
+        "separation_growth_um": 1.259868957183972,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 16214,
+    "final_csv_daughters": [
+      16535,
+      16492
+    ]
+  },
+  {
+    "movie": "6bba_09961292",
+    "gt_parent": 53001680,
+    "gt_daughters": [
+      54001733,
+      54001734
+    ],
+    "t": 52,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 17390,
+      "matched_daughters": [
+        null,
+        17694
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "53001680": 2.1877232028983924,
+        "54001733": 8.125,
+        "54001734": 1.6750116604071745
+      },
+      "matched_parent_incoming": [
+        17094
+      ],
+      "matched_parent_outgoing": [
+        17694
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          17390
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 15549,
+      "matched_daughters": [
+        null,
+        15826
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "53001680": 2.7252078475778685,
+        "54001733": 7.729433396116432,
+        "54001734": 1.6750116604071745
+      },
+      "matched_parent_incoming": [
+        15277
+      ],
+      "matched_parent_outgoing": [
+        15826
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          15549
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 17390,
+    "final_csv_daughters": [
+      null,
+      17694
+    ]
+  },
+  {
+    "movie": "6bba_1d0d8384",
+    "gt_parent": 15000455,
+    "gt_daughters": [
+      16000515,
+      16000516
+    ],
+    "t": 14,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 4734,
+      "matched_daughters": [
+        5046,
+        5035
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "15000455": 3.374565944310468,
+        "16000515": 2.471122277933652,
+        "16000516": 3.2752922102462856
+      },
+      "matched_parent_incoming": [
+        4424
+      ],
+      "matched_parent_outgoing": [
+        5035
+      ],
+      "daughter_incoming": [
+        [
+          4741
+        ],
+        [
+          4734
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 5046,
+        "missing_daughter_incoming": [
+          4741
+        ],
+        "parent_children": [
+          5035
+        ],
+        "parent_second_distance_um": 6.700046641628698,
+        "sister_distance_um": 8.75089281159357,
+        "separation_growth_um": -1.30420730729033,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 4084,
+      "matched_daughters": [
+        4361,
+        4351
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "15000455": 3.447145558284419,
+        "16000515": 2.84375,
+        "16000516": 3.374565944310468
+      },
+      "matched_parent_incoming": [
+        3810
+      ],
+      "matched_parent_outgoing": [
+        4351
+      ],
+      "daughter_incoming": [
+        [
+          4090
+        ],
+        [
+          4084
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 4361,
+        "missing_daughter_incoming": [
+          4090
+        ],
+        "parent_children": [
+          4351
+        ],
+        "parent_second_distance_um": 7.141223306444072,
+        "sister_distance_um": 8.043339635996977,
+        "separation_growth_um": -0.313906239880545,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 4734,
+    "final_csv_daughters": [
+      5046,
+      5035
+    ]
+  },
+  {
+    "movie": "6bba_3abfe10a",
+    "gt_parent": 82001296,
+    "gt_daughters": [
+      83001334,
+      83001350
+    ],
+    "t": 81,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 49696,
+      "matched_daughters": [
+        50431,
+        50546
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "82001296": 5.025034981221523,
+        "83001334": 1.625,
+        "83001350": 1.86167137607581
+      },
+      "matched_parent_incoming": [
+        48950
+      ],
+      "matched_parent_outgoing": [
+        50431
+      ],
+      "daughter_incoming": [
+        [
+          49696
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 50546,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          50431
+        ],
+        "parent_second_distance_um": 10.017172754824587,
+        "sister_distance_um": 11.830178570080843,
+        "separation_growth_um": 2.1485999888634257,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 41839,
+      "matched_daughters": [
+        42467,
+        42567
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "82001296": 5.008586377412294,
+        "83001334": 0.5745242597140698,
+        "83001350": 2.8726212985703494
+      },
+      "matched_parent_incoming": [
+        41210
+      ],
+      "matched_parent_outgoing": [
+        42467
+      ],
+      "daughter_incoming": [
+        [
+          41839
+        ],
+        [
+          41920
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 42567,
+        "missing_daughter_incoming": [
+          41920
+        ],
+        "parent_children": [
+          42467
+        ],
+        "parent_second_distance_um": 10.931069538247389,
+        "sister_distance_um": 11.088467051964397,
+        "separation_growth_um": 2.966843610290635,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 49696,
+    "final_csv_daughters": [
+      50431,
+      50546
+    ]
+  },
+  {
+    "movie": "6bba_48816121",
+    "gt_parent": 6000026,
+    "gt_daughters": [
+      7000035,
+      7000036
+    ],
+    "t": 5,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 1646,
+      "matched_daughters": [
+        1976,
+        1949
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "6000026": 3.25,
+        "7000035": 1.4647552056572457,
+        "7000036": 3.350023320814349
+      },
+      "matched_parent_incoming": [
+        1342
+      ],
+      "matched_parent_outgoing": [
+        1949
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          1646
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 1976,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          1949
+        ],
+        "parent_second_distance_um": 6.700046641628698,
+        "sister_distance_um": 10.017172754824587,
+        "separation_growth_um": 5.398930838496263,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": true,
+      "category": "official_recovered",
+      "matched_parent": 1476,
+      "matched_daughters": [
+        1782,
+        1758
+      ],
+      "direct_correct_links": 2,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "6000026": 3.2752922102462856,
+        "7000035": 1.284675299443404,
+        "7000036": 2.0714766773970688
+      },
+      "matched_parent_incoming": [
+        1187
+      ],
+      "matched_parent_outgoing": [
+        1758,
+        1782
+      ],
+      "daughter_incoming": [
+        [
+          1476
+        ],
+        [
+          1476
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 1646,
+    "final_csv_daughters": [
+      1976,
+      1949
+    ]
+  },
+  {
+    "movie": "6bba_48816121",
+    "gt_parent": 12000059,
+    "gt_daughters": [
+      13000062,
+      13000063
+    ],
+    "t": 11,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 3574,
+      "matched_daughters": [
+        3879,
+        3920
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "12000059": 3.374565944310468,
+        "13000062": 0.0,
+        "13000063": 2.03125
+      },
+      "matched_parent_incoming": [
+        3264
+      ],
+      "matched_parent_outgoing": [
+        3879
+      ],
+      "daughter_incoming": [
+        [
+          3574
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "sisters_within_12um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 3920,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          3879
+        ],
+        "parent_second_distance_um": 8.900491559458949,
+        "sister_distance_um": 12.795262795269194,
+        "separation_growth_um": 4.170235281710449,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 3289,
+      "matched_daughters": [
+        3574,
+        3613
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "12000059": 3.6336104634371584,
+        "13000062": 2.333728575156074,
+        "13000063": 1.8168052317185792
+      },
+      "matched_parent_incoming": [
+        2996
+      ],
+      "matched_parent_outgoing": [
+        3574
+      ],
+      "daughter_incoming": [
+        [
+          3289
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_within_7um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 3613,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          3574
+        ],
+        "parent_second_distance_um": 9.228226061925445,
+        "sister_distance_um": 10.794330832663968,
+        "separation_growth_um": 4.5197315876247774,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 3574,
+    "final_csv_daughters": [
+      3879,
+      3920
+    ]
+  },
+  {
+    "movie": "6bba_48816121",
+    "gt_parent": 17000095,
+    "gt_daughters": [
+      18000098,
+      18000100
+    ],
+    "t": 16,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_neither_direct_link",
+      "matched_parent": 5152,
+      "matched_daughters": [
+        5442,
+        5524
+      ],
+      "direct_correct_links": 0,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "17000095": 3.300390601883359,
+        "18000098": 3.374565944310468,
+        "18000100": 5.202538442914189
+      },
+      "matched_parent_incoming": [
+        4844
+      ],
+      "matched_parent_outgoing": [
+        5493
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          5207
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_neither_direct_link",
+      "matched_parent": 4782,
+      "matched_daughters": [
+        5058,
+        5138
+      ],
+      "direct_correct_links": 0,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "17000095": 2.2980970388562794,
+        "18000098": 3.300390601883359,
+        "18000100": 4.772356925566235
+      },
+      "matched_parent_incoming": [
+        4487
+      ],
+      "matched_parent_outgoing": [
+        5107
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          4835
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 5152,
+    "final_csv_daughters": [
+      5442,
+      5524
+    ]
+  },
+  {
+    "movie": "6bba_48816121",
+    "gt_parent": 58000508,
+    "gt_daughters": [
+      59000522,
+      59000533
+    ],
+    "t": 57,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_neither_direct_link",
+      "matched_parent": 16747,
+      "matched_daughters": [
+        17017,
+        16997
+      ],
+      "direct_correct_links": 0,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "58000508": 3.350023320814349,
+        "59000522": 1.6750116604071745,
+        "59000533": 1.1490485194281397
+      },
+      "matched_parent_incoming": [
+        16486
+      ],
+      "matched_parent_outgoing": [],
+      "daughter_incoming": [
+        [],
+        []
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 15707,
+      "matched_daughters": [
+        15962,
+        15942
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "58000508": 3.374565944310468,
+        "59000522": 1.6750116604071745,
+        "59000533": 0.5745242597140698
+      },
+      "matched_parent_incoming": [
+        15465
+      ],
+      "matched_parent_outgoing": [
+        15942
+      ],
+      "daughter_incoming": [
+        [
+          15728
+        ],
+        [
+          15707
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 15962,
+        "missing_daughter_incoming": [
+          15728
+        ],
+        "parent_children": [
+          15942
+        ],
+        "parent_second_distance_um": 10.663578858080433,
+        "sister_distance_um": 14.119744597548499,
+        "separation_growth_um": 2.7335110690133764,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 16747,
+    "final_csv_daughters": [
+      17017,
+      16997
+    ]
+  },
+  {
+    "movie": "6bba_48816121",
+    "gt_parent": 61000553,
+    "gt_daughters": [
+      62000570,
+      62000571
+    ],
+    "t": 60,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 17691,
+      "matched_daughters": [
+        null,
+        17944
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "61000553": 3.5648292823780494,
+        "62000570": 4.021669817998489,
+        "62000571": 3.832554834897995
+      },
+      "matched_parent_incoming": [
+        17444
+      ],
+      "matched_parent_outgoing": [
+        17944
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          17691
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 16599,
+      "matched_daughters": [
+        null,
+        16835
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "61000553": 3.374565944310468,
+        "62000570": 5.28125,
+        "62000571": 5.041429918683786
+      },
+      "matched_parent_incoming": [
+        16361
+      ],
+      "matched_parent_outgoing": [
+        16835
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          16599
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 17691,
+    "final_csv_daughters": [
+      null,
+      17944
+    ]
+  },
+  {
+    "movie": "6bba_4f99ce20",
+    "gt_parent": 31000364,
+    "gt_daughters": [
+      32000377,
+      32000378
+    ],
+    "t": 30,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 1949,
+      "matched_daughters": [
+        2013,
+        2016
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "31000364": 1.4647552056572457,
+        "32000377": 3.494694639736067,
+        "32000378": 0.40625
+      },
+      "matched_parent_incoming": [
+        1891
+      ],
+      "matched_parent_outgoing": [
+        2013
+      ],
+      "daughter_incoming": [
+        [
+          1949
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "sisters_within_12um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 2016,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          2013
+        ],
+        "parent_second_distance_um": 3.9804208320226646,
+        "sister_distance_um": 12.795262795269194,
+        "separation_growth_um": -1.077221150011228,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 1670,
+      "matched_daughters": [
+        1728,
+        1731
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "31000364": 0.9084026158592896,
+        "32000377": 3.6336104634371584,
+        "32000378": 3.0671202393287422
+      },
+      "matched_parent_incoming": [
+        1615
+      ],
+      "matched_parent_outgoing": [
+        1731
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          1670
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 1728,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          1731
+        ],
+        "parent_second_distance_um": 9.78379559526874,
+        "sister_distance_um": 9.21032453961314,
+        "separation_growth_um": 1.5149832211226801,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 1949,
+    "final_csv_daughters": [
+      2013,
+      2016
+    ]
+  },
+  {
+    "movie": "6bba_4f99ce20",
+    "gt_parent": 95001258,
+    "gt_daughters": [
+      96001271,
+      96001280
+    ],
+    "t": 94,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 5755,
+      "matched_daughters": [
+        5815,
+        5816
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "95001258": 0.9084026158592896,
+        "96001271": 2.9295104113144914,
+        "96001280": 1.9902104160113323
+      },
+      "matched_parent_incoming": [
+        5700
+      ],
+      "matched_parent_outgoing": [
+        5816
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          5755
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 5815,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          5816
+        ],
+        "parent_second_distance_um": 3.6336104634371584,
+        "sister_distance_um": 5.138701197773616,
+        "separation_growth_um": 3.7617903616853328,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 5070,
+      "matched_daughters": [
+        null,
+        5125
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "95001258": 0.9084026158592896,
+        "96001271": 3.9804208320226646,
+        "96001280": 0.8125
+      },
+      "matched_parent_incoming": [
+        5017
+      ],
+      "matched_parent_outgoing": [
+        5125
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          5070
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 5755,
+    "final_csv_daughters": [
+      null,
+      5816
+    ]
+  },
+  {
+    "movie": "6bba_4ffd3da3",
+    "gt_parent": 46000256,
+    "gt_daughters": [
+      47000265,
+      47000266
+    ],
+    "t": 45,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 11145,
+      "matched_daughters": [
+        11371,
+        11385
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "46000256": 4.614113030962723,
+        "47000265": 0.5745242597140698,
+        "47000266": 1.6750116604071745
+      },
+      "matched_parent_incoming": [
+        10904
+      ],
+      "matched_parent_outgoing": [
+        11385
+      ],
+      "daughter_incoming": [
+        [
+          11132
+        ],
+        [
+          11145
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 11371,
+        "missing_daughter_incoming": [
+          11132
+        ],
+        "parent_children": [
+          11385
+        ],
+        "parent_second_distance_um": 10.65583760199075,
+        "sister_distance_um": 14.259317129512198,
+        "separation_growth_um": 4.197134994338693,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": true,
+      "category": "official_recovered",
+      "matched_parent": 9442,
+      "matched_daughters": [
+        9636,
+        9648
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "46000256": 4.33756303988772,
+        "47000265": 1.284675299443404,
+        "47000266": 3.65625
+      },
+      "matched_parent_incoming": [
+        9240
+      ],
+      "matched_parent_outgoing": [
+        9648
+      ],
+      "daughter_incoming": [
+        [
+          9432
+        ],
+        [
+          9442
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 9636,
+        "missing_daughter_incoming": [
+          9432
+        ],
+        "parent_children": [
+          9648
+        ],
+        "parent_second_distance_um": 9.859412143353172,
+        "sister_distance_um": 11.955075412769256,
+        "separation_growth_um": 3.6366704504270775,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 11145,
+    "final_csv_daughters": [
+      11371,
+      11385
+    ]
+  },
+  {
+    "movie": "6bba_4ffd3da3",
+    "gt_parent": 55000321,
+    "gt_daughters": [
+      56000329,
+      56000330
+    ],
+    "t": 54,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 13320,
+      "matched_daughters": [
+        13556,
+        13540
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "55000321": 2.8145825622994254,
+        "56000329": 3.5648292823780494,
+        "56000330": 4.908737426772795
+      },
+      "matched_parent_incoming": [
+        13072
+      ],
+      "matched_parent_outgoing": [
+        13556
+      ],
+      "daughter_incoming": [
+        [
+          13320
+        ],
+        [
+          13310
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 13540,
+        "missing_daughter_incoming": [
+          13310
+        ],
+        "parent_children": [
+          13556
+        ],
+        "parent_second_distance_um": 11.490485194281398,
+        "sister_distance_um": 13.498263777241872,
+        "separation_growth_um": 2.2566957593611967,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 11315,
+      "matched_daughters": [
+        11524,
+        11510
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "55000321": 3.1729139308370784,
+        "56000329": 1.6750116604071745,
+        "56000330": 6.461801823988415
+      },
+      "matched_parent_incoming": [
+        11102
+      ],
+      "matched_parent_outgoing": [
+        11524
+      ],
+      "daughter_incoming": [
+        [
+          11315
+        ],
+        [
+          11306
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 11510,
+        "missing_daughter_incoming": [
+          11306
+        ],
+        "parent_children": [
+          11524
+        ],
+        "parent_second_distance_um": 11.15524330191861,
+        "sister_distance_um": 12.929987251057133,
+        "separation_growth_um": 1.745706141845977,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 13320,
+    "final_csv_daughters": [
+      13556,
+      13540
+    ]
+  },
+  {
+    "movie": "6bba_4ffd3da3",
+    "gt_parent": 94000737,
+    "gt_daughters": [
+      95000752,
+      95000758
+    ],
+    "t": 93,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 22023,
+      "matched_daughters": [
+        22224,
+        22205
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "94000737": 3.917733121653388,
+        "95000752": 1.8168052317185792,
+        "95000758": 3.300390601883359
+      },
+      "matched_parent_incoming": [
+        21811
+      ],
+      "matched_parent_outgoing": [
+        22224
+      ],
+      "daughter_incoming": [
+        [
+          22023
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 22205,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          22224
+        ],
+        "parent_second_distance_um": 19.364109842696102,
+        "sister_distance_um": 18.45645212385089,
+        "separation_growth_um": -0.43433030093558855,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 18835,
+      "matched_daughters": [
+        19015,
+        18996
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "94000737": 2.8726212985703494,
+        "95000752": 1.86167137607581,
+        "95000758": 3.2752922102462856
+      },
+      "matched_parent_incoming": [
+        18652
+      ],
+      "matched_parent_outgoing": [
+        19015
+      ],
+      "daughter_incoming": [
+        [
+          18835
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 18996,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          19015
+        ],
+        "parent_second_distance_um": 18.140779768934962,
+        "sister_distance_um": 17.50178562318714,
+        "separation_growth_um": 0.8874786106668076,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 22023,
+    "final_csv_daughters": [
+      22224,
+      22205
+    ]
+  },
+  {
+    "movie": "6bba_6ca87370",
+    "gt_parent": 67000540,
+    "gt_daughters": [
+      68000569,
+      68000570
+    ],
+    "t": 66,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 4263,
+      "matched_daughters": [
+        4360,
+        4356
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "67000540": 1.1490485194281397,
+        "68000569": 1.86167137607581,
+        "68000570": 3.494694639736067
+      },
+      "matched_parent_incoming": [
+        4178
+      ],
+      "matched_parent_outgoing": [
+        4360
+      ],
+      "daughter_incoming": [
+        [
+          4263
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 4356,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          4360
+        ],
+        "parent_second_distance_um": 4.875,
+        "sister_distance_um": 8.285906709588275,
+        "separation_growth_um": 0.0,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 3565,
+      "matched_daughters": [
+        3648,
+        3645
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "67000540": 1.6750116604071745,
+        "68000569": 1.7235727791422095,
+        "68000570": 3.494694639736067
+      },
+      "matched_parent_incoming": [
+        3489
+      ],
+      "matched_parent_outgoing": [
+        3648
+      ],
+      "daughter_incoming": [
+        [
+          3565
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 3645,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          3648
+        ],
+        "parent_second_distance_um": 7.323776028286228,
+        "sister_distance_um": 7.501887783251626,
+        "separation_growth_um": 0.38606040132083574,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 4263,
+    "final_csv_daughters": [
+      4360,
+      4356
+    ]
+  },
+  {
+    "movie": "6bba_705ec2c9",
+    "gt_parent": 43000460,
+    "gt_daughters": [
+      44000474,
+      44000477
+    ],
+    "t": 42,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 3546,
+      "matched_daughters": [
+        null,
+        3626
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "43000460": 3.72334275215162,
+        "44000474": 9.89283397528231,
+        "44000477": 2.0714766773970688
+      },
+      "matched_parent_incoming": [
+        3478
+      ],
+      "matched_parent_outgoing": [
+        3626
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          3546
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 2432,
+      "matched_daughters": [
+        null,
+        2496
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "43000460": 5.9150892850404215,
+        "44000474": 9.690574109024707,
+        "44000477": 1.284675299443404
+      },
+      "matched_parent_incoming": [
+        2377
+      ],
+      "matched_parent_outgoing": [
+        2496
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          2432
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 3546,
+    "final_csv_daughters": [
+      null,
+      3626
+    ]
+  },
+  {
+    "movie": "6bba_784a78c9",
+    "gt_parent": 26000566,
+    "gt_daughters": [
+      27000585,
+      27000586
+    ],
+    "t": 25,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 4582,
+      "matched_daughters": [
+        4755,
+        4748
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "26000566": 1.86167137607581,
+        "27000585": 1.625,
+        "27000586": 3.447145558284419
+      },
+      "matched_parent_incoming": [
+        4412
+      ],
+      "matched_parent_outgoing": [
+        4755
+      ],
+      "daughter_incoming": [
+        [
+          4582
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 4748,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          4755
+        ],
+        "parent_second_distance_um": 2.8145825622994254,
+        "sister_distance_um": 9.475296829123613,
+        "separation_growth_um": 5.940806764197237,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": true,
+      "category": "official_recovered",
+      "matched_parent": 4204,
+      "matched_daughters": [
+        4368,
+        4361
+      ],
+      "direct_correct_links": 2,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "26000566": 1.7235727791422095,
+        "27000585": 1.21875,
+        "27000586": 3.374565944310468
+      },
+      "matched_parent_incoming": [
+        4044
+      ],
+      "matched_parent_outgoing": [
+        4361,
+        4368
+      ],
+      "daughter_incoming": [
+        [
+          4204
+        ],
+        [
+          4204
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 4582,
+    "final_csv_daughters": [
+      4755,
+      4748
+    ]
+  },
+  {
+    "movie": "6bba_80d12824",
+    "gt_parent": 60000533,
+    "gt_daughters": [
+      61000541,
+      61000542
+    ],
+    "t": 59,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 7302,
+      "matched_daughters": [
+        7381,
+        7376
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "60000533": 3.300390601883359,
+        "61000541": 1.4647552056572457,
+        "61000542": 0.5745242597140698
+      },
+      "matched_parent_incoming": [
+        7237
+      ],
+      "matched_parent_outgoing": [
+        7376
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          7302
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 7381,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          7376
+        ],
+        "parent_second_distance_um": 4.875,
+        "sister_distance_um": 10.017172754824587,
+        "separation_growth_um": 2.2513082024903817,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": true,
+      "category": "official_recovered",
+      "matched_parent": 5918,
+      "matched_daughters": [
+        5983,
+        5978
+      ],
+      "direct_correct_links": 2,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "60000533": 1.625,
+        "61000541": 2.368824207280903,
+        "61000542": 2.6012692214570947
+      },
+      "matched_parent_incoming": [
+        5866
+      ],
+      "matched_parent_outgoing": [
+        5978,
+        5983
+      ],
+      "daughter_incoming": [
+        [
+          5918
+        ],
+        [
+          5918
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 7302,
+    "final_csv_daughters": [
+      7381,
+      7376
+    ]
+  },
+  {
+    "movie": "6bba_9e23430b",
+    "gt_parent": 90001032,
+    "gt_daughters": [
+      91001045,
+      91001046
+    ],
+    "t": 89,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 7444,
+      "matched_daughters": [
+        7605,
+        7603
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "90001032": 0.8125,
+        "91001045": 0.40625,
+        "91001046": 3.65625
+      },
+      "matched_parent_incoming": [
+        7275
+      ],
+      "matched_parent_outgoing": [
+        7603
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          7444
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 7605,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          7603
+        ],
+        "parent_second_distance_um": 2.2980970388562794,
+        "sister_distance_um": 6.080193253507654,
+        "separation_growth_um": 5.749985316573189,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 6194,
+      "matched_daughters": [
+        6324,
+        6323
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "90001032": 1.6750116604071745,
+        "91001045": 0.0,
+        "91001046": 3.5648292823780494
+      },
+      "matched_parent_incoming": [
+        6063
+      ],
+      "matched_parent_outgoing": [
+        6324
+      ],
+      "daughter_incoming": [
+        [
+          6194
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 6323,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          6324
+        ],
+        "parent_second_distance_um": 6.039340428598143,
+        "sister_distance_um": 6.858289350304491,
+        "separation_growth_um": 2.8662868776089896,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 7444,
+    "final_csv_daughters": [
+      7605,
+      7603
+    ]
+  },
+  {
+    "movie": "6bba_afb141ff",
+    "gt_parent": 29000239,
+    "gt_daughters": [
+      30000252,
+      30000253
+    ],
+    "t": 28,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 2484,
+      "matched_daughters": [
+        null,
+        2537
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "29000239": 1.1490485194281397,
+        "30000252": 9.81747485354559,
+        "30000253": 1.1490485194281397
+      },
+      "matched_parent_incoming": [
+        2397
+      ],
+      "matched_parent_outgoing": [
+        2537
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          2484
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 1805,
+      "matched_daughters": [
+        null,
+        1851
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "29000239": 1.284675299443404,
+        "30000252": 10.123697832931404,
+        "30000253": 0.9084026158592896
+      },
+      "matched_parent_incoming": [
+        1761
+      ],
+      "matched_parent_outgoing": [
+        1851
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          1805
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 2484,
+    "final_csv_daughters": [
+      null,
+      2537
+    ]
+  },
+  {
+    "movie": "6bba_afb141ff",
+    "gt_parent": 33000277,
+    "gt_daughters": [
+      34000290,
+      34000291
+    ],
+    "t": 32,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 2773,
+      "matched_daughters": [
+        2845,
+        2842
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "33000277": 1.6750116604071745,
+        "34000290": 0.8125,
+        "34000291": 0.8125
+      },
+      "matched_parent_incoming": [
+        2704
+      ],
+      "matched_parent_outgoing": [
+        2845
+      ],
+      "daughter_incoming": [
+        [
+          2773
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 2842,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          2845
+        ],
+        "parent_second_distance_um": 6.700046641628698,
+        "sister_distance_um": 6.080193253507654,
+        "separation_growth_um": 8.901566489593286,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 2051,
+      "matched_daughters": [
+        2113,
+        null
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "33000277": 0.40625,
+        "34000290": 1.6750116604071745,
+        "34000291": 6.358818311015027
+      },
+      "matched_parent_incoming": [
+        1990
+      ],
+      "matched_parent_outgoing": [
+        2113
+      ],
+      "daughter_incoming": [
+        [
+          2051
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 2773,
+    "final_csv_daughters": [
+      2845,
+      null
+    ]
+  },
+  {
+    "movie": "6bba_afb141ff",
+    "gt_parent": 48000452,
+    "gt_daughters": [
+      49000469,
+      49000477
+    ],
+    "t": 47,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 3688,
+      "matched_daughters": [
+        3754,
+        3751
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 4,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "48000452": 3.2752922102462856,
+        "49000469": 1.86167137607581,
+        "49000477": 1.7235727791422095
+      },
+      "matched_parent_incoming": [
+        3624
+      ],
+      "matched_parent_outgoing": [
+        3751
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          3688
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 3754,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          3751
+        ],
+        "parent_second_distance_um": 8.285906709588275,
+        "sister_distance_um": 11.375,
+        "separation_growth_um": 0.8934809573149689,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 2853,
+      "matched_daughters": [
+        2909,
+        2906
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 4,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "48000452": 3.5648292823780494,
+        "49000469": 1.9902104160113323,
+        "49000477": 1.6750116604071745
+      },
+      "matched_parent_incoming": [
+        2799
+      ],
+      "matched_parent_outgoing": [
+        2906
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          2853
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 2909,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          2906
+        ],
+        "parent_second_distance_um": 9.020213845164648,
+        "sister_distance_um": 10.915960934567327,
+        "separation_growth_um": 0.6032146544234056,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 3688,
+    "final_csv_daughters": [
+      3754,
+      3751
+    ]
+  },
+  {
+    "movie": "6bba_afb141ff",
+    "gt_parent": 49000478,
+    "gt_daughters": [
+      50000486,
+      50000487
+    ],
+    "t": 48,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 3757,
+      "matched_daughters": [
+        3815,
+        3809
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 4,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "49000478": 2.0714766773970688,
+        "50000486": 4.33756303988772,
+        "50000487": 3.917733121653388
+      },
+      "matched_parent_incoming": [
+        3697
+      ],
+      "matched_parent_outgoing": [
+        3815
+      ],
+      "daughter_incoming": [
+        [
+          3757
+        ],
+        [
+          3751
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 3809,
+        "missing_daughter_incoming": [
+          3751
+        ],
+        "parent_children": [
+          3815
+        ],
+        "parent_second_distance_um": 10.900831390311474,
+        "sister_distance_um": 9.475296829123613,
+        "separation_growth_um": 1.05590680578916,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 2912,
+      "matched_daughters": [
+        2964,
+        2958
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 4,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "49000478": 1.8168052317185792,
+        "50000486": 4.0827619710803615,
+        "50000487": 4.021669817998489
+      },
+      "matched_parent_incoming": [
+        2860
+      ],
+      "matched_parent_outgoing": [
+        2964
+      ],
+      "daughter_incoming": [
+        [
+          2912
+        ],
+        [
+          2906
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 2958,
+        "missing_daughter_incoming": [
+          2906
+        ],
+        "parent_children": [
+          2964
+        ],
+        "parent_second_distance_um": 10.908398785454262,
+        "sister_distance_um": 10.164371752597402,
+        "separation_growth_um": -0.8915430815553229,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 3757,
+    "final_csv_daughters": [
+      3815,
+      3809
+    ]
+  },
+  {
+    "movie": "6bba_b204cac7",
+    "gt_parent": 74000810,
+    "gt_daughters": [
+      75000817,
+      75000821
+    ],
+    "t": 73,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 4699,
+      "matched_daughters": [
+        4759,
+        4762
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "74000810": 2.0714766773970688,
+        "75000817": 0.0,
+        "75000821": 0.40625
+      },
+      "matched_parent_incoming": [
+        4641
+      ],
+      "matched_parent_outgoing": [
+        4759
+      ],
+      "daughter_incoming": [
+        [
+          4699
+        ],
+        [
+          4701
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 4762,
+        "missing_daughter_incoming": [
+          4701
+        ],
+        "parent_children": [
+          4759
+        ],
+        "parent_second_distance_um": 6.080193253507654,
+        "sister_distance_um": 9.475296829123613,
+        "separation_growth_um": 1.4255345611878614,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 4193,
+      "matched_daughters": [
+        4245,
+        4248
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "74000810": 2.7252078475778685,
+        "75000817": 1.284675299443404,
+        "75000821": 0.5745242597140698
+      },
+      "matched_parent_incoming": [
+        4139
+      ],
+      "matched_parent_outgoing": [
+        4245
+      ],
+      "daughter_incoming": [
+        [
+          4193
+        ],
+        [
+          4195
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 4248,
+        "missing_daughter_incoming": [
+          4195
+        ],
+        "parent_children": [
+          4245
+        ],
+        "parent_second_distance_um": 6.550584420492571,
+        "sister_distance_um": 8.492471390149042,
+        "separation_growth_um": 1.6719003624483602,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 4699,
+    "final_csv_daughters": [
+      4759,
+      4762
+    ]
+  },
+  {
+    "movie": "6bba_b204cac7",
+    "gt_parent": 95001023,
+    "gt_daughters": [
+      96001033,
+      96001038
+    ],
+    "t": 94,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 5864,
+      "matched_daughters": [
+        5911,
+        5912
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "95001023": 2.8726212985703494,
+        "96001033": 0.40625,
+        "96001038": 1.7235727791422095
+      },
+      "matched_parent_incoming": [
+        5815
+      ],
+      "matched_parent_outgoing": [
+        5912
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          5864
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 5911,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          5912
+        ],
+        "parent_second_distance_um": 10.017172754824587,
+        "sister_distance_um": 13.0,
+        "separation_growth_um": 1.7150008494733022,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 5182,
+      "matched_daughters": [
+        null,
+        5221
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "95001023": 2.9575446425202108,
+        "96001033": 7.44668550430324,
+        "96001038": 3.1729139308370784
+      },
+      "matched_parent_incoming": [
+        5140
+      ],
+      "matched_parent_outgoing": [
+        5221
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          5182
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 5864,
+    "final_csv_daughters": [
+      null,
+      5912
+    ]
+  },
+  {
+    "movie": "6bba_bb9f20c3",
+    "gt_parent": 32000835,
+    "gt_daughters": [
+      33000858,
+      33000860
+    ],
+    "t": 31,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 8993,
+      "matched_daughters": [
+        9264,
+        9286
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "32000835": 0.40625,
+        "33000858": 0.40625,
+        "33000860": 1.86167137607581
+      },
+      "matched_parent_incoming": [
+        8707
+      ],
+      "matched_parent_outgoing": [
+        9286
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          8993
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 9264,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          9286
+        ],
+        "parent_second_distance_um": 7.267220926874317,
+        "sister_distance_um": 10.779030568655049,
+        "separation_growth_um": 1.7028312716314389,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 7657,
+      "matched_daughters": [
+        7919,
+        7941
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "32000835": 1.6750116604071745,
+        "33000858": 0.0,
+        "33000860": 2.1877232028983924
+      },
+      "matched_parent_incoming": [
+        7379
+      ],
+      "matched_parent_outgoing": [
+        7941
+      ],
+      "daughter_incoming": [
+        [],
+        [
+          7657
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_within_7um",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 7919,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          7941
+        ],
+        "parent_second_distance_um": 8.760317577719428,
+        "sister_distance_um": 9.587844273479831,
+        "separation_growth_um": 1.9670941323490805,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 8993,
+    "final_csv_daughters": [
+      9264,
+      9286
+    ]
+  },
+  {
+    "movie": "6bba_bb9f20c3",
+    "gt_parent": 47001238,
+    "gt_daughters": [
+      48001265,
+      48001293
+    ],
+    "t": 46,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 13076,
+      "matched_daughters": [
+        13341,
+        null
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "47001238": 2.569350598886808,
+        "48001265": 0.40625,
+        "48001293": 7.960841664045329
+      },
+      "matched_parent_incoming": [
+        12819
+      ],
+      "matched_parent_outgoing": [
+        13341
+      ],
+      "daughter_incoming": [
+        [
+          13076
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 11527,
+      "matched_daughters": [
+        11776,
+        null
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "47001238": 1.21875,
+        "48001265": 0.5745242597140698,
+        "48001293": 7.556686815331174
+      },
+      "matched_parent_incoming": [
+        11279
+      ],
+      "matched_parent_outgoing": [
+        11776
+      ],
+      "daughter_incoming": [
+        [
+          11527
+        ],
+        null
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 13076,
+    "final_csv_daughters": [
+      13341,
+      null
+    ]
+  },
+  {
+    "movie": "6bba_bb9f20c3",
+    "gt_parent": 86002188,
+    "gt_daughters": [
+      87002233,
+      87002234
+    ],
+    "t": 85,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 22205,
+      "matched_daughters": [
+        22411,
+        22402
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "86002188": 2.84375,
+        "87002233": 1.8168052317185792,
+        "87002234": 2.6012692214570947
+      },
+      "matched_parent_incoming": [],
+      "matched_parent_outgoing": [
+        22411
+      ],
+      "daughter_incoming": [
+        [
+          22205
+        ],
+        [
+          22199
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": false,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "parent_has_predecessor",
+          "second_daughter_orphan",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 22402,
+        "missing_daughter_incoming": [
+          22199
+        ],
+        "parent_children": [
+          22411
+        ],
+        "parent_second_distance_um": 6.894291116568838,
+        "sister_distance_um": 7.44668550430324,
+        "separation_growth_um": -0.5523943877344015,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 20087,
+      "matched_daughters": [
+        20288,
+        20280
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "86002188": 2.7252078475778685,
+        "87002233": 2.4375,
+        "87002234": 2.368824207280903
+      },
+      "matched_parent_incoming": [
+        19896
+      ],
+      "matched_parent_outgoing": [
+        20280
+      ],
+      "daughter_incoming": [
+        [
+          20092
+        ],
+        [
+          20087
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 20288,
+        "missing_daughter_incoming": [
+          20092
+        ],
+        "parent_children": [
+          20280
+        ],
+        "parent_second_distance_um": 5.202538442914189,
+        "sister_distance_um": 6.512682938889317,
+        "separation_growth_um": 1.248712413268695,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 22199,
+    "final_csv_daughters": [
+      22411,
+      22402
+    ]
+  },
+  {
+    "movie": "6bba_c328f2fd",
+    "gt_parent": 29000074,
+    "gt_daughters": [
+      30000074,
+      30000075
+    ],
+    "t": 28,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_neither_direct_link",
+      "matched_parent": 10252,
+      "matched_daughters": [
+        10534,
+        10582
+      ],
+      "direct_correct_links": 0,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 5,
+      "nearest_same_frame_distance_um": {
+        "29000074": 1.625,
+        "30000074": 6.712351604504937,
+        "30000075": 1.9902104160113323
+      },
+      "matched_parent_incoming": [
+        9936
+      ],
+      "matched_parent_outgoing": [],
+      "daughter_incoming": [
+        [
+          10209
+        ],
+        []
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "missing_local_matched_parent_or_daughter",
+      "matched_parent": 8656,
+      "matched_daughters": [
+        null,
+        8941
+      ],
+      "direct_correct_links": 0,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 4,
+      "nearest_same_frame_distance_um": {
+        "29000074": 1.7235727791422095,
+        "30000074": 7.10647262184271,
+        "30000075": 3.832554834897995
+      },
+      "matched_parent_incoming": [
+        8365
+      ],
+      "matched_parent_outgoing": [
+        8942
+      ],
+      "daughter_incoming": [
+        null,
+        [
+          8653
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 10252,
+    "final_csv_daughters": [
+      null,
+      10582
+    ]
+  },
+  {
+    "movie": "6bba_c328f2fd",
+    "gt_parent": 67000304,
+    "gt_daughters": [
+      68000311,
+      68000314
+    ],
+    "t": 66,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 23205,
+      "matched_daughters": [
+        23533,
+        23567
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "67000304": 2.632800908728193,
+        "68000311": 3.374565944310468,
+        "68000314": 1.9902104160113323
+      },
+      "matched_parent_incoming": [
+        22845
+      ],
+      "matched_parent_outgoing": [
+        23567
+      ],
+      "daughter_incoming": [
+        [
+          23168
+        ],
+        [
+          23205
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 23533,
+        "missing_daughter_incoming": [
+          23168
+        ],
+        "parent_children": [
+          23567
+        ],
+        "parent_second_distance_um": 13.101168840985142,
+        "sister_distance_um": 17.426183603990864,
+        "separation_growth_um": 0.5225280489384332,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 19022,
+      "matched_daughters": [
+        19290,
+        19313
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "67000304": 1.6750116604071745,
+        "68000311": 5.008586377412294,
+        "68000314": 3.1729139308370784
+      },
+      "matched_parent_incoming": [
+        18731
+      ],
+      "matched_parent_outgoing": [
+        19313
+      ],
+      "daughter_incoming": [
+        [
+          18995
+        ],
+        [
+          19022
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": false,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "sisters_within_12um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 19290,
+        "missing_daughter_incoming": [
+          18995
+        ],
+        "parent_children": [
+          19313
+        ],
+        "parent_second_distance_um": 15.33021933959198,
+        "sister_distance_um": 16.750116604071746,
+        "separation_growth_um": 0.0,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 23205,
+    "final_csv_daughters": [
+      23533,
+      23567
+    ]
+  },
+  {
+    "movie": "6bba_ebdf3b34",
+    "gt_parent": 14000412,
+    "gt_daughters": [
+      15000432,
+      15000433
+    ],
+    "t": 13,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 8542,
+      "matched_daughters": [
+        9147,
+        9164
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "14000412": 4.631962664465248,
+        "15000432": 2.03125,
+        "15000433": 1.625
+      },
+      "matched_parent_incoming": [
+        7921
+      ],
+      "matched_parent_outgoing": [
+        9164
+      ],
+      "daughter_incoming": [
+        [
+          8545
+        ],
+        [
+          8542
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 9147,
+        "missing_daughter_incoming": [
+          8545
+        ],
+        "parent_children": [
+          9164
+        ],
+        "parent_second_distance_um": 9.75,
+        "sister_distance_um": 10.900831390311474,
+        "separation_growth_um": -0.3696277553987013,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 5998,
+      "matched_daughters": [
+        6485,
+        6499
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "14000412": 5.6875,
+        "15000432": 4.667457150312148,
+        "15000433": 2.0714766773970688
+      },
+      "matched_parent_incoming": [
+        5554
+      ],
+      "matched_parent_outgoing": [
+        6499
+      ],
+      "daughter_incoming": [
+        [
+          5937
+        ],
+        [
+          5998
+        ]
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": false,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": false,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": false,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": false
+        },
+        "failed": [
+          "second_daughter_orphan",
+          "second_daughter_within_7um",
+          "second_daughter_nearest_orphan",
+          "separation_growth_at_least_2p25um"
+        ],
+        "all_gates_pass": false,
+        "missing_daughter": 6485,
+        "missing_daughter_incoming": [
+          5937
+        ],
+        "parent_children": [
+          6499
+        ],
+        "parent_second_distance_um": 8.909758081031157,
+        "sister_distance_um": 9.165417765301264,
+        "separation_growth_um": -0.41452495370769427,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final_csv_parent": 8542,
+    "final_csv_daughters": [
+      9147,
+      9164
+    ]
+  },
+  {
+    "movie": "6bba_ebdf3b34",
+    "gt_parent": 85001151,
+    "gt_daughters": [
+      86001164,
+      86001165
+    ],
+    "t": 84,
+    "post_ilp": {
+      "official_recovered": false,
+      "category": "all_three_present_one_direct_link",
+      "matched_parent": 56282,
+      "matched_daughters": [
+        56836,
+        56888
+      ],
+      "direct_correct_links": 1,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "85001151": 0.0,
+        "86001164": 2.03125,
+        "86001165": 1.4647552056572457
+      },
+      "matched_parent_incoming": [
+        55699
+      ],
+      "matched_parent_outgoing": [
+        56836
+      ],
+      "daughter_incoming": [
+        [
+          56282
+        ],
+        []
+      ],
+      "hypothetical_safe_division": {
+        "gates": {
+          "parent_has_one_child": true,
+          "parent_has_predecessor": true,
+          "daughters_in_next_frame": true,
+          "second_daughter_orphan": true,
+          "existing_child_within_10um": true,
+          "second_daughter_within_7um": true,
+          "sisters_within_12um": true,
+          "second_daughter_nearest_orphan": true,
+          "daughters_have_one_next_frame_successor": true,
+          "separation_growth_at_least_2p25um": true
+        },
+        "failed": [],
+        "all_gates_pass": true,
+        "missing_daughter": 56888,
+        "missing_daughter_incoming": [],
+        "parent_children": [
+          56836
+        ],
+        "parent_second_distance_um": 2.8145825622994254,
+        "sister_distance_um": 7.960841664045329,
+        "separation_growth_um": 6.20557990246186,
+        "caveat": "Final graph hypothetical only; not historical gate attribution; caps not assessed."
+      }
+    },
+    "final": {
+      "official_recovered": true,
+      "category": "official_recovered",
+      "matched_parent": 49326,
+      "matched_daughters": [
+        49832,
+        49880
+      ],
+      "direct_correct_links": 2,
+      "context_gt_nodes": 6,
+      "context_matched_nodes": 6,
+      "nearest_same_frame_distance_um": {
+        "85001151": 0.5745242597140698,
+        "86001164": 4.394265616971737,
+        "86001165": 2.8145825622994254
+      },
+      "matched_parent_incoming": [
+        48791
+      ],
+      "matched_parent_outgoing": [
+        49832,
+        49880
+      ],
+      "daughter_incoming": [
+        [
+          49326
+        ],
+        [
+          49326
+        ]
+      ],
+      "hypothetical_safe_division": null
+    },
+    "final_csv_parent": 56282,
+    "final_csv_daughters": [
+      56836,
+      56888
+    ]
+  }
+]

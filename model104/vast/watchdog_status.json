@@ -1,7 +1,0 @@
-{
-  "status": "stop_requested",
-  "instance_id": 50471613,
-  "updated_unix": 1789031105.5739968,
-  "reason": "run_finished_or_failed",
-  "alarm_enabled": false
-}

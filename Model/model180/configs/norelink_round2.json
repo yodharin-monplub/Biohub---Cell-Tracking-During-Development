@@ -1,0 +1,11 @@
+{
+  "nr": {"OUTPUT_MOTION_RELINK": false},
+  "nr_gap45": {"OUTPUT_MOTION_RELINK": false, "GAP_CLOSE_UM": 4.5},
+  "nr_gap60": {"OUTPUT_MOTION_RELINK": false, "GAP_CLOSE_UM": 6.0},
+  "nr_dcgap035": {"OUTPUT_MOTION_RELINK": false, "DEEPCENTER_GAP_THRESHOLD": 0.35},
+  "nr_minlen4": {"OUTPUT_MOTION_RELINK": false, "OUTPUT_MIN_TRACK_LEN": 4},
+  "nr_minlen8": {"OUTPUT_MOTION_RELINK": false, "OUTPUT_MIN_TRACK_LEN": 8},
+  "nr_sym_off": {"OUTPUT_MOTION_RELINK": false, "SAFE_DIV_SISTER_SYMMETRY_TAU": 0.0},
+  "nr_no_mutual_nn": {"OUTPUT_MOTION_RELINK": false, "SAFE_DIV_REQUIRE_MUTUAL_NN": false},
+  "nr_edgemax12": {"OUTPUT_MOTION_RELINK": false, "OUTPUT_EDGE_MAX_UM": 12.0}
+}

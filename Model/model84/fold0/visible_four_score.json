@@ -1,0 +1,85 @@
+{
+  "datasets": [
+    {
+      "adj_edge_jaccard": 1.00169287516987,
+      "dataset": "44b6_0113de3b",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 0,
+      "edge_fp": 0,
+      "edge_jaccard": 1.0,
+      "edge_tp": 50,
+      "node_recall": 1.0,
+      "num_pred_nodes": 25319,
+      "total_node_ratio": -0.01692875169869928
+    },
+    {
+      "adj_edge_jaccard": 0.9902595281137305,
+      "dataset": "44b6_0b24845f",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 2,
+      "edge_fp": 0,
+      "edge_jaccard": 0.9591836734693877,
+      "edge_tp": 47,
+      "node_recall": 1.0,
+      "num_pred_nodes": 22170,
+      "total_node_ratio": -0.32398231437719166
+    },
+    {
+      "adj_edge_jaccard": 0.9813436797494558,
+      "dataset": "6bba_05b6850b",
+      "division_fn": 0,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 16,
+      "edge_fp": 3,
+      "edge_jaccard": 0.9775943396226415,
+      "edge_tp": 829,
+      "node_recall": 0.9895470383275261,
+      "num_pred_nodes": 6118,
+      "total_node_ratio": -0.0383527192706696
+    },
+    {
+      "adj_edge_jaccard": 0.8991760680492726,
+      "dataset": "6bba_05db0fb1",
+      "division_fn": 3,
+      "division_fp": 0,
+      "division_tp": 0,
+      "edge_fn": 68,
+      "edge_fp": 61,
+      "edge_jaccard": 0.8963022508038585,
+      "edge_tp": 1115,
+      "node_recall": 0.9934906427990235,
+      "num_pred_nodes": 67562,
+      "total_node_ratio": -0.032063037249283666
+    }
+  ],
+  "max_distance_um": 7.0,
+  "skipped": [],
+  "status": "valid_and_scored",
+  "structural_totals": {
+    "divisions": 0,
+    "edges": 113256,
+    "nodes": 121169,
+    "tracks": 7913
+  },
+  "submission": "/workspace/biohub/model84/fold0/submission.csv",
+  "submission_sha256": "66c90041ba61b8a478a7898993ab39c93bf452dc774c21318dc5ae02c264d5c3",
+  "summary": {
+    "adj_edge_jaccard": 0.9353545548685076,
+    "division_fn": 3,
+    "division_fp": 0,
+    "division_jaccard": 0.0,
+    "division_tp": 0,
+    "edge_jaccard": 0.9315381104518484,
+    "n": 4,
+    "n_adj": 4,
+    "node_recall": 0.9957594202816374,
+    "score": 0.9353545548685076
+  },
+  "torch_import_shimmed_for_metadata_only_io": false,
+  "train_dir": "/workspace/biohub/data/raw/train"
+}

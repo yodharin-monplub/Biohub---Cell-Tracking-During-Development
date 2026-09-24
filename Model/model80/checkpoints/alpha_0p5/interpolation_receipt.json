@@ -1,0 +1,15 @@
+{
+  "alpha_tuned": 0.5,
+  "changed_float_tensor_count": 126,
+  "discrete_tensor_count_kept_from_reference": 10,
+  "float_tensor_count": 126,
+  "l2_reference_to_output": 11.392776642050627,
+  "l2_reference_to_tuned": 22.785553462504435,
+  "output": "/workspace/biohub/model80/checkpoints/alpha_0p5/edge_predictor_best.pth",
+  "output_sha256": "73354ec759d4e1b348532bd2652dbee8ed70a20b4ffdfe17a5a26b94752cab1f",
+  "reference": "/workspace/biohub/data/public/support-pack/weights/unet_transformer/split_0/edge_predictor_best.pth",
+  "reference_sha256": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771",
+  "status": "valid",
+  "tuned": "/workspace/biohub/model77/cloud_outputs/pilot_fold0_seed_20260906/split_0/edge_predictor_best.pth",
+  "tuned_sha256": "9e79fc29c53a9ac0d91df91d9493e8b33767d5b8750eb30a38508bd10481c1d7"
+}

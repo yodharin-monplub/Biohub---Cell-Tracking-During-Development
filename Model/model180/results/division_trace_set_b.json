@@ -1,0 +1,1219 @@
+{
+  "summaries": [
+    {
+      "stem": "6bba_786893ac",
+      "gt_divisions": 3,
+      "edge_tp": 1207,
+      "edge_fp": 245,
+      "edge_fn": 188,
+      "adjusted_edge_jaccard": 0.735590020879693,
+      "div_tp": 0,
+      "div_fp": 5,
+      "div_fn": 3,
+      "t_pred": 59288,
+      "t_true": 58979.0
+    },
+    {
+      "stem": "6bba_7f87b3d8",
+      "gt_divisions": 3,
+      "edge_tp": 826,
+      "edge_fp": 118,
+      "edge_fn": 108,
+      "adjusted_edge_jaccard": 0.7950330476142221,
+      "div_tp": 1,
+      "div_fp": 1,
+      "div_fn": 2,
+      "t_pred": 9252,
+      "t_true": 10581.0
+    },
+    {
+      "stem": "6bba_969618f6",
+      "gt_divisions": 3,
+      "edge_tp": 649,
+      "edge_fp": 2,
+      "edge_fn": 9,
+      "adjusted_edge_jaccard": 0.9706805635560675,
+      "div_tp": 0,
+      "div_fp": 0,
+      "div_fn": 3,
+      "t_pred": 15675,
+      "t_true": 13888.0
+    },
+    {
+      "stem": "6bba_bb9f20c3",
+      "gt_divisions": 3,
+      "edge_tp": 1797,
+      "edge_fp": 83,
+      "edge_fn": 82,
+      "adjusted_edge_jaccard": 0.9163626523468241,
+      "div_tp": 0,
+      "div_fp": 1,
+      "div_fn": 3,
+      "t_pred": 22955,
+      "t_true": 23071.0
+    },
+    {
+      "stem": "6bba_337b1b3a",
+      "gt_divisions": 2,
+      "edge_tp": 1180,
+      "edge_fp": 51,
+      "edge_fn": 33,
+      "adjusted_edge_jaccard": 0.9368613263729693,
+      "div_tp": 1,
+      "div_fp": 2,
+      "div_fn": 1,
+      "t_pred": 29397,
+      "t_true": 30480.0
+    },
+    {
+      "stem": "44b6_a21120c2",
+      "gt_divisions": 2,
+      "edge_tp": 276,
+      "edge_fp": 17,
+      "edge_fn": 10,
+      "adjusted_edge_jaccard": 0.9150146108360837,
+      "div_tp": 1,
+      "div_fp": 0,
+      "div_fn": 1,
+      "t_pred": 21997,
+      "t_true": 23040.0
+    },
+    {
+      "stem": "44b6_c50204e0",
+      "gt_divisions": 2,
+      "edge_tp": 293,
+      "edge_fp": 39,
+      "edge_fn": 32,
+      "adjusted_edge_jaccard": 0.8193758639508246,
+      "div_tp": 0,
+      "div_fp": 1,
+      "div_fn": 2,
+      "t_pred": 38638,
+      "t_true": 47078.0
+    },
+    {
+      "stem": "44b6_d2f34f90",
+      "gt_divisions": 2,
+      "edge_tp": 273,
+      "edge_fp": 9,
+      "edge_fn": 8,
+      "adjusted_edge_jaccard": 0.9751569728967866,
+      "div_tp": 0,
+      "div_fp": 0,
+      "div_fn": 2,
+      "t_pred": 15436,
+      "t_true": 24074.0
+    },
+    {
+      "stem": "44b6_d5e7d891",
+      "gt_divisions": 2,
+      "edge_tp": 836,
+      "edge_fp": 72,
+      "edge_fn": 57,
+      "adjusted_edge_jaccard": 0.8685832444512633,
+      "div_tp": 0,
+      "div_fp": 1,
+      "div_fn": 2,
+      "t_pred": 43677,
+      "t_true": 44848.0
+    },
+    {
+      "stem": "44b6_e28840c6",
+      "gt_divisions": 2,
+      "edge_tp": 288,
+      "edge_fp": 13,
+      "edge_fn": 21,
+      "adjusted_edge_jaccard": 0.9510401726615929,
+      "div_tp": 0,
+      "div_fp": 0,
+      "div_fn": 2,
+      "t_pred": 27398,
+      "t_true": 74686.0
+    }
+  ],
+  "divisions": [
+    {
+      "stem": "6bba_786893ac",
+      "gt_parent": 64002179,
+      "t": 63,
+      "parent_matched": true,
+      "daughters_matched": [
+        false,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        false,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        false,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        48575
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false
+    },
+    {
+      "stem": "6bba_786893ac",
+      "gt_parent": 18000797,
+      "t": 17,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        14418
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 19000843,
+          "daughter_pred": 14431,
+          "parent_dist": 7.960841664045329,
+          "orphan": false,
+          "taken_by": 13665,
+          "parent_out_degree": 1,
+          "existing_child_dist": 3.25,
+          "sister_dist": 9.75,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 6.581047884321446,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.08320387452840805
+        }
+      ]
+    },
+    {
+      "stem": "6bba_786893ac",
+      "gt_parent": 2000105,
+      "t": 1,
+      "parent_matched": false,
+      "daughters_matched": [
+        true,
+        false
+      ],
+      "raw_parent_matched": false,
+      "raw_daughters_matched": [
+        true,
+        false
+      ],
+      "final_parent_matched": false,
+      "final_daughters_matched": [
+        false,
+        false
+      ]
+    },
+    {
+      "stem": "6bba_7f87b3d8",
+      "gt_parent": 28000723,
+      "t": 27,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        4618
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 29000761,
+          "daughter_pred": 4606,
+          "parent_dist": 9.75,
+          "orphan": false,
+          "taken_by": 4504,
+          "parent_out_degree": 1,
+          "existing_child_dist": 0.0,
+          "sister_dist": 9.75,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 5.580219339591981,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.3778840899467468
+        }
+      ]
+    },
+    {
+      "stem": "6bba_7f87b3d8",
+      "gt_parent": 38000925,
+      "t": 37,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        false
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        5565
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 39000942,
+          "daughter_pred": 5559,
+          "parent_dist": 9.475296829123613,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 6.080193253507654,
+          "sister_dist": 13.788582233137676,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 0.4707348963745215,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.5020573735237122
+        }
+      ]
+    },
+    {
+      "stem": "6bba_7f87b3d8",
+      "gt_parent": 73001556,
+      "t": 72,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        false
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        false
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        false
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        8342
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false
+    },
+    {
+      "stem": "6bba_969618f6",
+      "gt_parent": 57000466,
+      "t": 56,
+      "parent_matched": true,
+      "daughters_matched": [
+        false,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        false,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        false,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        11915
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false
+    },
+    {
+      "stem": "6bba_969618f6",
+      "gt_parent": 72000614,
+      "t": 71,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        false
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        false
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        false
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        14617
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false
+    },
+    {
+      "stem": "6bba_969618f6",
+      "gt_parent": 40000345,
+      "t": 39,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        8536
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 41000359,
+          "daughter_pred": 8537,
+          "parent_dist": 5.859020822628983,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 1.625,
+          "sister_dist": 5.138701197773616,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 6.351783996507781,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.2295278161764145
+        }
+      ]
+    },
+    {
+      "stem": "6bba_bb9f20c3",
+      "gt_parent": 32000835,
+      "t": 31,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        9286
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 33000858,
+          "daughter_pred": 9264,
+          "parent_dist": 7.267220926874317,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 4.596194077712559,
+          "sister_dist": 10.779030568655049,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 1.7028312716314389,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.5010243058204651
+        }
+      ]
+    },
+    {
+      "stem": "6bba_bb9f20c3",
+      "gt_parent": 47001238,
+      "t": 46,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        false
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        false
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        false
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        13341
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false
+    },
+    {
+      "stem": "6bba_bb9f20c3",
+      "gt_parent": 86002188,
+      "t": 85,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        22411
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 87002234,
+          "daughter_pred": 22402,
+          "parent_dist": 6.894291116568838,
+          "orphan": false,
+          "taken_by": 22199,
+          "parent_out_degree": 1,
+          "existing_child_dist": 1.625,
+          "sister_dist": 7.44668550430324,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": -0.5523943877344015,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.48944318294525146
+        }
+      ]
+    },
+    {
+      "stem": "6bba_337b1b3a",
+      "gt_parent": 39000297,
+      "t": 38,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        11867
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 40000324,
+          "daughter_pred": 11865,
+          "parent_dist": 8.75089281159357,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 3.6336104634371584,
+          "sister_dist": 11.941262496067994,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 3.128367559112524,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.4825716018676758
+        }
+      ]
+    },
+    {
+      "stem": "6bba_337b1b3a",
+      "gt_parent": 59000663,
+      "t": 58,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        17811
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        true,
+        true
+      ],
+      "final_fork": true,
+      "missing_daughters": [
+        {
+          "daughter_gt": 60000685,
+          "daughter_pred": 17820,
+          "parent_dist": 6.080193253507654,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 4.875,
+          "sister_dist": 10.405076885828379,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 6.325322093275496,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.3481452167034149
+        }
+      ]
+    },
+    {
+      "stem": "44b6_a21120c2",
+      "gt_parent": 68000000011,
+      "t": 52,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        13281
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        true
+      ],
+      "final_fork": true,
+      "missing_daughters": [
+        {
+          "daughter_gt": 69000000012,
+          "daughter_pred": 13275,
+          "parent_dist": 5.859020822628983,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 3.6336104634371584,
+          "sister_dist": 8.285906709588275,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 5.212357067653597,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.43673577904701233
+        }
+      ]
+    },
+    {
+      "stem": "44b6_a21120c2",
+      "gt_parent": 76000000019,
+      "t": 60,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        15387
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 77000000019,
+          "daughter_pred": 15384,
+          "parent_dist": 6.700046641628698,
+          "orphan": false,
+          "taken_by": 15149,
+          "parent_out_degree": 1,
+          "existing_child_dist": 3.9804208320226646,
+          "sister_dist": 8.443747686898277,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 3.497514809169717,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.4450056254863739
+        }
+      ]
+    },
+    {
+      "stem": "44b6_c50204e0",
+      "gt_parent": 171000000043,
+      "t": 28,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        11923
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 172000000043,
+          "daughter_pred": 11961,
+          "parent_dist": 8.900491559458949,
+          "orphan": false,
+          "taken_by": 11473,
+          "parent_out_degree": 1,
+          "existing_child_dist": 8.285906709588275,
+          "sister_dist": 13.400093283257396,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 0.4839128028835926,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.2537895143032074
+        },
+        {
+          "daughter_gt": 172000000044,
+          "daughter_pred": 11963,
+          "parent_dist": 5.3895152843275245,
+          "orphan": false,
+          "taken_by": 11455,
+          "parent_out_degree": 1,
+          "existing_child_dist": 8.285906709588275,
+          "sister_dist": 10.405076885828379,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 2.7964855217050566,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.23657235503196716
+        }
+      ]
+    },
+    {
+      "stem": "44b6_c50204e0",
+      "gt_parent": 208000000033,
+      "t": 65,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        33076
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 209000000034,
+          "daughter_pred": 33056,
+          "parent_dist": 5.859020822628983,
+          "orphan": false,
+          "taken_by": 32487,
+          "parent_out_degree": 1,
+          "existing_child_dist": 3.6336104634371584,
+          "sister_dist": 8.900491559458949,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 3.36798939785602,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.25367626547813416
+        }
+      ]
+    },
+    {
+      "stem": "44b6_d2f34f90",
+      "gt_parent": 275000000002,
+      "t": 51,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        10030
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 276000000002,
+          "daughter_pred": 10022,
+          "parent_dist": 6.080193253507654,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 2.2980970388562794,
+          "sister_dist": 7.621925609713073,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 3.278905780598401,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.2655497193336487
+        }
+      ]
+    },
+    {
+      "stem": "44b6_d2f34f90",
+      "gt_parent": 286000000004,
+      "t": 62,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        12410
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 287000000005,
+          "daughter_pred": 12397,
+          "parent_dist": 7.44668550430324,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 2.2980970388562794,
+          "sister_dist": 8.125,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 1.4886296475368752,
+          "mutual_nn_ok": true,
+          "deepcenter_score": 0.3127046823501587
+        }
+      ]
+    },
+    {
+      "stem": "44b6_d5e7d891",
+      "gt_parent": 173000000010,
+      "t": 12,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        4832
+      ],
+      "sd_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_edges_to_daughters": [
+        true,
+        false
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 174000000011,
+          "daughter_pred": 4784,
+          "parent_dist": 6.894291116568838,
+          "orphan": true,
+          "taken_by": null,
+          "parent_out_degree": 1,
+          "existing_child_dist": 6.080193253507654,
+          "sister_dist": 11.490485194281398,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": 2.488293364662871,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.2745174765586853
+        }
+      ]
+    },
+    {
+      "stem": "44b6_d5e7d891",
+      "gt_parent": 208000000033,
+      "t": 47,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        21287
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 209000000033,
+          "daughter_pred": 21314,
+          "parent_dist": 9.75,
+          "orphan": false,
+          "taken_by": 20775,
+          "parent_out_degree": 1,
+          "existing_child_dist": 3.6336104634371584,
+          "sister_dist": 6.700046641628698,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": -0.6198533881210437,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.10775960981845856
+        }
+      ]
+    },
+    {
+      "stem": "44b6_e28840c6",
+      "gt_parent": 381000000009,
+      "t": 23,
+      "parent_matched": true,
+      "daughters_matched": [
+        false,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        false,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        false,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        9839
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false
+    },
+    {
+      "stem": "44b6_e28840c6",
+      "gt_parent": 419000000009,
+      "t": 61,
+      "parent_matched": true,
+      "daughters_matched": [
+        true,
+        true
+      ],
+      "raw_parent_matched": true,
+      "raw_daughters_matched": [
+        true,
+        true
+      ],
+      "final_parent_matched": true,
+      "final_daughters_matched": [
+        true,
+        true
+      ],
+      "raw_fork": false,
+      "sd_in_children": [
+        22132
+      ],
+      "sd_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_edges_to_daughters": [
+        false,
+        true
+      ],
+      "final_fork": false,
+      "missing_daughters": [
+        {
+          "daughter_gt": 420000000009,
+          "daughter_pred": 22131,
+          "parent_dist": 5.859020822628983,
+          "orphan": false,
+          "taken_by": 21821,
+          "parent_out_degree": 1,
+          "existing_child_dist": 1.625,
+          "sister_dist": 5.138701197773616,
+          "c1_succ": 1,
+          "d_succ": 1,
+          "grandchild_dist_minus_sister": -1.505090734336458,
+          "mutual_nn_ok": false,
+          "deepcenter_score": 0.24140340089797974
+        }
+      ]
+    }
+  ]
+}

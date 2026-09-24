@@ -1,0 +1,10 @@
+﻿Held-out fold0 (24 x 44b6 movies, trained on 6bba only), exact 0.947 predictor, base post-processing, ONE seed used as primary = secondary
+model189 (86 epochs x 250 it, 21.5k iterations; run was killed externally at epoch 86 of 160): proxy 0.81615 | adj edge J 0.80926 | div 2 TP / 14 FP / 13 FN
+model182 (80 epochs x 125 it, 10k iterations, same seed):                                     proxy 0.79657
+model186 (two short seeds):                                                                   proxy 0.80606 | adj edge J 0.79452
+Paired vs the TWO-short-seed run: 18 wins / 6 losses; missed GT nodes 736 -> 659, edge FP 1261 -> 1144, edge FN 1534 -> 1391.
+Verdict: +0.0196 from ~2x training budget = the largest honest gain found. The public checkpoints (50 epochs) are under-trained.
+
+Follow-up (run_mixed.ps1, 2026-09-21): long primary + short seed777 secondary = proxy 0.81518 | adj edge J 0.79699 | div 4 TP / 7 FP / 11 FN.
+Versus long-as-both (0.81615 | 0.80926): the short secondary costs 0.012 adjusted edge J; the proxy gap is small only because of
+2 extra true divisions (noise at ~15 GT divisions). Decision: first Kaggle run = model190 "both" (model185 as both seeds).

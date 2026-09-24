@@ -1,8 +1,0 @@
-{
-  "id": 134247354,
-  "version": 1,
-  "exact_code_match": true,
-  "gpu": "NvidiaTeslaT4",
-  "private": true,
-  "local_notebook_sha256": "41df1aa587780206fcbf6aedca9d1288ea0b35f03ba603540e0bf4554a02db3c"
-}

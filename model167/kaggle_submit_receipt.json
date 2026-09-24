@@ -1,7 +1,0 @@
-{
-  "competition": "biohub-cell-tracking-during-development",
-  "http_status": 400,
-  "response_body": "{\"error\":{\"code\":400,\"message\":\"Submission not allowed:  This competition only accepts Submissions from Notebooks.\",\"status\":\"FAILED_PRECONDITION\"}}",
-  "status": "api_rejected",
-  "submission_sha256": "dab171ab08fa81dd8bc4ad6fb53900ffb8f70c760bce5aae5603b96ffabb4b10"
-}

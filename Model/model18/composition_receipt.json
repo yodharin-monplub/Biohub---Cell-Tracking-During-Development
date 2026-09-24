@@ -1,0 +1,23 @@
+{
+  "alternative": "model16/submissions/det_0p9800.csv",
+  "alternative_datasets": [
+    "44b6_0113de3b",
+    "44b6_0b24845f",
+    "6bba_05b6850b"
+  ],
+  "alternative_sha256": "60110963b8e23178b87aa8a872d772733be5750c840ceefbeb475291a940aa75",
+  "base": "model16/submissions/det_0p9650.csv",
+  "base_datasets": [
+    "6bba_05db0fb1"
+  ],
+  "base_sha256": "9df4342ca1fa6eb08254d3490a4890af638f8cddc161ee7f3543b94cdd02b791",
+  "output": "model18/submission.csv",
+  "output_sha256": "485ea9965e6400170e3d80247b758bdf7883280f41ade8fe4fa3c3e89de20ab7",
+  "row_counts": {
+    "44b6_0113de3b": 49772,
+    "44b6_0b24845f": 40656,
+    "6bba_05b6850b": 11925,
+    "6bba_05db0fb1": 132398
+  },
+  "rows": 234751
+}

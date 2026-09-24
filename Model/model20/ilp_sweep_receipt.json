@@ -1,0 +1,171 @@
+{
+  "appearance_cost": 0.0,
+  "candidate_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model17/candidates",
+  "disappearance_cost": 2.0,
+  "distance_weights": [
+    0.0,
+    0.0025,
+    0.005,
+    0.01,
+    0.02,
+    0.04
+  ],
+  "division_cost": 1.2,
+  "edge_cost": "-edge_prob + distance_weight * edge_dist",
+  "edge_distance_unit": "approximately isotropic downsample-grid voxels (1.625 um)",
+  "elapsed_seconds": 350.3688442140119,
+  "num_threads": 1,
+  "results": [
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24579,
+          "nodes": 25523
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 20042,
+          "nodes": 22647
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5866,
+          "nodes": 6192
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 64191,
+          "nodes": 68207
+        }
+      ],
+      "distance_weight": 0.0
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24579,
+          "nodes": 25523
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 20012,
+          "nodes": 22607
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5866,
+          "nodes": 6192
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 64179,
+          "nodes": 68191
+        }
+      ],
+      "distance_weight": 0.0025
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24576,
+          "nodes": 25519
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 19988,
+          "nodes": 22575
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5866,
+          "nodes": 6192
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 64167,
+          "nodes": 68175
+        }
+      ],
+      "distance_weight": 0.005
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24576,
+          "nodes": 25519
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 19964,
+          "nodes": 22543
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5860,
+          "nodes": 6184
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 64146,
+          "nodes": 68147
+        }
+      ],
+      "distance_weight": 0.01
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24570,
+          "nodes": 25511
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 19837,
+          "nodes": 22374
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5860,
+          "nodes": 6184
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 64086,
+          "nodes": 68067
+        }
+      ],
+      "distance_weight": 0.02
+    },
+    {
+      "datasets": [
+        {
+          "dataset": "44b6_0113de3b",
+          "edges": 24558,
+          "nodes": 25495
+        },
+        {
+          "dataset": "44b6_0b24845f",
+          "edges": 19548,
+          "nodes": 21991
+        },
+        {
+          "dataset": "6bba_05b6850b",
+          "edges": 5845,
+          "nodes": 6164
+        },
+        {
+          "dataset": "6bba_05db0fb1",
+          "edges": 63956,
+          "nodes": 67895
+        }
+      ],
+      "distance_weight": 0.04
+    }
+  ],
+  "status": "complete"
+}

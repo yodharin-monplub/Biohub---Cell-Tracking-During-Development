@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "pid": 3361853,
+  "supervisor_pid": 3361852,
+  "elapsed_seconds": 62.57293105125427,
+  "updated_unix": 1788740268.0618107,
+  "monitor_interval_seconds": 600,
+  "alarm_enabled": false,
+  "exit_code": 0
+}

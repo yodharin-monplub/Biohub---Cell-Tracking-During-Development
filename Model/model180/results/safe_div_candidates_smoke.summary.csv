@@ -1,0 +1,2 @@
+stem,edge_tp,edge_fp,edge_fn,adjusted_edge_jaccard,div_tp,div_fp,div_fn,t_pred,t_true,safe_divisions_added
+6bba_05b6850b,828,19,17,0.9614966467567851,0,0,0,6152,6362.0,10

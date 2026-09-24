@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "cohorts": {
+    "development": {
+      "file_sha256": "e3933d67944a9215746c2ae4ba290342128d8d51e49ca9ff1ee9e65882d43a4c",
+      "examples": 171188,
+      "switch_positive": 1030,
+      "keep_negative": 170158,
+      "movies": 39
+    },
+    "confirmation": {
+      "file_sha256": "66ac4e0883a4ba4eceecfaa9df99bbe1ddd28bd9584c05b3514b94bbb70678d8",
+      "examples": 151097,
+      "switch_positive": 952,
+      "keep_negative": 150145,
+      "movies": 39
+    }
+  },
+  "feature_names": [
+    "alternative_0",
+    "alternative_1",
+    "alternative_2",
+    "alternative_3",
+    "alternative_4",
+    "alternative_5",
+    "alternative_6",
+    "alternative_7",
+    "alternative_8",
+    "alternative_12",
+    "alternative_13",
+    "alternative_14",
+    "alternative_15",
+    "incumbent_0",
+    "incumbent_1",
+    "incumbent_2",
+    "incumbent_3",
+    "incumbent_4",
+    "incumbent_5",
+    "incumbent_6",
+    "incumbent_7",
+    "incumbent_8",
+    "incumbent_12",
+    "incumbent_13",
+    "incumbent_14",
+    "incumbent_15",
+    "shared_source",
+    "shared_target"
+  ],
+  "source_sha256": "fee27f86a3c636196bd419cb7bac9780995bc19b4549fa9d320f2d3efd49cebe",
+  "elapsed_seconds": 1.9596259593963623,
+  "caveat": "Explicit sparse-GT pair labels only; not a full graph score."
+}

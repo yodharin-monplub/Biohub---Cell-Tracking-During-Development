@@ -1,0 +1,226 @@
+{
+  "movie": "6bba_76db78c1",
+  "stages": [
+    {
+      "stage": "post_ilp",
+      "nodes": 4672,
+      "edges": 4525,
+      "rematched_tp": 604,
+      "rematched_fp": 0,
+      "rematched_fn": 0,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "before_motion",
+      "nodes": 4672,
+      "edges": 4522,
+      "rematched_tp": 604,
+      "rematched_fp": 0,
+      "rematched_fn": 0,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_motion",
+      "nodes": 4672,
+      "edges": 4536,
+      "rematched_tp": 603,
+      "rematched_fp": 1,
+      "rematched_fn": 1,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_gap1",
+      "nodes": 4674,
+      "edges": 4540,
+      "rematched_tp": 603,
+      "rematched_fp": 1,
+      "rematched_fn": 1,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_gap2",
+      "nodes": 4688,
+      "edges": 4561,
+      "rematched_tp": 603,
+      "rematched_fp": 1,
+      "rematched_fn": 1,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_divisions",
+      "nodes": 4688,
+      "edges": 4566,
+      "rematched_tp": 604,
+      "rematched_fp": 1,
+      "rematched_fn": 0,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "after_short_filter",
+      "nodes": 4606,
+      "edges": 4505,
+      "rematched_tp": 604,
+      "rematched_fp": 1,
+      "rematched_fn": 0,
+      "matches_different_from_fixed": 0
+    },
+    {
+      "stage": "final",
+      "nodes": 4606,
+      "edges": 4505,
+      "rematched_tp": 604,
+      "rematched_fp": 1,
+      "rematched_fn": 0,
+      "matches_different_from_fixed": 0
+    }
+  ],
+  "transitions": [
+    {
+      "before": "post_ilp",
+      "after": "before_motion",
+      "counts": {
+        "removed_ignored": 3
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "before_motion",
+      "after": "after_motion",
+      "counts": {
+        "removed_tp": 1,
+        "removed_ignored": 8,
+        "added_evaluable_fp": 1,
+        "added_ignored": 22
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "removed",
+          "label": "tp",
+          "source": 624,
+          "target": 670,
+          "probability": 0.8867614269256592,
+          "motion_pass": null
+        },
+        {
+          "action": "added",
+          "label": "evaluable_fp",
+          "source": 624,
+          "target": 679,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        }
+      ]
+    },
+    {
+      "before": "after_motion",
+      "after": "after_gap1",
+      "counts": {
+        "added_ignored": 4
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_gap1",
+      "after": "after_gap2",
+      "counts": {
+        "added_ignored": 21
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_gap2",
+      "after": "after_divisions",
+      "counts": {
+        "added_tp": 1,
+        "added_ignored": 4
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 624,
+          "target": 670,
+          "probability": null,
+          "motion_pass": null
+        }
+      ]
+    },
+    {
+      "before": "after_divisions",
+      "after": "after_short_filter",
+      "counts": {
+        "removed_ignored": 61
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_short_filter",
+      "after": "final",
+      "counts": {},
+      "changed_evaluable_edges": []
+    }
+  ],
+  "replay_stats": {
+    "raw_edges": 4525,
+    "dropped_nonconsecutive_edges": 0,
+    "dropped_long_edges": 3,
+    "dropped_multi_parent_edges": 0,
+    "dropped_multi_child_edges": 0,
+    "dropped_division_edges": 0,
+    "gap_candidates": 3,
+    "gap_pairs_selected": 2,
+    "gap_reused_existing": 0,
+    "gap_inserted_synthetic": 2,
+    "gap_added_nodes": 2,
+    "gap_added_edges": 4,
+    "gap_skipped_node_cap": 0,
+    "gap_density_nodes_scored": 2288,
+    "gap_density_candidates_expanded": 0,
+    "gap_density_candidates_restricted": 0,
+    "gap_density_selected_outside_base": 0,
+    "gap_density_step_delta_milli_sum": 8375,
+    "gap_refined_synthetic": 17,
+    "gap_refine_failed": 0,
+    "gap_refine_rejected_shift": 0,
+    "pruned_isolated_nodes": 1,
+    "motion_relink_edges": 4536,
+    "motion_relink_tight_edges": 4457,
+    "motion_relink_relaxed_edges": 79,
+    "motion_relink_frames": 99,
+    "motion_relink_replaced_raw_edges": 4522,
+    "motion_relink_fallback_raw": 0,
+    "motion_relink_skipped_large_frame": 0,
+    "gap2_candidates": 7,
+    "gap2_pairs_selected": 7,
+    "gap2_added_nodes": 14,
+    "gap2_added_edges": 21,
+    "gap2_skipped_cap": 0,
+    "safe_division_candidates": 5,
+    "safe_division_geometric_candidates": 0,
+    "safe_divisions_added": 5,
+    "safe_division_skipped_cap": 0,
+    "safe_division_mutual_nn_rejected": 0,
+    "safe_division_divergence_rejected": 0,
+    "deepcenter_gap_checked": 1,
+    "deepcenter_gap_bypassed_strong_motion": 2,
+    "deepcenter_gap_bypassed_observed_node": 0,
+    "deepcenter_gap_accepted": 0,
+    "deepcenter_gap_rejected": 1,
+    "deepcenter_gap_missing": 0,
+    "deepcenter_safe_div_checked": 0,
+    "deepcenter_safe_div_accepted": 0,
+    "deepcenter_safe_div_rejected": 0,
+    "deepcenter_safe_div_missing": 0,
+    "short_track_components_removed": 20,
+    "short_track_nodes_removed": 81,
+    "short_track_edges_removed": 61,
+    "short_track_filter_skipped_all": 0,
+    "short_track_rescue_triggered": 0,
+    "short_track_rescue_components": 0,
+    "short_track_rescue_nodes": 0,
+    "short_track_rescue_budget": 0,
+    "linefit_smoothed_nodes": 4606,
+    "linefit_skipped_nodes": 0,
+    "gap_close_effective_max_gap": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "checkpoint_sha256": {
+    "deepcenter": "8040999a92f6b7bbd98fa8cf458141e045c0f9ad7c936bdb3b18e1f7edafe2a0",
+    "primary": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771",
+    "secondary": "9bac2fa0dadc4a6fc1899e0caf187f4b553e0a7cd90ba1261a68b35ffe9e305f"
+  },
+  "selection": {
+    "base_proxy": null,
+    "held_out_stems": [],
+    "overrides": {},
+    "selected": "base",
+    "selected_proxy": null
+  },
+  "status": "valid",
+  "submission_sha256": "ee4d2feea7cc1220085b96502b09a398c47832d0c2c5a9541657d287f302cb83",
+  "validation": {
+    "datasets": {
+      "44b6_0113de3b": {
+        "divisions": 50,
+        "edges": 24557,
+        "frames": 100,
+        "max_indegree": 1,
+        "max_outdegree": 2,
+        "nodes": 25279,
+        "tracks": 722
+      },
+      "44b6_0b24845f": {
+        "divisions": 18,
+        "edges": 13850,
+        "frames": 100,
+        "max_indegree": 1,
+        "max_outdegree": 2,
+        "nodes": 14794,
+        "tracks": 944
+      },
+      "6bba_05b6850b": {
+        "divisions": 3,
+        "edges": 5609,
+        "frames": 100,
+        "max_indegree": 1,
+        "max_outdegree": 2,
+        "nodes": 5785,
+        "tracks": 176
+      },
+      "6bba_05db0fb1": {
+        "divisions": 45,
+        "edges": 67904,
+        "frames": 100,
+        "max_indegree": 1,
+        "max_outdegree": 2,
+        "nodes": 69981,
+        "tracks": 2077
+      }
+    },
+    "path": "C:\\Users\\yodha\\OneDrive\\resources_msi\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Model\\model195\\kaggle\\remote_run_v1\\output\\submission.csv",
+    "rows": 227759,
+    "status": "valid",
+    "totals": {
+      "divisions": 116,
+      "edges": 111920,
+      "nodes": 115839,
+      "tracks": 3919
+    }
+  }
+}

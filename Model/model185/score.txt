@@ -1,0 +1,1 @@
+no honest local score (trained on all 199 movies); training loss final epoch edge=0.0004 det=0.0093; cost $6.04

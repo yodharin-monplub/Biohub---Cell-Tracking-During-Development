@@ -1,8 +1,0 @@
-{
-  "kernel": "yodharinmonplub/biohub-model149-growth-pruned-recovery",
-  "kernel_id": 134247354,
-  "version": 1,
-  "competition": "biohub-cell-tracking-during-development",
-  "requested_unix": 1789325184.2246318,
-  "submission_sha256": "704532f2d842a1d6b951f88e7641ae9b8f39fb267c1eca2e5a54fd7bcabd05c6"
-}

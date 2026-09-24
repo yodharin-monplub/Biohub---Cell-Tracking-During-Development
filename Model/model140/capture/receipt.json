@@ -1,0 +1,114 @@
+{
+  "status": "complete",
+  "manifest_sha256": "118ba027378f57e62cca876338567060f2d8c6da9fe42ec8e0ff68581d5b53fe",
+  "preflight_pass": true,
+  "movies": [
+    {
+      "movie": "44b6_1d530831",
+      "is_preflight": true,
+      "capture_sha256": "56e8400b2735a9a41151788e2b156c9cc968800bff43fc3915a1993f01fac580",
+      "raw_detector_nodes": 41230,
+      "top5_links": 204510,
+      "post_ilp_nodes": 34911,
+      "post_ilp_edges": 32428,
+      "preflight": {
+        "parity": true,
+        "coordinate_sha256": "6adc86eee95c65e564fbf1215fd62c97ff50e6d4670f41acbbc7870bffd3d1d4",
+        "expected_coordinate_sha256": "6adc86eee95c65e564fbf1215fd62c97ff50e6d4670f41acbbc7870bffd3d1d4",
+        "post_ilp_topology_parity": true,
+        "max_probability_error": 0.0
+      },
+      "seconds": 169.41969561576843
+    },
+    {
+      "movie": "44b6_267148e4",
+      "is_preflight": false,
+      "capture_sha256": "5df30b5ac3b35941949e747e7457875c8062ecc29751442ebde4c99c0e47eeba",
+      "raw_detector_nodes": 26580,
+      "top5_links": 131965,
+      "post_ilp_nodes": 21734,
+      "post_ilp_edges": 20272,
+      "preflight": null,
+      "seconds": 164.14070916175842
+    },
+    {
+      "movie": "44b6_c50204e0",
+      "is_preflight": false,
+      "capture_sha256": "9db440283e3f3eb3d78bf7f9e3137568c75e9d9e1eedefd39c9af569222ae2d1",
+      "raw_detector_nodes": 51066,
+      "top5_links": 253915,
+      "post_ilp_nodes": 36022,
+      "post_ilp_edges": 32902,
+      "preflight": null,
+      "seconds": 179.77852129936218
+    },
+    {
+      "movie": "44b6_d2f34f90",
+      "is_preflight": false,
+      "capture_sha256": "6009dc0e214a88cac1725b899508febacd3ea23d51ef4b8813ff0561cc37a160",
+      "raw_detector_nodes": 19602,
+      "top5_links": 97030,
+      "post_ilp_nodes": 14688,
+      "post_ilp_edges": 13548,
+      "preflight": null,
+      "seconds": 164.8643012046814
+    },
+    {
+      "movie": "6bba_05db0fb1",
+      "is_preflight": false,
+      "capture_sha256": "ed18e4e20d55481e846da8cd49789b5c1b861988f8fc7cbe7075dbcde8933407",
+      "raw_detector_nodes": 76398,
+      "top5_links": 377960,
+      "post_ilp_nodes": 69824,
+      "post_ilp_edges": 66248,
+      "preflight": null,
+      "seconds": 223.58633875846863
+    },
+    {
+      "movie": "6bba_07e24132",
+      "is_preflight": false,
+      "capture_sha256": "4e000783cc1aa44b52cc5ec617fa7360f66826a0356953bf80cdfb1abef628c5",
+      "raw_detector_nodes": 36331,
+      "top5_links": 179545,
+      "post_ilp_nodes": 24934,
+      "post_ilp_edges": 23133,
+      "preflight": null,
+      "seconds": 172.1903998851776
+    },
+    {
+      "movie": "6bba_cdcfe533",
+      "is_preflight": false,
+      "capture_sha256": "bbda968d18ed723c5091e86fe3dc2515ff771208a5c9af655915e057093f4c8c",
+      "raw_detector_nodes": 29664,
+      "top5_links": 146715,
+      "post_ilp_nodes": 28561,
+      "post_ilp_edges": 27270,
+      "preflight": null,
+      "seconds": 173.6784782409668
+    },
+    {
+      "movie": "6bba_debd7bfa",
+      "is_preflight": false,
+      "capture_sha256": "1fafdc6f8e74468083c03d32191dde5594a3d376025b28bb09633530c66cebd8",
+      "raw_detector_nodes": 13141,
+      "top5_links": 64350,
+      "post_ilp_nodes": 12071,
+      "post_ilp_edges": 11363,
+      "preflight": null,
+      "seconds": 164.80227518081665
+    },
+    {
+      "movie": "6bba_df673a83",
+      "is_preflight": false,
+      "capture_sha256": "88121f2dfc9330687ab27f3ac922823690339aef6b841441c51afba8835869b6",
+      "raw_detector_nodes": 24020,
+      "top5_links": 118865,
+      "post_ilp_nodes": 21682,
+      "post_ilp_edges": 20780,
+      "preflight": null,
+      "seconds": 174.3659336566925
+    }
+  ],
+  "elapsed_seconds": 1586.8392100334167,
+  "all_train_only": true
+}

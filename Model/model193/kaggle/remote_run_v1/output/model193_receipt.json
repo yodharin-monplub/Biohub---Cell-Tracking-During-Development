@@ -1,0 +1,5 @@
+{
+  "primary": "/kaggle/input/datasets/krittanutsomtuas/biohub-model193-ft-primary-weights/edge_predictor_best.pth",
+  "model193_sha256": "710a6379475fc26dd44509846c37ff7ea58901fece496be12809e160bb7cc127",
+  "validator_enabled": "0"
+}

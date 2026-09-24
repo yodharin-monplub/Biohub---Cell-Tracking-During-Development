@@ -1,0 +1,12 @@
+{
+  "status": "inference_smoke_not_scored",
+  "movie": "44b6_95029e92",
+  "held_out_embryo": "44b6",
+  "checkpoint_sha256": "796815d3940caa817a3032748ee40d1f59780a81387d551886f9a1b5e9f0185a",
+  "nodes": 0,
+  "candidate_edges": 0,
+  "elapsed_seconds": 26.36201718400116,
+  "peak_cuda_allocated_bytes": 712339968,
+  "sdpa_backend": "math",
+  "caveat": "Pilot trained eight iterations; this is not an OOF or CV score."
+}

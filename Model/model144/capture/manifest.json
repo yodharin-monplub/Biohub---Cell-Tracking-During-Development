@@ -1,0 +1,28 @@
+{
+  "status": "started",
+  "config_sha256": "241490f4fc5e2ed32a32fdeb10ced412e103b303e3c750ab251d7274e250e5b9",
+  "gt_audit_sha256": "1d0f42609c4a243ca29a12126863c0bc32ef192e83e39d41c9c9fb74c06bb2ac",
+  "model1_notebook_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "predictor_sha256": "273236115f901d033998d695caafadb189174f6d1d2fe8239fcb1c7f57ee1d74",
+  "primary_weights_sha256": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771",
+  "secondary_weights_sha256": "9bac2fa0dadc4a6fc1899e0caf187f4b553e0a7cd90ba1261a68b35ffe9e305f",
+  "preflight_movie": "44b6_1d530831",
+  "train_only_movies": [
+    "6bba_57b7cc1e",
+    "6bba_5c039895",
+    "6bba_786893ac",
+    "6bba_969618f6",
+    "6bba_2312ac41",
+    "6bba_337b1b3a",
+    "6bba_78a7bd97",
+    "6bba_7af54fde",
+    "6bba_7d3058ae",
+    "6bba_8b7818bf",
+    "6bba_ab78413d",
+    "6bba_d2b9fc0c",
+    "6bba_ef7b4f7e",
+    "6bba_fc5f39dc",
+    "6bba_fe670320"
+  ],
+  "capture_top_k": 5
+}

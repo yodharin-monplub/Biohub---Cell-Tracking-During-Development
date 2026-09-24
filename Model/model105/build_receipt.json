@@ -1,0 +1,18 @@
+{
+  "status": "frozen_before_scoring",
+  "model1_sha256": "6b61936428e9983eda14e7140663c09f314bca7071e7f34bab18ec58f60cfc3d",
+  "candidate_sha256": "10834aab14404277c80c12e86cbd4dfa33f9aa692538e481a8edf6566aac4f40",
+  "config_sha256": "f2a0a7c5f589c30574049c01a05e10ff513c6b05e3231a8242c0f813571f3569",
+  "helper_sha256": "5650eb1d90e524fa176510619576b2aa5a5e4e46663da2bbeee42a314bece6b1",
+  "changed_cells": [
+    14
+  ],
+  "single_change": "Reserve original high-confidence links only when a consistent three-frame chain supports them",
+  "reused_model101_rule": false,
+  "kaggle_submitted": false,
+  "scripts_sha256": {
+    "replay.py": "78d44d07a9a2981195c2d06c8f621c910c1a60948f0d9f6040a20995bc248657",
+    "finalize.py": "dfb0a8d2bb9c6ac08fa24be18d9ce6ffda175fe4228c4a480c25da218b7a5e69",
+    "run.sh": "3493fcf4f8a1bb6a7c58d1a661e21f47d503d037ab65a9b0a995971febf9d084"
+  }
+}

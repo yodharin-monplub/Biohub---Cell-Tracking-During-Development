@@ -1,0 +1,11 @@
+{
+    "epochs_completed":  86,
+    "seed":  20260914,
+    "note":  "trainer process was killed externally (exit -1, no traceback) at 2026-09-21 04:13:58 during epoch 86/160, seconds before another project\u0027s GPU job started; checkpoint is the end of epoch 85 (86 epochs x 250 it = 21.5k iterations, 2.15x the model182 budget)",
+    "batch_size":  2,
+    "checkpoint_sha256":  "9910d3b700c325f6af76a9644500e95c6ee40d7cd6d891bda0eee84b933fcac9",
+    "fold":  0,
+    "max_iters":  250,
+    "epochs_planned":  160,
+    "status":  "trained_truncated_not_scored"
+}

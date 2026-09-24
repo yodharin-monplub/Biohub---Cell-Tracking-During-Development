@@ -1,0 +1,10 @@
+{
+  "caveat": "Static package; no run or score.",
+  "change": "BIOHUB_OUTPUT_MOTION_RELINK=0; relink-only sweep candidates removed",
+  "linux_source_file_sha256": "eaae8dfffe53428beb0ee62eed4b8460d0465a96d94d44c03ed25e864591b0f0",
+  "output_sha256": "8ca53181d6cbab2cd28ee05adcd1e5665f244355e0669318d72b43eb8d2aa996",
+  "replacement_count": 2,
+  "source_cell_sha256": "66460635439aacfe4fd1e4389e95a677cc79cdb497211debb3471ea1b951f2cb",
+  "source_file_sha256": "2cf591705256d8e5f9d8dc3061c793720613f1d55a382f4a8835b0791c88bdbc",
+  "status": "built_unrun"
+}

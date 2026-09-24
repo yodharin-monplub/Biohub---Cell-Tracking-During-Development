@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "config_sha256": "d803747b9adedad94b518117dabf11174377800eb1eb00167c083e00f63e1604",
+  "model144_audit_sha256": "06c1dc3e7829fcef0ca047652e6f8ecd104d49cfb52951cd7e391eb572654bb8",
+  "groups": {
+    "selection_five": {
+      "movies": 5,
+      "qualified": 243,
+      "labels": {
+        "unknown": 233,
+        "positive_link_division_unverified": 3,
+        "explicit_division_positive": 7
+      },
+      "positive_movies": 3
+    },
+    "heldout_fifteen": {
+      "movies": 15,
+      "qualified": 856,
+      "labels": {
+        "unknown": 836,
+        "positive_link_division_unverified": 13,
+        "explicit_division_positive": 7
+      },
+      "positive_movies": 5
+    }
+  },
+  "caveat": "Sparse-GT unknowns are NOT negatives. Approximate model1 post-ILP pool, not final model149 selection or precision."
+}

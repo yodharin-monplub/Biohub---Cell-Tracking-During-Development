@@ -1,0 +1,6 @@
+﻿2026-09-21T10:00:09.4138446+07:00 segment 0 : 0 epochs done, training 160 more in model191_scratch_all_seed20260922_seg0
+2026-09-21T18:52:33.7460171+07:00 segment 0 : 20 epochs done, training 140 more in model191_scratch_all_seed20260922_seg0x
+2026-09-22T02:06:45.2303207+07:00 segment 0 : 95 epochs done, training 65 more in model191_scratch_all_seed20260922_seg0xx
+2026-09-22T02:11:03.4507268+07:00 manual: relaunches had truncated train_seg0.log; offset set to 114 (20 before 18:52 + 94 until 01:58); resuming from resume_init.pth (seg0x epoch-114 checkpoint)
+2026-09-22T02:11:04.3871788+07:00 segment 0 : 114 epochs done, training 46 more in model191_scratch_all_seed20260922_seg0xx
+2026-09-22T05:57:47.8264118+07:00 segment 0 exit=0

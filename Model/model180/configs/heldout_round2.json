@@ -1,0 +1,15 @@
+{
+  "base": {},
+  "tight5": {"MOTION_RELINK_TIGHT_UM": 5.0},
+  "tight7": {"MOTION_RELINK_TIGHT_UM": 7.0},
+  "relaxed8": {"MOTION_RELINK_RELAXED_UM": 8.0},
+  "relaxed12": {"MOTION_RELINK_RELAXED_UM": 12.0},
+  "bonus05": {"MOTION_RELINK_LEARNED_BONUS": 0.5},
+  "bonus20": {"MOTION_RELINK_LEARNED_BONUS": 2.0},
+  "vel0": {"MOTION_RELINK_VELOCITY_WEIGHT": 0.0},
+  "vel1": {"MOTION_RELINK_VELOCITY_WEIGHT": 1.0},
+  "gap4": {"GAP_CLOSE_UM": 4.0},
+  "gap6": {"GAP_CLOSE_UM": 6.0},
+  "minlen4": {"OUTPUT_MIN_TRACK_LEN": 4},
+  "minlen8": {"OUTPUT_MIN_TRACK_LEN": 8}
+}

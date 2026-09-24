@@ -1,0 +1,27 @@
+{
+    "code_file":  "submission.ipynb",
+    "competition_sources":  [
+                                "biohub-cell-tracking-during-development"
+                            ],
+    "dataset_sources":  [
+                            "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+                            "pilkwang/biohub-temporal-unet3d-seed314159-v1",
+                            "pilkwang/biohub-tracking-support-pack-50ep-v1",
+                            
+                            "krittanutsomtuas/biohub-model197-ft-primary-weights"
+                        ],
+    "enable_gpu":  true,
+    "enable_internet":  false,
+    "enable_tpu":  false,
+    "id":  "krittanutsomtuas/biohub-model197-ft-primary",
+    "is_private":  true,
+    "kernel_sources":  [
+
+                       ],
+    "kernel_type":  "notebook",
+    "language":  "python",
+    "model_sources":  [
+
+                      ],
+    "title":  "Biohub model197 ft primary"
+}

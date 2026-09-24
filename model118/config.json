@@ -1,8 +1,0 @@
-{
-  "source_model": "model107",
-  "component": "division_repair_branch_neural_probability_veto",
-  "minimum_repair_branch_probability": 0.4,
-  "missing_probability_action": "keep",
-  "threshold_selection": "development39_only_frozen_before_candidate_scoring",
-  "promotion": "positive_complete_official_score_gain_both_cohorts_and_no_family_loss_below_minus_0.001"
-}

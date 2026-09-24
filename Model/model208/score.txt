@@ -1,0 +1,1 @@
+﻿Not submitted. Local validator: off 0.9490468, veto 0.9490468, rank 0.9490464, rank_bypass 0.9472426 (worse). Divisions 3/12 recovered in every mode.

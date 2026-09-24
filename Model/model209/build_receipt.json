@@ -1,0 +1,7 @@
+{
+  "status": "built_unrun",
+  "source_cell_sha256": "66460635439aacfe4fd1e4389e95a677cc79cdb497211debb3471ea1b951f2cb",
+  "output_sha256": "473555a5f6d5ce9cf35822edf222e0a132831d12f471862a9c8e470423d5f9ae",
+  "propose_above": "0.40",
+  "propose_cap": "30"
+}

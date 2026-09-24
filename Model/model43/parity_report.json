@@ -1,0 +1,191 @@
+{
+  "datasets": [
+    {
+      "baseline_edges": 64328,
+      "dataset": "44b6_18ced818",
+      "division_candidates_scored": 14514,
+      "division_edges_added": 246,
+      "final_edges": 65934,
+      "gap_edges_added": 1360,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 14505,
+      "dataset": "44b6_808952d6",
+      "division_candidates_scored": 949,
+      "division_edges_added": 23,
+      "final_edges": 14634,
+      "gap_edges_added": 106,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 25728,
+      "dataset": "44b6_87bba6c4",
+      "division_candidates_scored": 4101,
+      "division_edges_added": 76,
+      "final_edges": 26186,
+      "gap_edges_added": 382,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 4667,
+      "dataset": "44b6_95029e92",
+      "division_candidates_scored": 77,
+      "division_edges_added": 4,
+      "final_edges": 4685,
+      "gap_edges_added": 14,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 33946,
+      "dataset": "44b6_b2c44266",
+      "division_candidates_scored": 4468,
+      "division_edges_added": 39,
+      "final_edges": 34367,
+      "gap_edges_added": 382,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 26634,
+      "dataset": "44b6_c771cb04",
+      "division_candidates_scored": 4016,
+      "division_edges_added": 45,
+      "final_edges": 27006,
+      "gap_edges_added": 327,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 35385,
+      "dataset": "44b6_d29c9ab2",
+      "division_candidates_scored": 2257,
+      "division_edges_added": 51,
+      "final_edges": 35607,
+      "gap_edges_added": 171,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 21223,
+      "dataset": "44b6_d78e09d9",
+      "division_candidates_scored": 2538,
+      "division_edges_added": 54,
+      "final_edges": 21464,
+      "gap_edges_added": 187,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 5428,
+      "dataset": "6bba_13f19531",
+      "division_candidates_scored": 145,
+      "division_edges_added": 4,
+      "final_edges": 5444,
+      "gap_edges_added": 12,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 3370,
+      "dataset": "6bba_2540cd90",
+      "division_candidates_scored": 15,
+      "division_edges_added": 3,
+      "final_edges": 3377,
+      "gap_edges_added": 4,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 20356,
+      "dataset": "6bba_283bf9f1",
+      "division_candidates_scored": 1584,
+      "division_edges_added": 39,
+      "final_edges": 20525,
+      "gap_edges_added": 130,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 65833,
+      "dataset": "6bba_57b7cc1e",
+      "division_candidates_scored": 13841,
+      "division_edges_added": 253,
+      "final_edges": 67841,
+      "gap_edges_added": 1755,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 10138,
+      "dataset": "6bba_789f8168",
+      "division_candidates_scored": 632,
+      "division_edges_added": 12,
+      "final_edges": 10192,
+      "gap_edges_added": 42,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 29432,
+      "dataset": "6bba_a90a0b9c",
+      "division_candidates_scored": 4219,
+      "division_edges_added": 35,
+      "final_edges": 29925,
+      "gap_edges_added": 458,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 6801,
+      "dataset": "6bba_ae82a791",
+      "division_candidates_scored": 217,
+      "division_edges_added": 7,
+      "final_edges": 6839,
+      "gap_edges_added": 31,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 4963,
+      "dataset": "6bba_aeee7805",
+      "division_candidates_scored": 105,
+      "division_edges_added": 0,
+      "final_edges": 4978,
+      "gap_edges_added": 14,
+      "rescue_edges_added": 1
+    },
+    {
+      "baseline_edges": 7450,
+      "dataset": "6bba_af149c94",
+      "division_candidates_scored": 282,
+      "division_edges_added": 7,
+      "final_edges": 7500,
+      "gap_edges_added": 43,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 5614,
+      "dataset": "6bba_d0fc38b5",
+      "division_candidates_scored": 119,
+      "division_edges_added": 3,
+      "final_edges": 5647,
+      "gap_edges_added": 30,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 15034,
+      "dataset": "6bba_d1acb6ff",
+      "division_candidates_scored": 1480,
+      "division_edges_added": 33,
+      "final_edges": 15275,
+      "gap_edges_added": 208,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 26966,
+      "dataset": "6bba_d82a4fc6",
+      "division_candidates_scored": 3156,
+      "division_edges_added": 35,
+      "final_edges": 27259,
+      "gap_edges_added": 258,
+      "rescue_edges_added": 0
+    }
+  ],
+  "division_edges_added": 969,
+  "expected_csv": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model42/broad_sparse_rescue.csv",
+  "gap_edges_added": 5914,
+  "input_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model22/geffs/dist_0p00000",
+  "notebook": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model43/submission.ipynb",
+  "rescue_edges_added": 1,
+  "status": "exact_parity"
+}

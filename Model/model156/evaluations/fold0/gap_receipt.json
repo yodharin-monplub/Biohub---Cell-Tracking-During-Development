@@ -1,0 +1,724 @@
+{
+  "datasets": [
+    {
+      "baseline_edges": 27818,
+      "candidate_gaps": 240,
+      "dataset": "44b6_0113de3b",
+      "edges_added": 178,
+      "final_edges": 27996,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 29295
+    },
+    {
+      "baseline_edges": 39865,
+      "candidate_gaps": 430,
+      "dataset": "44b6_0b24845f",
+      "edges_added": 297,
+      "final_edges": 40162,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 43643
+    },
+    {
+      "baseline_edges": 28178,
+      "candidate_gaps": 250,
+      "dataset": "44b6_0c582fdc",
+      "edges_added": 192,
+      "final_edges": 28370,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 29994
+    },
+    {
+      "baseline_edges": 15324,
+      "candidate_gaps": 168,
+      "dataset": "44b6_0db75fae",
+      "edges_added": 126,
+      "final_edges": 15450,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 16373
+    },
+    {
+      "baseline_edges": 54722,
+      "candidate_gaps": 386,
+      "dataset": "44b6_12dfb391",
+      "edges_added": 308,
+      "final_edges": 55030,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 57172
+    },
+    {
+      "baseline_edges": 64298,
+      "candidate_gaps": 426,
+      "dataset": "44b6_144b256d",
+      "edges_added": 342,
+      "final_edges": 64640,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 67732
+    },
+    {
+      "baseline_edges": 16734,
+      "candidate_gaps": 84,
+      "dataset": "44b6_1574802b",
+      "edges_added": 61,
+      "final_edges": 16795,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 17732
+    },
+    {
+      "baseline_edges": 67568,
+      "candidate_gaps": 1217,
+      "dataset": "44b6_18ced818",
+      "edges_added": 901,
+      "final_edges": 68469,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 73445
+    },
+    {
+      "baseline_edges": 38631,
+      "candidate_gaps": 408,
+      "dataset": "44b6_1d530831",
+      "edges_added": 291,
+      "final_edges": 38922,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 41266
+    },
+    {
+      "baseline_edges": 26525,
+      "candidate_gaps": 226,
+      "dataset": "44b6_24264f12",
+      "edges_added": 189,
+      "final_edges": 26714,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 28137
+    },
+    {
+      "baseline_edges": 20146,
+      "candidate_gaps": 283,
+      "dataset": "44b6_267148e4",
+      "edges_added": 170,
+      "final_edges": 20316,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 21811
+    },
+    {
+      "baseline_edges": 54871,
+      "candidate_gaps": 445,
+      "dataset": "44b6_2a2eff9f",
+      "edges_added": 345,
+      "final_edges": 55216,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 58309
+    },
+    {
+      "baseline_edges": 24845,
+      "candidate_gaps": 323,
+      "dataset": "44b6_2f31fc2f",
+      "edges_added": 208,
+      "final_edges": 25053,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 27192
+    },
+    {
+      "baseline_edges": 23843,
+      "candidate_gaps": 286,
+      "dataset": "44b6_33b596bf",
+      "edges_added": 220,
+      "final_edges": 24063,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 25645
+    },
+    {
+      "baseline_edges": 9572,
+      "candidate_gaps": 14,
+      "dataset": "44b6_341df25f",
+      "edges_added": 11,
+      "final_edges": 9583,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 10038
+    },
+    {
+      "baseline_edges": 37205,
+      "candidate_gaps": 319,
+      "dataset": "44b6_3a861e03",
+      "edges_added": 206,
+      "final_edges": 37411,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 39019
+    },
+    {
+      "baseline_edges": 30725,
+      "candidate_gaps": 320,
+      "dataset": "44b6_3bb3690f",
+      "edges_added": 232,
+      "final_edges": 30957,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 33011
+    },
+    {
+      "baseline_edges": 33521,
+      "candidate_gaps": 299,
+      "dataset": "44b6_40c45f5a",
+      "edges_added": 217,
+      "final_edges": 33738,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 35719
+    },
+    {
+      "baseline_edges": 55909,
+      "candidate_gaps": 292,
+      "dataset": "44b6_415c0a3a",
+      "edges_added": 230,
+      "final_edges": 56139,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 58575
+    },
+    {
+      "baseline_edges": 40040,
+      "candidate_gaps": 266,
+      "dataset": "44b6_53f95252",
+      "edges_added": 197,
+      "final_edges": 40237,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 42419
+    },
+    {
+      "baseline_edges": 55382,
+      "candidate_gaps": 570,
+      "dataset": "44b6_551a5dba",
+      "edges_added": 409,
+      "final_edges": 55791,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 58929
+    },
+    {
+      "baseline_edges": 20037,
+      "candidate_gaps": 182,
+      "dataset": "44b6_5740d24b",
+      "edges_added": 136,
+      "final_edges": 20173,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 21708
+    },
+    {
+      "baseline_edges": 17940,
+      "candidate_gaps": 219,
+      "dataset": "44b6_587a1e22",
+      "edges_added": 154,
+      "final_edges": 18094,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 18984
+    },
+    {
+      "baseline_edges": 37309,
+      "candidate_gaps": 299,
+      "dataset": "44b6_5f15d135",
+      "edges_added": 198,
+      "final_edges": 37507,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 39962
+    },
+    {
+      "baseline_edges": 38728,
+      "candidate_gaps": 324,
+      "dataset": "44b6_668e0cc7",
+      "edges_added": 248,
+      "final_edges": 38976,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 40692
+    },
+    {
+      "baseline_edges": 53161,
+      "candidate_gaps": 324,
+      "dataset": "44b6_66f9292d",
+      "edges_added": 246,
+      "final_edges": 53407,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 55947
+    },
+    {
+      "baseline_edges": 68645,
+      "candidate_gaps": 469,
+      "dataset": "44b6_706092f0",
+      "edges_added": 374,
+      "final_edges": 69019,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 72233
+    },
+    {
+      "baseline_edges": 60519,
+      "candidate_gaps": 388,
+      "dataset": "44b6_71a4179f",
+      "edges_added": 319,
+      "final_edges": 60838,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 63511
+    },
+    {
+      "baseline_edges": 19478,
+      "candidate_gaps": 199,
+      "dataset": "44b6_74d0c52e",
+      "edges_added": 146,
+      "final_edges": 19624,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 21182
+    },
+    {
+      "baseline_edges": 64048,
+      "candidate_gaps": 590,
+      "dataset": "44b6_7a302da0",
+      "edges_added": 428,
+      "final_edges": 64476,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 67893
+    },
+    {
+      "baseline_edges": 54745,
+      "candidate_gaps": 246,
+      "dataset": "44b6_7e557709",
+      "edges_added": 205,
+      "final_edges": 54950,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 56742
+    },
+    {
+      "baseline_edges": 18869,
+      "candidate_gaps": 80,
+      "dataset": "44b6_808952d6",
+      "edges_added": 63,
+      "final_edges": 18932,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 19929
+    },
+    {
+      "baseline_edges": 11725,
+      "candidate_gaps": 16,
+      "dataset": "44b6_81c256f0",
+      "edges_added": 10,
+      "final_edges": 11735,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 12243
+    },
+    {
+      "baseline_edges": 26858,
+      "candidate_gaps": 361,
+      "dataset": "44b6_87bba6c4",
+      "edges_added": 234,
+      "final_edges": 27092,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 29284
+    },
+    {
+      "baseline_edges": 32224,
+      "candidate_gaps": 356,
+      "dataset": "44b6_8cc6506c",
+      "edges_added": 225,
+      "final_edges": 32449,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 34679
+    },
+    {
+      "baseline_edges": 26171,
+      "candidate_gaps": 242,
+      "dataset": "44b6_8f5ab931",
+      "edges_added": 189,
+      "final_edges": 26360,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 27858
+    },
+    {
+      "baseline_edges": 72687,
+      "candidate_gaps": 414,
+      "dataset": "44b6_8f9ecab4",
+      "edges_added": 320,
+      "final_edges": 73007,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 76014
+    },
+    {
+      "baseline_edges": 25136,
+      "candidate_gaps": 252,
+      "dataset": "44b6_90724892",
+      "edges_added": 217,
+      "final_edges": 25353,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 26735
+    },
+    {
+      "baseline_edges": 39121,
+      "candidate_gaps": 335,
+      "dataset": "44b6_949adeb1",
+      "edges_added": 240,
+      "final_edges": 39361,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 41854
+    },
+    {
+      "baseline_edges": 10840,
+      "candidate_gaps": 67,
+      "dataset": "44b6_95029e92",
+      "edges_added": 49,
+      "final_edges": 10889,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 11562
+    },
+    {
+      "baseline_edges": 44098,
+      "candidate_gaps": 292,
+      "dataset": "44b6_97725144",
+      "edges_added": 203,
+      "final_edges": 44301,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 46707
+    },
+    {
+      "baseline_edges": 10241,
+      "candidate_gaps": 31,
+      "dataset": "44b6_996155de",
+      "edges_added": 21,
+      "final_edges": 10262,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 10700
+    },
+    {
+      "baseline_edges": 56784,
+      "candidate_gaps": 574,
+      "dataset": "44b6_9be80b04",
+      "edges_added": 417,
+      "final_edges": 57201,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 60170
+    },
+    {
+      "baseline_edges": 59975,
+      "candidate_gaps": 441,
+      "dataset": "44b6_9bfa6a0a",
+      "edges_added": 368,
+      "final_edges": 60343,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 62759
+    },
+    {
+      "baseline_edges": 21857,
+      "candidate_gaps": 247,
+      "dataset": "44b6_a21120c2",
+      "edges_added": 193,
+      "final_edges": 22050,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 23229
+    },
+    {
+      "baseline_edges": 57960,
+      "candidate_gaps": 727,
+      "dataset": "44b6_a2bb48bb",
+      "edges_added": 483,
+      "final_edges": 58443,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 62634
+    },
+    {
+      "baseline_edges": 21480,
+      "candidate_gaps": 103,
+      "dataset": "44b6_aaf8b0ea",
+      "edges_added": 73,
+      "final_edges": 21553,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 22685
+    },
+    {
+      "baseline_edges": 28163,
+      "candidate_gaps": 99,
+      "dataset": "44b6_abf82518",
+      "edges_added": 69,
+      "final_edges": 28232,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 29608
+    },
+    {
+      "baseline_edges": 55290,
+      "candidate_gaps": 409,
+      "dataset": "44b6_b2c44266",
+      "edges_added": 302,
+      "final_edges": 55592,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 58246
+    },
+    {
+      "baseline_edges": 20845,
+      "candidate_gaps": 249,
+      "dataset": "44b6_c15fded2",
+      "edges_added": 194,
+      "final_edges": 21039,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 22377
+    },
+    {
+      "baseline_edges": 45534,
+      "candidate_gaps": 504,
+      "dataset": "44b6_c50204e0",
+      "edges_added": 350,
+      "final_edges": 45884,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 49114
+    },
+    {
+      "baseline_edges": 54153,
+      "candidate_gaps": 490,
+      "dataset": "44b6_c771cb04",
+      "edges_added": 359,
+      "final_edges": 54512,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 57773
+    },
+    {
+      "baseline_edges": 30365,
+      "candidate_gaps": 234,
+      "dataset": "44b6_c8e2a523",
+      "edges_added": 200,
+      "final_edges": 30565,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 31749
+    },
+    {
+      "baseline_edges": 43895,
+      "candidate_gaps": 375,
+      "dataset": "44b6_c96cfa10",
+      "edges_added": 286,
+      "final_edges": 44181,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 46361
+    },
+    {
+      "baseline_edges": 59622,
+      "candidate_gaps": 281,
+      "dataset": "44b6_cf2536e8",
+      "edges_added": 200,
+      "final_edges": 59822,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 62700
+    },
+    {
+      "baseline_edges": 42651,
+      "candidate_gaps": 761,
+      "dataset": "44b6_cf8fed6b",
+      "edges_added": 546,
+      "final_edges": 43197,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 45569
+    },
+    {
+      "baseline_edges": 38215,
+      "candidate_gaps": 264,
+      "dataset": "44b6_d29c9ab2",
+      "edges_added": 191,
+      "final_edges": 38406,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 39813
+    },
+    {
+      "baseline_edges": 23378,
+      "candidate_gaps": 229,
+      "dataset": "44b6_d2f34f90",
+      "edges_added": 165,
+      "final_edges": 23543,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 25212
+    },
+    {
+      "baseline_edges": 42690,
+      "candidate_gaps": 471,
+      "dataset": "44b6_d5e7d891",
+      "edges_added": 328,
+      "final_edges": 43018,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 45656
+    },
+    {
+      "baseline_edges": 8105,
+      "candidate_gaps": 26,
+      "dataset": "44b6_d754aa59",
+      "edges_added": 20,
+      "final_edges": 8125,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 8722
+    },
+    {
+      "baseline_edges": 21916,
+      "candidate_gaps": 197,
+      "dataset": "44b6_d78e09d9",
+      "edges_added": 163,
+      "final_edges": 22079,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 23290
+    },
+    {
+      "baseline_edges": 17050,
+      "candidate_gaps": 92,
+      "dataset": "44b6_db3c847b",
+      "edges_added": 72,
+      "final_edges": 17122,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 18103
+    },
+    {
+      "baseline_edges": 53605,
+      "candidate_gaps": 401,
+      "dataset": "44b6_ddf577ad",
+      "edges_added": 298,
+      "final_edges": 53903,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 56454
+    },
+    {
+      "baseline_edges": 13146,
+      "candidate_gaps": 66,
+      "dataset": "44b6_deabac95",
+      "edges_added": 49,
+      "final_edges": 13195,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 13911
+    },
+    {
+      "baseline_edges": 75918,
+      "candidate_gaps": 506,
+      "dataset": "44b6_e28840c6",
+      "edges_added": 402,
+      "final_edges": 76320,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 79611
+    },
+    {
+      "baseline_edges": 11234,
+      "candidate_gaps": 181,
+      "dataset": "44b6_e29f0176",
+      "edges_added": 131,
+      "final_edges": 11365,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 12312
+    },
+    {
+      "baseline_edges": 67049,
+      "candidate_gaps": 1274,
+      "dataset": "44b6_e31261b4",
+      "edges_added": 984,
+      "final_edges": 68033,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 72311
+    },
+    {
+      "baseline_edges": 36746,
+      "candidate_gaps": 343,
+      "dataset": "44b6_e35b117d",
+      "edges_added": 253,
+      "final_edges": 36999,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 39720
+    },
+    {
+      "baseline_edges": 20836,
+      "candidate_gaps": 270,
+      "dataset": "44b6_e57ff5c6",
+      "edges_added": 179,
+      "final_edges": 21015,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 22874
+    },
+    {
+      "baseline_edges": 47912,
+      "candidate_gaps": 300,
+      "dataset": "44b6_eb2880fc",
+      "edges_added": 237,
+      "final_edges": 48149,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 50543
+    },
+    {
+      "baseline_edges": 23927,
+      "candidate_gaps": 325,
+      "dataset": "44b6_f28707c6",
+      "edges_added": 230,
+      "final_edges": 24157,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 25976
+    }
+  ],
+  "edges_added": 17297,
+  "elapsed_seconds": 62.618141596001806,
+  "input_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model156/evaluations/fold0/solved/edge_p_0p400",
+  "min_acceleration_um": 6.5,
+  "output_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model156/evaluations/fold0/gap_geffs",
+  "radius_grid": 5.0,
+  "radius_um": 8.125,
+  "require_internal": true,
+  "source_capacity": 1,
+  "status": "complete"
+}

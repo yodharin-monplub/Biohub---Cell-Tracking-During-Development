@@ -1,0 +1,160 @@
+{
+  "appearance_weight": 0.0,
+  "candidate_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model24/candidates_top5",
+  "disappearance_weight": 2.0,
+  "division_weight": 1.2,
+  "edge_thresholds": [
+    0.5
+  ],
+  "edge_weight": -1.0,
+  "elapsed_seconds": 226.11963130696677,
+  "num_threads": 1,
+  "results": [
+    {
+      "datasets": [
+        {
+          "candidate_edges_retained": 73406,
+          "dataset": "44b6_18ced818",
+          "divisions": 0,
+          "nodes": 70776,
+          "selected_edges": 64327
+        },
+        {
+          "candidate_edges_retained": 15785,
+          "dataset": "44b6_808952d6",
+          "divisions": 0,
+          "nodes": 15253,
+          "selected_edges": 14504
+        },
+        {
+          "candidate_edges_retained": 29754,
+          "dataset": "44b6_87bba6c4",
+          "divisions": 0,
+          "nodes": 28158,
+          "selected_edges": 25728
+        },
+        {
+          "candidate_edges_retained": 4812,
+          "dataset": "44b6_95029e92",
+          "divisions": 0,
+          "nodes": 4823,
+          "selected_edges": 4659
+        },
+        {
+          "candidate_edges_retained": 37831,
+          "dataset": "44b6_b2c44266",
+          "divisions": 0,
+          "nodes": 36672,
+          "selected_edges": 33946
+        },
+        {
+          "candidate_edges_retained": 31451,
+          "dataset": "44b6_c771cb04",
+          "divisions": 0,
+          "nodes": 29207,
+          "selected_edges": 26633
+        },
+        {
+          "candidate_edges_retained": 36223,
+          "dataset": "44b6_d29c9ab2",
+          "divisions": 0,
+          "nodes": 36656,
+          "selected_edges": 35385
+        },
+        {
+          "candidate_edges_retained": 22536,
+          "dataset": "44b6_d78e09d9",
+          "divisions": 0,
+          "nodes": 22574,
+          "selected_edges": 21214
+        },
+        {
+          "candidate_edges_retained": 5804,
+          "dataset": "6bba_13f19531",
+          "divisions": 0,
+          "nodes": 5715,
+          "selected_edges": 5429
+        },
+        {
+          "candidate_edges_retained": 3435,
+          "dataset": "6bba_2540cd90",
+          "divisions": 0,
+          "nodes": 3446,
+          "selected_edges": 3369
+        },
+        {
+          "candidate_edges_retained": 21400,
+          "dataset": "6bba_283bf9f1",
+          "divisions": 0,
+          "nodes": 21537,
+          "selected_edges": 20356
+        },
+        {
+          "candidate_edges_retained": 80895,
+          "dataset": "6bba_57b7cc1e",
+          "divisions": 0,
+          "nodes": 73218,
+          "selected_edges": 65833
+        },
+        {
+          "candidate_edges_retained": 10826,
+          "dataset": "6bba_789f8168",
+          "divisions": 0,
+          "nodes": 10773,
+          "selected_edges": 10137
+        },
+        {
+          "candidate_edges_retained": 33533,
+          "dataset": "6bba_a90a0b9c",
+          "divisions": 0,
+          "nodes": 31872,
+          "selected_edges": 29432
+        },
+        {
+          "candidate_edges_retained": 7089,
+          "dataset": "6bba_ae82a791",
+          "divisions": 0,
+          "nodes": 7072,
+          "selected_edges": 6799
+        },
+        {
+          "candidate_edges_retained": 5248,
+          "dataset": "6bba_aeee7805",
+          "divisions": 0,
+          "nodes": 5168,
+          "selected_edges": 4962
+        },
+        {
+          "candidate_edges_retained": 7907,
+          "dataset": "6bba_af149c94",
+          "divisions": 0,
+          "nodes": 7775,
+          "selected_edges": 7449
+        },
+        {
+          "candidate_edges_retained": 5953,
+          "dataset": "6bba_d0fc38b5",
+          "divisions": 0,
+          "nodes": 5852,
+          "selected_edges": 5614
+        },
+        {
+          "candidate_edges_retained": 17202,
+          "dataset": "6bba_d1acb6ff",
+          "divisions": 0,
+          "nodes": 16287,
+          "selected_edges": 15034
+        },
+        {
+          "candidate_edges_retained": 29184,
+          "dataset": "6bba_d82a4fc6",
+          "divisions": 0,
+          "nodes": 28561,
+          "selected_edges": 26965
+        }
+      ],
+      "edge_threshold": 0.5
+    }
+  ],
+  "status": "complete"
+}

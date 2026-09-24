@@ -1,0 +1,54 @@
+{
+  "source_code_py_sha256": "21c6484564ecc337054f3a6c34b33ffae4ef41038af39e0e11f0aa89368a7a41",
+  "notebook_sha256": "38bca69a477e9090717c59c54358c2434e168042ac29734b9b12922aa7d0f186",
+  "ranges": [
+    [
+      3,
+      4
+    ],
+    [
+      32,
+      101
+    ],
+    [
+      134,
+      149
+    ],
+    [
+      152,
+      176
+    ],
+    [
+      385,
+      473
+    ],
+    [
+      1737,
+      1741
+    ],
+    [
+      1743,
+      3075
+    ],
+    [
+      3195,
+      3201
+    ],
+    [
+      3349,
+      3604
+    ],
+    [
+      3606,
+      3623
+    ]
+  ],
+  "replacement_counts": {
+    "COMP_DIR_CANDIDATES = [Path(f'/kaggle/input/competitions/{CO": 1,
+    "WORKING_DIR = Path('/kaggle/working') if Path('/kaggle/worki": 1,
+    "from IPython.display import display": 1,
+    "os.environ['BIOHUB_DEEPCENTER_CHECKPOINT'] = '/kaggle/input/": 1
+  },
+  "output_sha256": "97d3c1365731f0fd2ddc305134f73d882dc8500ebafe7b3388f1263f3f37b0f3",
+  "algorithm_changes": 0
+}

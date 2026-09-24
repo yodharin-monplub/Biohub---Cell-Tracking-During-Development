@@ -1,0 +1,47 @@
+{
+  "datasets": [
+    {
+      "baseline_edges": 24579,
+      "dataset": "44b6_0113de3b",
+      "division_candidates_scored": 1616,
+      "division_edges_added": 33,
+      "final_edges": 24714,
+      "gap_edges_added": 102,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 20042,
+      "dataset": "44b6_0b24845f",
+      "division_candidates_scored": 2998,
+      "division_edges_added": 43,
+      "final_edges": 20380,
+      "gap_edges_added": 295,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 5866,
+      "dataset": "6bba_05b6850b",
+      "division_candidates_scored": 245,
+      "division_edges_added": 5,
+      "final_edges": 5906,
+      "gap_edges_added": 35,
+      "rescue_edges_added": 0
+    },
+    {
+      "baseline_edges": 64191,
+      "dataset": "6bba_05db0fb1",
+      "division_candidates_scored": 9518,
+      "division_edges_added": 181,
+      "final_edges": 65214,
+      "gap_edges_added": 842,
+      "rescue_edges_added": 0
+    }
+  ],
+  "division_edges_added": 262,
+  "expected_csv": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model42/visible_sparse_rescue.csv",
+  "gap_edges_added": 1274,
+  "input_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model20/geffs/dist_0p00000",
+  "notebook": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model43/submission.ipynb",
+  "rescue_edges_added": 0,
+  "status": "exact_parity"
+}

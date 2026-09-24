@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "pid": 2653533,
+  "supervisor_pid": 2653532,
+  "elapsed_seconds": 1163.812554359436,
+  "updated_unix": 1789300898.7277951,
+  "monitor_interval_seconds": 600,
+  "alarm_enabled": false,
+  "exit_code": 0,
+  "decision": "not_promoted",
+  "development_score": 0.9523979405231713,
+  "confirmation_score": 0.9473744949352197
+}

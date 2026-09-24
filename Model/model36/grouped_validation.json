@@ -1,0 +1,453 @@
+{
+  "cross_embryo": {
+    "holdout_44b6": {
+      "precision_operating_points": {
+        "min_train_precision_0.80": {
+          "available": true,
+          "threshold": 0.6160440812859265,
+          "train": {
+            "fn": 80,
+            "fp": 9,
+            "jaccard": 0.31007751937984496,
+            "precision": 0.8163265306122449,
+            "recall": 0.3333333333333333,
+            "tn": 11965,
+            "tp": 40
+          },
+          "validation": {
+            "fn": 16,
+            "fp": 3,
+            "jaccard": 0.32142857142857145,
+            "precision": 0.75,
+            "recall": 0.36,
+            "tn": 4111,
+            "tp": 9
+          }
+        },
+        "min_train_precision_0.90": {
+          "available": true,
+          "threshold": 0.9703491189837279,
+          "train": {
+            "fn": 112,
+            "fp": 0,
+            "jaccard": 0.06666666666666667,
+            "precision": 1.0,
+            "recall": 0.06666666666666667,
+            "tn": 11974,
+            "tp": 8
+          },
+          "validation": {
+            "fn": 22,
+            "fp": 0,
+            "jaccard": 0.12,
+            "precision": 1.0,
+            "recall": 0.12,
+            "tn": 4114,
+            "tp": 3
+          }
+        },
+        "min_train_precision_0.95": {
+          "available": true,
+          "threshold": 0.9703491189837279,
+          "train": {
+            "fn": 112,
+            "fp": 0,
+            "jaccard": 0.06666666666666667,
+            "precision": 1.0,
+            "recall": 0.06666666666666667,
+            "tn": 11974,
+            "tp": 8
+          },
+          "validation": {
+            "fn": 22,
+            "fp": 0,
+            "jaccard": 0.12,
+            "precision": 1.0,
+            "recall": 0.12,
+            "tn": 4114,
+            "tp": 3
+          }
+        }
+      },
+      "threshold": 0.6047594742106537,
+      "train": {
+        "f0_5": 0.6329113924050633,
+        "fn": 80,
+        "fp": 9,
+        "jaccard": 0.31007751937984496,
+        "precision": 0.8163265306122449,
+        "recall": 0.3333333333333333,
+        "threshold": 0.6047594742106537,
+        "tn": 11965,
+        "tp": 40
+      },
+      "training_embryos": [
+        "6bba"
+      ],
+      "validation": {
+        "fn": 16,
+        "fp": 3,
+        "jaccard": 0.32142857142857145,
+        "precision": 0.75,
+        "recall": 0.36,
+        "tn": 4111,
+        "tp": 9
+      },
+      "validation_auc": 0.9580165289256198
+    },
+    "holdout_6bba": {
+      "precision_operating_points": {
+        "min_train_precision_0.80": {
+          "available": true,
+          "threshold": 0.4518565409651656,
+          "train": {
+            "fn": 15,
+            "fp": 1,
+            "jaccard": 0.38461538461538464,
+            "precision": 0.9090909090909091,
+            "recall": 0.4,
+            "tn": 4113,
+            "tp": 10
+          },
+          "validation": {
+            "fn": 80,
+            "fp": 19,
+            "jaccard": 0.28776978417266186,
+            "precision": 0.6779661016949152,
+            "recall": 0.3333333333333333,
+            "tn": 11955,
+            "tp": 40
+          }
+        },
+        "min_train_precision_0.90": {
+          "available": true,
+          "threshold": 0.4518565409651656,
+          "train": {
+            "fn": 15,
+            "fp": 1,
+            "jaccard": 0.38461538461538464,
+            "precision": 0.9090909090909091,
+            "recall": 0.4,
+            "tn": 4113,
+            "tp": 10
+          },
+          "validation": {
+            "fn": 80,
+            "fp": 19,
+            "jaccard": 0.28776978417266186,
+            "precision": 0.6779661016949152,
+            "recall": 0.3333333333333333,
+            "tn": 11955,
+            "tp": 40
+          }
+        },
+        "min_train_precision_0.95": {
+          "available": true,
+          "threshold": 0.7116463529313665,
+          "train": {
+            "fn": 19,
+            "fp": 0,
+            "jaccard": 0.24,
+            "precision": 1.0,
+            "recall": 0.24,
+            "tn": 4114,
+            "tp": 6
+          },
+          "validation": {
+            "fn": 97,
+            "fp": 5,
+            "jaccard": 0.184,
+            "precision": 0.8214285714285714,
+            "recall": 0.19166666666666668,
+            "tn": 11969,
+            "tp": 23
+          }
+        }
+      },
+      "threshold": 0.5531718874523586,
+      "train": {
+        "f0_5": 0.6557377049180328,
+        "fn": 17,
+        "fp": 1,
+        "jaccard": 0.3076923076923077,
+        "precision": 0.8888888888888888,
+        "recall": 0.32,
+        "threshold": 0.5531718874523586,
+        "tn": 4113,
+        "tp": 8
+      },
+      "training_embryos": [
+        "44b6"
+      ],
+      "validation": {
+        "fn": 87,
+        "fp": 10,
+        "jaccard": 0.25384615384615383,
+        "precision": 0.7674418604651163,
+        "recall": 0.275,
+        "tn": 11964,
+        "tp": 33
+      },
+      "validation_auc": 0.9677794944602194
+    }
+  },
+  "datasets": 164,
+  "embryos": {
+    "44b6": 4139,
+    "6bba": 12094
+  },
+  "feature_names": [
+    "parent_linked_um",
+    "parent_candidate_um",
+    "sister_um",
+    "midpoint_offset_um",
+    "daughter_step_asymmetry_um",
+    "daughter_direction_cosine",
+    "separation_growth_um",
+    "has_both_successors",
+    "mother_velocity_linked_cosine",
+    "mother_velocity_candidate_cosine",
+    "candidate_rank_from_linked",
+    "local_children_within_12um"
+  ],
+  "full_fit_auc": 0.9768248769697697,
+  "full_fit_operating_point": {
+    "f0_5": 0.6172839506172839,
+    "fn": 95,
+    "fp": 15,
+    "jaccard": 0.3125,
+    "precision": 0.7692307692307693,
+    "recall": 0.3448275862068966,
+    "threshold": 0.5157333009215971,
+    "tn": 16073,
+    "tp": 50
+  },
+  "full_fit_precision_operating_points": {
+    "min_train_precision_0.80": {
+      "available": true,
+      "threshold": 0.5668243328192077,
+      "train": {
+        "fn": 96,
+        "fp": 12,
+        "jaccard": 0.31210191082802546,
+        "precision": 0.8032786885245902,
+        "recall": 0.33793103448275863,
+        "tn": 16076,
+        "tp": 49
+      },
+      "validation": {
+        "fn": 96,
+        "fp": 12,
+        "jaccard": 0.31210191082802546,
+        "precision": 0.8032786885245902,
+        "recall": 0.33793103448275863,
+        "tn": 16076,
+        "tp": 49
+      }
+    },
+    "min_train_precision_0.90": {
+      "available": true,
+      "threshold": 0.962277506318923,
+      "train": {
+        "fn": 136,
+        "fp": 1,
+        "jaccard": 0.06164383561643835,
+        "precision": 0.9,
+        "recall": 0.06206896551724138,
+        "tn": 16087,
+        "tp": 9
+      },
+      "validation": {
+        "fn": 136,
+        "fp": 1,
+        "jaccard": 0.06164383561643835,
+        "precision": 0.9,
+        "recall": 0.06206896551724138,
+        "tn": 16087,
+        "tp": 9
+      }
+    },
+    "min_train_precision_0.95": {
+      "available": true,
+      "threshold": 0.981086768178949,
+      "train": {
+        "fn": 139,
+        "fp": 0,
+        "jaccard": 0.041379310344827586,
+        "precision": 1.0,
+        "recall": 0.041379310344827586,
+        "tn": 16088,
+        "tp": 6
+      },
+      "validation": {
+        "fn": 139,
+        "fp": 0,
+        "jaccard": 0.041379310344827586,
+        "precision": 1.0,
+        "recall": 0.041379310344827586,
+        "tn": 16088,
+        "tp": 6
+      }
+    }
+  },
+  "grouped_folds": [
+    {
+      "fold": 0,
+      "threshold": 0.5123203336576752,
+      "train": {
+        "f0_5": 0.6210191082802549,
+        "fn": 75,
+        "fp": 11,
+        "jaccard": 0.312,
+        "precision": 0.78,
+        "recall": 0.34210526315789475,
+        "threshold": 0.5123203336576752,
+        "tn": 12188,
+        "tp": 39
+      },
+      "validation": {
+        "fn": 21,
+        "fp": 0,
+        "jaccard": 0.3225806451612903,
+        "precision": 1.0,
+        "recall": 0.3225806451612903,
+        "tn": 3889,
+        "tp": 10
+      },
+      "validation_auc": 0.9956535804046152,
+      "validation_datasets": 33,
+      "validation_positives": 31,
+      "validation_rows": 3920
+    },
+    {
+      "fold": 1,
+      "threshold": 0.5197102560980968,
+      "train": {
+        "f0_5": 0.6287425149700598,
+        "fn": 76,
+        "fp": 12,
+        "jaccard": 0.3230769230769231,
+        "precision": 0.7777777777777778,
+        "recall": 0.3559322033898305,
+        "threshold": 0.5197102560980968,
+        "tn": 13176,
+        "tp": 42
+      },
+      "validation": {
+        "fn": 17,
+        "fp": 2,
+        "jaccard": 0.3448275862068966,
+        "precision": 0.8333333333333334,
+        "recall": 0.37037037037037035,
+        "tn": 2898,
+        "tp": 10
+      },
+      "validation_auc": 0.9802554278416348,
+      "validation_datasets": 33,
+      "validation_positives": 27,
+      "validation_rows": 2927
+    },
+    {
+      "fold": 2,
+      "threshold": 0.5061565553946001,
+      "train": {
+        "f0_5": 0.6402439024390244,
+        "fn": 74,
+        "fp": 11,
+        "jaccard": 0.33070866141732286,
+        "precision": 0.7924528301886793,
+        "recall": 0.3620689655172414,
+        "threshold": 0.5061565553946001,
+        "tn": 13114,
+        "tp": 42
+      },
+      "validation": {
+        "fn": 21,
+        "fp": 3,
+        "jaccard": 0.25,
+        "precision": 0.7272727272727273,
+        "recall": 0.27586206896551724,
+        "tn": 2960,
+        "tp": 8
+      },
+      "validation_auc": 0.9902242601277829,
+      "validation_datasets": 33,
+      "validation_positives": 29,
+      "validation_rows": 2992
+    },
+    {
+      "fold": 3,
+      "threshold": 0.5823409252398994,
+      "train": {
+        "f0_5": 0.6097560975609757,
+        "fn": 76,
+        "fp": 13,
+        "jaccard": 0.31007751937984496,
+        "precision": 0.7547169811320755,
+        "recall": 0.3448275862068966,
+        "threshold": 0.5823409252398994,
+        "tn": 13089,
+        "tp": 40
+      },
+      "validation": {
+        "fn": 19,
+        "fp": 1,
+        "jaccard": 0.3333333333333333,
+        "precision": 0.9090909090909091,
+        "recall": 0.3448275862068966,
+        "tn": 2985,
+        "tp": 10
+      },
+      "validation_auc": 0.9416356791463611,
+      "validation_datasets": 33,
+      "validation_positives": 29,
+      "validation_rows": 3015
+    },
+    {
+      "fold": 4,
+      "threshold": 0.519368807678941,
+      "train": {
+        "f0_5": 0.6172839506172839,
+        "fn": 76,
+        "fp": 12,
+        "jaccard": 0.3125,
+        "precision": 0.7692307692307693,
+        "recall": 0.3448275862068966,
+        "threshold": 0.519368807678941,
+        "tn": 12726,
+        "tp": 40
+      },
+      "validation": {
+        "fn": 15,
+        "fp": 11,
+        "jaccard": 0.35,
+        "precision": 0.56,
+        "recall": 0.4827586206896552,
+        "tn": 3339,
+        "tp": 14
+      },
+      "validation_auc": 0.9681729284611426,
+      "validation_datasets": 32,
+      "validation_positives": 29,
+      "validation_rows": 3379
+    }
+  ],
+  "grouped_oof_auc": 0.9732214201203724,
+  "grouped_oof_operating_point": {
+    "fn": 93,
+    "fp": 17,
+    "jaccard": 0.32098765432098764,
+    "precision": 0.7536231884057971,
+    "recall": 0.3586206896551724,
+    "tn": 16071,
+    "tp": 52
+  },
+  "input": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model10/real_division_candidates.csv",
+  "l2": 1.0,
+  "negative_rows": 16088,
+  "positive_rows": 145,
+  "purpose": "Real-label model training; validation scores are candidate diagnostics.",
+  "rows": 16233,
+  "status": "complete",
+  "warning": "Ground-truth candidate geometry differs from detector orphans. Promotion still requires exact predicted-graph scoring."
+}

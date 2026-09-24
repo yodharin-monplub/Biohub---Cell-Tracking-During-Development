@@ -1,0 +1,113 @@
+{
+  "configuration": {
+    "bidirectional_primary_weight": 0.15,
+    "deepcenter_gap_confirm_min_span_um": 8.5,
+    "deepcenter_gap_threshold": 0.25,
+    "deepcenter_safe_div_threshold": 0.2,
+    "deepcenter_tta": true,
+    "detector_threshold": 0.965,
+    "edge_candidate_threshold": 0.48,
+    "fallback_scope": "individual_frame",
+    "gap_close_um": 5.0,
+    "ilp_appearance_weight": 0.0,
+    "ilp_disappearance_weight": 2.0,
+    "minimum_candidate_retention": 0.9,
+    "safe_div_max_um": 9.0,
+    "safe_div_sister_max_um": 14.0,
+    "safe_div_sister_symmetry_tau": 0.6,
+    "secondary_detection_weight": 0.8,
+    "secondary_edge_feature_tta": true,
+    "secondary_edge_feature_tta_weight": 0.75,
+    "secondary_edge_weight": 0.15,
+    "secondary_link_mode": "low_margin_consensus",
+    "secondary_low_margin_max": 0.35
+  },
+  "diagnostics": {
+    "by_movie": {
+      "44b6_0113de3b": {
+        "fallback_frames": 0,
+        "frames": 100,
+        "median_retention": 1.0256969919295673,
+        "minimum_retention": 1.0
+      },
+      "44b6_0b24845f": {
+        "fallback_frames": 98,
+        "frames": 100,
+        "median_retention": 0.7075702075702075,
+        "minimum_retention": 0.09859154929577464
+      },
+      "6bba_05b6850b": {
+        "fallback_frames": 0,
+        "frames": 100,
+        "median_retention": 1.0708020050125313,
+        "minimum_retention": 0.9402985074626866
+      },
+      "6bba_05db0fb1": {
+        "fallback_frames": 0,
+        "frames": 100,
+        "median_retention": 1.0060461702227212,
+        "minimum_retention": 0.9530791788856305
+      }
+    },
+    "fallback_frames": 98,
+    "rows": 400
+  },
+  "experiment": "secondary_deepcenter_tta_0947_v1",
+  "hardware": {
+    "visible_gpu_count": 2
+  },
+  "leaderboard_feedback_used_for_configuration": true,
+  "method_attribution": "0.933 fixed-90 dual-seed baseline -> 0.934 harmonic mutual-support fusion -> 0.939 wider divisions and calmer fusion -> 0.941 repair-threshold adaptation -> 0.946 primary edge-feature TTA + held-out post-process selection -> 0.947 secondary feature TTA + DeepCenter TTA",
+  "metric_hack_used": false,
+  "organizer_labels_used_for_configuration": false,
+  "parent_experiment": "edge_feature_tta_0946_v1",
+  "public_output_used": false,
+  "quality_promotion": {
+    "required_condition": "none",
+    "status": "verified_public_lb_0947",
+    "validated_receipt_sha256": null
+  },
+  "source_kernel": "raykkretzschmar/biohub-bidirectional-primary-union13-diagnostic-v1",
+  "source_notebook_sha256": "3e65ca691941949196bf417030ea84fccafe16baaec174b2a63540451bb937e8",
+  "status": "verified_public_lb_0947",
+  "submission": {
+    "datasets": [
+      "44b6_0113de3b",
+      "44b6_0b24845f",
+      "6bba_05b6850b",
+      "6bba_05db0fb1"
+    ],
+    "rows": 227423,
+    "sha256": "0e758b68ac35d02158c92d75eed8b4f4f0296b1d7c051e49f7cff25367d1d89f"
+  },
+  "topology": {
+    "44b6_0113de3b": {
+      "division_parents": 54,
+      "edges": 24877,
+      "max_indegree": 1,
+      "max_outdegree": 2,
+      "nodes": 25597
+    },
+    "44b6_0b24845f": {
+      "division_parents": 21,
+      "edges": 13811,
+      "max_indegree": 1,
+      "max_outdegree": 2,
+      "nodes": 14742
+    },
+    "6bba_05b6850b": {
+      "division_parents": 6,
+      "edges": 5764,
+      "max_indegree": 1,
+      "max_outdegree": 2,
+      "nodes": 5951
+    },
+    "6bba_05db0fb1": {
+      "division_parents": 38,
+      "edges": 67278,
+      "max_indegree": 1,
+      "max_outdegree": 2,
+      "nodes": 69403
+    }
+  }
+}

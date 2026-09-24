@@ -1,0 +1,1 @@
+﻿Public LB (2026-09-22): 56432009 'both' (model185 as both seeds) = 0.900; 56432015 'primary' (model185 primary + public secondary) = 0.920. Baseline model167 = 0.947.

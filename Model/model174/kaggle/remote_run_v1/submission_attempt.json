@@ -1,0 +1,8 @@
+{
+  "competition": "biohub-cell-tracking-during-development",
+  "kernel": "yodharinmonplub/biohub-model174-conditional-division-guard",
+  "kernel_id": 134501728,
+  "requested_unix": 1789657881.9538457,
+  "submission_sha256": "caa5335da8005a45ee878aaa7fda325f62baf6211e6e728676f75f67e2ec8127",
+  "version": 1
+}

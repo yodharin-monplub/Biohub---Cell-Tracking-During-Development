@@ -1,0 +1,29 @@
+{
+  "alternative": "/workspace/biohub/model89/cloud_runs/candidate/submission.csv",
+  "alternative_families": [
+    "44b6"
+  ],
+  "alternative_sha256": "a34503e4c2cf7c066fc165c9ce709a3a2b3a33866f8f01ba5cec4adc6be4fc90",
+  "available_families": [
+    "44b6",
+    "6bba"
+  ],
+  "base": "/workspace/biohub/model89/cloud_runs/control/submission.csv",
+  "base_sha256": "58d5fe64129fe8c1476b36d25378eda883a1907f4e4eb187cc10dc3d9022cb06",
+  "dataset_sources": {
+    "44b6_0113de3b": "alternative",
+    "44b6_0b24845f": "alternative",
+    "6bba_05b6850b": "base",
+    "6bba_05db0fb1": "base"
+  },
+  "output": "/workspace/biohub/model90/cloud_run/submission.csv",
+  "output_sha256": "b3ad2e2f7e19f0fa8df03522da58b8be844e32470526c42a3d400f23a18fe5a4",
+  "row_counts": {
+    "44b6_0113de3b": 50121,
+    "44b6_0b24845f": 35802,
+    "6bba_05b6850b": 11901,
+    "6bba_05db0fb1": 136597
+  },
+  "rows": 234421,
+  "status": "valid"
+}

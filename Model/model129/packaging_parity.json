@@ -1,0 +1,480 @@
+{
+  "status": "pass",
+  "changed_cells": [
+    14
+  ],
+  "model118_notebook_sha256": "a709455f2923607aa3f710261754c00127afe2148fbfd53f8f93f8d4d5dc28fb",
+  "model129_notebook_sha256": "826cab40cd3a50f8bef087301071b60efaf5f39cf25a0efd29f872cd9017d2f6",
+  "movies_exact": 78,
+  "per_movie": [
+    {
+      "cohort": "development",
+      "movie": "44b6_1d530831",
+      "removed": 21,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_2a2eff9f",
+      "removed": 32,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_3bb3690f",
+      "removed": 11,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_668e0cc7",
+      "removed": 7,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_706092f0",
+      "removed": 9,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_71a4179f",
+      "removed": 11,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_74d0c52e",
+      "removed": 5,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_808952d6",
+      "removed": 8,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_90724892",
+      "removed": 12,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_a21120c2",
+      "removed": 7,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_b2c44266",
+      "removed": 20,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_c15fded2",
+      "removed": 6,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_c96cfa10",
+      "removed": 28,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "44b6_d754aa59",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_09961292",
+      "removed": 10,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_1d0d8384",
+      "removed": 5,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_1f58c2f6",
+      "removed": 11,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_312f0dc3",
+      "removed": 2,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_3abfe10a",
+      "removed": 28,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_48816121",
+      "removed": 3,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_4f99ce20",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_4ffd3da3",
+      "removed": 9,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_6ca87370",
+      "removed": 4,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_705ec2c9",
+      "removed": 2,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_76db78c1",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_784a78c9",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_789f8168",
+      "removed": 2,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_80d12824",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_91951b3a",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_9e23430b",
+      "removed": 3,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_a5e926bb",
+      "removed": 2,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_afb141ff",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_b204cac7",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_bb9f20c3",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_bbb708ca",
+      "removed": 2,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_c328f2fd",
+      "removed": 11,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_d5eae175",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_e5e44988",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "development",
+      "movie": "6bba_ebdf3b34",
+      "removed": 18,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_0c582fdc",
+      "removed": 13,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_12dfb391",
+      "removed": 23,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_144b256d",
+      "removed": 6,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_40c45f5a",
+      "removed": 21,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_5f15d135",
+      "removed": 18,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_7a302da0",
+      "removed": 29,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_7e557709",
+      "removed": 10,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_87bba6c4",
+      "removed": 20,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_8cc6506c",
+      "removed": 15,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_8f9ecab4",
+      "removed": 18,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_949adeb1",
+      "removed": 26,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_97725144",
+      "removed": 11,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_996155de",
+      "removed": 5,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_a2bb48bb",
+      "removed": 34,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_aaf8b0ea",
+      "removed": 8,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_cf8fed6b",
+      "removed": 17,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_d29c9ab2",
+      "removed": 7,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_d78e09d9",
+      "removed": 21,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "44b6_e28840c6",
+      "removed": 7,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_12665c0e",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_1ebfb80d",
+      "removed": 4,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_20852818",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_2540cd90",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_268e1230",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_372c8cb8",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_3a1849c2",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_3c5691b6",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_474be664",
+      "removed": 11,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_5b28472a",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_6db0e9b4",
+      "removed": 8,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_74686d6a",
+      "removed": 14,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_7f87b3d8",
+      "removed": 2,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_9a41d029",
+      "removed": 7,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_ae82a791",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_ed9377fd",
+      "removed": 0,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_edf14583",
+      "removed": 22,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_f17befbc",
+      "removed": 14,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_f1fde7e0",
+      "removed": 1,
+      "exact_nodes_edges": true
+    },
+    {
+      "cohort": "confirmation",
+      "movie": "6bba_f8ffd5e7",
+      "removed": 12,
+      "exact_nodes_edges": true
+    }
+  ],
+  "caveat": "Offline function parity, not a complete hidden-test notebook execution."
+}

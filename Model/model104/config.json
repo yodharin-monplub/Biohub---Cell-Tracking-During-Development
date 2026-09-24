@@ -1,0 +1,5 @@
+{
+  "minimum_original_probability": 0.95,
+  "distance_gate": "unchanged MOTION_RELINK_TIGHT_UM",
+  "conflicts": "reject every qualifying pair sharing a source or target"
+}

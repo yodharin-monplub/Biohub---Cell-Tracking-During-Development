@@ -1,0 +1,297 @@
+{
+  "status": "valid",
+  "cohort": "development",
+  "source_csv_sha256": {
+    "model145": "72293572edfdc3c68e82e9ceae02651d1d3115a610d75b1b7af76b417dc6a7d8",
+    "model133": "337b64fc5f4ccf6ba9799237d7b1226f22e4e50ba5b0388ba7be7b7f33aa7ac6",
+    "model132": "42251277f9db573f4806aef6771e75ca9293ae65bc86d6eaf32b2172c11f7f1a",
+    "model130": "4d7c9c936050538c94b4c5b878bf17bbfa4069e5e423bce6d03ece77c9d11f76"
+  },
+  "branch_report_sha256": "ff28f0dc725612130feb95e9d81da4dbb7bffd1bb546ca32fccdc61c9515fccb",
+  "model145_report_sha256": "3a6d33de912cee90ec84c263baf7a10925416e6aafc6b8a1dc93f2b326bac993",
+  "candidate_sha256": "f3148e3f713b1dfe124c865e361eeb30c91275ef51100425f00136855d51172a",
+  "config_sha256": "0eb33888d62ada8f9c46ceade9d5798b91e784953538f271dedfb64b9f1c9ddd",
+  "pilot_sha256": "bf45ae85e546536d050f66fd63d7359eaaa7b5fb7d60b1104f39624785feb87b",
+  "source_code_sha256": "d69455b543f29498f78e81ffb5371bcd7f33b6c54ae9ec168800c5c4a60c54d6",
+  "totals": {
+    "movies": 39,
+    "removed_low_growth": 133,
+    "retained_model145_new": 5
+  },
+  "movies": [
+    {
+      "movie": "44b6_1d530831",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_2a2eff9f",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_3bb3690f",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_668e0cc7",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_706092f0",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_71a4179f",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_74d0c52e",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_808952d6",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_90724892",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_a21120c2",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_b2c44266",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_c15fded2",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_c96cfa10",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "44b6_d754aa59",
+      "family": "44b6",
+      "model133_incremental": 0,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_09961292",
+      "family": "6bba",
+      "model133_incremental": 8,
+      "removed_low_growth": 6,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_1d0d8384",
+      "family": "6bba",
+      "model133_incremental": 10,
+      "removed_low_growth": 6,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_1f58c2f6",
+      "family": "6bba",
+      "model133_incremental": 36,
+      "removed_low_growth": 10,
+      "retained_model145_new": 1
+    },
+    {
+      "movie": "6bba_312f0dc3",
+      "family": "6bba",
+      "model133_incremental": 10,
+      "removed_low_growth": 5,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_3abfe10a",
+      "family": "6bba",
+      "model133_incremental": 63,
+      "removed_low_growth": 23,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_48816121",
+      "family": "6bba",
+      "model133_incremental": 21,
+      "removed_low_growth": 6,
+      "retained_model145_new": 1
+    },
+    {
+      "movie": "6bba_4f99ce20",
+      "family": "6bba",
+      "model133_incremental": 6,
+      "removed_low_growth": 4,
+      "retained_model145_new": 1
+    },
+    {
+      "movie": "6bba_4ffd3da3",
+      "family": "6bba",
+      "model133_incremental": 17,
+      "removed_low_growth": 6,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_6ca87370",
+      "family": "6bba",
+      "model133_incremental": 5,
+      "removed_low_growth": 4,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_705ec2c9",
+      "family": "6bba",
+      "model133_incremental": 11,
+      "removed_low_growth": 5,
+      "retained_model145_new": 1
+    },
+    {
+      "movie": "6bba_76db78c1",
+      "family": "6bba",
+      "model133_incremental": 3,
+      "removed_low_growth": 1,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_784a78c9",
+      "family": "6bba",
+      "model133_incremental": 5,
+      "removed_low_growth": 0,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_789f8168",
+      "family": "6bba",
+      "model133_incremental": 20,
+      "removed_low_growth": 12,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_80d12824",
+      "family": "6bba",
+      "model133_incremental": 6,
+      "removed_low_growth": 3,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_91951b3a",
+      "family": "6bba",
+      "model133_incremental": 12,
+      "removed_low_growth": 5,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_9e23430b",
+      "family": "6bba",
+      "model133_incremental": 7,
+      "removed_low_growth": 1,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_a5e926bb",
+      "family": "6bba",
+      "model133_incremental": 10,
+      "removed_low_growth": 4,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_afb141ff",
+      "family": "6bba",
+      "model133_incremental": 13,
+      "removed_low_growth": 5,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_b204cac7",
+      "family": "6bba",
+      "model133_incremental": 2,
+      "removed_low_growth": 1,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_bb9f20c3",
+      "family": "6bba",
+      "model133_incremental": 9,
+      "removed_low_growth": 5,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_bbb708ca",
+      "family": "6bba",
+      "model133_incremental": 12,
+      "removed_low_growth": 5,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_c328f2fd",
+      "family": "6bba",
+      "model133_incremental": 20,
+      "removed_low_growth": 5,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_d5eae175",
+      "family": "6bba",
+      "model133_incremental": 1,
+      "removed_low_growth": 1,
+      "retained_model145_new": 0
+    },
+    {
+      "movie": "6bba_e5e44988",
+      "family": "6bba",
+      "model133_incremental": 5,
+      "removed_low_growth": 2,
+      "retained_model145_new": 1
+    },
+    {
+      "movie": "6bba_ebdf3b34",
+      "family": "6bba",
+      "model133_incremental": 29,
+      "removed_low_growth": 8,
+      "retained_model145_new": 0
+    }
+  ],
+  "caveat": "Label-free final graph; exact organizer scorer required."
+}

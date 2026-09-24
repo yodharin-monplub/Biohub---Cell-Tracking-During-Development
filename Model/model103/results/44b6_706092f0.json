@@ -1,0 +1,225 @@
+{
+  "movie": "44b6_706092f0",
+  "stages": [
+    {
+      "stage": "post_ilp",
+      "nodes": 26057,
+      "edges": 23772,
+      "rematched_tp": 102,
+      "rematched_fp": 12,
+      "rematched_fn": 15,
+      "matches_different_from_fixed": 2
+    },
+    {
+      "stage": "before_motion",
+      "nodes": 26057,
+      "edges": 23769,
+      "rematched_tp": 102,
+      "rematched_fp": 12,
+      "rematched_fn": 15,
+      "matches_different_from_fixed": 2
+    },
+    {
+      "stage": "after_motion",
+      "nodes": 26057,
+      "edges": 24100,
+      "rematched_tp": 104,
+      "rematched_fp": 12,
+      "rematched_fn": 13,
+      "matches_different_from_fixed": 2
+    },
+    {
+      "stage": "after_gap1",
+      "nodes": 26314,
+      "edges": 24614,
+      "rematched_tp": 104,
+      "rematched_fp": 12,
+      "rematched_fn": 13,
+      "matches_different_from_fixed": 2
+    },
+    {
+      "stage": "after_gap2",
+      "nodes": 26462,
+      "edges": 24836,
+      "rematched_tp": 104,
+      "rematched_fp": 12,
+      "rematched_fn": 13,
+      "matches_different_from_fixed": 2
+    },
+    {
+      "stage": "after_divisions",
+      "nodes": 26462,
+      "edges": 24866,
+      "rematched_tp": 105,
+      "rematched_fp": 12,
+      "rematched_fn": 12,
+      "matches_different_from_fixed": 2
+    },
+    {
+      "stage": "after_short_filter",
+      "nodes": 24692,
+      "edges": 23495,
+      "rematched_tp": 105,
+      "rematched_fp": 12,
+      "rematched_fn": 12,
+      "matches_different_from_fixed": 2
+    },
+    {
+      "stage": "final",
+      "nodes": 24692,
+      "edges": 23495,
+      "rematched_tp": 105,
+      "rematched_fp": 12,
+      "rematched_fn": 12,
+      "matches_different_from_fixed": 0
+    }
+  ],
+  "transitions": [
+    {
+      "before": "post_ilp",
+      "after": "before_motion",
+      "counts": {
+        "removed_ignored": 3
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "before_motion",
+      "after": "after_motion",
+      "counts": {
+        "removed_ignored": 43,
+        "added_ignored": 372,
+        "added_tp": 2
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 22887,
+          "target": 23265,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        },
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 24773,
+          "target": 25135,
+          "probability": 0.0,
+          "motion_pass": "tight"
+        }
+      ]
+    },
+    {
+      "before": "after_motion",
+      "after": "after_gap1",
+      "counts": {
+        "added_ignored": 514
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_gap1",
+      "after": "after_gap2",
+      "counts": {
+        "added_ignored": 222
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_gap2",
+      "after": "after_divisions",
+      "counts": {
+        "added_ignored": 29,
+        "added_tp": 1
+      },
+      "changed_evaluable_edges": [
+        {
+          "action": "added",
+          "label": "tp",
+          "source": 19105,
+          "target": 19481,
+          "probability": null,
+          "motion_pass": null
+        }
+      ]
+    },
+    {
+      "before": "after_divisions",
+      "after": "after_short_filter",
+      "counts": {
+        "removed_ignored": 1371
+      },
+      "changed_evaluable_edges": []
+    },
+    {
+      "before": "after_short_filter",
+      "after": "final",
+      "counts": {},
+      "changed_evaluable_edges": []
+    }
+  ],
+  "replay_stats": {
+    "raw_edges": 23772,
+    "dropped_nonconsecutive_edges": 0,
+    "dropped_long_edges": 3,
+    "dropped_multi_parent_edges": 0,
+    "dropped_multi_child_edges": 0,
+    "dropped_division_edges": 0,
+    "gap_candidates": 418,
+    "gap_pairs_selected": 257,
+    "gap_reused_existing": 0,
+    "gap_inserted_synthetic": 257,
+    "gap_added_nodes": 257,
+    "gap_added_edges": 514,
+    "gap_skipped_node_cap": 0,
+    "gap_density_nodes_scored": 24995,
+    "gap_density_candidates_expanded": 12,
+    "gap_density_candidates_restricted": 0,
+    "gap_density_selected_outside_base": 8,
+    "gap_density_step_delta_milli_sum": 3666240,
+    "gap_refined_synthetic": 489,
+    "gap_refine_failed": 0,
+    "gap_refine_rejected_shift": 0,
+    "pruned_isolated_nodes": 3,
+    "motion_relink_edges": 24100,
+    "motion_relink_tight_edges": 23880,
+    "motion_relink_relaxed_edges": 220,
+    "motion_relink_frames": 99,
+    "motion_relink_replaced_raw_edges": 23769,
+    "motion_relink_fallback_raw": 0,
+    "motion_relink_skipped_large_frame": 0,
+    "gap2_candidates": 192,
+    "gap2_pairs_selected": 74,
+    "gap2_added_nodes": 148,
+    "gap2_added_edges": 222,
+    "gap2_skipped_cap": 0,
+    "safe_division_candidates": 33,
+    "safe_division_geometric_candidates": 0,
+    "safe_divisions_added": 30,
+    "safe_division_skipped_cap": 0,
+    "safe_division_mutual_nn_rejected": 0,
+    "safe_division_divergence_rejected": 0,
+    "deepcenter_gap_checked": 84,
+    "deepcenter_gap_bypassed_strong_motion": 257,
+    "deepcenter_gap_bypassed_observed_node": 0,
+    "deepcenter_gap_accepted": 0,
+    "deepcenter_gap_rejected": 84,
+    "deepcenter_gap_missing": 0,
+    "deepcenter_safe_div_checked": 0,
+    "deepcenter_safe_div_accepted": 0,
+    "deepcenter_safe_div_rejected": 0,
+    "deepcenter_safe_div_missing": 0,
+    "short_track_components_removed": 396,
+    "short_track_nodes_removed": 1767,
+    "short_track_edges_removed": 1371,
+    "short_track_filter_skipped_all": 0,
+    "short_track_rescue_triggered": 0,
+    "short_track_rescue_components": 0,
+    "short_track_rescue_nodes": 0,
+    "short_track_rescue_budget": 0,
+    "linefit_smoothed_nodes": 24688,
+    "linefit_skipped_nodes": 4,
+    "gap_close_effective_max_gap": 1
+  }
+}

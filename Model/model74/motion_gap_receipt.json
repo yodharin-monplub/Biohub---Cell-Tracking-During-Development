@@ -1,0 +1,54 @@
+{
+  "datasets": [
+    {
+      "baseline_edges": 24766,
+      "candidate_gaps": 56,
+      "dataset": "44b6_0113de3b",
+      "edges_added": 52,
+      "final_edges": 24818,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 25641
+    },
+    {
+      "baseline_edges": 21910,
+      "candidate_gaps": 198,
+      "dataset": "44b6_0b24845f",
+      "edges_added": 135,
+      "final_edges": 22045,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 24281
+    },
+    {
+      "baseline_edges": 6113,
+      "candidate_gaps": 22,
+      "dataset": "6bba_05b6850b",
+      "edges_added": 14,
+      "final_edges": 6127,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 6403
+    },
+    {
+      "baseline_edges": 66544,
+      "candidate_gaps": 541,
+      "dataset": "6bba_05db0fb1",
+      "edges_added": 373,
+      "final_edges": 66917,
+      "max_indegree": 1,
+      "max_outdegree": 1,
+      "nodes": 69833
+    }
+  ],
+  "edges_added": 574,
+  "elapsed_seconds": 3.8387237889692187,
+  "input_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model74/motion_solve/dist_0p02000",
+  "min_acceleration_um": 6.5,
+  "output_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model74/motion_gap_geffs",
+  "radius_grid": 5.0,
+  "radius_um": 8.125,
+  "require_internal": true,
+  "source_capacity": 1,
+  "status": "complete"
+}

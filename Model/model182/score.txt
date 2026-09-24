@@ -1,0 +1,2 @@
+heldout_44b6_24_movies_base=0.79657 (single clean backbone, exact 0.947 post-processing)
+heldout_6bba_16_movies_base=0.80092 (fold1, 59 of 80 epochs)

@@ -1,0 +1,410 @@
+{
+  "status": "valid",
+  "cohort": "development",
+  "config_sha256": "38bad17bcba59dfef9697e52c9207ff9bc326b97c906a19b6bd4f6ba33a8a836",
+  "control_model130_sha256": "4d7c9c936050538c94b4c5b878bf17bbfa4069e5e423bce6d03ece77c9d11f76",
+  "recovery_model133_sha256": "337b64fc5f4ccf6ba9799237d7b1226f22e4e50ba5b0388ba7be7b7f33aa7ac6",
+  "candidate_sha256": "fe088168d26b01419bfb264a940ec528595954fd94127e3edd054bfd0e97ecab",
+  "source_code_sha256": "db4ce8ebfe56c47515fa5dc40b57763f2d4506e73a9730753ebec28c070ea353",
+  "totals": {
+    "movies": 39,
+    "44b6_movies": 14,
+    "control_nodes": 735551,
+    "control_edges": 705888,
+    "added_edges": 434,
+    "6bba_movies": 25
+  },
+  "movies": [
+    {
+      "movie": "44b6_1d530831",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 34239,
+      "control_edges": 32710,
+      "selected_edges": 32710,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_2a2eff9f",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 36140,
+      "control_edges": 34420,
+      "selected_edges": 34420,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_3bb3690f",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 15350,
+      "control_edges": 14725,
+      "selected_edges": 14725,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_668e0cc7",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 33289,
+      "control_edges": 32189,
+      "selected_edges": 32189,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_706092f0",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 24613,
+      "control_edges": 23354,
+      "selected_edges": 23354,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_71a4179f",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 26540,
+      "control_edges": 25272,
+      "selected_edges": 25272,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_74d0c52e",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 8160,
+      "control_edges": 7818,
+      "selected_edges": 7818,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_808952d6",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 14909,
+      "control_edges": 14462,
+      "selected_edges": 14462,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_90724892",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 22826,
+      "control_edges": 21921,
+      "selected_edges": 21921,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_a21120c2",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 21949,
+      "control_edges": 21304,
+      "selected_edges": 21304,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_b2c44266",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 34800,
+      "control_edges": 33406,
+      "selected_edges": 33406,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_c15fded2",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 19258,
+      "control_edges": 18468,
+      "selected_edges": 18468,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_c96cfa10",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 36641,
+      "control_edges": 35173,
+      "selected_edges": 35173,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "44b6_d754aa59",
+      "family": "44b6",
+      "source": "model130",
+      "control_nodes": 5538,
+      "control_edges": 5305,
+      "selected_edges": 5305,
+      "added_edges": 0,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_09961292",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 29356,
+      "control_edges": 28500,
+      "selected_edges": 28508,
+      "added_edges": 8,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_1d0d8384",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 17155,
+      "control_edges": 16404,
+      "selected_edges": 16416,
+      "added_edges": 12,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_1f58c2f6",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 30857,
+      "control_edges": 29300,
+      "selected_edges": 29342,
+      "added_edges": 42,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_312f0dc3",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 9446,
+      "control_edges": 8950,
+      "selected_edges": 8964,
+      "added_edges": 14,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_3abfe10a",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 52923,
+      "control_edges": 50186,
+      "selected_edges": 50256,
+      "added_edges": 70,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_48816121",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 25039,
+      "control_edges": 24289,
+      "selected_edges": 24319,
+      "added_edges": 30,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_4f99ce20",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 5415,
+      "control_edges": 5164,
+      "selected_edges": 5179,
+      "added_edges": 15,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_4ffd3da3",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 19990,
+      "control_edges": 19333,
+      "selected_edges": 19351,
+      "added_edges": 18,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_6ca87370",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 6329,
+      "control_edges": 6071,
+      "selected_edges": 6078,
+      "added_edges": 7,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_705ec2c9",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 6090,
+      "control_edges": 5784,
+      "selected_edges": 5800,
+      "added_edges": 16,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_76db78c1",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 4603,
+      "control_edges": 4495,
+      "selected_edges": 4499,
+      "added_edges": 4,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_784a78c9",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 12722,
+      "control_edges": 12392,
+      "selected_edges": 12397,
+      "added_edges": 5,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_789f8168",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 10647,
+      "control_edges": 10154,
+      "selected_edges": 10182,
+      "added_edges": 28,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_80d12824",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 8507,
+      "control_edges": 8080,
+      "selected_edges": 8090,
+      "added_edges": 10,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_91951b3a",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 11424,
+      "control_edges": 10996,
+      "selected_edges": 11011,
+      "added_edges": 15,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_9e23430b",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 7527,
+      "control_edges": 7254,
+      "selected_edges": 7262,
+      "added_edges": 8,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_a5e926bb",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 7988,
+      "control_edges": 7584,
+      "selected_edges": 7596,
+      "added_edges": 12,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_afb141ff",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 5625,
+      "control_edges": 5344,
+      "selected_edges": 5360,
+      "added_edges": 16,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_b204cac7",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 5392,
+      "control_edges": 5242,
+      "selected_edges": 5246,
+      "added_edges": 4,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_bb9f20c3",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 22886,
+      "control_edges": 22252,
+      "selected_edges": 22266,
+      "added_edges": 14,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_bbb708ca",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 6611,
+      "control_edges": 6280,
+      "selected_edges": 6297,
+      "added_edges": 17,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_c328f2fd",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 27755,
+      "control_edges": 26754,
+      "selected_edges": 26779,
+      "added_edges": 25,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_d5eae175",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 4121,
+      "control_edges": 4033,
+      "selected_edges": 4037,
+      "added_edges": 4,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_e5e44988",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 5211,
+      "control_edges": 4913,
+      "selected_edges": 4920,
+      "added_edges": 7,
+      "control_graph_preserved": true
+    },
+    {
+      "movie": "6bba_ebdf3b34",
+      "family": "6bba",
+      "source": "model133",
+      "control_nodes": 57680,
+      "control_edges": 55607,
+      "selected_edges": 55640,
+      "added_edges": 33,
+      "control_graph_preserved": true
+    }
+  ],
+  "caveat": "Inference-visible family router; reused local cohorts, exact scorer required."
+}

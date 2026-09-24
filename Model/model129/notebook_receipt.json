@@ -1,0 +1,17 @@
+{
+  "status": "packaged_full_veto_parity_pass",
+  "source_notebook_sha256": "a709455f2923607aa3f710261754c00127afe2148fbfd53f8f93f8d4d5dc28fb",
+  "submission_sha256": "826cab40cd3a50f8bef087301071b60efaf5f39cf25a0efd29f872cd9017d2f6",
+  "build_source_sha256": "e38c00692e8dc38475d6163d55fe5be2fcba8358e02c7785dedc9ecbf2223a77",
+  "changed_cells": [
+    14
+  ],
+  "packaging_parity_sha256": "fe8f904ad836078eb16bebf66d3b3202342950f5088a69b522c9f86e4cf58290",
+  "packaging_parity_movies": 78,
+  "single_conceptual_change": "post-model118 tight-sister added-daughter division veto",
+  "local_exact_scores": {
+    "development": 0.9593456986849428,
+    "confirmation": 0.9532891743510467
+  },
+  "caveat": "All-movie offline veto parity passed; no complete hidden-test notebook run or Kaggle public score."
+}

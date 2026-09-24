@@ -1,0 +1,19 @@
+{
+  "scale_um": [1.625, 0.40625, 0.40625],
+  "capture_top_k": 5,
+  "min_alternative_probability": 0.20,
+  "max_old_probability": 0.65,
+  "min_alternative_old_ratio": 0.60,
+  "min_existing_child_probability": 0.60,
+  "min_daughter_continuation_probability": 0.60,
+  "max_parent_daughter_um": 12.0,
+  "max_existing_child_um": 10.0,
+  "max_sister_um": 16.0,
+  "min_separation_growth_um": 0.0,
+  "max_mother_midpoint_error_um": 3.25,
+  "min_old_motion_error_um": 4.875,
+  "min_motion_improvement_um": 1.625,
+  "min_runner_up_probability_margin": 0.05,
+  "max_edits_per_movie": 5,
+  "max_edits_node_fraction": 0.0005
+}

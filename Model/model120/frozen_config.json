@@ -1,0 +1,13 @@
+{
+  "source_model": "model118",
+  "component": "add_strong_neural_orphan_division_branch",
+  "minimum_link_probability": 0.6,
+  "parent_orphan_max_um": 15.0,
+  "sister_max_um": 20.5,
+  "require_parent_predecessor": true,
+  "require_both_daughter_continuations": true,
+  "frame_fraction_cap": 0.0076,
+  "global_fraction_cap": 0.00375,
+  "selection_order": "descending_neural_probability_nonconflicting",
+  "frozen_before_confirmation_scoring": true
+}

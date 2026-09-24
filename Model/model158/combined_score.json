@@ -1,0 +1,40 @@
+{
+  "status": "two_folds_scored",
+  "system": "clean embryo-disjoint backbone, raw edge scores, p0.40 ILP, model157 repairs",
+  "movies": 199,
+  "folds": [
+    {
+      "fold": 0,
+      "held_out_embryo": "44b6",
+      "movies": 71,
+      "metrics": {
+        "score": 0.7849379967704644,
+        "adjusted_edge_jaccard": 0.7816412934737611,
+        "division_jaccard": 0.03296703296703297,
+        "edge_weight": 21849,
+        "node_recall": 0.9219024089634367
+      }
+    },
+    {
+      "fold": 1,
+      "held_out_embryo": "6bba",
+      "movies": 128,
+      "metrics": {
+        "score": 0.6724834362651696,
+        "adjusted_edge_jaccard": 0.6693649331466665,
+        "division_jaccard": 0.031185031185031187,
+        "edge_weight": 128448,
+        "node_recall": 0.8976376408073591
+      }
+    }
+  ],
+  "combined": {
+    "score": 0.6888336436611763,
+    "adjusted_edge_jaccard": 0.6856867905143231,
+    "division_jaccard": 0.03146853146853147,
+    "edge_weight": 150297,
+    "node_recall": 0.906294919898221
+  },
+  "target_0p97_reached": false,
+  "caveat": "Development CV; repair rules were previously tuned using both embryos."
+}

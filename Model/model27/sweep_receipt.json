@@ -1,0 +1,715 @@
+{
+  "elapsed_seconds": 49.11047079204582,
+  "input_dir": "/home/msi/resources/business folder/Coding/Kaggle/Biohub - Cell Tracking During Development/model22/geffs/dist_0p00000",
+  "nodes_pruned": false,
+  "results": [
+    {
+      "dataset": "44b6_18ced818",
+      "variants": [
+        {
+          "edges": 61775,
+          "edges_removed": 2553,
+          "nodes": 70777,
+          "threshold": 0.55
+        },
+        {
+          "edges": 58739,
+          "edges_removed": 5589,
+          "nodes": 70777,
+          "threshold": 0.6
+        },
+        {
+          "edges": 54708,
+          "edges_removed": 9620,
+          "nodes": 70777,
+          "threshold": 0.65
+        },
+        {
+          "edges": 49510,
+          "edges_removed": 14818,
+          "nodes": 70777,
+          "threshold": 0.7
+        },
+        {
+          "edges": 42891,
+          "edges_removed": 21437,
+          "nodes": 70777,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_808952d6",
+      "variants": [
+        {
+          "edges": 14244,
+          "edges_removed": 261,
+          "nodes": 15253,
+          "threshold": 0.55
+        },
+        {
+          "edges": 13938,
+          "edges_removed": 567,
+          "nodes": 15253,
+          "threshold": 0.6
+        },
+        {
+          "edges": 13567,
+          "edges_removed": 938,
+          "nodes": 15253,
+          "threshold": 0.65
+        },
+        {
+          "edges": 13027,
+          "edges_removed": 1478,
+          "nodes": 15253,
+          "threshold": 0.7
+        },
+        {
+          "edges": 12330,
+          "edges_removed": 2175,
+          "nodes": 15253,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_87bba6c4",
+      "variants": [
+        {
+          "edges": 24707,
+          "edges_removed": 1021,
+          "nodes": 28158,
+          "threshold": 0.55
+        },
+        {
+          "edges": 23533,
+          "edges_removed": 2195,
+          "nodes": 28158,
+          "threshold": 0.6
+        },
+        {
+          "edges": 22173,
+          "edges_removed": 3555,
+          "nodes": 28158,
+          "threshold": 0.65
+        },
+        {
+          "edges": 20491,
+          "edges_removed": 5237,
+          "nodes": 28158,
+          "threshold": 0.7
+        },
+        {
+          "edges": 18241,
+          "edges_removed": 7487,
+          "nodes": 28158,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_95029e92",
+      "variants": [
+        {
+          "edges": 4603,
+          "edges_removed": 64,
+          "nodes": 4832,
+          "threshold": 0.55
+        },
+        {
+          "edges": 4548,
+          "edges_removed": 119,
+          "nodes": 4832,
+          "threshold": 0.6
+        },
+        {
+          "edges": 4489,
+          "edges_removed": 178,
+          "nodes": 4832,
+          "threshold": 0.65
+        },
+        {
+          "edges": 4408,
+          "edges_removed": 259,
+          "nodes": 4832,
+          "threshold": 0.7
+        },
+        {
+          "edges": 4300,
+          "edges_removed": 367,
+          "nodes": 4832,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_b2c44266",
+      "variants": [
+        {
+          "edges": 33264,
+          "edges_removed": 682,
+          "nodes": 36672,
+          "threshold": 0.55
+        },
+        {
+          "edges": 32414,
+          "edges_removed": 1532,
+          "nodes": 36672,
+          "threshold": 0.6
+        },
+        {
+          "edges": 31134,
+          "edges_removed": 2812,
+          "nodes": 36672,
+          "threshold": 0.65
+        },
+        {
+          "edges": 29339,
+          "edges_removed": 4607,
+          "nodes": 36672,
+          "threshold": 0.7
+        },
+        {
+          "edges": 26818,
+          "edges_removed": 7128,
+          "nodes": 36672,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c771cb04",
+      "variants": [
+        {
+          "edges": 25860,
+          "edges_removed": 774,
+          "nodes": 29208,
+          "threshold": 0.55
+        },
+        {
+          "edges": 24912,
+          "edges_removed": 1722,
+          "nodes": 29208,
+          "threshold": 0.6
+        },
+        {
+          "edges": 23629,
+          "edges_removed": 3005,
+          "nodes": 29208,
+          "threshold": 0.65
+        },
+        {
+          "edges": 21965,
+          "edges_removed": 4669,
+          "nodes": 29208,
+          "threshold": 0.7
+        },
+        {
+          "edges": 19782,
+          "edges_removed": 6852,
+          "nodes": 29208,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_d29c9ab2",
+      "variants": [
+        {
+          "edges": 35168,
+          "edges_removed": 217,
+          "nodes": 36655,
+          "threshold": 0.55
+        },
+        {
+          "edges": 34874,
+          "edges_removed": 511,
+          "nodes": 36655,
+          "threshold": 0.6
+        },
+        {
+          "edges": 34449,
+          "edges_removed": 936,
+          "nodes": 36655,
+          "threshold": 0.65
+        },
+        {
+          "edges": 33823,
+          "edges_removed": 1562,
+          "nodes": 36655,
+          "threshold": 0.7
+        },
+        {
+          "edges": 32913,
+          "edges_removed": 2472,
+          "nodes": 36655,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_d78e09d9",
+      "variants": [
+        {
+          "edges": 20843,
+          "edges_removed": 380,
+          "nodes": 22585,
+          "threshold": 0.55
+        },
+        {
+          "edges": 20398,
+          "edges_removed": 825,
+          "nodes": 22585,
+          "threshold": 0.6
+        },
+        {
+          "edges": 19829,
+          "edges_removed": 1394,
+          "nodes": 22585,
+          "threshold": 0.65
+        },
+        {
+          "edges": 19075,
+          "edges_removed": 2148,
+          "nodes": 22585,
+          "threshold": 0.7
+        },
+        {
+          "edges": 17940,
+          "edges_removed": 3283,
+          "nodes": 22585,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_13f19531",
+      "variants": [
+        {
+          "edges": 5357,
+          "edges_removed": 71,
+          "nodes": 5713,
+          "threshold": 0.55
+        },
+        {
+          "edges": 5248,
+          "edges_removed": 180,
+          "nodes": 5713,
+          "threshold": 0.6
+        },
+        {
+          "edges": 5123,
+          "edges_removed": 305,
+          "nodes": 5713,
+          "threshold": 0.65
+        },
+        {
+          "edges": 4957,
+          "edges_removed": 471,
+          "nodes": 5713,
+          "threshold": 0.7
+        },
+        {
+          "edges": 4742,
+          "edges_removed": 686,
+          "nodes": 5713,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_2540cd90",
+      "variants": [
+        {
+          "edges": 3359,
+          "edges_removed": 11,
+          "nodes": 3447,
+          "threshold": 0.55
+        },
+        {
+          "edges": 3347,
+          "edges_removed": 23,
+          "nodes": 3447,
+          "threshold": 0.6
+        },
+        {
+          "edges": 3329,
+          "edges_removed": 41,
+          "nodes": 3447,
+          "threshold": 0.65
+        },
+        {
+          "edges": 3287,
+          "edges_removed": 83,
+          "nodes": 3447,
+          "threshold": 0.7
+        },
+        {
+          "edges": 3242,
+          "edges_removed": 128,
+          "nodes": 3447,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_283bf9f1",
+      "variants": [
+        {
+          "edges": 19973,
+          "edges_removed": 383,
+          "nodes": 21537,
+          "threshold": 0.55
+        },
+        {
+          "edges": 19594,
+          "edges_removed": 762,
+          "nodes": 21537,
+          "threshold": 0.6
+        },
+        {
+          "edges": 19066,
+          "edges_removed": 1290,
+          "nodes": 21537,
+          "threshold": 0.65
+        },
+        {
+          "edges": 18353,
+          "edges_removed": 2003,
+          "nodes": 21537,
+          "threshold": 0.7
+        },
+        {
+          "edges": 17379,
+          "edges_removed": 2977,
+          "nodes": 21537,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_57b7cc1e",
+      "variants": [
+        {
+          "edges": 62108,
+          "edges_removed": 3725,
+          "nodes": 73218,
+          "threshold": 0.55
+        },
+        {
+          "edges": 57707,
+          "edges_removed": 8126,
+          "nodes": 73218,
+          "threshold": 0.6
+        },
+        {
+          "edges": 52521,
+          "edges_removed": 13312,
+          "nodes": 73218,
+          "threshold": 0.65
+        },
+        {
+          "edges": 46363,
+          "edges_removed": 19470,
+          "nodes": 73218,
+          "threshold": 0.7
+        },
+        {
+          "edges": 38921,
+          "edges_removed": 26912,
+          "nodes": 73218,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_789f8168",
+      "variants": [
+        {
+          "edges": 10005,
+          "edges_removed": 133,
+          "nodes": 10773,
+          "threshold": 0.55
+        },
+        {
+          "edges": 9817,
+          "edges_removed": 321,
+          "nodes": 10773,
+          "threshold": 0.6
+        },
+        {
+          "edges": 9598,
+          "edges_removed": 540,
+          "nodes": 10773,
+          "threshold": 0.65
+        },
+        {
+          "edges": 9294,
+          "edges_removed": 844,
+          "nodes": 10773,
+          "threshold": 0.7
+        },
+        {
+          "edges": 8873,
+          "edges_removed": 1265,
+          "nodes": 10773,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_a90a0b9c",
+      "variants": [
+        {
+          "edges": 28374,
+          "edges_removed": 1058,
+          "nodes": 31872,
+          "threshold": 0.55
+        },
+        {
+          "edges": 27060,
+          "edges_removed": 2372,
+          "nodes": 31872,
+          "threshold": 0.6
+        },
+        {
+          "edges": 25282,
+          "edges_removed": 4150,
+          "nodes": 31872,
+          "threshold": 0.65
+        },
+        {
+          "edges": 23003,
+          "edges_removed": 6429,
+          "nodes": 31872,
+          "threshold": 0.7
+        },
+        {
+          "edges": 20183,
+          "edges_removed": 9249,
+          "nodes": 31872,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_ae82a791",
+      "variants": [
+        {
+          "edges": 6716,
+          "edges_removed": 85,
+          "nodes": 7073,
+          "threshold": 0.55
+        },
+        {
+          "edges": 6602,
+          "edges_removed": 199,
+          "nodes": 7073,
+          "threshold": 0.6
+        },
+        {
+          "edges": 6450,
+          "edges_removed": 351,
+          "nodes": 7073,
+          "threshold": 0.65
+        },
+        {
+          "edges": 6252,
+          "edges_removed": 549,
+          "nodes": 7073,
+          "threshold": 0.7
+        },
+        {
+          "edges": 5961,
+          "edges_removed": 840,
+          "nodes": 7073,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_aeee7805",
+      "variants": [
+        {
+          "edges": 4904,
+          "edges_removed": 59,
+          "nodes": 5169,
+          "threshold": 0.55
+        },
+        {
+          "edges": 4822,
+          "edges_removed": 141,
+          "nodes": 5169,
+          "threshold": 0.6
+        },
+        {
+          "edges": 4757,
+          "edges_removed": 206,
+          "nodes": 5169,
+          "threshold": 0.65
+        },
+        {
+          "edges": 4629,
+          "edges_removed": 334,
+          "nodes": 5169,
+          "threshold": 0.7
+        },
+        {
+          "edges": 4478,
+          "edges_removed": 485,
+          "nodes": 5169,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_af149c94",
+      "variants": [
+        {
+          "edges": 7334,
+          "edges_removed": 116,
+          "nodes": 7776,
+          "threshold": 0.55
+        },
+        {
+          "edges": 7172,
+          "edges_removed": 278,
+          "nodes": 7776,
+          "threshold": 0.6
+        },
+        {
+          "edges": 6975,
+          "edges_removed": 475,
+          "nodes": 7776,
+          "threshold": 0.65
+        },
+        {
+          "edges": 6679,
+          "edges_removed": 771,
+          "nodes": 7776,
+          "threshold": 0.7
+        },
+        {
+          "edges": 6286,
+          "edges_removed": 1164,
+          "nodes": 7776,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d0fc38b5",
+      "variants": [
+        {
+          "edges": 5511,
+          "edges_removed": 103,
+          "nodes": 5852,
+          "threshold": 0.55
+        },
+        {
+          "edges": 5396,
+          "edges_removed": 218,
+          "nodes": 5852,
+          "threshold": 0.6
+        },
+        {
+          "edges": 5249,
+          "edges_removed": 365,
+          "nodes": 5852,
+          "threshold": 0.65
+        },
+        {
+          "edges": 5022,
+          "edges_removed": 592,
+          "nodes": 5852,
+          "threshold": 0.7
+        },
+        {
+          "edges": 4733,
+          "edges_removed": 881,
+          "nodes": 5852,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d1acb6ff",
+      "variants": [
+        {
+          "edges": 14428,
+          "edges_removed": 606,
+          "nodes": 16287,
+          "threshold": 0.55
+        },
+        {
+          "edges": 13801,
+          "edges_removed": 1233,
+          "nodes": 16287,
+          "threshold": 0.6
+        },
+        {
+          "edges": 13035,
+          "edges_removed": 1999,
+          "nodes": 16287,
+          "threshold": 0.65
+        },
+        {
+          "edges": 12246,
+          "edges_removed": 2788,
+          "nodes": 16287,
+          "threshold": 0.7
+        },
+        {
+          "edges": 11243,
+          "edges_removed": 3791,
+          "nodes": 16287,
+          "threshold": 0.75
+        }
+      ]
+    },
+    {
+      "dataset": "6bba_d82a4fc6",
+      "variants": [
+        {
+          "edges": 26449,
+          "edges_removed": 517,
+          "nodes": 28562,
+          "threshold": 0.55
+        },
+        {
+          "edges": 25748,
+          "edges_removed": 1218,
+          "nodes": 28562,
+          "threshold": 0.6
+        },
+        {
+          "edges": 24770,
+          "edges_removed": 2196,
+          "nodes": 28562,
+          "threshold": 0.65
+        },
+        {
+          "edges": 23360,
+          "edges_removed": 3606,
+          "nodes": 28562,
+          "threshold": 0.7
+        },
+        {
+          "edges": 21330,
+          "edges_removed": 5636,
+          "nodes": 28562,
+          "threshold": 0.75
+        }
+      ]
+    }
+  ],
+  "status": "complete",
+  "thresholds": [
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75
+  ]
+}

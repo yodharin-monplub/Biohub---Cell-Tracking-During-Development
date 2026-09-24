@@ -1,0 +1,11 @@
+{
+    "status":  "trained_not_scored_truncated",
+    "checkpoint":  "C:\\biohub_data\\work\\model182\\clean_80x125\\model182_clean_fold1_seed20260914\\split_1\\edge_predictor_best.pth",
+    "checkpoint_sha256":  "325d11e234fb01b434689578c8e020166137e062df99d4ee9a6e5e467e3b3679",
+    "fold":  1,
+    "initialization":  "fresh_random_no_checkpoint",
+    "checkpoint_selection":  "last_saved_epoch_at_watchdog_kill",
+    "epochs_completed":  59,
+    "epochs_planned":  80,
+    "note":  "Watchdog (16200 s) terminated the run after epoch index 58 because CPU sweeps slowed epochs to 300-500 s. Checkpoint is the last per-epoch save; no metric-based selection."
+}

@@ -1,9 +1,0 @@
-{
-  "movie": "44b6_0c582fdc",
-  "cohort": "confirmation",
-  "post_ilp_nodes": 26506,
-  "final_nodes": 26129,
-  "final_edges": 25089,
-  "parity": true,
-  "control_csv_sha256": "3f0bd62797d6cb7f9a95242f5bdc6461a320425dbbf52d5f607a877a81a26296"
-}

@@ -1,0 +1,17 @@
+{
+  "status": "trained_not_scored",
+  "checkpoint": "C:\\biohub_data\\work\\model197\\runs\\model197_ft_primary_48ep_lr2e-5\\split_0\\edge_predictor_best.pth",
+  "checkpoint_sha256": "975523bec93b6878a2d579b970d6116a05da61d4c249a9394df2187d265cf671",
+  "elapsed_seconds": 6906.828000000001,
+  "stage": "finetune",
+  "fold": "all",
+  "train_movies": 199,
+  "method": "model197_ft_primary_48ep_lr2e-5",
+  "epochs": 24,
+  "max_iters": 250,
+  "lr": 2e-05,
+  "batch_size": 2,
+  "seed": 20260926,
+  "init": "C:\\Users\\yodha\\OneDrive\\resources_msi\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Model\\model193\\weights\\model193_ft_primary\\edge_predictor_best.pth",
+  "data_dir": "C:\\Users\\yodha\\OneDrive\\resources_msi\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Data\\competition\\train"
+}

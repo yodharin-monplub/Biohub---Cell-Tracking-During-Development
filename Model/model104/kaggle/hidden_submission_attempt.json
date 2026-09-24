@@ -1,0 +1,19 @@
+{
+  "kernel": "yodharinmonplub/biohub-model104-protected-motion-links",
+  "kernel_version": 1,
+  "competition": "biohub-cell-tracking-during-development",
+  "operation": "competition_submit_code_only",
+  "notebook_push": false,
+  "session_created": false,
+  "attempted_unix": 1789033682.5488584,
+  "status": "rejected_or_unconfirmed",
+  "error_type": "HTTPError",
+  "http_status": 403,
+  "error_details": {
+    "error": {
+      "code": 403,
+      "message": "Permission 'kernelSessions.get' was denied",
+      "status": "PERMISSION_DENIED"
+    }
+  }
+}
