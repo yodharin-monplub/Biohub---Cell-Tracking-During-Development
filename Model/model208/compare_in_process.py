@@ -41,8 +41,9 @@ def write_submission_csv(path: Path, graphs: list[tuple[str, dict, list]]) -> in
         writer.writerow(["id", "dataset", "row_type", "node_id", "t", "z", "y", "x", "source_id", "target_id"])
         for stem, nodes, edges in graphs:
             for node_id, (t, z, y, x) in nodes.items():
-                writer.writerow([row_id, stem, "node", int(node_id), int(t), int(round(z)), int(round(y)),
-                                 int(round(x)), -1, -1])
+                # clamp at 0 like the notebook's own submission writer: the official validator rejects negative coordinates
+                writer.writerow([row_id, stem, "node", int(node_id), int(t), max(0, int(round(z))), max(0, int(round(y))),
+                                 max(0, int(round(x))), -1, -1])
                 row_id += 1
             for source, target in edges:
                 writer.writerow([row_id, stem, "edge", -1, -1, -1, -1, -1, int(source), int(target)])

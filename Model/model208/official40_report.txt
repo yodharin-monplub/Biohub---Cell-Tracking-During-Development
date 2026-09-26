@@ -1,0 +1,9 @@
+Official metric, 40 train movies (validator set). score = adj edge J + 0.1 x division J
+variant      score    delta  adjEdgeJ   divJ  div tp/fp/fn    proxy  movies adjEdge better/worse vs off
+off        0.91506 +0.00000   0.90060  0.145   12/23/48     0.91672  0/0
+nosafe     0.90071 -0.01435   0.90071  0.000    0/0/60     0.90156  23/13
+veto40     0.91506 +0.00000   0.90060  0.145   12/23/48     0.91672  0/0
+veto15     0.91506 +0.00000   0.90060  0.145   12/23/48     0.91672  0/0
+p40n30     0.91685 +0.00179   0.90050  0.163   17/44/43     0.91821  8/28
+p60n30     0.91732 +0.00226   0.90065  0.167   17/42/43     0.91866  8/27
+notebook base proxy per run (should be identical): {'all': 0.9167226836791048}

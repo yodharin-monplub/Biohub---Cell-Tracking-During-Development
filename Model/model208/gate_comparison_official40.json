@@ -1,0 +1,170 @@
+{
+ "elapsed_first_pass_s": 21302.0,
+ "notebook_base_proxy": {
+  "adjusted_edge_jaccard": 0.9019499564063775,
+  "division_jaccard": 0.14772727272727273,
+  "proxy_score": 0.9167226836791048,
+  "div_tp": 13,
+  "div_fp": 28,
+  "div_fn": 47,
+  "missed_gt_nodes": 453,
+  "spurious_pred_nodes": 854005,
+  "edges_recovered": 22316,
+  "edges_fragmented": 724,
+  "edges_lost_to_detection": 545,
+  "wrong_association_edges": 38,
+  "n_samples": 40,
+  "config": "base",
+  "seconds": 7726.994987010956
+ },
+ "off": {
+  "proxy": {
+   "adjusted_edge_jaccard": 0.9019499564063775,
+   "division_jaccard": 0.14772727272727273,
+   "proxy_score": 0.9167226836791048,
+   "div_tp": 13,
+   "div_fp": 28,
+   "div_fn": 47,
+   "missed_gt_nodes": 453,
+   "spurious_pred_nodes": 854005,
+   "edges_recovered": 22316,
+   "edges_fragmented": 724,
+   "edges_lost_to_detection": 545,
+   "wrong_association_edges": 38,
+   "n_samples": 40,
+   "config": "off",
+   "seconds": 7593.470965862274
+  },
+  "official": {
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 114, in <module>\n    main()\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 104, in main\n    result = score(submission, train_dir, args.max_distance, Path(temporary))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 60, in score\n    structural = validate(submission)\n                 ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\validate_submission.py\", line 126, in validate\n    raise SubmissionError(f\"line {line}: node fields cannot be negative\")\nvalidate_submission.SubmissionError: line 14: node fields cannot be negative\n",
+   "seconds": 24.4
+  },
+  "csv_rows": 1722037,
+  "safe_divisions_added": 961
+ },
+ "p40n30": {
+  "proxy": {
+   "adjusted_edge_jaccard": 0.9018508074529954,
+   "division_jaccard": 0.16363636363636364,
+   "proxy_score": 0.9182144438166318,
+   "div_tp": 18,
+   "div_fp": 50,
+   "div_fn": 42,
+   "missed_gt_nodes": 449,
+   "spurious_pred_nodes": 854434,
+   "edges_recovered": 22330,
+   "edges_fragmented": 714,
+   "edges_lost_to_detection": 541,
+   "wrong_association_edges": 38,
+   "n_samples": 40,
+   "config": "p40n30",
+   "seconds": 6487.315669775009
+  },
+  "official": {
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 114, in <module>\n    main()\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 104, in main\n    result = score(submission, train_dir, args.max_distance, Path(temporary))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 60, in score\n    structural = validate(submission)\n                 ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\validate_submission.py\", line 126, in validate\n    raise SubmissionError(f\"line {line}: node fields cannot be negative\")\nvalidate_submission.SubmissionError: line 14: node fields cannot be negative\n",
+   "seconds": 15.1
+  },
+  "csv_rows": 1723528,
+  "safe_divisions_added": 1692
+ },
+ "nosafe": {
+  "proxy": {
+   "adjusted_edge_jaccard": 0.9015644409770185,
+   "division_jaccard": 0.0,
+   "proxy_score": 0.9015644409770185,
+   "div_tp": 0,
+   "div_fp": 0,
+   "div_fn": 60,
+   "missed_gt_nodes": 462,
+   "spurious_pred_nodes": 853509,
+   "edges_recovered": 22290,
+   "edges_fragmented": 736,
+   "edges_lost_to_detection": 559,
+   "wrong_association_edges": 38,
+   "n_samples": 40,
+   "config": "nosafe",
+   "seconds": 3031.5352160930634
+  },
+  "official": {
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 114, in <module>\n    main()\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 104, in main\n    result = score(submission, train_dir, args.max_distance, Path(temporary))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 60, in score\n    structural = validate(submission)\n                 ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\validate_submission.py\", line 126, in validate\n    raise SubmissionError(f\"line {line}: node fields cannot be negative\")\nvalidate_submission.SubmissionError: line 14: node fields cannot be negative\n",
+   "seconds": 19.9
+  },
+  "csv_rows": 1720186,
+  "safe_divisions_added": 0
+ },
+ "veto40": {
+  "proxy": {
+   "adjusted_edge_jaccard": 0.9019499564063775,
+   "division_jaccard": 0.14772727272727273,
+   "proxy_score": 0.9167226836791048,
+   "div_tp": 13,
+   "div_fp": 28,
+   "div_fn": 47,
+   "missed_gt_nodes": 453,
+   "spurious_pred_nodes": 854005,
+   "edges_recovered": 22316,
+   "edges_fragmented": 724,
+   "edges_lost_to_detection": 545,
+   "wrong_association_edges": 38,
+   "n_samples": 40,
+   "config": "veto40",
+   "seconds": 4177.77387213707
+  },
+  "official": {
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 114, in <module>\n    main()\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 104, in main\n    result = score(submission, train_dir, args.max_distance, Path(temporary))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 60, in score\n    structural = validate(submission)\n                 ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\validate_submission.py\", line 126, in validate\n    raise SubmissionError(f\"line {line}: node fields cannot be negative\")\nvalidate_submission.SubmissionError: line 14: node fields cannot be negative\n",
+   "seconds": 27.7
+  },
+  "csv_rows": 1722037,
+  "safe_divisions_added": 961
+ },
+ "veto15": {
+  "proxy": {
+   "adjusted_edge_jaccard": 0.9019499564063775,
+   "division_jaccard": 0.14772727272727273,
+   "proxy_score": 0.9167226836791048,
+   "div_tp": 13,
+   "div_fp": 28,
+   "div_fn": 47,
+   "missed_gt_nodes": 453,
+   "spurious_pred_nodes": 854005,
+   "edges_recovered": 22316,
+   "edges_fragmented": 724,
+   "edges_lost_to_detection": 545,
+   "wrong_association_edges": 38,
+   "n_samples": 40,
+   "config": "veto15",
+   "seconds": 4774.96351981163
+  },
+  "official": {
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 114, in <module>\n    main()\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 104, in main\n    result = score(submission, train_dir, args.max_distance, Path(temporary))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 60, in score\n    structural = validate(submission)\n                 ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\validate_submission.py\", line 126, in validate\n    raise SubmissionError(f\"line {line}: node fields cannot be negative\")\nvalidate_submission.SubmissionError: line 14: node fields cannot be negative\n",
+   "seconds": 24.9
+  },
+  "csv_rows": 1722037,
+  "safe_divisions_added": 961
+ },
+ "p60n30": {
+  "proxy": {
+   "adjusted_edge_jaccard": 0.901998013272867,
+   "division_jaccard": 0.16666666666666666,
+   "proxy_score": 0.9186646799395337,
+   "div_tp": 18,
+   "div_fp": 48,
+   "div_fn": 42,
+   "missed_gt_nodes": 450,
+   "spurious_pred_nodes": 854403,
+   "edges_recovered": 22330,
+   "edges_fragmented": 713,
+   "edges_lost_to_detection": 542,
+   "wrong_association_edges": 38,
+   "n_samples": 40,
+   "config": "p60n30",
+   "seconds": 4897.22528386116
+  },
+  "official": {
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 114, in <module>\n    main()\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 104, in main\n    result = score(submission, train_dir, args.max_distance, Path(temporary))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\score_submission.py\", line 60, in score\n    structural = validate(submission)\n                 ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\yodha\\coding\\Biohub---Cell-Tracking-During-Development-main\\Biohub---Cell-Tracking-During-Development-main\\Other\\scripts\\validate_submission.py\", line 126, in validate\n    raise SubmissionError(f\"line {line}: node fields cannot be negative\")\nvalidate_submission.SubmissionError: line 14: node fields cannot be negative\n",
+   "seconds": 27.7
+  },
+  "csv_rows": 1723394,
+  "safe_divisions_added": 1615
+ }
+}

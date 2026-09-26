@@ -137,6 +137,12 @@ def main() -> None:
     args = ap.parse_args()
 
     if args.if_idle:
+        # the scheduled task retries every 2 h so a busy morning does not cost the day's backup; once one push
+        # has succeeded today, later retries do nothing
+        today = dt.date.today().isoformat()
+        if LOG.exists() and any(l.startswith(today) and l.endswith("pushed to GitHub")
+                                for l in LOG.read_text(encoding="utf-8").splitlines()):
+            return
         load = cpu_percent()
         if load > 50:
             log(f"skipped: CPU busy ({load:.0f}%)")
