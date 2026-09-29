@@ -1,4 +1,4 @@
-# Biohub Cell Tracking During Development: 209 experiments, one honest lesson
+# Biohub Cell Tracking During Development: 206 experiments, one honest lesson
 
 Our full working record for the Kaggle competition
 [Biohub - Cell Tracking During Development](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development)
