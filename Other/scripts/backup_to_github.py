@@ -37,7 +37,11 @@ BRANCH = b"main"
 MAX_BYTES = 45 * 1024 * 1024
 
 INCLUDE = ["AGENTS.md", "Model", "Other/scripts", "Other/vendor", "Other/tests", "Other/README.md",
-           "Other/REPRODUCE.md", "Other/VALIDATION_AUDIT.txt", "Other/experiments.csv"]
+           "Other/REPRODUCE.md", "Other/VALIDATION_AUDIT.txt", "Other/experiments.csv", "Other/WORKSPACE_NOTES.md",
+           "Other/model_index_intro.md", "Other/repo.gitignore"]
+# The repository's front page. Locally the project root holds only AGENTS.md (AGENTS.md rule), so the public README
+# lives at Other/README.md and is copied to the repository root here.
+FRONT_PAGE = "Other/README.md"
 EXCLUDE_PARTS = {"__pycache__", ".ipynb_checkpoints", ".venv", ".venv-gpu", ".claude-copy", "claude-sessions",
                  ".git", "tracking_repo"}
 EXCLUDE_NAMES = {".env", "email.txt"}
@@ -151,6 +155,8 @@ def main() -> None:
     from dulwich import porcelain
     from dulwich.repo import Repo
 
+    # refresh the one-line-per-model index (Model/README.md) so it lists every model folder
+    subprocess.run([sys.executable, str(OTHER / "scripts" / "build_model_index.py")], check=False)
     files, skipped_big = collect()
     for big in skipped_big:
         log(f"not backed up (over 45 MB): {big.relative_to(PROJECT)}")
@@ -170,8 +176,15 @@ def main() -> None:
         porcelain.clone(REPO_URL, str(STAGE))
         log("cloned the backup repository")
     repo = Repo(str(STAGE))
-    keep = {"README.md", ".gitignore", "data/.gitkeep"}  # files from the user's initial upload, not in the project
+    keep = {"README.md", ".gitignore"}  # repository-only files (README.md is written from FRONT_PAGE just below)
     sync_stage(files, keep)
+    shutil.copy2(PROJECT / FRONT_PAGE, STAGE / "README.md")
+    shutil.copy2(OTHER / "repo.gitignore", STAGE / ".gitignore")
+    # drop directories left empty by removals (e.g. the pre-2026-09-20 root-level modelN folders)
+    for folder in sorted((p for p in STAGE.rglob("*") if p.is_dir() and ".git" not in p.relative_to(STAGE).parts),
+                         key=lambda p: len(p.parts), reverse=True):
+        if not any(folder.iterdir()):
+            folder.rmdir()
     porcelain.add(str(STAGE), paths=[str(p) for p in STAGE.rglob("*") if p.is_file() and ".git" not in p.relative_to(STAGE).parts])
     status = porcelain.status(str(STAGE))
     staged = sum(len(v) for v in status.staged.values())

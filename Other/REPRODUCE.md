@@ -1,10 +1,15 @@
-# How to reproduce this project without the Claude session
+# How to reproduce this project
+
+> Written for the original laptop (Windows, RTX 4050). On another machine: download the competition data and the
+> three pilkwang checkpoint datasets (section 0) to any folder and point `Data\competition` / `Data\public_checkpoints`
+> at them (a junction/symlink or a plain copy). `Other\.env`, `Other\email.txt` and the venvs are not in the
+> repository; `.env` only matters for the Kaggle / cloud helper scripts (it held `KAGGLE_API_KEY` and cloud API keys).
 
 Layout (AGENTS.md, re-laid out 2026-09-20):
 
 ```
 AGENTS.md                      only file at the root
-Data\competition               Kaggle competition data (junction -> C:\biohub_data\raw, 88 GB, kept outside OneDrive)
+Data\competition               Kaggle competition data (junction -> C:\biohub_data\raw, 88 GB, kept outside the project folder)
 Data\public_checkpoints        public pilkwang checkpoints + HOCT package (junction -> C:\biohub_data\public_models)
 Data\public_notebooks          pulled public Kaggle notebooks used for study (junction -> C:\biohub_data\public)
 Data\synthetic_generated       locally generated CC0 synthetic sequences (junction -> C:\biohub_data\work\model184\synthetic)
@@ -15,7 +20,7 @@ Other\                         .env (API keys), email.txt, .venv (CPU), .venv-gp
 ```
 
 Bulk working files (prediction graphs, logs, run directories) live in `C:\biohub_data\work\...` because
-zarr/geff temp paths inside the OneDrive project exceed the 260-character Windows limit.
+zarr/geff temp paths inside a deep project path exceed the 260-character Windows limit.
 
 Scripts inside `Model\modelN` compute `ROOT = <project>\Model`, so `ROOT / "model167/..."` and
 `from model182...` imports keep working; data, venv, scripts and `.env` are reached through `ROOT.parent`.
@@ -37,7 +42,7 @@ Data: `powershell -File Other\scripts\run_download.ps1` (88 GB). Public checkpoi
 `pilkwang/biohub-temporal-unet3d-seed314159-v1` -> `...\secondary-seed`,
 `pilkwang/biohub-tracking-support-pack-50ep-v1` -> `...\support-pack`.
 
-## 1. Best submission so far: model167 (public LB 0.947)
+## 1. Best submission: model167 (public LB 0.947)
 Exact public notebook `Model\model167\public\zhincez\...ipynb` (SHA-256 38bca69a...).
 - Kaggle: `Model\model167\kaggle\` (kernel-metadata.json + submission.ipynb); push with
   `kaggle kernels push -p Model\model167\kaggle --accelerator NvidiaTeslaT4`, then submit the notebook version.
@@ -68,5 +73,17 @@ synthetic-pretrained 0.75994.
 `Model\model184\generate_local.py --n-seq 400` regenerates the sequences from the author's CC0 generator;
 `convert_synthetic.py` converts them; `train_stage.py --stage pretrain|finetune` trains. Result: worse on the held-out embryo.
 
-## 5. Communication helpers
+## 5. Official metric, checkpoint screening and divisions (model199, model206-209)
+- Official scorer (organisers' code, `Other\vendor\official`), for any submission-format CSV built from training movies:
+  `Other\.venv-gpu\Scripts\python.exe Other\scripts\score_submission.py <submission.csv> --train-dir Data\competition\train --json-out out.json`.
+  Node coordinates must be >= 0 (clamp with `max(0, round(v))`, as the notebook's own writer does).
+- Checkpoint screen that costs no Kaggle GPU (`Model\model199\sweep*.ps1`): run the frozen notebook on the 4 visible test
+  movies with a swapped checkpoint and compare node counts with the public reference (122,749 nodes in total). In our runs
+  a node profile more than ~1% away from the public one always lost on the leaderboard.
+- Division detector (`Model\model207`): `extract_crops.py` then `train_divnet.py` (movie-grouped 4-fold CV, AUC 0.907).
+- Official-metric comparison of division settings on 40 training movies (`Model\model208`): `run_off40_all.ps1` predicts
+  once and scores every variant; `rescore_official.py` re-scores saved CSVs; results in `official40_report.txt`.
+- The model209 submission notebook: `Model\model209\build.py`, then `kaggle\push.py` and `kaggle\monitor_once.py --submit`.
+
+## 6. Communication helpers
 `Other\scripts\agent_email.py send|inbox` (credentials in `Other\email.txt`).
