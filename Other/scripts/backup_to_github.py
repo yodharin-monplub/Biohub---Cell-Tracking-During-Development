@@ -38,7 +38,7 @@ MAX_BYTES = 45 * 1024 * 1024
 
 INCLUDE = ["AGENTS.md", "Model", "Other/scripts", "Other/vendor", "Other/tests", "Other/README.md",
            "Other/REPRODUCE.md", "Other/VALIDATION_AUDIT.txt", "Other/experiments.csv", "Other/WORKSPACE_NOTES.md",
-           "Other/model_index_intro.md", "Other/repo.gitignore"]
+           "Other/model_index_intro.md", "Other/repo.gitignore", "Other/leaderboard_results.csv"]
 # The repository's front page. Locally the project root holds only AGENTS.md (AGENTS.md rule), so the public README
 # lives at Other/README.md and is copied to the repository root here.
 FRONT_PAGE = "Other/README.md"

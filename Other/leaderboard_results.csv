@@ -1,0 +1,15 @@
+model,submission_id,submitted,public_lb,private_lb,final_selection,description
+model1,55969775,2026-09-02,0.934,0.902,,frozen public 0.934 baseline (exact reference hash)
+model85,56047124,2026-09-06,0.876,0.866,,fold-4 half-step checkpoint blend
+model86,56047125,2026-09-06,0.877,0.867,,fold-3 half-step checkpoint blend
+model104,56142407,2026-09-10,0.934,0.902,,model1 + high-confidence motion-link protection
+model149,56213300,2026-09-13,0.932,0.902,,model1 + family-routed growth-pruned division recovery
+model167,56256610,2026-09-15,0.947,0.916,yes,exact public 0.947 notebook
+model174,56307840,2026-09-17,0.945,0.913,,model167 + conditional division guard
+model181,56316219,2026-09-18,0.945,0.913,,model167 with motion relink disabled
+model190,56432009,2026-09-21,0.900,0.885,,model167 with the long-trained model185 checkpoint as both seeds
+model190,56432015,2026-09-21,0.920,0.910,,model167 with the long-trained model185 checkpoint as primary seed
+model193,56448155,2026-09-22,0.938,0.908,,model167 with the public primary fine-tuned (lr 2e-5 24 ep)
+model195,56453070,2026-09-22,0.940,0.908,,model167 with both public checkpoints fine-tuned
+model196,56470183,2026-09-22,0.942,0.918,,model167 with the public primary fine-tuned gently (lr 1e-5 12 ep)
+model209,56518575,2026-09-24,0.945,0.919,yes,model167 + own division detector proposing extra divisions

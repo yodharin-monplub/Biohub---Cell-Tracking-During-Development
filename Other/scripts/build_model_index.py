@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build Model/README.md: a one-line-per-model index of every Model/modelN folder.
 
-For each model: the title line of its readme.txt, its public leaderboard score (Other/experiments.csv, or a
-"Public LB ... 0.9xx" line in score.txt), and the first line of score.txt. Re-run after adding a model:
+For each model: the title line of its readme.txt, its public and private leaderboard scores
+(Other/leaderboard_results.csv), and the first line of score.txt. Re-run after adding a model:
 
     Other\\.venv\\Scripts\\python.exe Other\\scripts\\build_model_index.py
 """
@@ -20,8 +20,6 @@ INTRO = PROJECT / "Other" / "model_index_intro.md"
 KEEP_CASE = {k.upper(): k for k in ["ILP", "GPU", "RTX", "LOO", "OOF", "CSV", "CV", "LB", "HOCT", "PU", "BN", "TTA",
                                     "AUC", "DeepCenter", "DivNet", "Kaggle", "Vast.ai", "RunPod", "TemporalUNet3D",
                                     "T4", "3D", "XY", "UNSEEN", "LONG"]}
-# leaderboard results written in a form the score.txt pattern cannot pick up
-EXTRA_SCORES = {"model190": "0.920 / 0.900"}  # 'primary' / 'both' variants, see model190/score.txt
 
 
 def read(path: Path) -> str:
@@ -52,17 +50,12 @@ def title(readme: str, number: int) -> str:
     return line[:1].upper() + line[1:]
 
 
-def public_scores() -> dict[str, str]:
-    scores = dict(EXTRA_SCORES)
-    log = PROJECT / "Other" / "experiments.csv"
-    for row in csv.DictReader(read(log).splitlines()):
-        if row.get("public_lb"):
-            scores[row["model"]] = row["public_lb"]
-    for folder in MODEL.glob("model*"):
-        found = re.search(r"(?i)public\s+LB[^\n]{0,30}?(0\.9\d\d)", read(folder / "score.txt"))
-        if found and folder.name not in scores:
-            scores[folder.name] = found.group(1)
-    return scores
+def leaderboard_scores() -> dict[str, tuple[str, str]]:
+    """model -> (public, private) from Other/leaderboard_results.csv (all submissions, scores after the reveal)."""
+    rows: dict[str, list[tuple[str, str]]] = {}
+    for row in csv.DictReader(read(PROJECT / "Other" / "leaderboard_results.csv").splitlines()):
+        rows.setdefault(row["model"], []).append((row["public_lb"], row["private_lb"]))
+    return {m: (" / ".join(p for p, _ in v), " / ".join(q for _, q in v)) for m, v in rows.items()}
 
 
 def cell(text: str, width: int) -> str:
@@ -73,21 +66,21 @@ def cell(text: str, width: int) -> str:
 def main() -> None:
     folders = sorted((p for p in MODEL.glob("model*") if p.is_dir() and p.name[5:].isdigit()),
                      key=lambda p: int(p.name[5:]))
-    scores = public_scores()
-    lines = [read(INTRO).rstrip(), "", "| Model | What it tests | Public LB | Recorded result (score.txt) |",
-             "|---|---|---|---|"]
+    scores = leaderboard_scores()
+    lines = [read(INTRO).rstrip(), "",
+             "| Model | What it tests | Public LB | Private LB | Recorded result (score.txt) |", "|---|---|---|---|---|"]
     expected = 1
     for folder in folders:
         number = int(folder.name[5:])
         for missing in range(expected, number):
-            lines.append(f"| model{missing} | *(number not used)* | | |")
+            lines.append(f"| model{missing} | *(number not used)* | | | |")
         expected = number + 1
         score_line = next((l for l in read(folder / "score.txt").splitlines() if l.strip()), "")
-        lb = scores.get(folder.name, "")
+        public, private = scores.get(folder.name, ("", ""))
         lines.append(f"| [{folder.name}]({folder.name}/readme.txt) | {cell(title(read(folder / 'readme.txt'), number), 90)}"
-                     f" | {'**' + lb + '**' if lb else ''} | {cell(score_line, 110)} |")
+                     f" | {public} | {'**' + private + '**' if private else ''} | {cell(score_line, 100)} |")
     (MODEL / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"wrote {MODEL / 'README.md'}: {len(folders)} models, {len(scores)} with a public score")
+    print(f"wrote {MODEL / 'README.md'}: {len(folders)} models, {len(scores)} submitted to Kaggle")
 
 
 if __name__ == "__main__":

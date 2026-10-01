@@ -10,16 +10,16 @@ carefully as the successes, because that is where the lessons are.
 |---|---|
 | **Task** | Track every cell nucleus through 3D light-sheet time-lapse movies of developing embryos: detect the cells in each frame, link them across frames, and find cell divisions. |
 | **Metric** | adjusted edge Jaccard + 0.1 × division Jaccard ([official definition](Other/vendor/official/metrics.md)); the adjustment penalises predicting more cells than the organisers' estimate. |
-| **Best public leaderboard** | **0.947** (`Model/model167`) |
-| **Final private leaderboard** | *to be added when revealed* |
-| **Final submissions** | `model167` (public 0.947) and `model209` (public 0.945) |
+| **Final result** | **0.919 private leaderboard, rank 414 of 4,020** (preliminary at the time of writing; up 1,021 places from public rank 1,435) |
+| **Final submissions** | `model167` (public 0.947, private 0.916) and `model209` (public 0.945, private **0.919**, the one that counted) |
+| **Best public leaderboard** | 0.947 (`Model/model167`) |
 
 ## The short version
 
 1. **Our best submission is a verified reproduction of a public notebook.** `model167` re-runs the public
    [zhincez 0.947 notebook](https://www.kaggle.com/code/zhincez/biohub-0-947-lb-runnable-with-public-datasets)
    exactly (the notebook is pinned by SHA-256, and only file paths were changed). Nothing we built on top of it scored
-   higher on the public leaderboard.
+   higher on the public leaderboard, but two of our changes beat it on the private one (point 7).
 2. **Local scores on the training movies lie.** The public checkpoints were trained on those same movies, so the
    pipeline scores above 0.96 on them. On an embryo it has never seen, it scores about 0.80. The training data
    come from only two embryos (`44b6`, `6bba`), so the only honest local test trains on one embryo and scores on
@@ -28,32 +28,43 @@ carefully as the successes, because that is where the lessons are.
    Tuning the post-processing thresholds moved the honest score by less than ±0.005. A second independent seed gave +0.0095
    (`model186`), and roughly doubling the training budget gave +0.0196 (`model189`). A third seed added nothing
    (`model187`), and synthetic pretraining hurt (−0.037, `model184`).
-4. **But swapping those better-trained weights into the public pipeline lost on the leaderboard every time.**
+4. **But swapping those better-trained weights into the public pipeline lost on the public leaderboard every time.**
    All five such submissions scored 0.900–0.942 against 0.947 (`model190`–`model196`). The pipeline's thresholds are
-   calibrated around the public weights. Comparing predicted node counts on the 4 visible test movies against the
+   calibrated around the public weights. On the private leaderboard the gentlest fine-tune (`model196`, 0.918) did
+   beat the public weights (0.916); the heavier swaps still lost. Comparing predicted node counts on the 4 visible test movies against the
    public reference predicted the leaderboard order exactly, at no Kaggle GPU cost (`model199`).
 5. **Divisions are rare and noisy, and public claims about them were not verified.** There are only 151 annotated
    divisions in 199 training movies. A public division detector claiming AUC 0.845 scored 0.562 when tested
    (`model206`). Our own detector reached AUC 0.907 (`model207`). Adding its divisions gained +0.0018 under the
-   official metric on 40 training movies (`model208`), but the submission scored 0.945 on the public
-   leaderboard (`model209`).
+   official metric on 40 training movies (`model208`). The submission scored 0.945 on the public leaderboard, but
+   0.919 on the private one: our best (`model209`).
 6. **Score with the official code, not a notebook's approximation.** The notebook's built-in scorer only
    approximates the organisers' division rules, and small division changes are exactly where that matters. The official scorer is vendored in `Other/vendor/official`
    and wrapped by `Other/scripts/score_submission.py`.
+7. **The public leaderboard was a poor guide to the private one.** Its score used only about 29% of the test
+   data. Public gaps of 0.002 meant nothing: `model209` (public 0.945) beat `model167` (public 0.947) on private.
+   We chose the second final submission by honest local evidence under the official metric rather than by public
+   score, and that choice is the one that counted. The whole leaderboard shook up: we moved from rank 1,435 to 414.
 
 ## Leaderboard submissions
 
-| Model | What changed vs the public pipeline | Public LB |
-|---|---|---|
-| [model1](Model/model1/readme.txt) | frozen reproduction of an earlier public 0.934 notebook (starting point) | 0.934 |
-| [model167](Model/model167/readme.txt) | exact reproduction of the public 0.947 notebook | **0.947** |
-| [model174](Model/model174/readme.txt) | + conditional division guard | 0.945 |
-| [model181](Model/model181/readme.txt) | motion-relink stage switched off | 0.945 |
-| [model190](Model/model190/readme.txt) | our long-trained checkpoint replacing one / both public checkpoints | 0.920 / 0.900 |
-| [model193](Model/model193/readme.txt) | public primary checkpoint fine-tuned (lr 2e-5, 24 epochs) | 0.938 |
-| [model195](Model/model195/readme.txt) | both public checkpoints fine-tuned | 0.940 |
-| [model196](Model/model196/readme.txt) | gentle fine-tune (lr 1e-5, 12 epochs) | 0.942 |
-| [model209](Model/model209/readme.txt) | + extra divisions proposed by our own detector (model207) | 0.945 |
+All 14 submissions, in the order they were made. Private scores were revealed after the deadline.
+
+| Model | What changed vs the pipeline it built on | Public LB | Private LB |
+|---|---|---|---|
+| [model1](Model/model1/readme.txt) | frozen reproduction of an earlier public 0.934 notebook (starting point) | 0.934 | 0.902 |
+| [model85](Model/model85/readme.txt) | fold-4 half-step checkpoint blend (fine-tuning pilot) | 0.876 | 0.866 |
+| [model86](Model/model86/readme.txt) | fold-3 half-step checkpoint blend (fine-tuning pilot) | 0.877 | 0.867 |
+| [model104](Model/model104/readme.txt) | model1 + high-confidence motion-link protection | 0.934 | 0.902 |
+| [model149](Model/model149/readme.txt) | model1 + growth-pruned division recovery | 0.932 | 0.902 |
+| [model167](Model/model167/readme.txt) | exact reproduction of the public 0.947 notebook | **0.947** | 0.916 |
+| [model174](Model/model174/readme.txt) | model167 + conditional division guard | 0.945 | 0.913 |
+| [model181](Model/model181/readme.txt) | model167 with the motion-relink stage switched off | 0.945 | 0.913 |
+| [model190](Model/model190/readme.txt) | model167 with our long-trained checkpoint replacing one / both public checkpoints | 0.920 / 0.900 | 0.910 / 0.885 |
+| [model193](Model/model193/readme.txt) | model167 with the public primary checkpoint fine-tuned (lr 2e-5, 24 epochs) | 0.938 | 0.908 |
+| [model195](Model/model195/readme.txt) | model167 with both public checkpoints fine-tuned | 0.940 | 0.908 |
+| [model196](Model/model196/readme.txt) | model167 with a gentle fine-tune of the primary (lr 1e-5, 12 epochs) | 0.942 | 0.918 |
+| [model209](Model/model209/readme.txt) | model167 + extra divisions proposed by our own detector (model207) | 0.945 | **0.919** |
 
 `Model/README.md` lists all 206 model folders with a one-line summary each.
 
